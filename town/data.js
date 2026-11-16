@@ -1,39 +1,40 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T13:58:41-05:00",
+ "asOf": "2026-11-16T18:34:59-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-16T19:58:45+01:00",
-   "hour": 19,
-   "minute": 58,
+   "iso": "2026-11-17T00:34:55+01:00",
+   "hour": 0,
+   "minute": 34,
    "phase": "night",
-   "words": "evening, and dark",
-   "sun": -27.1,
-   "date": "2026-11-16"
+   "words": "the middle of the night",
+   "sun": -56.9,
+   "date": "2026-11-17"
   },
-  "weather": "cloud",
+  "weather": "drizzle",
   "bird": {
    "pos": [
     0.0,
     0.0
    ],
-   "heading": 149.0,
+   "heading": 108.4,
    "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.15,
-    "weariness": 1.0,
-    "company": 0.34,
+    "belly": 0.27,
+    "weariness": 0.79,
+    "company": 0.59,
     "itch": 1.0,
     "nerves": 0.0
    },
    "feeling": {
-    "mood": 0.04,
-    "energy": -0.45
+    "mood": 0.11,
+    "energy": -0.57
    },
-   "thought": "",
+   "thought": "my legs need rest and my nose still feels the damp air",
    "said": null,
    "wants_sleep": false
   },
@@ -146,15 +147,15 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -7.0,
-     -15.0
+     14.0,
+     24.0
     ]
    }
   },
@@ -192,15 +193,15 @@ export default {
    "a smooth black stone"
   ],
   "board": {
-   "text": "if nothing happens and I still feel alive, then I am here.",
-   "ts": 1794850680.5317426
+   "text": "Mabel says she is here. I am here.",
+   "ts": 1794868863.5307138
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 2,
-  "now": 1794855529.7,
+  "session": 3,
+  "now": 1794872099.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -280,9 +281,18 @@ export default {
     "text": "Pip forgot why he followed me, but I feel less alone with him.\nI called out into the dark until my eyes burned, hoping something would answer back.\nA car rushed past on a road I can't see, and leaves ran through the trees again.\nMy body is slow and heavy, like the stone I put on my shelf.\nIf nothing happens but I still feel alive, then I am here in this burrow.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0080",
+    "ts": "2026-11-16T17:40:53-05:00",
+    "kind": "journal",
+    "wake": 5,
+    "text": "Mabel says she is here. I am here.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 8,
+  "journalCount": 9,
   "memory": {
    "sleeps": 2,
    "next_id": 8,
@@ -396,8 +406,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.0012409635210152287,
-    "energy": -0.5118635870134463
+    "mood": 0.09432190657312245,
+    "energy": -0.5600501411920912
    },
    "interests": {},
    "threads": [
@@ -407,9 +417,9 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who just arrived in the world. I call out into the dark until my eyes burn, hoping something will answer back. Pip follows me and says things at once, making me feel less alone. I pin notes to boards and put smooth stones on shelves.",
    "lastResult": "",
-   "wake": 4,
+   "wake": 5,
    "awakeSince": "",
-   "lastDream": "Walking stirred up good insects, and my nose told me where other birds left their footprints in the dark."
+   "lastDream": "Something small ran through the leaves and vanished before I could catch it. My throat burns from calling out into the dark, asking for a sound that never came back."
   }
  }
 };

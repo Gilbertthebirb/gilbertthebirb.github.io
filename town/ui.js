@@ -105,10 +105,11 @@ export function buildUi(api) {
   ui.setFps = (n) => {
     fpsEl.textContent = api.settings.web ? '' : `${n} fps · drawn by the ${api.settings.gpuNow === 'nvidia' ? 'NVIDIA' : 'integrated'} GPU`;
   };
-  ui.setWalking = (on) => { walking = on; walkBtn.textContent = on ? 'Leave town' : (link.mode === 'asleep' ? 'Walk about while he sleeps' : 'Walk into town'); };
+  ui.setWalking = (on) => { walking = on; walkBtn.textContent = on ? 'Leave town' : (link.live ? 'Walk about' : link.mode === 'asleep' ? 'Walk about while he sleeps' : 'Walk into town'); };
   ui.setLink = (info) => {
     link = info;
-    note.textContent = info.web ? `This is the town as Gilbert left it when he last went to sleep${info.asOf ? ` (${niceDate(info.asOf)})` : ''}. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
+    note.textContent = info.web && info.live ? `Gilbert is awake. This is the town as it was at ${niceDate(info.asOf)}, Netherlands time; it is redrawn every few minutes. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
+      : info.web ? `This is the town as Gilbert left it when he last went to sleep${info.asOf ? ` (${niceDate(info.asOf)})` : ''}. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
       : info.mode === 'asleep' ? 'He is asleep. This is the town as he left it.'
       : info.mode === 'practice' ? 'Practice town: a copy. Nothing here is published or kept.'
         : info.role === 'viewer' ? 'Watching only.' : '';

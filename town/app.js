@@ -128,7 +128,8 @@ async function arrive() {
   cam.watch = 'me'; cam.yaw = 0; cam.pitch = 0.3; cam.dist = 9;
   me.shownName = me.name;
   if (link.mode !== 'asleep' && link.role === 'visitor') await join();
-  else ui.toast(link.mode === 'asleep' ? 'He is asleep. You can walk about, quietly. Nothing you do here reaches him.'
+  else ui.toast(link.live ? 'You can walk about. This is a picture of the town from a few minutes ago: nothing you do here reaches him.'
+    : link.mode === 'asleep' ? 'He is asleep. You can walk about, quietly. Nothing you do here reaches him.'
     : 'This window can only watch, so nobody in town can see you.');
   ui.setWalking(true);
 }
