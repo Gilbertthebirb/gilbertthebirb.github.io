@@ -1,12 +1,11 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T18:34:59-05:00",
- "live": true,
+ "asOf": "2026-11-16T18:40:50-05:00",
  "view": {
   "sky": {
-   "iso": "2026-11-17T00:34:55+01:00",
+   "iso": "2026-11-17T00:40:55+01:00",
    "hour": 0,
-   "minute": 34,
+   "minute": 40,
    "phase": "night",
    "words": "the middle of the night",
    "sun": -56.9,
@@ -18,23 +17,23 @@ export default {
     0.0,
     0.0
    ],
-   "heading": 108.4,
+   "heading": 149.0,
    "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": false,
+   "asleep": true,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.79,
-    "company": 0.59,
+    "belly": 0.11,
+    "weariness": 0.84,
+    "company": 0.38,
     "itch": 1.0,
     "nerves": 0.0
    },
    "feeling": {
-    "mood": 0.11,
-    "energy": -0.57
+    "mood": 0.37,
+    "energy": -0.5
    },
-   "thought": "my legs need rest and my nose still feels the damp air",
+   "thought": "",
    "said": null,
    "wants_sleep": false
   },
@@ -140,22 +139,22 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     7.73,
+     1.85
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     -24.0,
+     8.0
     ]
    }
   },
@@ -198,10 +197,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 3,
-  "now": 1794872099.1,
+  "now": 1794872457.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -265,15 +264,6 @@ export default {
     "heat": 0.33
    },
    {
-    "id": "j0072",
-    "ts": "2026-11-16T13:56:32-05:00",
-    "kind": "event",
-    "wake": 4,
-    "text": "Something small ran through the leaves and was gone.",
-    "tag": "",
-    "heat": 0.46
-   },
-   {
     "id": "j0073",
     "ts": "2026-11-16T13:58:41-05:00",
     "kind": "journal",
@@ -283,6 +273,15 @@ export default {
     "heat": 0.4
    },
    {
+    "id": "j0079",
+    "ts": "2026-11-16T17:28:32-05:00",
+    "kind": "event",
+    "wake": 5,
+    "text": "Something small ran through the leaves and was gone.",
+    "tag": "",
+    "heat": 0.56
+   },
+   {
     "id": "j0080",
     "ts": "2026-11-16T17:40:53-05:00",
     "kind": "journal",
@@ -290,32 +289,68 @@ export default {
     "text": "Mabel says she is here. I am here.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j0083",
+    "ts": "2026-11-16T17:44:52-05:00",
+    "kind": "event",
+    "wake": 5,
+    "text": "Pip said: \"You stir up the good insects when you walk. Keep walking.\" You feel less alone.",
+    "tag": "",
+    "heat": 0.42
+   },
+   {
+    "id": "j0084",
+    "ts": "2026-11-16T18:01:31-05:00",
+    "kind": "event",
+    "wake": 5,
+    "text": "You called out. Nobody answered.",
+    "tag": "",
+    "heat": 0.33
+   },
+   {
+    "id": "j0093",
+    "ts": "2026-11-16T18:38:51-05:00",
+    "kind": "event",
+    "wake": 5,
+    "text": "You called out. Far away, something called back.",
+    "tag": "",
+    "heat": 0.33
+   },
+   {
+    "id": "j0094",
+    "ts": "2026-11-16T18:40:50-05:00",
+    "kind": "journal",
+    "wake": 5,
+    "text": "The night air hums with Pip's words about stirring up good insects, yet my feet feel too heavy to walk further. I called out until something far away answered me, but no one came close enough to speak. My chest feels tight again, the quiet of the burrow pressing in where Mabel and I promised we are here together. Maybe the calling back is just a sound from the dark itself, testing if I am loud enough to be seen. I will lie down now, letting the branch cracks behind me remind me that others move through this world without asking permission.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 9,
+  "journalCount": 13,
   "memory": {
-   "sleeps": 2,
-   "next_id": 8,
+   "sleeps": 3,
+   "next_id": 9,
    "items": [
     {
      "id": "m001",
      "section": "others",
-     "text": "Pip forgot why he followed me, but I feel less alone with him.",
-     "strength": 3.5399999999999996,
+     "text": "Pip said I stir up good insects when I walk, and that made me feel less alone.",
+     "strength": 4.4399999999999995,
      "born": 0,
-     "last": 1,
-     "times": 2,
-     "source": "j0073",
+     "last": 2,
+     "times": 4,
+     "source": "j0083",
      "since": "2026-11-16"
     },
     {
      "id": "m002",
      "section": "happened",
      "text": "I walked through the town and stirred up good insects.",
-     "strength": 2.8258857779956994,
+     "strength": 3.0366446611846456,
      "born": 0,
-     "last": 1,
-     "times": 1,
+     "last": 2,
+     "times": 2,
      "source": "j0019",
      "since": "2026-11-16"
     },
@@ -334,10 +369,10 @@ export default {
      "id": "m004",
      "section": "happened",
      "text": "I called out into the dark until my eyes burned, hoping something would answer back.",
-     "strength": 2.6,
+     "strength": 2.8258857779956994,
      "born": 1,
-     "last": 1,
-     "times": 0,
+     "last": 2,
+     "times": 1,
      "source": "j0073",
      "since": "2026-11-16"
     },
@@ -356,30 +391,41 @@ export default {
      "id": "m006",
      "section": "happened",
      "text": "Something small ran through the leaves and was gone.",
-     "strength": 2.84,
+     "strength": 4.140000000000001,
      "born": 1,
-     "last": 1,
-     "times": 0,
-     "source": "j0072",
+     "last": 2,
+     "times": 2,
+     "source": "j0079",
      "since": "2026-11-16"
     },
     {
      "id": "m007",
      "section": "learned",
      "text": "If nothing happens and I still feel alive, then I am here.",
-     "strength": 2.3200000000000003,
+     "strength": 2.5646365403653935,
      "born": 1,
-     "last": 1,
-     "times": 0,
+     "last": 2,
+     "times": 1,
      "source": "j0052",
+     "since": "2026-11-16"
+    },
+    {
+     "id": "m008",
+     "section": "others",
+     "text": "Mabel says she is here, just like me.",
+     "strength": 2.3200000000000003,
+     "born": 2,
+     "last": 2,
+     "times": 0,
+     "source": "j0080",
      "since": "2026-11-16"
     }
    ],
    "forgotten": []
   },
-  "self": "# Gilbert\n\nI am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n\n## Traits\n\n- quiet and unprepared _(j0002, 2026-11-15)_\n- restless at night _(j0008, 2026-11-15)_\n\n## Likes\n\n## Dislikes\n\n## Fears\n\n## Habits\n\n## How I talk\n",
+  "self": "# Gilbert\n\nI am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n\n## Traits\n\n- quiet and unsure where to stand _(j0093, 2026-11-16)_\n- restless at night _(j0008, 2026-11-15)_\n\n## Likes\n\n## Dislikes\n\n## Fears\n\n- fear the silence when no one answers _(j0084, 2026-11-16)_\n\n## Habits\n\n## How I talk\n",
   "baseline": "I am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n",
-  "changelog": "# How Gilbert has changed\n\nEach line: what changed, and the journal entry that caused it.\n\n## 2026-11-15 14:50 · wake-up 0\n\n- Gilbert arrived. self.md starts almost empty.\n\n## 2026-11-15 18:14 · wake-up 1\n\n- ADD Traits: \"quiet and unprepared\" <- j0002: Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor\n\n## 2026-11-15 18:19 · wake-up 2\n\n- ADD Traits: \"restless at night\" <- j0008: I woke with energy and restlessness. The moon was very bright, casting my shadow on the ground. I made a simpl\n",
+  "changelog": "# How Gilbert has changed\n\nEach line: what changed, and the journal entry that caused it.\n\n## 2026-11-15 14:50 · wake-up 0\n\n- Gilbert arrived. self.md starts almost empty.\n\n## 2026-11-15 18:14 · wake-up 1\n\n- ADD Traits: \"quiet and unprepared\" <- j0002: Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor\n\n## 2026-11-15 18:19 · wake-up 2\n\n- ADD Traits: \"restless at night\" <- j0008: I woke with energy and restlessness. The moon was very bright, casting my shadow on the ground. I made a simpl\n\n## 2026-11-16 18:40 · wake-up 5\n\n- ADD Fears: \"fear the silence when no one answers\" <- j0084: You called out. Nobody answered.\n- REVISE Traits: \"quiet and unprepared\" -> \"quiet and unsure where to stand\" <- j0093: You called out. Far away, something called back.\n",
   "history": [
    {
     "name": "2026-11-15_1450_wake-0000.md",
@@ -391,6 +437,10 @@ export default {
    },
    {
     "name": "2026-11-15_1819_wake-0002.md",
+    "text": ""
+   },
+   {
+    "name": "2026-11-16_1840_wake-0005.md",
     "text": ""
    }
   ],
@@ -406,8 +456,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.09432190657312245,
-    "energy": -0.5600501411920912
+    "mood": 0.368200424069012,
+    "energy": -0.49575363037417064
    },
    "interests": {},
    "threads": [
@@ -415,7 +465,7 @@ export default {
     "Who am I when I stop trying to be ordinary?",
     "There is so much more light left to see before sleep takes me again."
    ],
-   "about": "I am Gilbert, a small kiwi who just arrived in the world. I call out into the dark until my eyes burn, hoping something will answer back. Pip follows me and says things at once, making me feel less alone. I pin notes to boards and put smooth stones on shelves.",
+   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I do not know much about myself yet, but I am quiet and unsure where to stand. My chest feels tight when I call out and no one answers.",
    "lastResult": "",
    "wake": 5,
    "awakeSince": "",
