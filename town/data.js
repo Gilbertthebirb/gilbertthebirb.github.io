@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:36:02-05:00",
+ "asOf": "2026-11-17T15:41:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:36:00-05:00",
+   "iso": "2026-11-17T15:41:02-05:00",
    "hour": 15,
-   "minute": 36,
+   "minute": 41,
    "phase": "day",
    "words": "afternoon",
-   "sun": 8.6,
+   "sun": 8.1,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -10.44,
+    3.48
    ],
-   "heading": -67.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": -71.6,
+   "place": null,
+   "doing": "walk_to",
+   "target": "creek",
    "asleep": false,
    "needs": {
-    "belly": 0.64,
-    "weariness": 0.25,
-    "company": 0.46,
-    "itch": 0.54,
-    "nerves": 0.15,
-    "thirst": 0.0
+    "belly": 0.76,
+    "weariness": 0.28,
+    "company": 0.24,
+    "itch": 0.59,
+    "nerves": 0.14,
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.74,
-    "energy": 0.18
+    "mood": 0.27,
+    "energy": -0.11
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "I feel like moving again; I know the cold makes me steady.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -357,23 +357,23 @@ export default {
      8.0
     ],
     "said": {
-     "text": "Pip said to you: \"But wait! Did you hear the cricket? Oh, right, we talked about water cycles earlier.\"",
-     "t": 1794946592.0
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1794947789.8
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10
+     1022.0,
+     8.0
     ],
     "said": null
    },
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794947762.0,
+  "now": 1794948062.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1130,8 +1130,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6404210292427438,
-    "energy": 0.16540966894227066
+    "mood": 0.2867452983562856,
+    "energy": -0.09341486424403778
    },
    "interests": {},
    "threads": [
