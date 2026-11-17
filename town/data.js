@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T12:21:09-05:00",
+ "asOf": "2026-11-17T12:26:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:21:08+01:00",
+   "iso": "2026-11-17T18:26:08+01:00",
    "hour": 18,
-   "minute": 21,
+   "minute": 26,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -12.5,
+   "sun": -13.2,
    "date": "2026-11-17"
   },
   "weather": "drizzle",
@@ -20,27 +20,25 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.67,
-    "weariness": 0.67,
-    "company": 0.4,
-    "itch": 0.41,
+    "belly": 0.8,
+    "weariness": 0.71,
+    "company": 0.19,
+    "itch": 0.57,
     "nerves": 0.0,
-    "thirst": 0.18
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.71,
-    "energy": 0.12
+    "mood": 0.19,
+    "energy": -0.51
    },
-   "thought": "my legs need to move before my nose finds something",
+   "thought": "I am tired and hungry, but watching the water turns over the same stone makes my legs feel less heavy.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a blue bottle cap"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -330,16 +328,16 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -349,8 +347,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Oh look at that butterfly over there... hello again!\"",
@@ -360,32 +358,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     978.0,
+     14.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -417,6 +415,24 @@ export default {
      23.777667595512078
     ],
     "state": "buried"
+   },
+   {
+    "id": "o4-744",
+    "name": "a blue bottle cap",
+    "pos": [
+     -23.233851056962806,
+     8.95304147158652
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o5-765",
+    "name": "a rusted key",
+    "pos": [
+     13.727541392020587,
+     23.964798699451045
+    ],
+    "state": "buried"
    }
   ],
   "wishes": [],
@@ -434,7 +450,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 10,
-  "now": 1794936069.9,
+  "now": 1794936370.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -995,8 +1011,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6584117746881013,
-    "energy": 0.1366713857957058
+    "mood": 0.4117183957720384,
+    "energy": -0.4347688467361558
    },
    "interests": {},
    "threads": [
