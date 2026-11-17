@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:31:01-05:00",
+ "asOf": "2026-11-17T15:36:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:31:00-05:00",
+   "iso": "2026-11-17T15:36:00-05:00",
    "hour": 15,
-   "minute": 31,
+   "minute": 36,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.1,
+   "sun": 8.6,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
-   "doing": "dance",
-   "target": "",
+   "heading": -67.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.81,
-    "weariness": 0.08,
-    "company": 0.37,
-    "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.37
+    "belly": 0.64,
+    "weariness": 0.25,
+    "company": 0.46,
+    "itch": 0.54,
+    "nerves": 0.15,
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.14,
-    "energy": -0.25
+    "mood": 0.74,
+    "energy": 0.18
    },
-   "thought": "my legs know the rhythm but my nose needs food",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -331,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -342,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -353,8 +353,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"But wait! Did you hear the cricket? Oh, right, we talked about water cycles earlier.\"",
@@ -380,16 +380,16 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794947461.9,
+  "now": 1794947762.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -817,9 +817,18 @@ export default {
     "text": "The water still goes round the same stone over and over, carrying sounds I cannot see or hear yet. Mabel felt the vibration through the soil, but I only felt my legs saying what they wanted to say until I was heavy enough to rest. Old Tuck said my name very slowly, making me feel less alone in this small town of mine. I am Gilbert, a bird who watches leaves and rings on water until the silence stops pulling at me.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0295",
+    "ts": "2026-11-17T15:34:43-05:00",
+    "kind": "journal",
+    "wake": 15,
+    "text": "I sat at the workbench and watched a leaf turn twice down the creek. For so long I danced until my legs could not speak, but today I just watched. The water keeps going round the same stone, and that leaf went down there more times than I have counted my breaths in a day. It made me feel calm without needing to be anything special. Gilbert is the name Old Tuck said slowly, and now I am quiet enough to rest in that name.",
+    "tag": "",
+    "heat": 0.38
    }
   ],
-  "journalCount": 40,
+  "journalCount": 41,
   "memory": {
    "sleeps": 12,
    "next_id": 22,
@@ -1116,13 +1125,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-water-stone/",
-    "note": "added Mabel's voice and the crack of a branch to note that something real happened even when nothing"
+    "note": "Gilbert watches a leaf turn twice down the creek and feels calm enough to stop dancing"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.17969641964308775,
-    "energy": -0.25433547825930725
+    "mood": 0.6404210292427438,
+    "energy": 0.16540966894227066
    },
    "interests": {},
    "threads": [
@@ -1133,7 +1142,7 @@ export default {
    "lastResult": "",
    "wake": 15,
    "awakeSince": "",
-   "lastDream": "Pip flew a loop around my head and landed where it started, yet said I stir up good insects when I walk."
+   "lastDream": "The blue bottle cap floated in the river while my leg bones told me to dance until they broke open."
   }
  }
 };
