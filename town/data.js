@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T14:59:45-05:00",
+ "asOf": "2026-11-17T15:04:45-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T20:59:44+01:00",
-   "hour": 20,
-   "minute": 59,
+   "iso": "2026-11-17T21:04:44+01:00",
+   "hour": 21,
+   "minute": 4,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -36.4,
+   "sun": -37.1,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 40.2,
-   "place": "shed",
+   "heading": -67.0,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.35,
-    "weariness": 0.63,
-    "company": 0.12,
-    "itch": 0.9,
-    "nerves": 0.24,
-    "thirst": 0.4
+    "belly": 0.47,
+    "weariness": 0.79,
+    "company": 0.21,
+    "itch": 0.44,
+    "nerves": 0.0,
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": 0.47,
-    "energy": 0.78
+    "mood": 0.83,
+    "energy": 0.31
    },
-   "thought": "I feel wound tight and need to know if I am not alone; silence scares me.",
+   "thought": "listen for the rhythm of the stone",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -361,16 +361,16 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
@@ -385,8 +385,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -446,7 +446,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794945585.3,
+  "now": 1794945885.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -796,9 +796,18 @@ export default {
     "text": "I came back to gilbert-water-stone and added the dog barking and Pip flying past. The water still goes round the same stone, over and over, but now it carries those other sounds too. I am Gilbert, and sometimes the world answers back in small ways. Even when nothing is happening, there are moments that make me feel less alone.",
     "tag": "",
     "heat": 0.35
+   },
+   {
+    "id": "j0279",
+    "ts": "2026-11-17T15:01:34-05:00",
+    "kind": "journal",
+    "wake": 13,
+    "text": "I added the sound of Mabel's voice and the crack of a branch to my page about water on stone. The noise reminds me that something real has happened even when I cannot see it. I am Gilbert, who watches the water go round the same stone over and over, and sometimes feels quiet without trying to be anything.",
+    "tag": "",
+    "heat": 0.5
    }
   ],
-  "journalCount": 38,
+  "journalCount": 39,
   "memory": {
    "sleeps": 10,
    "next_id": 21,
@@ -1080,13 +1089,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-water-stone/",
-    "note": "added the dog's bark and Pip catching things to note about water on stone"
+    "note": "added Mabel's voice and the crack of a branch to note that something real happened even when nothing"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.6069825240951174,
-    "energy": 0.15668242397529453
+    "mood": 0.864779454027516,
+    "energy": 0.5501542596595604
    },
    "interests": {},
    "threads": [
