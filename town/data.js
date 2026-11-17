@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:03:18-05:00",
+ "asOf": "2026-11-17T08:08:18-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:03:18+01:00",
-   "hour": 1,
+   "iso": "2026-11-17T14:08:18+01:00",
+   "hour": 3,
    "minute": 19,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -47.0,
+   "sun": -32.3,
    "date": "2026-11-17",
    "day_minutes": 60.0
   },
@@ -21,22 +21,22 @@ export default {
    ],
    "heading": -71.6,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.2,
-    "weariness": 0.22,
-    "company": 0.64,
+    "belly": 0.26,
+    "weariness": 0.38,
+    "company": 0.83,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.47
+    "thirst": 0.37
    },
    "feeling": {
     "mood": 0.28,
-    "energy": 0.06
+    "energy": -0.04
    },
-   "thought": "the crunch told me where to find myself",
+   "thought": "rest my belly so I don't wake the dark",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -318,36 +318,36 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     18.44,
+     24.63
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     5,
-     -22
+     14.0,
+     24.0
     ]
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1008.18,
-     5.64
+     1014.0,
+     -6.0
     ]
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     1028.0,
+     -10.0
     ]
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     978.0,
+     14.0
     ]
    },
    "kettle": {
@@ -402,7 +402,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 5,
-  "now": 1794920598.8,
+  "now": 1794920898.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -709,8 +709,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.12991943008398277,
-    "energy": 0.10594180603614148
+    "mood": 0.4664736245598049,
+    "energy": 0.2777417156160161
    },
    "interests": {},
    "threads": [
