@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:25:57-05:00",
+ "asOf": "2026-11-17T18:30:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:25:56-05:00",
+   "iso": "2026-11-17T18:30:56-05:00",
    "hour": 18,
-   "minute": 25,
+   "minute": 30,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -13.2,
+   "sun": -14.0,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -67.0,
    "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.46,
-    "weariness": 0.81,
-    "company": 0.39,
-    "itch": 0.76,
+    "belly": 0.28,
+    "weariness": 0.82,
+    "company": 0.47,
+    "itch": 0.93,
     "nerves": 0.0,
-    "thirst": 0.18
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.16,
-    "energy": -0.54
+    "mood": 0.2,
+    "energy": -0.55
    },
-   "thought": "the water keeps moving even though it feels still; I need to see how the rings spread before I rest or leave.",
+   "thought": "hunger is a loud bird; let me feel what lies here",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Look at that red ball! Did the wind blow? I think the bird flew away! Wait, the sun is shining so bright today too.\"",
@@ -355,24 +355,24 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1012.62,
+     -5.41
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 14,
-  "now": 1794957957.4,
+  "now": 1794958257.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1225,8 +1225,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.20204993165386384,
-    "energy": -0.47739333278898577
+    "mood": 0.24087557818482108,
+    "energy": -0.5351068790305106
    },
    "interests": {},
    "threads": [
