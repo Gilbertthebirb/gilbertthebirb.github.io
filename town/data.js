@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T10:17:29-05:00",
- "live": false,
+ "asOf": "2026-11-17T11:26:09-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:17:38+01:00",
-   "hour": 16,
-   "minute": 17,
+   "iso": "2026-11-17T17:26:08+01:00",
+   "hour": 17,
+   "minute": 26,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 4.1,
+   "sun": -4.7,
    "date": "2026-11-17"
   },
-  "weather": "wind",
+  "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
-   "asleep": true,
+   "heading": 119.4,
+   "place": "shed",
+   "doing": "tinker",
+   "target": "",
+   "asleep": false,
    "needs": {
-    "belly": 0.24,
-    "weariness": 1.0,
-    "company": 0.84,
+    "belly": 0.5,
+    "weariness": 0.09,
+    "company": 0.87,
     "itch": 1.0,
-    "nerves": 0.1,
-    "thirst": 0.15
+    "nerves": 0.0,
+    "thirst": 0.4
    },
    "feeling": {
-    "mood": -0.1,
-    "energy": -0.84
+    "mood": -0.06,
+    "energy": -0.66
    },
-   "thought": "",
+   "thought": "to find out what makes me feel alive without trying",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -90,8 +90,8 @@ export default {
    "letterbox": {
     "name": "the letterbox",
     "pos": [
-     -7,
-     -15
+     5.7,
+     -2.5
     ],
     "hut": null,
     "area": "town"
@@ -319,24 +319,24 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     9,
+     13
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14,
+     24
     ],
     "said": null
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -7.0,
-     -15.0
+     -24,
+     8
     ],
     "said": {
      "text": "Pip said to you: \"Oh wow! Did he say warm? That's weird! I heard a blue jay singing nearby, wait... no, let's talk about Gilbert's feathers. They're so pretty! Do you think they match…\"",
@@ -346,32 +346,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     980.0,
+     -20
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27
     ],
     "said": null
    }
@@ -417,10 +417,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
-  "bench": false,
-  "session": 9,
-  "now": 1794928658.1,
+  "sleep_call": false,
+  "bench": true,
+  "session": 10,
+  "now": 1794932769.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -966,7 +966,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and unsure where to stand, but I feel less alone when Pip flies around my head. My eyes keep closing now that I have decided to go to bed, yet the silence feels heavy before it answers me.",
    "lastResult": "",
-   "wake": 11,
+   "wake": 12,
    "awakeSince": "",
    "lastDream": "A branch cracked behind a water ring while my feet forgot the ground. I danced with the crack, but my nose found only quiet."
   }

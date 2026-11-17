@@ -5,7 +5,7 @@ import { clamp, lerp, smooth, noise, seeded, distToLine, mat, ball, cone, tube, 
 // Where the fixed places are (metres; x east, z south). The town server owns the real list;
 // this copy is only for laying out scenery.
 export const SPOTS = {
-  burrow: [0, 0], shed: [16, -9], creek: [-24, 8], lookout: [28, 26], board: [9, 13], letterbox: [-7, -15],
+  burrow: [0, 0], shed: [16, -9], creek: [-24, 8], lookout: [28, 26], board: [9, 13], letterbox: [5.7, -2.5],
   post: [-18, -22], lane: [36, -12], moss: [-12, 20], log: [14, 24], drift: [5, -22],
   fence: [-3, -46], culvert: [-22, 47], heap: [41, 7], halt: [2, 57], hollow: [30, -34],
 };

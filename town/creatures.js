@@ -90,7 +90,7 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
   else if (doing === 'tinker') { tx = extra.shedInside[0]; tz = extra.shedInside[1]; face = Math.PI; }
   else if (doing === 'wade') { tx = -26.4; tz = 8.4; face = -1.2; }
   else if (doing === 'tidy') { tx = -1.4 + Math.sin(t * 0.5) * 0.5; tz = 0.6; face = -1.9; }
-  else if (doing === 'check_letterbox') face = Math.atan2(-8.1 - tx, -15.3 - tz);
+  else if (doing === 'check_letterbox') face = Math.atan2(4.6 - tx, -2.8 - tz);
   else if (doing === 'read') face = Math.atan2(-19.0 - tx, -22.8 - tz);
   else if (doing === 'pin_note') face = Math.atan2(10.4 - tx, 13.2 - tz);
   else if ((doing === 'greet' || doing === 'sniff') && extra.nearest) face = Math.atan2(extra.nearest[0] - tx, extra.nearest[1] - tz);

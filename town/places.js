@@ -182,12 +182,12 @@ function board(h) {
 }
 
 function letterbox(h) {
-  const g = at(new THREE.Group(), -8.1, -15.3);
-  g.rotation.y = Math.PI / 3;
+  const g = at(new THREE.Group(), 4.6, -2.8);
+  g.rotation.y = 0;                             // the slot faces straight south, toward the path
   g.add(part(tube(0.06, 0.08, 1.15, 6), WOOD_DARK, [0, 0.58, 0]));
   g.add(part(box(0.42, 0.34, 0.62), 0xb5443a, [0, 1.3, 0]));
   const top = part(tube(0.21, 0.21, 0.62, 8, 1, false, 0, Math.PI), 0xa03a32, [0, 1.47, 0]);
-  top.rotation.set(Math.PI / 2, 0, Math.PI / 2);
+  top.rotation.set(Math.PI / 2, 0, Math.PI / 2, 'ZYX');   // lid runs front to back, arch up
   g.add(top);
   g.add(part(box(0.3, 0.03, 0.02), DARK, [0, 1.36, 0.32]));
   h.flag = new THREE.Group();                  // up when a letter is waiting
@@ -442,7 +442,7 @@ export function buildPlaces(scene) {
 
   // Things a visitor cannot walk through.
   h.colliders = [{ x: 0, z: -3.0, r: 2.7 }, { x: 16, z: -12.6, r: 1.9 }, { x: 14.1, z: -11.2, r: 0.5 }, { x: 17.9, z: -11.2, r: 0.5 },
-    { x: 30.6, z: 28.2, r: 3.3 }, { x: 10.4, z: 13.2, r: 0.9 }, { x: -8.1, z: -15.3, r: 0.45 }, { x: -19, z: -22.8, r: 0.45 },
+    { x: 30.6, z: 28.2, r: 3.3 }, { x: 10.4, z: 13.2, r: 0.9 }, { x: 4.6, z: -2.8, r: 0.45 }, { x: -19, z: -22.8, r: 0.45 },
     { x: 15.4, z: 25.8, r: 1.1 }, { x: 13.4, z: 24.7, r: 1.0 }, { x: 17.4, z: 26.9, r: 1.0 }, { x: STUMP[0], z: STUMP[1], r: 0.6 },
     { x: -2.5, z: 0.2, r: 0.9 }, { x: GATE[0] - 1.5, z: GATE[1] + 1.8, r: 0.3 }, { x: GATE[0] + 1.5, z: GATE[1] + 1.8, r: 0.3 },
     { x: 43.2, z: 8.6, r: 2.0 }, { x: 30, z: -42, r: 3.0 }, { x: 24, z: -39, r: 2.0 }, { x: 36, z: -39, r: 2.0 }, { x: -22.6, z: 52.1, r: 2.2 }];

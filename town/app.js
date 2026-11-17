@@ -180,7 +180,7 @@ function inReach() {
   if (d(STUMP[0], STUMP[1]) < 3) found.push([d(STUMP[0], STUMP[1]), { kind: 'journal', words: 'read his journal' }]);
   if (d(10.4, 13.2) < 4) found.push([d(10.4, 13.2), { kind: 'board', words: 'read the notice board' }]);
   if (d(-2.5, 0.2) < 3) found.push([d(-2.5, 0.2), { kind: 'shelf', words: 'look at his shelf' }]);
-  if (d(-8.1, -15.3) < 4.6) found.push([d(-8.1, -15.3) - 1, { kind: 'letter', words: me.online ? 'post a letter' : 'the letterbox (he is asleep)' }]);
+  if (d(4.6, -2.8) < 4.6) found.push([d(4.6, -2.8) - 1, { kind: 'letter', words: me.online ? 'post a letter' : 'the letterbox (he is asleep)' }]);
   for (const [key, p] of Object.entries(state.places || {})) {
     if (p.hut && d(p.pos[0], p.pos[1]) < 5) found.push([d(p.pos[0], p.pos[1]), { kind: 'hut', slug: p.hut, words: `look into ${p.name}` }]);
     if (me.online && link.welcome && link.welcome.soft.includes(key) && d(p.pos[0], p.pos[1]) < 6.5) {
