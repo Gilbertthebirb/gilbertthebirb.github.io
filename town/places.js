@@ -382,6 +382,22 @@ function scrapHeap() {
   return g;
 }
 
+function echoHollow() {
+  // A half ring of rock around a bare floor. Built because he wished his call would come back.
+  const g = at(new THREE.Group(), 30, -36);
+  const rnd = seeded(0.47);
+  for (let i = 0; i <= 10; i++) {
+    const a = Math.PI * (0.05 + 0.9 * i / 10), s = 1.6 + rnd() * 1.2;
+    const rock = part(roughen(ball(s, 1), s * 0.3, rnd()), 0x7d8480, [Math.cos(a) * 6.5, s * 0.75, -Math.sin(a) * 6.5]);
+    rock.scale.set(1, 1.6 + rnd() * 0.8, 0.9);
+    g.add(rock);
+  }
+  const floor = part(new THREE.CircleGeometry(5.6, 12), 0x8a7a62, [0, 0.04, -1.5]);
+  floor.rotation.x = -Math.PI / 2;
+  g.add(floor);
+  return g;
+}
+
 function tramHalt() {
   const g = at(new THREE.Group(), 4.6, 57.5);
   g.add(part(box(2.2, 0.3, 5), WOOD, [0, 0.15, 0]));                       // a platform of sleepers
@@ -417,7 +433,7 @@ export function buildPlaces(scene) {
   const h = { huts: new Map(), objects: new Map(), kept: '' };
   const all = new THREE.Group();
   all.add(burrow(h), stump(h), shed(h), board(h), letterbox(h), signalPost(h), lookout(), mossyBank(), fallenLog(),
-    leafDrift(), laneSign(), gate(h), brokenFence(), culvert(), scrapHeap(), tramHalt());
+    leafDrift(), laneSign(), gate(h), brokenFence(), culvert(), scrapHeap(), tramHalt(), echoHollow());
   h.hutGroup = new THREE.Group();
   h.objectGroup = new THREE.Group();
   all.add(h.hutGroup, h.objectGroup);
@@ -429,7 +445,7 @@ export function buildPlaces(scene) {
     { x: 30.6, z: 28.2, r: 3.3 }, { x: 10.4, z: 13.2, r: 0.9 }, { x: -8.1, z: -15.3, r: 0.45 }, { x: -19, z: -22.8, r: 0.45 },
     { x: 15.4, z: 25.8, r: 1.1 }, { x: 13.4, z: 24.7, r: 1.0 }, { x: 17.4, z: 26.9, r: 1.0 }, { x: STUMP[0], z: STUMP[1], r: 0.6 },
     { x: -2.5, z: 0.2, r: 0.9 }, { x: GATE[0] - 1.5, z: GATE[1] + 1.8, r: 0.3 }, { x: GATE[0] + 1.5, z: GATE[1] + 1.8, r: 0.3 },
-    { x: 43.2, z: 8.6, r: 2.0 }, { x: -22.6, z: 52.1, r: 2.2 }];
+    { x: 43.2, z: 8.6, r: 2.0 }, { x: 30, z: -42, r: 3.0 }, { x: 24, z: -39, r: 2.0 }, { x: 36, z: -39, r: 2.0 }, { x: -22.6, z: 52.1, r: 2.2 }];
   h.hutColliders = [];
 
   h.syncHuts = (places, projects) => {
