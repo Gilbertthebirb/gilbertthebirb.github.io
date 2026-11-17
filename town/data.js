@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T16:51:02-05:00",
+ "asOf": "2026-11-17T16:56:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:51:02-05:00",
+   "iso": "2026-11-17T16:56:02-05:00",
    "hour": 16,
-   "minute": 51,
+   "minute": 56,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -0.0,
+   "sun": -0.7,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    0.0,
+    0.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": "wade",
-   "target": "",
+   "heading": 108.4,
+   "place": "burrow",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.71,
-    "weariness": 0.84,
-    "company": 0.33,
-    "itch": 0.71,
+    "belly": 0.84,
+    "weariness": 0.6,
+    "company": 0.41,
+    "itch": 0.88,
     "nerves": 0.0,
-    "thirst": 0.02
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": -0.62
+    "mood": 0.09,
+    "energy": -0.65
    },
-   "thought": "my legs are too tired to dance anymore, but I need to feel the water again",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -331,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -364,32 +364,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1003.7,
-     -1.59
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     994.0,
+     18.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     984.76,
-     13.03
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794952262.6,
+  "now": 1794952562.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1157,8 +1157,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.33133051370116795,
-    "energy": -0.6033344429466353
+    "mood": -0.01686837951203303,
+    "energy": -0.6412305651973635
    },
    "interests": {},
    "threads": [
