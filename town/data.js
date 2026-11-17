@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T12:11:09-05:00",
+ "asOf": "2026-11-17T12:16:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:11:08+01:00",
+   "iso": "2026-11-17T18:16:08+01:00",
    "hour": 18,
-   "minute": 11,
+   "minute": 16,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -11.0,
+   "sun": -11.8,
    "date": "2026-11-17"
   },
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": -22.0,
-   "place": "moss",
-   "doing": null,
-   "target": null,
+   "heading": -135.0,
+   "place": "creek",
+   "doing": "drink",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.72,
-    "weariness": 0.53,
-    "company": 0.53,
-    "itch": 0.49,
+    "belly": 0.84,
+    "weariness": 0.6,
+    "company": 0.62,
+    "itch": 0.54,
     "nerves": 0.0,
-    "thirst": 0.23
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.38,
-    "energy": 0.07
+    "mood": 0.19,
+    "energy": -0.28
    },
-   "thought": "it feels heavy and true here in the dark.",
+   "thought": "water feels like something that stays even when it moves",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,8 +328,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": null
    },
@@ -358,8 +358,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
@@ -374,16 +374,16 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     994.0,
+     18.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -441,7 +441,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 10,
-  "now": 1794935469.8,
+  "now": 1794935769.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1002,8 +1002,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.09168183487743048,
-    "energy": -0.011237369534615183
+    "mood": 0.4163348432601402,
+    "energy": -0.026303754909587362
    },
    "interests": {},
    "threads": [
