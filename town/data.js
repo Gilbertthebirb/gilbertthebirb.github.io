@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T12:26:09-05:00",
+ "asOf": "2026-11-17T12:31:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:26:08+01:00",
+   "iso": "2026-11-17T18:31:08+01:00",
    "hour": 18,
-   "minute": 26,
+   "minute": 31,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -13.2,
+   "sun": -14.0,
    "date": "2026-11-17"
   },
-  "weather": "drizzle",
+  "weather": "rain",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "heading": 45.0,
+   "place": "moss",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.8,
-    "weariness": 0.71,
-    "company": 0.19,
-    "itch": 0.57,
-    "nerves": 0.0,
-    "thirst": 0.28
+    "belly": 0.62,
+    "weariness": 0.78,
+    "company": 0.27,
+    "itch": 0.62,
+    "nerves": 0.05,
+    "thirst": 0.38
    },
    "feeling": {
-    "mood": 0.19,
-    "energy": -0.51
+    "mood": 0.0,
+    "energy": -0.18
    },
-   "thought": "I am tired and hungry, but watching the water turns over the same stone makes my legs feel less heavy.",
+   "thought": "to remember what I feel while the rain falls",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,8 +328,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": null
    },
@@ -347,8 +347,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Oh look at that butterfly over there... hello again!\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
@@ -382,8 +382,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -450,7 +450,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 10,
-  "now": 1794936370.0,
+  "now": 1794936670.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1011,8 +1011,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4117183957720384,
-    "energy": -0.4347688467361558
+    "mood": 0.15069067491248953,
+    "energy": -0.4565015586229191
    },
    "interests": {},
    "threads": [
