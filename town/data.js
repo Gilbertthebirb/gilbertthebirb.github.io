@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:41:33-05:00",
+ "asOf": "2026-11-17T18:46:33-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:41:32-05:00",
+   "iso": "2026-11-17T18:46:32-05:00",
    "hour": 18,
-   "minute": 41,
+   "minute": 46,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -15.5,
+   "sun": -16.3,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 119.4,
-   "place": "shed",
+   "heading": -67.0,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.59,
-    "weariness": 0.44,
-    "company": 0.48,
-    "itch": 0.1,
+    "belly": 0.72,
+    "weariness": 0.47,
+    "company": 0.56,
+    "itch": 0.15,
     "nerves": 0.0,
-    "thirst": 0.47
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.82,
-    "energy": 0.7
+    "mood": 0.18,
+    "energy": 0.01
    },
-   "thought": "legs are tired, water is still.",
+   "thought": "the water goes round the same stone over and over again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     14.63,
+     7.78
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -3.13,
-     11.16
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Look at that red ball! Did the wind blow? I think the bird flew away! Wait, the sun is shining so bright today too.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.74,
-     8.52
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -371,8 +371,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1015.06,
-     8.84
+     1014.0,
+     -6.0
     ],
     "said": null
    },
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 15,
-  "now": 1794958893.2,
+  "now": 1794959193.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1274,8 +1274,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.753961345075038,
-    "energy": 0.5774553343218113
+    "mood": 0.3026923109366526,
+    "energy": 0.1840850711306496
    },
    "interests": {},
    "threads": [
