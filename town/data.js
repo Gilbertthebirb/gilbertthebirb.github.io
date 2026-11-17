@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:27:24-05:00",
- "live": true,
+ "asOf": "2026-11-17T15:26:08-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:27:24-05:00",
+   "iso": "2026-11-17T15:30:04-05:00",
    "hour": 15,
-   "minute": 27,
+   "minute": 30,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.5,
+   "sun": 9.2,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -21,24 +21,24 @@ export default {
     0.0,
     0.0
    ],
-   "heading": -12.8,
+   "heading": 108.4,
    "place": "burrow",
-   "doing": "sit",
-   "target": "",
-   "asleep": false,
+   "doing": null,
+   "target": null,
+   "asleep": true,
    "needs": {
-    "belly": 0.72,
+    "belly": 0.79,
     "weariness": 0.08,
-    "company": 0.32,
+    "company": 0.36,
     "itch": 1.0,
-    "nerves": 0.05,
-    "thirst": 0.37
+    "nerves": 0.19,
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": 0.05,
-    "energy": -0.55
+    "mood": 0.03,
+    "energy": -0.38
    },
-   "thought": "my legs need to settle before I move again",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -446,10 +446,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 12,
-  "now": 1794947244.6,
+  "now": 1794947405.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -821,7 +821,7 @@ export default {
   ],
   "journalCount": 40,
   "memory": {
-   "sleeps": 11,
+   "sleeps": 12,
    "next_id": 22,
    "items": [
     {
@@ -1099,7 +1099,7 @@ export default {
     "text": ""
    }
   ],
-  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 64 times (at the mossy bank, the creek, the leaf drift)\n- watch: 57 times (at the creek, the lookout, the shed, the leaf drift)\n- walk to: 56 times\n- drink: 41 times (at the creek, the shed)\n- dance: 38 times\n- sit: 34 times\n- sniff: 22 times (at the shed, the mossy bank, the creek, the gilbert moon hut, the board, the lookout)\n- wade: 20 times (at the creek)\n- call out: 14 times\n- say: 13 times\n- greet: 8 times (at the shed, the mossy bank, the creek, the board, the gilbert moon hut, the lookout)\n- tinker: 5 times (at the shed)\n- wish: 3 times (at the burrow)\n- ask for sleep: 3 times\n- tidy: 2 times (at the burrow)\n- nap: 2 times (at the burrow)\n- pick up: 2 times\n- put down: 2 times\n- keep: 2 times (at the creek, the mossy bank, the leaf drift)\n- pin note: 1 time (at the board)\n",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 64 times (at the mossy bank, the creek, the leaf drift)\n- walk to: 57 times\n- watch: 57 times (at the creek, the lookout, the shed, the leaf drift)\n- drink: 42 times (at the creek, the shed)\n- dance: 38 times\n- sit: 35 times\n- sniff: 22 times (at the shed, the mossy bank, the creek, the gilbert moon hut, the board, the lookout)\n- wade: 20 times (at the creek)\n- call out: 14 times\n- say: 13 times\n- greet: 8 times (at the shed, the mossy bank, the creek, the board, the gilbert moon hut, the lookout)\n- tinker: 5 times (at the shed)\n- wish: 3 times (at the burrow)\n- ask for sleep: 3 times\n- tidy: 2 times (at the burrow)\n- nap: 2 times (at the burrow)\n- pick up: 2 times\n- put down: 2 times\n- keep: 2 times (at the creek, the mossy bank, the leaf drift)\n- pin note: 1 time (at the board)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -1121,8 +1121,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.054841450839028257,
-    "energy": -0.5796348143758793
+    "mood": 0.17969641964308775,
+    "energy": -0.25433547825930725
    },
    "interests": {},
    "threads": [
@@ -1133,7 +1133,7 @@ export default {
    "lastResult": "",
    "wake": 14,
    "awakeSince": "",
-   "lastDream": "Mabel is here with a blue bottle cap that she never took. The water circles the stone where Mabel puts her head down to sleep."
+   "lastDream": "Pip flew a loop around my head and landed where it started, yet said I stir up good insects when I walk."
   }
  }
 };
