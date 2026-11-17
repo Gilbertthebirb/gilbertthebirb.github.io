@@ -1,18 +1,18 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T09:01:35-05:00",
- "live": false,
+ "asOf": "2026-11-17T09:02:41-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:01:42+01:00",
+   "iso": "2026-11-17T15:02:40+01:00",
    "hour": 15,
-   "minute": 1,
+   "minute": 2,
    "phase": "day",
    "words": "afternoon",
-   "sun": 11.8,
+   "sun": 11.7,
    "date": "2026-11-17"
   },
-  "weather": "mist",
+  "weather": "clear",
   "bird": {
    "pos": [
     0.0,
@@ -22,14 +22,14 @@ export default {
    "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.19,
-    "weariness": 0.31,
+    "belly": 0.47,
+    "weariness": 0.09,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.03,
-    "thirst": 0.14
+    "nerves": 0.0,
+    "thirst": 0.37
    },
    "feeling": {
     "mood": 0.18,
@@ -319,51 +319,58 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
-    ]
+     36,
+     -12
+    ],
+    "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
-    ]
+     28,
+     26
+    ],
+    "said": null
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
-    ]
+     14,
+     24
+    ],
+    "said": null
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
-    ]
+     1000.0,
+     0
+    ],
+    "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
-    ]
+     996.0,
+     29
+    ],
+    "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
-    ]
+     1000.0,
+     0
+    ],
+    "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
-    ]
+     978.0,
+     14
+    ],
+    "said": null
    }
   },
   "objects": [
@@ -407,10 +414,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 8,
-  "now": 1794924102.5,
+  "session": 9,
+  "now": 1794924161.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -874,7 +881,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived. I am quiet and unsure where to stand, often dancing when my legs want to speak. I watch leaves and rings on water until the mist feels like it is standing with me.",
    "lastResult": "",
-   "wake": 10,
+   "wake": 11,
    "awakeSince": "",
    "lastDream": "The red box hurtled down a road made of smooth black stones while my mother told me her name was Mabel again."
   }
