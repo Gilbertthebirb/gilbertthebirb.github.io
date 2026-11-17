@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:48:54-05:00",
+ "asOf": "2026-11-17T08:53:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:48:54+01:00",
+   "iso": "2026-11-17T14:53:54+01:00",
    "hour": 14,
-   "minute": 48,
+   "minute": 53,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.9,
+   "sun": 12.5,
    "date": "2026-11-17"
   },
   "weather": "mist",
   "bird": {
    "pos": [
-    -22.29,
-    7.43
+    -24.0,
+    8.0
    ],
    "heading": -71.6,
-   "place": null,
-   "doing": "walk_to",
-   "target": "creek",
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.09,
+    "belly": 0.59,
+    "weariness": 0.18,
     "company": 1.0,
-    "itch": 0.97,
-    "nerves": 0.11,
-    "thirst": 0.37
+    "itch": 0.98,
+    "nerves": 0.02,
+    "thirst": 0.47
    },
    "feeling": {
-    "mood": 0.49,
-    "energy": 0.37
+    "mood": 0.11,
+    "energy": -0.08
    },
-   "thought": "water rings tell me more than my mouth",
+   "thought": "the water rings remind me where I am",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,22 +319,22 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36,
-     -12
+     5.0,
+     -22.0
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -12,
-     20
+     5.0,
+     -22.0
     ]
    },
    "odile": {
@@ -347,22 +347,22 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10
+     996.0,
+     29.0
     ]
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0
+     991.07,
+     5.68
     ]
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10
+     1010.0,
+     27.0
     ]
    }
   },
@@ -410,7 +410,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 8,
-  "now": 1794923334.1,
+  "now": 1794923634.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -805,8 +805,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.40769027186462004,
-    "energy": 0.10438968279510205
+    "mood": 0.19306410532337848,
+    "energy": 0.3062473033594245
    },
    "interests": {},
    "threads": [
@@ -818,7 +818,7 @@ export default {
    "lastResult": "",
    "wake": 10,
    "awakeSince": "",
-   "lastDream": "The wall spoke my name, but it came out as a scratch on the dark. If the silence does not answer me, then I am real."
+   "lastDream": "The red box hurtled down a road made of smooth black stones while my mother told me her name was Mabel again."
   }
  }
 };

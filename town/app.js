@@ -358,6 +358,7 @@ function frame(ms) {
       if (!one.root.visible) continue;
       const top = animateResident(one, [r.pos[0] - off, r.pos[1]], dt, clock);
       ui.label(`r:${key}`, r.name, top, 'name');
+      if (r.said && state.now - r.said.t < 9 && !state.offline) ui.label(`rs:${key}`, r.said.text, v3.copy(top).setY(top.y + 0.4), 'speech neighbour');
     }
     const seen = new Set();
     for (const [vid, v] of Object.entries(state.visitors || {})) {

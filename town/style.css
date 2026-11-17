@@ -101,3 +101,4 @@ input[type=text]:focus, textarea:focus, button:focus-visible { outline: 2px soli
 .map-end.right { left: auto; right: 0; }
 .map-mark { position: absolute; bottom: -6px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--warm); box-shadow: 0 0 6px var(--warm); transition: left 0.5s linear; }
 @media (max-width: 900px) { .map { right: 12px; bottom: 150px; width: 200px; } }
+.label.speech.neighbour { background: #e6efd8; }
