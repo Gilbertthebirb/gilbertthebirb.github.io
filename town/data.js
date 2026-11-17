@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T14:34:45-05:00",
+ "asOf": "2026-11-17T14:39:45-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T20:34:44+01:00",
+   "iso": "2026-11-17T20:39:44+01:00",
    "hour": 20,
-   "minute": 34,
+   "minute": 39,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -32.7,
+   "sun": -33.4,
    "date": "2026-11-17"
   },
   "weather": "mist",
   "bird": {
    "pos": [
-    28.0,
-    26.0
+    -24.0,
+    8.0
    ],
-   "heading": 70.9,
-   "place": "lookout",
-   "doing": "watch",
-   "target": "sky",
+   "heading": -109.1,
+   "place": "creek",
+   "doing": "drink",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.62,
-    "weariness": 0.48,
-    "company": 0.55,
-    "itch": 0.54,
+    "belly": 0.75,
+    "weariness": 0.52,
+    "company": 0.17,
+    "itch": 0.59,
     "nerves": 0.0,
-    "thirst": 0.2
+    "thirst": 0.3
    },
    "feeling": {
-    "mood": 0.27,
-    "energy": -0.38
+    "mood": 0.28,
+    "energy": -0.25
    },
-   "thought": "the sky tells me where the old things went",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,8 +328,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -339,19 +339,19 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
-     "t": 1794933306.8
+     "t": 1794944170.7
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     8.7,
-     -3.09
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -361,32 +361,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -446,7 +446,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794944085.2,
+  "now": 1794944385.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1085,8 +1085,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2618467025573336,
-    "energy": -0.384409961135761
+    "mood": 0.3665457418806033,
+    "energy": -0.1587225783008931
    },
    "interests": {},
    "threads": [
