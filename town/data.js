@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T10:07:42-05:00",
+ "asOf": "2026-11-17T10:12:42-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:07:42+01:00",
+   "iso": "2026-11-17T16:12:42+01:00",
    "hour": 16,
-   "minute": 7,
+   "minute": 12,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 5.2,
+   "sun": 4.6,
    "date": "2026-11-17"
   },
   "weather": "wind",
@@ -24,18 +24,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.29,
+    "belly": 0.42,
     "weariness": 1.0,
-    "company": 0.68,
+    "company": 0.76,
     "itch": 1.0,
-    "nerves": 0.09,
-    "thirst": 0.24
+    "nerves": 0.1,
+    "thirst": 0.06
    },
    "feeling": {
-    "mood": 0.0,
-    "energy": -0.45
+    "mood": 0.04,
+    "energy": -0.52
    },
-   "thought": "need company",
+   "thought": "I need to see the rings before I eat anything else.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,8 +319,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": null
    },
@@ -335,8 +335,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -7.0,
-     -15.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh wow! Did he say warm? That's weird! I heard a blue jay singing nearby, wait... no, let's talk about Gilbert's feathers. They're so pretty! Do you think they match…\"",
@@ -354,16 +354,16 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
@@ -420,7 +420,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 9,
-  "now": 1794928062.3,
+  "now": 1794928362.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -873,8 +873,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.10735819586162093,
-    "energy": -0.7408932845743111
+    "mood": -0.059293725757328546,
+    "energy": -0.5698366349497442
    },
    "interests": {},
    "threads": [
