@@ -1,18 +1,18 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T09:27:41-05:00",
+ "asOf": "2026-11-17T09:32:41-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:27:40+01:00",
+   "iso": "2026-11-17T15:32:40+01:00",
    "hour": 15,
-   "minute": 27,
+   "minute": 32,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.4,
+   "sun": 8.9,
    "date": "2026-11-17"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
     -24.0,
@@ -20,22 +20,22 @@ export default {
    ],
    "heading": -71.6,
    "place": "creek",
-   "doing": "sit",
-   "target": "",
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.19,
-    "weariness": 0.55,
+    "belly": 0.32,
+    "weariness": 0.64,
     "company": 1.0,
     "itch": 0.93,
     "nerves": 0.15,
-    "thirst": 0.38
+    "thirst": 0.48
    },
    "feeling": {
-    "mood": 0.33,
-    "energy": -0.38
+    "mood": 0.07,
+    "energy": -0.58
    },
-   "thought": "i feel tired but the quiet on my belly helps",
+   "thought": "the rings will show me who I am before the dark comes",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -327,24 +327,24 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": null
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     14.0,
+     24.0
     ],
     "said": null
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -367,8 +367,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -417,7 +417,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 9,
-  "now": 1794925661.8,
+  "now": 1794925961.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -870,8 +870,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.04292597620463798,
-    "energy": -0.42958661089064015
+    "mood": 0.22900436131356972,
+    "energy": -0.6929078947422146
    },
    "interests": {},
    "threads": [
