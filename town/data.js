@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T13:24:44-05:00",
+ "asOf": "2026-11-17T13:29:44-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:24:44+01:00",
+   "iso": "2026-11-17T19:29:44+01:00",
    "hour": 19,
-   "minute": 24,
+   "minute": 29,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -22.1,
+   "sun": -22.8,
    "date": "2026-11-17"
   },
   "weather": "drizzle",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -3.0,
+    -46.0
    ],
-   "heading": 149.0,
-   "place": "burrow",
-   "doing": "dance",
-   "target": "",
+   "heading": 158.7,
+   "place": "fence",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.67,
-    "weariness": 0.08,
-    "company": 0.32,
-    "itch": 0.69,
-    "nerves": 0.0,
-    "thirst": 0.42
+    "belly": 0.5,
+    "weariness": 0.12,
+    "company": 0.34,
+    "itch": 0.73,
+    "nerves": 0.04,
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.03,
-    "energy": -0.29
+    "mood": 0.26,
+    "energy": 0.46
    },
-   "thought": "legs need to move before they speak",
+   "thought": "the water circle calms me without the cap in hand",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -347,43 +347,43 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24,
-     8
+     1.84,
+     18.88
     ],
     "said": {
-     "text": "Pip said to you: \"Hi there! Oh look at that butterfly over there... hello again!\"",
-     "t": 1794935835.0
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1794939984.4
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14
+     1016.0,
+     22.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10
+     981.0,
+     13.57
     ],
     "said": null
    }
@@ -420,8 +420,8 @@ export default {
     "id": "o4-744",
     "name": "a blue bottle cap",
     "pos": [
-     -23.233851056962806,
-     8.95304147158652
+     -2.03595967195381,
+     -44.79197284667333
     ],
     "state": "placed"
    },
@@ -431,6 +431,15 @@ export default {
     "pos": [
      13.727541392020587,
      23.964798699451045
+    ],
+    "state": "buried"
+   },
+   {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     -13.614186170000199,
+     21.899563433737057
     ],
     "state": "buried"
    }
@@ -450,7 +459,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794939884.5,
+  "now": 1794940184.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1071,8 +1080,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.01921562169861866,
-    "energy": -0.3253955012345787
+    "mood": 0.4378395619065896,
+    "energy": 0.46853256777713026
    },
    "interests": {},
    "threads": [
@@ -1084,7 +1093,7 @@ export default {
    "lastResult": "",
    "wake": 13,
    "awakeSince": "",
-   "lastDream": "Someone's voice called from far away while I walked through dark places stirring up little black bugs. The sound and the insects ran together in my sleep like water going round the same stone over and over again."
+   "lastDream": "Mabel is here with a blue bottle cap that she never took. The water circles the stone where Mabel puts her head down to sleep."
   }
  }
 };

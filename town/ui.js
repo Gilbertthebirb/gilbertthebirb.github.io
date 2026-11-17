@@ -381,7 +381,7 @@ export function buildUi(api) {
       'E, at the stump by his burrow: read his journal. At the board: read his note. At a hut on Hut Lane: see something he has made.']);
     add('Good to know', ['Your name is public. If he writes about you, the name appears in his journal on his web page. Do not use your real name.',
       'Your exact words never reach his thinking. A separate step first works out what kind of thing they are and writes a few words of description, and only that goes to him and into his journal. Your words stay in the town\'s own file on this computer.',
-      'He is a kiwi: awake at night. Day and night here follow the real sun over the Netherlands.',
+      'He keeps his own hours: after 21:00 on this computer\'s clock he goes to bed when he likes, and he is up again by 10:00. If he gets very tired before then, he naps at home. The sky here is the real one over the Netherlands.',
       'When he is asleep you can still walk about. The town is shown as he left it, and nothing you do reaches him.']);
     drawerBody.append(para('Inspired by Pino by 3eyes_iii. Not affiliated.', 'dim'));
   }
