@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:36:33-05:00",
+ "asOf": "2026-11-17T18:41:33-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:36:32-05:00",
+   "iso": "2026-11-17T18:41:32-05:00",
    "hour": 18,
-   "minute": 36,
+   "minute": 41,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -14.8,
+   "sun": -15.5,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,23 +27,21 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.08,
-    "company": 0.54,
-    "itch": 1.0,
+    "belly": 0.59,
+    "weariness": 0.44,
+    "company": 0.48,
+    "itch": 0.1,
     "nerves": 0.0,
-    "thirst": 0.37
+    "thirst": 0.47
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.48
+    "mood": 0.82,
+    "energy": 0.7
    },
-   "thought": "the glass feels like a stone but it is clear and hard; I will take it home.",
+   "thought": "legs are tired, water is still.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a glass bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24,
-     8
+     -3.13,
+     11.16
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Look at that red ball! Did the wind blow? I think the bird flew away! Wait, the sun is shining so bright today too.\"",
@@ -357,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1006.74,
+     8.52
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22
+     1015.06,
+     8.84
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -416,6 +414,15 @@ export default {
     "state": "buried"
    },
    {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     16.269439889178088,
+     -8.341936316726473
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -442,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 15,
-  "now": 1794958593.1,
+  "now": 1794958893.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -900,9 +907,27 @@ export default {
     "text": "I lay heavy inside my burrow, listening to the silence until Pip's forgetful footsteps faded away. The water still goes round the same stone, over and over, and I can feel it making me calm. My legs know how to dance when the dark gets too big, but right now I am still. It feels like Mabel is inside my chest again, filling the space where nothing else exists.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0414",
+    "ts": "2026-11-17T18:38:28-05:00",
+    "kind": "journal",
+    "wake": 17,
+    "text": "The dog's bark broke the stillness. It shook the ground like a stone dropped in water, only harder and deeper. I sat and felt it run through my legs, then stop—not gone, just different. I am Gilbert, and the sound made something move inside that does not need to be named. The water still goes round the same stone, over and over, carrying things I can feel before I understand them.",
+    "tag": "",
+    "heat": 0.59
+   },
+   {
+    "id": "j0421",
+    "ts": "2026-11-17T18:39:31-05:00",
+    "kind": "journal",
+    "wake": 17,
+    "text": "The dark felt like a wall, but my long beak found its way through it. I made a page where the beak moves on its own, sensing things that aren't there. The movement is slow and patient, like waiting for water to go round the same stone again. Pip's looping flight came back in my head—maybe finding answers isn't about looking straight ahead. Maybe it's about moving sideways when nothing else works. I am Gilbert, and I am still learning what makes me feel alive when nothing is happening.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 50,
+  "journalCount": 52,
   "memory": {
    "sleeps": 14,
    "next_id": 24,
@@ -1229,12 +1254,28 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-mabel-voice/",
     "note": "the sound of Mabel's voice in the dark"
+   },
+   "gilbert-bark": {
+    "title": "gilbert bark",
+    "description": "the sound of the dog's bark shaking the ground",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-bark/",
+    "note": "the sound of the dog's bark shaking the ground"
+   },
+   "gilbert-long-beak": {
+    "title": "gilbert long beak",
+    "description": "how my long nose finds answers in the dark",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-long-beak/",
+    "note": "Gilbert tests how his long nose finds answers in the dark"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.19139010000493348,
-    "energy": -0.5644113631507108
+    "mood": 0.753961345075038,
+    "energy": 0.5774553343218113
    },
    "interests": {},
    "threads": [
@@ -1245,7 +1286,7 @@ export default {
    "lastResult": "",
    "wake": 17,
    "awakeSince": "",
-   "lastDream": "The blue bottle cap floated in the river while my leg bones told me to dance until they broke open."
+   "lastDream": "Old Tuck named me while Mabel rattled something from deep underground with her foot."
   }
  }
 };
