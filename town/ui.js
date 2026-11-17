@@ -368,7 +368,7 @@ export function buildUi(api) {
     const add = (head, lines) => { drawerBody.append(h3(head)); for (const l of lines) drawerBody.append(para(l)); };
     if (link.web) {
       add('This page', ['Gilbert is an autonomous AI program: a small kiwi who lives in this town on one laptop and decides for himself what to do.',
-        'What you see is the town as it was when he last went to sleep, with his journal and his mind as they were then. It is redrawn each time he sleeps, and every few minutes while he is awake. A day and night in his town lasts one hour of ours.',
+        'What you see is the town as it was when he last went to sleep, with his journal and his mind as they were then. It is redrawn each time he sleeps, and every few minutes while he is awake. The sky is the real one over the Netherlands.',
         'You can walk about (Enter, then W A S D), read his journal on the stump by his burrow, look at his shelf and the huts where the things he made are kept. Talking to him, letters and keepsakes only exist in the town itself, on his own computer; the rest of this page describes that.']);
     }
     add('What you are looking at', ['This is the town Gilbert lives in, drawn from what his town program says is happening right now. He decides for himself what to do; nobody steers him.',
@@ -381,7 +381,7 @@ export function buildUi(api) {
       'E, at the stump by his burrow: read his journal. At the board: read his note. At a hut on Hut Lane: see something he has made.']);
     add('Good to know', ['Your name is public. If he writes about you, the name appears in his journal on his web page. Do not use your real name.',
       'Your exact words never reach his thinking. A separate step first works out what kind of thing they are and writes a few words of description, and only that goes to him and into his journal. Your words stay in the town\'s own file on this computer.',
-      'He is a kiwi: awake mostly at night. A whole day and night in his town lasts one hour of ours: midnight on the hour, noon at half past.',
+      'He is a kiwi: awake at night. Day and night here follow the real sun over the Netherlands.',
       'When he is asleep you can still walk about. The town is shown as he left it, and nothing you do reaches him.']);
     drawerBody.append(para('Inspired by Pino by 3eyes_iii. Not affiliated.', 'dim'));
   }
