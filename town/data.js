@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T17:11:02-05:00",
+ "asOf": "2026-11-17T17:16:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:11:02-05:00",
+   "iso": "2026-11-17T17:16:02-05:00",
    "hour": 17,
-   "minute": 11,
+   "minute": 16,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -2.6,
+   "sun": -3.3,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "cloud",
   "bird": {
    "pos": [
     -24.0,
@@ -24,21 +24,21 @@ export default {
    "heading": -67.0,
    "place": "creek",
    "doing": "watch",
-   "target": "pip",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.61,
-    "weariness": 0.67,
-    "company": 0.34,
-    "itch": 1.0,
-    "nerves": 0.1,
-    "thirst": 0.09
+    "belly": 0.44,
+    "weariness": 0.71,
+    "company": 0.42,
+    "itch": 0.99,
+    "nerves": 0.0,
+    "thirst": 0.19
    },
    "feeling": {
-    "mood": 0.41,
-    "energy": 0.01
+    "mood": 0.42,
+    "energy": -0.24
    },
-   "thought": "I see Pip moving. I am tired but watching is steady.",
+   "thought": "listening for the rings and the unseen thing",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -342,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -353,8 +353,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -380,8 +380,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794953462.7,
+  "now": 1794953762.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1157,8 +1157,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.29759039692405953,
-    "energy": 0.03041533487938647
+    "mood": 0.5187726885343313,
+    "energy": -0.03218048441481541
    },
    "interests": {},
    "threads": [
