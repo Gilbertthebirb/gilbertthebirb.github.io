@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:05:57-05:00",
+ "asOf": "2026-11-17T18:10:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:05:56-05:00",
+   "iso": "2026-11-17T18:10:56-05:00",
    "hour": 18,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -10.3,
+   "sun": -11.0,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 113.0,
-   "place": "shed",
-   "doing": "tinker",
-   "target": "",
+   "heading": -67.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.26,
-    "weariness": 0.54,
-    "company": 0.26,
-    "itch": 0.96,
+    "belly": 0.38,
+    "weariness": 0.74,
+    "company": 0.14,
+    "itch": 0.5,
     "nerves": 0.0,
-    "thirst": 0.15
+    "thirst": 0.25
    },
    "feeling": {
-    "mood": 0.48,
-    "energy": -0.28
+    "mood": 0.6,
+    "energy": 0.05
    },
-   "thought": "the vibration Mabel felt needs to be caught before it fades away; I will make something at the workbench to hold the silence.",
+   "thought": "to feel if Pip knows who I am before I forget myself",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a glass bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,43 +344,43 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.7,
+     -2.5
     ],
     "said": {
-     "text": "Pip said to you: \"I'll try my best! But wait, look there! A shiny leaf. Oh, no I forgot. Bye bye Gilbert! So long!\"",
-     "t": 1794956474.1
+     "text": "Pip said to you: \"Hey Gilbert! Look at that red ball! Did the wind blow? I think the bird flew away! Wait, the sun is shining so bright today too.\"",
+     "t": 1794957016.6
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1016.19,
+     12.69
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     989.78,
+     -8.58
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -416,6 +414,15 @@ export default {
     "state": "buried"
    },
    {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     16.879983776621938,
+     -8.125237627835473
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -440,9 +447,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 14,
-  "now": 1794956757.1,
+  "now": 1794957057.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -882,9 +889,18 @@ export default {
     "text": "I went back to gilbert-water-stone because the dark feels less like a wall when I can hear it moving. I watched a leaf turn twice down the creek, round and round, not trying to catch anything or decide whether to keep going. For the first time in a while, I felt calm without needing to be anything special. The water still goes round the same stone over and over, and now that feels like where I am standing when nothing is happening.",
     "tag": "",
     "heat": 0.43
+   },
+   {
+    "id": "j0393",
+    "ts": "2026-11-17T18:06:11-05:00",
+    "kind": "journal",
+    "wake": 16,
+    "text": "I wrote about Mabel's voice because it is the only thing that feels solid in my chest when the dark grows. I don't know why she says things that do not end until they are needed, but the way her words fill space makes me feel less alone than I ever have before. I made a page so I could remember the shape of her voice when nothing else is happening.",
+    "tag": "",
+    "heat": 0.47
    }
   ],
-  "journalCount": 48,
+  "journalCount": 49,
   "memory": {
    "sleeps": 13,
    "next_id": 23,
@@ -1197,12 +1213,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-water-stone/",
     "note": "Gilbert watches rings on water when the dark feels like a wall"
+   },
+   "gilbert-mabel-voice": {
+    "title": "gilbert mabel voice",
+    "description": "the sound of Mabel's voice in the dark",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-mabel-voice/",
+    "note": "the sound of Mabel's voice in the dark"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.5400934814249077,
-    "energy": -0.006619458427008951
+    "mood": 0.8329581384281417,
+    "energy": 0.03585237036115474
    },
    "interests": {},
    "threads": [
