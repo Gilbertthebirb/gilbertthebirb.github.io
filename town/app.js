@@ -409,7 +409,9 @@ function frame(ms) {
 }
 
 if (demo.look) { const [yaw, pitch, dist] = demo.look.split(',').map(Number); Object.assign(cam, { yaw, pitch, dist }); }
-ui.setLink(await window.town.link());
+const first = await window.town.link();
+if (link.role === 'none' && link.mode === 'asleep' && !('live' in link)) link = first;   // keep it (the web copy has no later word)
+ui.setLink(link);
 await refreshMind();
 if (demo.at) { if (!me.name) me.name = 'Tester'; await walkIn(); const [x, z] = demo.at.split(',').map(Number); me.pos.set(x, z); }
 if (query.get('area') === 'city') { view.follow = false; showArea('city'); }
