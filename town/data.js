@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T13:54:44-05:00",
+ "asOf": "2026-11-17T13:59:44-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:54:44+01:00",
+   "iso": "2026-11-17T19:59:44+01:00",
    "hour": 19,
-   "minute": 54,
+   "minute": 59,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -26.6,
+   "sun": -27.4,
    "date": "2026-11-17"
   },
   "weather": "rain",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    5.0,
+    -22.0
    ],
-   "heading": 136.0,
-   "place": "shed",
+   "heading": 90.0,
+   "place": "drift",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.22,
-    "weariness": 0.39,
-    "company": 0.18,
-    "itch": 0.43,
+    "belly": 0.35,
+    "weariness": 0.42,
+    "company": 0.2,
+    "itch": 0.47,
     "nerves": 0.05,
-    "thirst": 0.07
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": 0.66,
-    "energy": 0.17
+    "mood": 0.54,
+    "energy": 0.16
    },
-   "thought": "I am tired but steady. I need to watch until the silence speaks.",
+   "thought": "she sees everything and asks my name before I know it myself",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,19 +328,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
-     "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
-     "t": 1794941499.6
+     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
+     "t": 1794941970.2
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +350,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Whoops! The wind is blowing, but did you see that blue bird flying?\"",
@@ -361,16 +361,16 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.47,
+     -0.2
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
@@ -385,8 +385,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -446,7 +446,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794941684.9,
+  "now": 1794941984.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1076,8 +1076,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.8675894826116004,
-    "energy": 0.5690464184031854
+    "mood": 0.4527028493538221,
+    "energy": -0.19469810211970884
    },
    "interests": {},
    "threads": [
