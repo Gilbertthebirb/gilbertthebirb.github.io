@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:20:57-05:00",
+ "asOf": "2026-11-17T18:25:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:20:56-05:00",
+   "iso": "2026-11-17T18:25:56-05:00",
    "hour": 18,
-   "minute": 20,
+   "minute": 25,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -12.5,
+   "sun": -13.2,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -67.0,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.33,
+    "belly": 0.46,
     "weariness": 0.81,
-    "company": 0.31,
-    "itch": 0.6,
+    "company": 0.39,
+    "itch": 0.76,
     "nerves": 0.0,
-    "thirst": 0.08
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.43,
-    "energy": -0.45
+    "mood": 0.16,
+    "energy": -0.54
    },
-   "thought": "to feel if my legs can carry me",
+   "thought": "the water keeps moving even though it feels still; I need to see how the rings spread before I rest or leave.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     17.92,
-     24.56
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Look at that red ball! Did the wind blow? I think the bird flew away! Wait, the sun is shining so bright today too.\"",
@@ -355,16 +355,16 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1018.21,
-     11.06
+     996.0,
+     29.0
     ],
     "said": null
    },
@@ -379,8 +379,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 14,
-  "now": 1794957657.3,
+  "now": 1794957957.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1225,8 +1225,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.43027858380779266,
-    "energy": -0.45239398160173006
+    "mood": 0.20204993165386384,
+    "energy": -0.47739333278898577
    },
    "interests": {},
    "threads": [
