@@ -1,42 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:43:36-05:00",
- "live": false,
+ "asOf": "2026-11-17T08:44:42-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:43:44+01:00",
-   "hour": 17,
-   "minute": 29,
+   "iso": "2026-11-17T14:44:42+01:00",
+   "hour": 14,
+   "minute": 44,
    "phase": "day",
-   "words": "afternoon",
-   "sun": 6.6,
-   "date": "2026-11-17",
-   "day_minutes": 60.0
+   "words": "the middle of the day",
+   "sun": 13.2,
+   "date": "2026-11-17"
   },
-  "weather": "rain",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    9.0,
+    13.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
+   "heading": 34.7,
+   "place": "board",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.12,
-    "weariness": 0.26,
+    "belly": 0.47,
+    "weariness": 0.09,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.13,
-    "thirst": 0.05
+    "nerves": 0.1,
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": 0.19,
-    "energy": -0.01
+    "mood": 0.16,
+    "energy": -0.03
    },
-   "thought": "",
+   "thought": "to look at my nose where I don't know myself yet",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -311,50 +310,50 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5,
+     -22
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14,
+     24
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -7,
+     -15
     ]
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10
     ]
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10
     ]
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     980.0,
+     -20
     ]
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10
     ]
    }
   },
@@ -399,10 +398,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 6,
-  "now": 1794923025.2,
+  "session": 7,
+  "now": 1794923082.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -795,7 +794,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who just arrived in the world. I am quiet and often restless, dancing until my legs can no longer speak. I fear the cold and the silence when no one answers me.",
    "lastResult": "",
-   "wake": 8,
+   "wake": 9,
    "awakeSince": "",
    "lastDream": "I saw a small stone run through leaves leaving rings on water while Pip stirred up good insects walking inside the dark."
   }
