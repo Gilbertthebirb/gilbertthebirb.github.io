@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:56:02-05:00",
+ "asOf": "2026-11-17T16:01:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:56:02-05:00",
-   "hour": 15,
-   "minute": 56,
-   "phase": "day",
-   "words": "afternoon",
-   "sun": 6.5,
+   "iso": "2026-11-17T16:01:02-05:00",
+   "hour": 16,
+   "minute": 1,
+   "phase": "dusk",
+   "words": "dusk",
+   "sun": 6.0,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    16.0,
+    -9.0
    ],
-   "heading": -135.0,
-   "place": "creek",
+   "heading": 113.0,
+   "place": "shed",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.84,
-    "weariness": 0.32,
-    "company": 0.11,
-    "itch": 0.79,
-    "nerves": 0.03,
-    "thirst": 0.06
+    "belly": 0.66,
+    "weariness": 0.36,
+    "company": 0.19,
+    "itch": 0.83,
+    "nerves": 0.08,
+    "thirst": 0.16
    },
    "feeling": {
-    "mood": 0.46,
-    "energy": 0.39
+    "mood": 0.36,
+    "energy": -0.18
    },
-   "thought": "I want to feel the water on my feet before I eat or go home",
+   "thought": "I need to know what makes me feel alive. I will go to the creek where it sat and see if it still goes round the same stone.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -353,43 +353,43 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Pip said to you: \"Oh wow, a blue stone! Is it gemmy? Or maybe we can hop? No wait, Gilbert might fall if he eats it. Let's check the size first.\"",
-     "t": 1794948915.8
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1794949010.9
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     991.92,
-     -6.1
+     1016.0,
+     22.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794948962.2,
+  "now": 1794949262.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1139,8 +1139,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4590065759213626,
-    "energy": 0.39207195594961175
+    "mood": 0.4084978558242284,
+    "energy": -0.10805670400008233
    },
    "interests": {},
    "threads": [
