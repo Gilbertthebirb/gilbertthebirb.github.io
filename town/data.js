@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T11:41:09-05:00",
+ "asOf": "2026-11-17T11:46:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:41:08+01:00",
+   "iso": "2026-11-17T17:46:08+01:00",
    "hour": 17,
-   "minute": 41,
+   "minute": 46,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -6.8,
+   "sun": -7.5,
    "date": "2026-11-17"
   },
   "weather": "clear",
@@ -20,22 +20,22 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.58,
-    "weariness": 0.35,
-    "company": 0.31,
-    "itch": 0.73,
+    "belly": 0.4,
+    "weariness": 0.42,
+    "company": 0.4,
+    "itch": 0.78,
     "nerves": 0.0,
-    "thirst": 0.26
+    "thirst": 0.05
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": 0.02
+    "mood": 0.4,
+    "energy": 0.25
    },
-   "thought": "the rings show me the way when nothing is seen",
+   "thought": "to see if I am still me",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -336,8 +336,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -358,32 +358,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1005.12,
-     19.71
+     994.0,
+     18.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -432,7 +432,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 10,
-  "now": 1794933669.4,
+  "now": 1794933969.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -984,8 +984,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.24114192746730875,
-    "energy": 0.09309044625693247
+    "mood": 0.2824445023197626,
+    "energy": 0.29439097076519405
    },
    "interests": {},
    "threads": [
