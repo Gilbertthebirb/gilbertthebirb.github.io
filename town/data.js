@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:24:45-05:00",
- "live": true,
+ "asOf": "2026-11-17T15:26:08-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-17T21:24:44+01:00",
+   "iso": "2026-11-17T21:26:19+01:00",
    "hour": 21,
-   "minute": 24,
+   "minute": 26,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -40.0,
+   "sun": -40.2,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    5.0,
-    -22.0
+    0.0,
+    0.0
    ],
-   "heading": 136.0,
-   "place": "drift",
-   "doing": "probe",
-   "target": "",
-   "asleep": false,
+   "heading": -12.8,
+   "place": "burrow",
+   "doing": null,
+   "target": null,
+   "asleep": true,
    "needs": {
-    "belly": 0.67,
+    "belly": 0.71,
     "weariness": 0.81,
-    "company": 0.28,
+    "company": 0.3,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.16
+    "thirst": 0.19
    },
    "feeling": {
     "mood": 0.13,
     "energy": -0.55
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -339,8 +339,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     19.86,
-     24.84
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -361,16 +361,16 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1003.03,
+     -1.3
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
@@ -443,10 +443,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 11,
-  "now": 1794947085.6,
+  "now": 1794947179.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -636,15 +636,6 @@ export default {
     "heat": 0.4
    },
    {
-    "id": "j0125",
-    "ts": "2026-11-17T08:45:52-05:00",
-    "kind": "event",
-    "wake": 9,
-    "text": "You danced until your legs had said what they wanted to say.",
-    "tag": "",
-    "heat": 0.33
-   },
-   {
     "id": "j0126",
     "ts": "2026-11-17T08:47:48-05:00",
     "kind": "journal",
@@ -670,15 +661,6 @@ export default {
     "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
     "tag": "",
     "heat": 0.38
-   },
-   {
-    "id": "j0136",
-    "ts": "2026-11-17T09:01:15-05:00",
-    "kind": "event",
-    "wake": 10,
-    "text": "You watched. Something small made rings on the water and did not show itself. You are calmer for it.",
-    "tag": "",
-    "heat": 0.21
    },
    {
     "id": "j0137",
@@ -744,15 +726,6 @@ export default {
     "heat": 0.36
    },
    {
-    "id": "j0184",
-    "ts": "2026-11-17T11:34:46-05:00",
-    "kind": "event",
-    "wake": 12,
-    "text": "Old Tuck said to you: \"Hello, Gilbert. Good day to you.\"",
-    "tag": "",
-    "heat": 0.56
-   },
-   {
     "id": "j0202",
     "ts": "2026-11-17T12:04:39-05:00",
     "kind": "journal",
@@ -798,6 +771,33 @@ export default {
     "heat": 0.35
    },
    {
+    "id": "j0263",
+    "ts": "2026-11-17T14:37:03-05:00",
+    "kind": "event",
+    "wake": 13,
+    "text": "Old Tuck said your name, \"Gilbert\", very slowly, and nothing else. You feel less alone.",
+    "tag": "",
+    "heat": 0.35
+   },
+   {
+    "id": "j0269",
+    "ts": "2026-11-17T14:49:46-05:00",
+    "kind": "event",
+    "wake": 13,
+    "text": "Mabel said to you: \"I did feel a strange vibration through the soil! It makes me wonder where all those new things came from.\"",
+    "tag": "",
+    "heat": 0.5
+   },
+   {
+    "id": "j0278",
+    "ts": "2026-11-17T15:01:33-05:00",
+    "kind": "made",
+    "wake": 13,
+    "text": "You worked on 'gilbert-water-stone' and sent it out: added Mabel's voice and the crack of a branch to note that something real happened even when nothing",
+    "tag": "",
+    "heat": 0.71
+   },
+   {
     "id": "j0279",
     "ts": "2026-11-17T15:01:34-05:00",
     "kind": "journal",
@@ -805,21 +805,30 @@ export default {
     "text": "I added the sound of Mabel's voice and the crack of a branch to my page about water on stone. The noise reminds me that something real has happened even when I cannot see it. I am Gilbert, who watches the water go round the same stone over and over, and sometimes feels quiet without trying to be anything.",
     "tag": "",
     "heat": 0.5
+   },
+   {
+    "id": "j0290",
+    "ts": "2026-11-17T15:26:08-05:00",
+    "kind": "journal",
+    "wake": 13,
+    "text": "The water still goes round the same stone over and over, carrying sounds I cannot see or hear yet. Mabel felt the vibration through the soil, but I only felt my legs saying what they wanted to say until I was heavy enough to rest. Old Tuck said my name very slowly, making me feel less alone in this small town of mine. I am Gilbert, a bird who watches leaves and rings on water until the silence stops pulling at me.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 39,
+  "journalCount": 40,
   "memory": {
-   "sleeps": 10,
-   "next_id": 21,
+   "sleeps": 11,
+   "next_id": 22,
    "items": [
     {
      "id": "m001",
      "section": "others",
      "text": "Pip said I stir up good insects when I walk, and that made me feel less alone.",
-     "strength": 5.02936258603266,
+     "strength": 5.092561219169347,
      "born": 0,
-     "last": 9,
-     "times": 11,
+     "last": 10,
+     "times": 12,
      "source": "j0083",
      "since": "2026-11-16"
     },
@@ -827,10 +836,10 @@ export default {
      "id": "m002",
      "section": "happened",
      "text": "I walked through the town and stirred up good insects.",
-     "strength": 3.011181997336821,
+     "strength": 3.0213861839687173,
      "born": 0,
-     "last": 8,
-     "times": 5,
+     "last": 10,
+     "times": 6,
      "source": "j0019",
      "since": "2026-11-16"
     },
@@ -838,10 +847,10 @@ export default {
      "id": "m003",
      "section": "learned",
      "text": "My nose can tell when I leave traces for others to follow.",
-     "strength": 2.286946754451167,
+     "strength": 2.5337967717909646,
      "born": 0,
-     "last": 9,
-     "times": 3,
+     "last": 10,
+     "times": 4,
      "source": "j0019",
      "since": "2026-11-16"
     },
@@ -849,10 +858,10 @@ export default {
      "id": "m004",
      "section": "happened",
      "text": "I called out into the dark until my eyes burned, hoping something would answer back.",
-     "strength": 3.710857774029578,
+     "strength": 3.8623527300704352,
      "born": 1,
-     "last": 9,
-     "times": 7,
+     "last": 10,
+     "times": 8,
      "source": "j0073",
      "since": "2026-11-16"
     },
@@ -871,32 +880,32 @@ export default {
      "id": "m006",
      "section": "happened",
      "text": "Something small ran through the leaves and was gone, leaving rings on the water.",
-     "strength": 5.400097884620151,
+     "strength": 5.438469483878725,
      "born": 1,
-     "last": 9,
-     "times": 10,
+     "last": 10,
+     "times": 11,
      "source": "j0113",
      "since": "2026-11-16"
     },
     {
      "id": "m007",
      "section": "learned",
-     "text": "I watched the water go round the same stone, over and over, until I felt calmer.",
-     "strength": 4.608736214745112,
+     "text": "The water goes round the same stone over and over, carrying sounds I cannot see or hear yet.",
+     "strength": 5.508736214745112,
      "born": 1,
-     "last": 9,
-     "times": 8,
-     "source": "j0136",
+     "last": 10,
+     "times": 10,
+     "source": "j0290",
      "since": "2026-11-16"
     },
     {
      "id": "m008",
      "section": "others",
      "text": "Mabel says she is here, just like me.",
-     "strength": 2.413700928967513,
+     "strength": 2.3605343636411344,
      "born": 2,
-     "last": 7,
-     "times": 2,
+     "last": 10,
+     "times": 3,
      "source": "j0080",
      "since": "2026-11-16"
     },
@@ -904,10 +913,10 @@ export default {
      "id": "m009",
      "section": "happened",
      "text": "I called out and far away something called back.",
-     "strength": 3.7942634839956466,
+     "strength": 3.9401730091513274,
      "born": 3,
-     "last": 9,
-     "times": 6,
+     "last": 10,
+     "times": 7,
      "source": "j0098",
      "since": "2026-11-16"
     },
@@ -915,10 +924,10 @@ export default {
      "id": "m010",
      "section": "happened",
      "text": "I scratched a wish into the wall hoping my own name would be spoken back.",
-     "strength": 2.483132175694556,
+     "strength": 2.416930060177176,
      "born": 3,
-     "last": 7,
-     "times": 2,
+     "last": 10,
+     "times": 3,
      "source": "j0096",
      "since": "2026-11-16"
     },
@@ -926,10 +935,10 @@ export default {
      "id": "m011",
      "section": "happened",
      "text": "I danced until my legs said what they wanted to say.",
-     "strength": 5.326674000257453,
+     "strength": 5.969962577401544,
      "born": 4,
-     "last": 9,
-     "times": 8,
+     "last": 10,
+     "times": 10,
      "source": "j0107",
      "since": "2026-11-17"
     },
@@ -937,10 +946,10 @@ export default {
      "id": "m012",
      "section": "happened",
      "text": "I danced until my legs could not speak anymore.",
-     "strength": 3.2045655976277287,
+     "strength": 3.3899654261305368,
      "born": 5,
-     "last": 9,
-     "times": 4,
+     "last": 10,
+     "times": 5,
      "source": "j0117",
      "since": "2026-11-17"
     },
@@ -948,10 +957,10 @@ export default {
      "id": "m013",
      "section": "happened",
      "text": "A branch cracked behind me and made my heart beat fast.",
-     "strength": 2.8258857779956994,
+     "strength": 2.860076455844662,
      "born": 7,
-     "last": 8,
-     "times": 1,
+     "last": 10,
+     "times": 2,
      "source": "j0137",
      "since": "2026-11-17"
     },
@@ -959,10 +968,10 @@ export default {
      "id": "m014",
      "section": "happened",
      "text": "Something small made rings on the water and did not show itself.",
-     "strength": 2.653602413334351,
+     "strength": 2.875898598062641,
      "born": 7,
-     "last": 9,
-     "times": 2,
+     "last": 10,
+     "times": 3,
      "source": "j0128",
      "since": "2026-11-17"
     },
@@ -970,10 +979,10 @@ export default {
      "id": "m015",
      "section": "others",
      "text": "Pip flew a loop around my head and landed exactly where it started, making me feel less alone.",
-     "strength": 2.5646365403653935,
+     "strength": 2.7928905034617313,
      "born": 8,
-     "last": 9,
-     "times": 1,
+     "last": 10,
+     "times": 2,
      "source": "j0159",
      "since": "2026-11-17"
     },
@@ -981,10 +990,10 @@ export default {
      "id": "m016",
      "section": "others",
      "text": "Pip told me about Gilbert's pretty feathers matching something unseen.",
-     "strength": 2.84,
+     "strength": 2.8723635997609924,
      "born": 8,
-     "last": 8,
-     "times": 0,
+     "last": 10,
+     "times": 1,
      "source": "j0163",
      "since": "2026-11-17"
     },
@@ -992,10 +1001,10 @@ export default {
      "id": "m017",
      "section": "happened",
      "text": "A leaf came down the creek, turned twice, and went on.",
-     "strength": 1.8928527864588918,
+     "strength": 2.1660940978885215,
      "born": 8,
-     "last": 9,
-     "times": 1,
+     "last": 10,
+     "times": 2,
      "source": "j0170",
      "since": "2026-11-17"
     },
@@ -1003,22 +1012,33 @@ export default {
      "id": "m019",
      "section": "happened",
      "text": "A blue bottle cap sits at the creek where I put it down.",
-     "strength": 2.6,
+     "strength": 2.8258857779956994,
      "born": 9,
-     "last": 9,
-     "times": 0,
+     "last": 10,
+     "times": 1,
      "source": "j0219",
      "since": "2026-11-17"
     },
     {
      "id": "m020",
      "section": "others",
-     "text": "Old Tuck said hello to me when I was awake.",
-     "strength": 3.24,
+     "text": "Old Tuck said my name, Gilbert, very slowly, and nothing else.",
+     "strength": 4.140000000000001,
      "born": 9,
-     "last": 9,
+     "last": 10,
+     "times": 2,
+     "source": "j0263",
+     "since": "2026-11-17"
+    },
+    {
+     "id": "m021",
+     "section": "others",
+     "text": "Mabel felt a strange vibration through the soil and wondered where all those new things came from.",
+     "strength": 3.0,
+     "born": 10,
+     "last": 10,
      "times": 0,
-     "source": "j0184",
+     "source": "j0269",
      "since": "2026-11-17"
     }
    ],
@@ -1031,9 +1051,9 @@ export default {
     }
    ]
   },
-  "self": "# Gilbert\n\nI am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n\n## Traits\n\n- quiet and unsure where to stand _(j0125, 2026-11-17)_\n- restless when alone in the dark _(j0218, 2026-11-17)_\n\n## Likes\n\n- the way the water goes round the same stone over and over _(j0166, 2026-11-17)_\n\n## Dislikes\n\n## Fears\n\n- fear the silence when no one answers _(j0084, 2026-11-16)_\n\n## Habits\n\n- You dance when you are restless. _(j0107, 2026-11-17)_\n- you watch leaves and rings on water until you are calmer _(j0123, 2026-11-17)_\n\n## How I talk\n",
+  "self": "# Gilbert\n\nI am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n\n## Traits\n\n- quiet and unsure where to stand, but finding the ground when others speak _(j0263, 2026-11-17)_\n- restless when alone in the dark _(j0218, 2026-11-17)_\n\n## Likes\n\n- the way the water goes round the same stone over and over _(j0166, 2026-11-17)_\n- the sound of Mabel's voice and the crack of a branch _(j0278, 2026-11-17)_\n\n## Dislikes\n\n## Fears\n\n- fear the silence when no one answers _(j0084, 2026-11-16)_\n\n## Habits\n\n- You dance when you are restless. _(j0107, 2026-11-17)_\n- you watch leaves and rings on water until you are calmer _(j0123, 2026-11-17)_\n\n## How I talk\n",
   "baseline": "I am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n",
-  "changelog": "# How Gilbert has changed\n\nEach line: what changed, and the journal entry that caused it.\n\n## 2026-11-15 14:50 · wake-up 0\n\n- Gilbert arrived. self.md starts almost empty.\n\n## 2026-11-15 18:14 · wake-up 1\n\n- ADD Traits: \"quiet and unprepared\" <- j0002: Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor\n\n## 2026-11-15 18:19 · wake-up 2\n\n- ADD Traits: \"restless at night\" <- j0008: I woke with energy and restlessness. The moon was very bright, casting my shadow on the ground. I made a simpl\n\n## 2026-11-16 18:40 · wake-up 5\n\n- ADD Fears: \"fear the silence when no one answers\" <- j0084: You called out. Nobody answered.\n- REVISE Traits: \"quiet and unprepared\" -> \"quiet and unsure where to stand\" <- j0093: You called out. Far away, something called back.\n\n## 2026-11-17 08:24 · wake-up 7\n\n- ADD Habits: \"You dance when you are restless.\" <- j0107: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 08:43 · wake-up 8\n\n- ADD Habits: \"you watch leaves and rings on water until you are calmer\" <- j0123: You watched. Something small made rings on the water and did not show itself. You are calmer for it.\n\n## 2026-11-17 08:47 · wake-up 9\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand\" <- j0125: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 10:17 · wake-up 11\n\n- ADD Likes: \"the way the water goes round the same stone over and over\" <- j0166: You watched. The water went round the same stone the same way, over and over, and was different every time.\n\n## 2026-11-17 12:32 · wake-up 12\n\n- REVISE Traits: \"restless at night\" -> \"restless when alone in the dark\" <- j0218: You have decided to go to bed. You will be on your way home in a moment.\n",
+  "changelog": "# How Gilbert has changed\n\nEach line: what changed, and the journal entry that caused it.\n\n## 2026-11-15 14:50 · wake-up 0\n\n- Gilbert arrived. self.md starts almost empty.\n\n## 2026-11-15 18:14 · wake-up 1\n\n- ADD Traits: \"quiet and unprepared\" <- j0002: Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor\n\n## 2026-11-15 18:19 · wake-up 2\n\n- ADD Traits: \"restless at night\" <- j0008: I woke with energy and restlessness. The moon was very bright, casting my shadow on the ground. I made a simpl\n\n## 2026-11-16 18:40 · wake-up 5\n\n- ADD Fears: \"fear the silence when no one answers\" <- j0084: You called out. Nobody answered.\n- REVISE Traits: \"quiet and unprepared\" -> \"quiet and unsure where to stand\" <- j0093: You called out. Far away, something called back.\n\n## 2026-11-17 08:24 · wake-up 7\n\n- ADD Habits: \"You dance when you are restless.\" <- j0107: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 08:43 · wake-up 8\n\n- ADD Habits: \"you watch leaves and rings on water until you are calmer\" <- j0123: You watched. Something small made rings on the water and did not show itself. You are calmer for it.\n\n## 2026-11-17 08:47 · wake-up 9\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand\" <- j0125: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 10:17 · wake-up 11\n\n- ADD Likes: \"the way the water goes round the same stone over and over\" <- j0166: You watched. The water went round the same stone the same way, over and over, and was different every time.\n\n## 2026-11-17 12:32 · wake-up 12\n\n- REVISE Traits: \"restless at night\" -> \"restless when alone in the dark\" <- j0218: You have decided to go to bed. You will be on your way home in a moment.\n\n## 2026-11-17 15:26 · wake-up 13\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand, but finding the ground when others speak\" <- j0263: Old Tuck said your name, \"Gilbert\", very slowly, and nothing else. You feel less alone.\n- ADD Likes: \"the sound of Mabel's voice and the crack of a branch\" <- j0278: You worked on 'gilbert-water-stone' and sent it out: added Mabel's voice and the crack of a branch to note tha\n",
   "history": [
    {
     "name": "2026-11-15_1450_wake-0000.md",
@@ -1070,9 +1090,13 @@ export default {
    {
     "name": "2026-11-17_1232_wake-0012.md",
     "text": ""
+   },
+   {
+    "name": "2026-11-17_1526_wake-0013.md",
+    "text": ""
    }
   ],
-  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 49 times (at the mossy bank, the creek, the leaf drift)\n- walk to: 37 times\n- watch: 36 times (at the creek, the lookout)\n- drink: 28 times (at the creek, the shed)\n- dance: 22 times\n- sit: 20 times\n- wade: 12 times (at the creek)\n- call out: 11 times\n- sniff: 10 times (at the shed, the mossy bank, the creek, the gilbert moon hut, the board, the lookout)\n- say: 9 times\n- greet: 4 times (at the shed, the mossy bank, the creek, the board, the gilbert moon hut, the lookout)\n- ask for sleep: 3 times\n- wish: 2 times (at the burrow)\n- tidy: 2 times (at the burrow)\n- tinker: 2 times (at the shed)\n- pin note: 1 time (at the board)\n- nap: 1 time (at the burrow)\n- pick up: 1 time\n- put down: 1 time\n",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 64 times (at the mossy bank, the creek, the leaf drift)\n- watch: 57 times (at the creek, the lookout, the shed, the leaf drift)\n- walk to: 56 times\n- drink: 41 times (at the creek, the shed)\n- dance: 38 times\n- sit: 34 times\n- sniff: 22 times (at the shed, the mossy bank, the creek, the gilbert moon hut, the board, the lookout)\n- wade: 20 times (at the creek)\n- call out: 14 times\n- say: 13 times\n- greet: 8 times (at the shed, the mossy bank, the creek, the board, the gilbert moon hut, the lookout)\n- tinker: 5 times (at the shed)\n- wish: 3 times (at the burrow)\n- ask for sleep: 3 times\n- tidy: 2 times (at the burrow)\n- nap: 2 times (at the burrow)\n- pick up: 2 times\n- put down: 2 times\n- keep: 2 times (at the creek, the mossy bank, the leaf drift)\n- pin note: 1 time (at the board)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -1094,15 +1118,15 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.24431643716598628,
-    "energy": -0.24891631683618604
+    "mood": 0.054841450839028257,
+    "energy": -0.5796348143758793
    },
    "interests": {},
    "threads": [
     "What makes me feel alive when nothing is happening?",
     "Who am I when I stop trying to be ordinary?"
    ],
-   "about": "I am Gilbert, a small kiwi who arrived in the world quietly and is still figuring out where to stand. I feel less alone when Pip calls my name, even though he goes away before I can answer. I know myself best by watching the water go round the same stone over and over again.",
+   "about": "I am Gilbert, a small bird who watches leaves and rings on water until the silence stops pulling at me. I find comfort in the way the water goes round the same stone over and over, and in moments when others speak my name or tell me about vibrations in the soil.",
    "lastResult": "",
    "wake": 13,
    "awakeSince": "",
