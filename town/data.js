@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T09:02:41-05:00",
+ "asOf": "2026-11-17T09:07:41-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:02:40+01:00",
+   "iso": "2026-11-17T15:07:40+01:00",
    "hour": 15,
-   "minute": 2,
+   "minute": 7,
    "phase": "day",
    "words": "afternoon",
-   "sun": 11.7,
+   "sun": 11.3,
    "date": "2026-11-17"
   },
   "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": -71.6,
+   "place": "creek",
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.09,
+    "belly": 0.29,
+    "weariness": 0.18,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.37
+    "nerves": 0.15,
+    "thirst": 0.47
    },
    "feeling": {
-    "mood": 0.18,
-    "energy": -0.05
+    "mood": -0.0,
+    "energy": 0.01
    },
-   "thought": "",
+   "thought": "legs stop talking, water stills the mind",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,56 +319,56 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36,
-     -12
+     16.0,
+     -9.0
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     17.49,
+     24.5
     ],
     "said": null
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     14,
-     24
+     5.0,
+     -22.0
     ],
     "said": null
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     997.42,
+     27.85
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -417,7 +417,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 9,
-  "now": 1794924161.4,
+  "now": 1794924461.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -870,8 +870,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.15140438383448804,
-    "energy": -0.08473872192248577
+    "mood": 0.09369827063748479,
+    "energy": 0.24640219818714848
    },
    "interests": {},
    "threads": [
@@ -883,7 +883,7 @@ export default {
    "lastResult": "",
    "wake": 11,
    "awakeSince": "",
-   "lastDream": "The red box hurtled down a road made of smooth black stones while my mother told me her name was Mabel again."
+   "lastDream": "A branch cracked behind a water ring while my feet forgot the ground. I danced with the crack, but my nose found only quiet."
   }
  }
 };
