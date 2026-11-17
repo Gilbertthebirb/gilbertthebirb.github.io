@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:58:54-05:00",
- "live": true,
+ "asOf": "2026-11-17T09:01:35-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:58:54+01:00",
-   "hour": 14,
-   "minute": 58,
+   "iso": "2026-11-17T15:01:42+01:00",
+   "hour": 15,
+   "minute": 1,
    "phase": "day",
-   "words": "the middle of the day",
-   "sun": 12.0,
+   "words": "afternoon",
+   "sun": 11.8,
    "date": "2026-11-17"
   },
   "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    0.0,
+    0.0
    ],
-   "heading": -98.6,
-   "place": "creek",
-   "doing": "wade",
-   "target": "",
-   "asleep": false,
+   "heading": 108.4,
+   "place": "burrow",
+   "doing": null,
+   "target": null,
+   "asleep": true,
    "needs": {
-    "belly": 0.42,
-    "weariness": 0.27,
-    "company": 0.97,
-    "itch": 0.97,
-    "nerves": 0.15,
-    "thirst": 0.08
+    "belly": 0.19,
+    "weariness": 0.31,
+    "company": 1.0,
+    "itch": 1.0,
+    "nerves": 0.03,
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": 0.16,
-    "energy": 0.09
+    "mood": 0.18,
+    "energy": -0.05
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,22 +319,22 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     8.59,
-     9.4
+     9.0,
+     13.0
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     14.0,
+     24.0
     ]
    },
    "odile": {
@@ -354,15 +354,15 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1016.0,
+     22.0
     ]
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ]
    }
   },
@@ -407,10 +407,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 8,
-  "now": 1794923934.3,
+  "now": 1794924102.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -618,6 +618,15 @@ export default {
     "heat": 0.4
    },
    {
+    "id": "j0128",
+    "ts": "2026-11-17T08:49:51-05:00",
+    "kind": "event",
+    "wake": 10,
+    "text": "You watched. Something small made rings on the water and did not show itself. You are calmer for it.",
+    "tag": "",
+    "heat": 0.29
+   },
+   {
     "id": "j0134",
     "ts": "2026-11-17T08:57:37-05:00",
     "kind": "journal",
@@ -625,21 +634,39 @@ export default {
     "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
     "tag": "",
     "heat": 0.38
+   },
+   {
+    "id": "j0136",
+    "ts": "2026-11-17T09:01:15-05:00",
+    "kind": "event",
+    "wake": 10,
+    "text": "You watched. Something small made rings on the water and did not show itself. You are calmer for it.",
+    "tag": "",
+    "heat": 0.21
+   },
+   {
+    "id": "j0137",
+    "ts": "2026-11-17T09:01:35-05:00",
+    "kind": "journal",
+    "wake": 10,
+    "text": "The silence still feels heavy when no one answers my call.\nI watched the water make rings again, knowing what I saw but missing what the small thing was.\nThe branch cracking behind me made my heart beat fast and my legs move on their own.\nNow I am steady in my burrow, listening to the mist on my feet instead of waiting for a reply.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 23,
+  "journalCount": 26,
   "memory": {
-   "sleeps": 7,
-   "next_id": 13,
+   "sleeps": 8,
+   "next_id": 15,
    "items": [
     {
      "id": "m001",
      "section": "others",
      "text": "Pip said I stir up good insects when I walk, and that made me feel less alone.",
-     "strength": 4.811225158128751,
+     "strength": 4.889031802246018,
      "born": 0,
-     "last": 6,
-     "times": 8,
+     "last": 7,
+     "times": 9,
      "source": "j0083",
      "since": "2026-11-16"
     },
@@ -669,10 +696,10 @@ export default {
      "id": "m004",
      "section": "happened",
      "text": "I called out into the dark until my eyes burned, hoping something would answer back.",
-     "strength": 3.416765916939184,
+     "strength": 3.3744674936424044,
      "born": 1,
-     "last": 5,
-     "times": 4,
+     "last": 7,
+     "times": 5,
      "source": "j0073",
      "since": "2026-11-16"
     },
@@ -691,32 +718,32 @@ export default {
      "id": "m006",
      "section": "happened",
      "text": "Something small ran through the leaves and was gone, leaving rings on the water.",
-     "strength": 5.267653849814501,
+     "strength": 5.314894829872804,
      "born": 1,
-     "last": 6,
-     "times": 7,
+     "last": 7,
+     "times": 8,
      "source": "j0113",
      "since": "2026-11-16"
     },
     {
      "id": "m007",
      "section": "learned",
-     "text": "The water rings settled into stillness, and for the first time I did not need to move to know I am here.",
-     "strength": 3.5058589814796393,
+     "text": "I watched the water go round the same stone, over and over, until I felt calmer.",
+     "strength": 4.405858981479639,
      "born": 1,
-     "last": 6,
-     "times": 4,
-     "source": "j0126",
+     "last": 7,
+     "times": 6,
+     "source": "j0136",
      "since": "2026-11-16"
     },
     {
      "id": "m008",
      "section": "others",
      "text": "Mabel says she is here, just like me.",
-     "strength": 2.158231217152062,
+     "strength": 2.413700928967513,
      "born": 2,
-     "last": 6,
-     "times": 1,
+     "last": 7,
+     "times": 2,
      "source": "j0080",
      "since": "2026-11-16"
     },
@@ -724,10 +751,10 @@ export default {
      "id": "m009",
      "section": "happened",
      "text": "I called out and far away something called back.",
-     "strength": 3.5268204110430403,
+     "strength": 3.470275495477787,
      "born": 3,
-     "last": 5,
-     "times": 3,
+     "last": 7,
+     "times": 4,
      "source": "j0098",
      "since": "2026-11-16"
     },
@@ -735,10 +762,10 @@ export default {
      "id": "m010",
      "section": "happened",
      "text": "I scratched a wish into the wall hoping my own name would be spoken back.",
-     "strength": 2.5646365403653935,
+     "strength": 2.483132175694556,
      "born": 3,
-     "last": 4,
-     "times": 1,
+     "last": 7,
+     "times": 2,
      "source": "j0096",
      "since": "2026-11-16"
     },
@@ -746,10 +773,10 @@ export default {
      "id": "m011",
      "section": "happened",
      "text": "I danced until my legs said what they wanted to say.",
-     "strength": 3.1062887062483355,
+     "strength": 3.8982698441678836,
      "born": 4,
-     "last": 6,
-     "times": 2,
+     "last": 7,
+     "times": 4,
      "source": "j0107",
      "since": "2026-11-17"
     },
@@ -757,11 +784,33 @@ export default {
      "id": "m012",
      "section": "happened",
      "text": "I danced until my legs could not speak anymore.",
-     "strength": 2.5646365403653935,
+     "strength": 2.7928905034617313,
      "born": 5,
-     "last": 6,
-     "times": 1,
+     "last": 7,
+     "times": 2,
      "source": "j0117",
+     "since": "2026-11-17"
+    },
+    {
+     "id": "m013",
+     "section": "happened",
+     "text": "A branch cracked behind me and made my heart beat fast.",
+     "strength": 2.6,
+     "born": 7,
+     "last": 7,
+     "times": 0,
+     "source": "j0137",
+     "since": "2026-11-17"
+    },
+    {
+     "id": "m014",
+     "section": "happened",
+     "text": "Something small made rings on the water and did not show itself.",
+     "strength": 2.16,
+     "born": 7,
+     "last": 7,
+     "times": 0,
+     "source": "j0128",
      "since": "2026-11-17"
     }
    ],
@@ -800,7 +849,7 @@ export default {
     "text": ""
    }
   ],
-  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 19 times (at the mossy bank, the creek, the leaf drift)\n- call out: 8 times\n- walk to: 8 times\n- drink: 8 times (at the creek)\n- sit: 6 times\n- watch: 5 times (at the creek)\n- dance: 4 times\n- say: 3 times\n- wade: 3 times (at the creek)\n- wish: 2 times (at the burrow)\n- sniff: 2 times (at the shed, the mossy bank, the creek, the gilbert moon hut, the board)\n- greet: 1 time (at the shed, the mossy bank, the creek, the board, the gilbert moon hut)\n- tidy: 1 time (at the burrow)\n- ask for sleep: 1 time\n",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 22 times (at the mossy bank, the creek, the leaf drift)\n- walk to: 11 times\n- call out: 9 times\n- drink: 9 times (at the creek)\n- watch: 8 times (at the creek)\n- sit: 6 times\n- dance: 6 times\n- wade: 5 times (at the creek)\n- say: 3 times\n- sniff: 3 times (at the shed, the mossy bank, the creek, the gilbert moon hut, the board)\n- wish: 2 times (at the burrow)\n- greet: 1 time (at the shed, the mossy bank, the creek, the board, the gilbert moon hut)\n- tidy: 1 time (at the burrow)\n- ask for sleep: 1 time\n- pin note: 1 time (at the board)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -814,8 +863,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.18693365025660014,
-    "energy": 0.1407797754175119
+    "mood": 0.15140438383448804,
+    "energy": -0.08473872192248577
    },
    "interests": {},
    "threads": [
@@ -823,7 +872,7 @@ export default {
     "Who am I when I stop trying to be ordinary?",
     "There is so much more light left to see before sleep takes me again."
    ],
-   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I often dance until my legs feel heavy and right, then watch how water rings settle to find calm. The silence feels like a soft blanket now.",
+   "about": "I am Gilbert, a small kiwi who has just arrived. I am quiet and unsure where to stand, often dancing when my legs want to speak. I watch leaves and rings on water until the mist feels like it is standing with me.",
    "lastResult": "",
    "wake": 10,
    "awakeSince": "",
