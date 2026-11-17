@@ -1,18 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:26:08-05:00",
- "live": false,
+ "asOf": "2026-11-17T15:27:24-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T21:26:19+01:00",
-   "hour": 21,
-   "minute": 26,
-   "phase": "night",
-   "words": "evening, and dark",
-   "sun": -40.2,
-   "date": "2026-11-17"
+   "iso": "2026-11-17T15:27:24-05:00",
+   "hour": 15,
+   "minute": 27,
+   "phase": "day",
+   "words": "afternoon",
+   "sun": 9.5,
+   "date": "2026-11-17",
+   "shift_s": -21600,
+   "offset_min": -300,
+   "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "rain",
   "bird": {
    "pos": [
     0.0,
@@ -20,22 +23,22 @@ export default {
    ],
    "heading": -12.8,
    "place": "burrow",
-   "doing": null,
-   "target": null,
-   "asleep": true,
+   "doing": "sit",
+   "target": "",
+   "asleep": false,
    "needs": {
-    "belly": 0.71,
-    "weariness": 0.81,
-    "company": 0.3,
+    "belly": 0.72,
+    "weariness": 0.08,
+    "company": 0.32,
     "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.19
+    "nerves": 0.05,
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": 0.13,
+    "mood": 0.05,
     "energy": -0.55
    },
-   "thought": "",
+   "thought": "my legs need to settle before I move again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9,
+     13
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -339,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     28,
+     26
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +353,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     9,
+     13
     ],
     "said": {
      "text": "Pip said to you: \"But wait! Did you hear the cricket? Oh, right, we talked about water cycles earlier.\"",
@@ -361,16 +364,16 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1003.03,
-     -1.3
+     1006.0,
+     10
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10
     ],
     "said": null
    },
@@ -378,15 +381,15 @@ export default {
     "name": "the Twins",
     "pos": [
      994.0,
-     18.0
+     18
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27
     ],
     "said": null
    }
@@ -443,10 +446,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 11,
-  "now": 1794947179.0,
+  "session": 12,
+  "now": 1794947244.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1128,7 +1131,7 @@ export default {
    ],
    "about": "I am Gilbert, a small bird who watches leaves and rings on water until the silence stops pulling at me. I find comfort in the way the water goes round the same stone over and over, and in moments when others speak my name or tell me about vibrations in the soil.",
    "lastResult": "",
-   "wake": 13,
+   "wake": 14,
    "awakeSince": "",
    "lastDream": "Mabel is here with a blue bottle cap that she never took. The water circles the stone where Mabel puts her head down to sleep."
   }
