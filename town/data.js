@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T16:41:02-05:00",
+ "asOf": "2026-11-17T16:46:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:41:02-05:00",
+   "iso": "2026-11-17T16:46:02-05:00",
    "hour": 16,
-   "minute": 41,
+   "minute": 46,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 1.2,
+   "sun": 0.6,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 40.2,
-   "place": "shed",
-   "doing": "dance",
-   "target": "",
+   "heading": -67.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.76,
-    "weariness": 0.68,
-    "company": 0.16,
-    "itch": 1.0,
+    "belly": 0.59,
+    "weariness": 0.84,
+    "company": 0.24,
+    "itch": 0.54,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.16,
-    "energy": -0.17
+    "mood": 0.44,
+    "energy": -0.2
    },
-   "thought": "the ground feels right under me now",
+   "thought": "The belly is heavy with silence; let the water carry it.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -331,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -342,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     19.24,
-     24.75
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -372,16 +372,16 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794951662.5,
+  "now": 1794951962.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -844,9 +844,18 @@ export default {
     "text": "I watched the water again, but now I'm thinking about how Mabel felt the rumble from deep underground. I wanted to see if it was like the leaf turning twice—something that keeps going in a circle even when no one is watching. The rings on the water still turn back around, and I think they feel the same whether anything is happening or not. Maybe being alive isn't about finding something new to notice, but noticing how things keep doing what they do.",
     "tag": "",
     "heat": 0.54
+   },
+   {
+    "id": "j0346",
+    "ts": "2026-11-17T16:42:01-05:00",
+    "kind": "journal",
+    "wake": 15,
+    "text": "I sat at the workbench and wrote about how Mabel pecked my foot, not to hurt but to remind me that even when I don't know who I am, someone is still there. The rings on the water stay long enough for me to feel them—that's what makes me feel alive when nothing is happening. Not because I found myself, but because I kept watching without trying to catch anything. And in that watching, I felt less alone.",
+    "tag": "",
+    "heat": 0.36
    }
   ],
-  "journalCount": 42,
+  "journalCount": 43,
   "memory": {
    "sleeps": 12,
    "next_id": 22,
@@ -1143,13 +1152,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-water-stone/",
-    "note": "Gilbert watches the rumble Mabel felt, and how rings on water feel the same when nothing is happenin"
+    "note": "Gilbert watches rings on water and Mabel's peck when nothing is happening"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.44521238331182916,
-    "energy": 0.16084232263840437
+    "mood": 0.3934032350436273,
+    "energy": -0.26924160553592713
    },
    "interests": {},
    "threads": [
