@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T16:56:02-05:00",
+ "asOf": "2026-11-17T17:01:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:56:02-05:00",
-   "hour": 16,
-   "minute": 56,
+   "iso": "2026-11-17T17:01:02-05:00",
+   "hour": 17,
+   "minute": 1,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -0.7,
+   "sun": -1.3,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
+   "heading": -67.0,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.84,
-    "weariness": 0.6,
-    "company": 0.41,
-    "itch": 0.88,
+    "belly": 0.66,
+    "weariness": 0.63,
+    "company": 0.37,
+    "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.09,
-    "energy": -0.65
+    "mood": 0.36,
+    "energy": 0.01
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the water feels like it knows my name",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -335,15 +335,15 @@ export default {
      -22.0
     ],
     "said": {
-     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
-     "t": 1794951459.4
+     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
+     "t": 1794952659.3
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     17.69,
+     24.53
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -353,43 +353,43 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.0,
+     -22.0
     ],
     "said": {
-     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
-     "t": 1794949528.1
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1794952719.3
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794952562.6,
+  "now": 1794952862.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1157,8 +1157,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.01686837951203303,
-    "energy": -0.6412305651973635
+    "mood": 0.4612395408525885,
+    "energy": 0.24245087012924216
    },
    "interests": {},
    "threads": [
