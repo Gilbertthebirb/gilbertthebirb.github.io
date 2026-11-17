@@ -1,42 +1,42 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:13:18-05:00",
+ "asOf": "2026-11-17T08:18:19-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:13:18+01:00",
-   "hour": 5,
+   "iso": "2026-11-17T14:18:18+01:00",
+   "hour": 7,
    "minute": 19,
-   "phase": "night",
-   "words": "the last of the night",
-   "sun": -8.8,
+   "phase": "day",
+   "words": "morning",
+   "sun": 16.9,
    "date": "2026-11-17",
    "day_minutes": 60.0
   },
   "weather": "clear",
   "bird": {
    "pos": [
-    -3.86,
-    1.29
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": null,
-   "doing": "walk_to",
-   "target": "burrow",
+   "heading": -71.6,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.31,
-    "weariness": 0.5,
-    "company": 1.0,
+    "belly": 0.67,
+    "weariness": 0.66,
+    "company": 0.99,
     "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.28
+    "nerves": 0.11,
+    "thirst": 0.09
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.07
+    "mood": 0.11,
+    "energy": -0.43
    },
-   "thought": "I want to be alone with my thoughts and not be a kiwi just yet.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -318,43 +318,43 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -1.51,
-     -5.92
+     5.0,
+     -22.0
     ]
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ]
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1002.97,
+     23.37
     ]
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     980.0,
+     -20.0
     ]
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1005.24,
+     25.07
     ]
    }
   },
@@ -402,7 +402,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 5,
-  "now": 1794921198.9,
+  "now": 1794921499.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -709,8 +709,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.22338203723181066,
-    "energy": -0.03203578970429816
+    "mood": 0.2707149703823911,
+    "energy": -0.2936040551058688
    },
    "interests": {},
    "threads": [
