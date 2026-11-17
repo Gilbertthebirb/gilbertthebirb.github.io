@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T14:54:45-05:00",
+ "asOf": "2026-11-17T14:59:45-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T20:54:44+01:00",
+   "iso": "2026-11-17T20:59:44+01:00",
    "hour": 20,
-   "minute": 54,
+   "minute": 59,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -35.7,
+   "sun": -36.4,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    5.0,
-    -22.0
+    16.0,
+    -9.0
    ],
-   "heading": 136.0,
-   "place": "drift",
+   "heading": 40.2,
+   "place": "shed",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.52,
-    "weariness": 0.62,
+    "belly": 0.35,
+    "weariness": 0.63,
     "company": 0.12,
-    "itch": 0.73,
-    "nerves": 0.0,
-    "thirst": 0.3
+    "itch": 0.9,
+    "nerves": 0.24,
+    "thirst": 0.4
    },
    "feeling": {
-    "mood": 0.45,
-    "energy": -0.08
+    "mood": 0.47,
+    "energy": 0.78
    },
-   "thought": "the quiet feels heavy so I move my legs to find balance",
+   "thought": "I feel wound tight and need to know if I am not alone; silence scares me.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,19 +328,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
-     "t": 1794945025.6
+     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
+     "t": 1794945500.6
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +350,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     978.0,
+     14.0
     ],
     "said": null
    },
@@ -446,7 +446,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794945285.3,
+  "now": 1794945585.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1085,8 +1085,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5789772279996186,
-    "energy": -0.04799594563999826
+    "mood": 0.6069825240951174,
+    "energy": 0.15668242397529453
    },
    "interests": {},
    "threads": [
