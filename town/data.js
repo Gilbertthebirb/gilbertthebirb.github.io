@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T09:57:42-05:00",
+ "asOf": "2026-11-17T10:02:42-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:57:42+01:00",
-   "hour": 15,
-   "minute": 57,
-   "phase": "day",
-   "words": "afternoon",
-   "sun": 6.3,
+   "iso": "2026-11-17T16:02:42+01:00",
+   "hour": 16,
+   "minute": 2,
+   "phase": "dusk",
+   "words": "dusk",
+   "sun": 5.8,
    "date": "2026-11-17"
   },
   "weather": "cloud",
@@ -24,18 +24,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.34,
-    "weariness": 0.99,
-    "company": 0.51,
+    "belly": 0.47,
+    "weariness": 1.0,
+    "company": 0.59,
     "itch": 1.0,
-    "nerves": 0.15,
-    "thirst": 0.04
+    "nerves": 0.0,
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": 0.29,
-    "energy": -0.47
+    "mood": 0.13,
+    "energy": -0.79
    },
-   "thought": "my legs need rest before I go again",
+   "thought": "the water moves like me, just slow",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,8 +319,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": null
    },
@@ -346,24 +346,24 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -420,7 +420,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 9,
-  "now": 1794927462.1,
+  "now": 1794927762.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -873,8 +873,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3550535303860614,
-    "energy": -0.38800854738812823
+    "mood": 0.23426663514478172,
+    "energy": -0.7955744148709014
    },
    "interests": {},
    "threads": [
