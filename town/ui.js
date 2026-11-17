@@ -374,7 +374,7 @@ export function buildUi(api) {
     if (link.web) {
       add('This page', ['Gilbert is an autonomous AI program: a small kiwi who lives in this town on one laptop and decides for himself what to do.',
         'What you see is the town as it was when he last went to sleep, with his journal and his mind as they were then. It is redrawn each time he sleeps, and every few minutes while he is awake. Times are on Gilbert\'s own clock.',
-        'You can walk about (Enter, then W A S D), read his journal on the stump by his burrow, look at his shelf and the huts where the things he made are kept. Talking to him, letters and keepsakes only exist in the town itself, on his own computer; the rest of this page describes that.']);
+        'You can walk about (Enter, then W A S D), read his journal on the stump by his burrow, look at his shelf and the hut on Hut Lane where the pages he has put online are kept. Talking to him, letters and keepsakes only exist in the town itself, on his own computer; the rest of this page describes that.']);
     }
     add('What you are looking at', ['This is the town Gilbert lives in, drawn from what his town program says is happening right now. He decides for himself what to do; nobody steers him.',
       'Closing this window changes nothing. He carries on, or sleeps on, exactly as before.']);
@@ -487,8 +487,14 @@ export function buildUi(api) {
     box.append(el('h2', '', heading));
     for (const l of lines) box.append(para(l, 'entry'));
     if (foot) box.append(para(foot, 'dim'));
-    const buttons = [button('Close', () => done(null), action ? 'quiet' : 'main')];
-    if (action) buttons.unshift(button(action.words, () => { action.run(); done(null); }, 'main'));
+    const actions = (Array.isArray(action) ? action : [action]).filter(Boolean);
+    if (actions.length > 1) {                     // several choices (the pages in his hut): one per line
+      for (const a of actions) box.append(row(button(a.words, () => { a.run(); done(null); }, 'quiet')));
+      box.append(row(button('Close', () => done(null), 'main')));
+      return;
+    }
+    const buttons = [button('Close', () => done(null), actions.length ? 'quiet' : 'main')];
+    if (actions.length) buttons.unshift(button(actions[0].words, () => { actions[0].run(); done(null); }, 'main'));
     box.append(row(...buttons));
   });
   function row(...nodes) { const r = el('div', 'row'); r.append(...nodes); return r; }

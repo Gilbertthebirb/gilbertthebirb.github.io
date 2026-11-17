@@ -203,9 +203,12 @@ async function use(spot) {
     ui.card('His shelf', kept.length ? kept.map((k) => `· ${k}`) : ['The shelf is empty. He has not kept anything yet.'],
       'He decides for himself what is worth keeping.');
   } else if (spot.kind === 'hut') {
-    const p = (mind && mind.projects && mind.projects[spot.slug]) || {};
-    ui.card(String(p.title || spot.slug), [p.description || 'Something he made.', p.note ? `Last change: ${p.note}` : ''].filter(Boolean),
-      p.pages ? 'It is online.' : 'Nobody can see it yet.', p.pages ? { words: 'Open the page', run: () => window.town.open(spot.slug) } : null);
+    const online = Object.entries((mind && mind.projects) || {}).filter(([, p]) => p && p.pages);
+    ui.card('His pages', online.length
+      ? online.map(([slug, p]) => `· ${p.title || slug}${p.description ? `: ${p.description}` : ''}`)
+      : ['The hut is empty. None of his pages are online yet.'],
+    'Everything he has made that is online is kept here.',
+    online.map(([slug, p]) => ({ words: `Open ${String(p.title || slug).slice(0, 30)}`, run: () => window.town.open(slug) })));
   } else if (spot.kind === 'letter') {
     if (!me.online) { ui.toast('He is asleep. Letters can be posted when he is awake.'); return; }
     const text = await ui.askText({ title: 'A letter for Gilbert', max: 400, rows: 5, go: 'Post it',

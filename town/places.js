@@ -450,13 +450,14 @@ export function buildPlaces(scene) {
 
   h.syncHuts = (places, projects) => {
     const want = Object.entries(places).filter(([, p]) => p.hut);
-    const key = want.map(([k, p]) => `${k}:${p.name}:${Boolean((projects[p.hut] || {}).pages)}`).join('|');
+    // One hut holds every page of his that is online; its window glows at night when there is any.
+    const online = Object.values(projects || {}).some((p) => p && p.pages);
+    const key = want.map(([k, p]) => `${k}:${p.name}:${online}`).join('|');
     if (key === h.hutKey) return;
     h.hutKey = key;
     h.hutGroup.clear(); h.huts.clear(); h.hutColliders = [];
     for (const [, p] of want) {
-      const info = projects[p.hut] || {};
-      const one = hut(p.hut, String(info.title || p.hut).slice(0, 28), p.pos, Boolean(info.pages));
+      const one = hut(p.hut, 'HIS PAGES', p.pos, online);
       h.hutGroup.add(one); h.huts.set(p.hut, one);
       h.hutColliders.push({ x: p.pos[0], z: p.pos[1], r: 1.9 });
     }

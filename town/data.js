@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:46:02-05:00",
+ "asOf": "2026-11-17T15:51:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:46:02-05:00",
+   "iso": "2026-11-17T15:51:02-05:00",
    "hour": 15,
-   "minute": 46,
+   "minute": 51,
    "phase": "day",
    "words": "afternoon",
-   "sun": 7.6,
+   "sun": 7.0,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 45.0,
+   "place": "moss",
+   "doing": "watch",
+   "target": "pip",
    "asleep": false,
    "needs": {
-    "belly": 0.59,
-    "weariness": 0.31,
-    "company": 0.16,
-    "itch": 0.63,
-    "nerves": 0.01,
-    "thirst": 0.2
+    "belly": 0.71,
+    "weariness": 0.32,
+    "company": 0.11,
+    "itch": 0.62,
+    "nerves": 0.15,
+    "thirst": 0.3
    },
    "feeling": {
-    "mood": 0.27,
-    "energy": 0.08
+    "mood": 0.47,
+    "energy": 0.18
    },
-   "thought": "seeing how the water keeps turning on itself feels steady",
+   "thought": "to see if he can find what makes me feel alive, like I did with the bead",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a glass bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -331,8 +333,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     14.27,
+     -3.58
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -342,8 +344,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14.17,
+     24.02
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -357,31 +359,31 @@ export default {
      20.0
     ],
     "said": {
-     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
-     "t": 1794948152.4
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1794948660.4
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     980.0,
+     -20.0
     ],
     "said": null
    },
@@ -421,15 +423,6 @@ export default {
      23.964798699451045
     ],
     "state": "buried"
-   },
-   {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     -13.614186170000199,
-     21.899563433737057
-    ],
-    "state": "buried"
    }
   ],
   "wishes": [],
@@ -449,7 +442,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794948362.1,
+  "now": 1794948662.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1130,8 +1123,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19198885779076402,
-    "energy": 0.14904626616103933
+    "mood": 0.19493353513428385,
+    "energy": -0.3720623803787603
    },
    "interests": {},
    "threads": [
