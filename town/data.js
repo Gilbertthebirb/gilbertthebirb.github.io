@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T13:29:44-05:00",
+ "asOf": "2026-11-17T13:34:44-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:29:44+01:00",
+   "iso": "2026-11-17T19:34:44+01:00",
    "hour": 19,
-   "minute": 29,
+   "minute": 34,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -22.8,
+   "sun": -23.6,
    "date": "2026-11-17"
   },
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -3.0,
-    -46.0
+    -24.0,
+    8.0
    ],
-   "heading": 158.7,
-   "place": "fence",
+   "heading": -44.0,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.5,
-    "weariness": 0.12,
-    "company": 0.34,
-    "itch": 0.73,
-    "nerves": 0.04,
-    "thirst": 0.08
+    "belly": 0.62,
+    "weariness": 0.15,
+    "company": 0.43,
+    "itch": 0.62,
+    "nerves": 0.0,
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.26,
-    "energy": 0.46
+    "mood": 0.6,
+    "energy": 0.19
    },
-   "thought": "the water circle calms me without the cap in hand",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,16 +328,16 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     16.0,
+     -9.0
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -347,8 +347,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     1.84,
-     18.88
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1027.71,
+     -9.65
     ],
     "said": null
    },
@@ -382,31 +382,13 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     981.0,
-     13.57
+     1001.37,
+     10.66
     ],
     "said": null
    }
   },
   "objects": [
-   {
-    "id": "o32",
-    "name": "a feather that is not yours",
-    "pos": [
-     5.6,
-     -21.6
-    ],
-    "state": "found"
-   },
-   {
-    "id": "o2-63",
-    "name": "a piece of blue-and-white china",
-    "pos": [
-     5.6,
-     -21.6
-    ],
-    "state": "found"
-   },
    {
     "id": "o3-86",
     "name": "a brass button",
@@ -448,7 +430,9 @@ export default {
   "beyond": {},
   "kept": [
    "a domino",
-   "a smooth black stone"
+   "a smooth black stone",
+   "a feather that is not yours",
+   "a piece of blue-and-white china"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -459,7 +443,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794940184.6,
+  "now": 1794940484.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1080,8 +1064,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4378395619065896,
-    "energy": 0.46853256777713026
+    "mood": 0.6305211062530943,
+    "energy": 0.20877158207024554
    },
    "interests": {},
    "threads": [

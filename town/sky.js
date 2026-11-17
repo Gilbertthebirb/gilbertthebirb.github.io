@@ -1,4 +1,4 @@
-// Sky, light and weather. Day and night follow the real sun over the Netherlands.
+// Sky, light and weather. Day and night follow the Dutch sun, at the hours of the clock his town follows.
 import * as THREE from './vendor/three.module.js';
 import { clamp, lerp, smooth, seeded, sunNow } from './util.js';
 import { SPOTS, heightAt } from './land.js';
@@ -87,8 +87,8 @@ export function buildSky(scene) {
   scene.add(sparks);
 
   const fogColor = new THREE.Color();
-  s.update = (weather, camera, dt, t, forcedSun, dayMinutes = 0) => {
-    const now = sunNow(new Date(), dayMinutes);
+  s.update = (weather, camera, dt, t, forcedSun, dayMinutes = 0, shiftS = 0) => {
+    const now = sunNow(new Date(), dayMinutes, shiftS);
     const elevation = forcedSun === null || forcedSun === undefined ? now.elevation : forcedSun;
     const day = smooth(-7, 9, elevation);
     const dusk = clamp(1 - Math.abs(elevation - 1) / 11);

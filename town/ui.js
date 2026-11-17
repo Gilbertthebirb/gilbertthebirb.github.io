@@ -26,10 +26,14 @@ function feelingWords(f) {
   const energy = f.energy > 0.3 ? 'stirred up' : f.energy < -0.3 ? 'calm' : 'steady';
   return `${mood}, ${energy}`;
 }
+// Times are shown on Gilbert's own clock: as written in the time stamp (the laptop's time when it
+// was written), whatever the visitor's own clock says.
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+  'November', 'December'];
 function niceDate(iso) {
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return '';
-  return new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Amsterdam', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' }).format(d);
+  const m = /^(\d{4})-(\d{2})-(\d{2})[T ](\d{2}):(\d{2})/.exec(String(iso || ''));
+  if (!m) return '';
+  return `${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} at ${m[4]}:${m[5]}`;
 }
 // self.md is plain text: "## Section" headings and "- line _(j0002, 2026-11-15)_" lines.
 export function parseSelf(text) {
@@ -140,7 +144,7 @@ export function buildUi(api) {
   ui.setWalking = (on) => { walking = on; walkBtn.textContent = on ? 'Leave town' : (link.live ? 'Walk about' : link.mode === 'asleep' ? 'Walk about while he sleeps' : 'Walk into town'); };
   ui.setLink = (info) => {
     link = info;
-    note.textContent = info.web && info.live ? `Gilbert is awake. This is the town as it was at ${niceDate(info.asOf)}, Netherlands time; it is redrawn every few minutes. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
+    note.textContent = info.web && info.live ? `Gilbert is awake. This is the town as it was at ${niceDate(info.asOf)}, Gilbert's time; it is redrawn every few minutes. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
       : info.web ? `This is the town as Gilbert left it when he last went to sleep${info.asOf ? ` (${niceDate(info.asOf)})` : ''}. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
       : info.mode === 'asleep' ? 'He is asleep. This is the town as he left it.'
       : info.mode === 'practice' ? 'Practice town: a copy. Nothing here is published or kept.'
@@ -153,7 +157,7 @@ export function buildUi(api) {
     const b = s.bird;
     const key = [b.doing, b.target, b.asleep, b.thought, s.weather, s.sky && s.sky.words, linkNow.mode, s.sleep_call, s.quiet,
       Object.values(b.needs).map((v) => Math.round(v * 20)).join(','), Math.round(b.feeling.mood * 5), Math.round(b.feeling.energy * 5),
-      gait.words.join(','), clockInTown(new Date(), (s.sky && s.sky.day_minutes) || 0)].join('|');
+      gait.words.join(','), clockInTown(new Date(), (s.sky && s.sky.day_minutes) || 0, s.sky && s.sky.offset_min)].join('|');
     if (key === lastStatus) return;
     lastStatus = key;
     badge.textContent = b.asleep ? 'asleep' : s.sleep_call ? 'going to bed' : 'awake';
@@ -162,7 +166,8 @@ export function buildUi(api) {
     doingEl.textContent = b.asleep ? 'asleep in his burrow'
       : b.doing ? (DOING[b.doing] || b.doing).replace('{t}', place(b.target))
         : b.place ? `at ${place(b.place)}` : 'on the path';
-    skyEl.textContent = [s.offline ? '' : (s.sky && s.sky.words), WEATHER[s.weather] || s.weather, (s.sky && s.sky.day_minutes) ? `${clockInTown(new Date(), s.sky.day_minutes)} town time` : `${clockInTown()} in the Netherlands`]
+    skyEl.textContent = [s.offline ? '' : (s.sky && s.sky.words), WEATHER[s.weather] || s.weather, (s.sky && s.sky.day_minutes) ? `${clockInTown(new Date(), s.sky.day_minutes)} town time` : (s.sky && s.sky.zone === 'laptop') ? `${clockInTown(new Date(), 0, s.sky.offset_min)} Gilbert's time`
+        : `${clockInTown()} in the Netherlands`]
       .filter(Boolean).join(' · ');
     for (const [k] of NEEDS) { bars[k].style.width = `${Math.round(clamp(b.needs[k]) * 100)}%`; bars[k].classList.toggle('high', b.needs[k] >= 0.7); }
     needsEl.classList.toggle('dim', b.asleep);
@@ -368,7 +373,7 @@ export function buildUi(api) {
     const add = (head, lines) => { drawerBody.append(h3(head)); for (const l of lines) drawerBody.append(para(l)); };
     if (link.web) {
       add('This page', ['Gilbert is an autonomous AI program: a small kiwi who lives in this town on one laptop and decides for himself what to do.',
-        'What you see is the town as it was when he last went to sleep, with his journal and his mind as they were then. It is redrawn each time he sleeps, and every few minutes while he is awake. The sky is the real one over the Netherlands.',
+        'What you see is the town as it was when he last went to sleep, with his journal and his mind as they were then. It is redrawn each time he sleeps, and every few minutes while he is awake. Times are on Gilbert\'s own clock.',
         'You can walk about (Enter, then W A S D), read his journal on the stump by his burrow, look at his shelf and the huts where the things he made are kept. Talking to him, letters and keepsakes only exist in the town itself, on his own computer; the rest of this page describes that.']);
     }
     add('What you are looking at', ['This is the town Gilbert lives in, drawn from what his town program says is happening right now. He decides for himself what to do; nobody steers him.',
@@ -381,7 +386,7 @@ export function buildUi(api) {
       'E, at the stump by his burrow: read his journal. At the board: read his note. At a hut on Hut Lane: see something he has made.']);
     add('Good to know', ['Your name is public. If he writes about you, the name appears in his journal on his web page. Do not use your real name.',
       'Your exact words never reach his thinking. A separate step first works out what kind of thing they are and writes a few words of description, and only that goes to him and into his journal. Your words stay in the town\'s own file on this computer.',
-      'He keeps his own hours: after 21:00 on this computer\'s clock he goes to bed when he likes, and he is up again by 10:00. If he gets very tired before then, he naps at home. The sky here is the real one over the Netherlands.',
+      'He keeps his own hours: after 21:00 on his clock (the computer he lives on) he goes to bed when he likes, and he is up again by 10:00. If he gets very tired before then, he naps at home. Day and night here follow the same clock.',
       'When he is asleep you can still walk about. The town is shown as he left it, and nothing you do reaches him.']);
     drawerBody.append(para('Inspired by Pino by 3eyes_iii. Not affiliated.', 'dim'));
   }

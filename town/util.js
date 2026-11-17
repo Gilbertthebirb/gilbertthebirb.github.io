@@ -109,7 +109,10 @@ export function townHour(dayMinutes, when = new Date()) {
   const length = dayMinutes * 60;
   return ((when.getTime() / 1000) % length) / length * 24;
 }
-export function sunNow(when = new Date(), dayMinutes = 0) {
+// shiftS: when his town follows the laptop's clock, the town sends how far to move the Dutch sun
+// (sky.shift_s), so the sun here stands where it does in his mind.
+export function sunNow(when = new Date(), dayMinutes = 0, shiftS = 0) {
+  if (shiftS) when = new Date(when.getTime() + shiftS * 1000);
   if (dayMinutes > 0) {
     const hour = townHour(dayMinutes, when);
     const angle = 2 * Math.PI * (hour - 6) / 24;          // rises in the east at 6, south at noon, sets west at 18
@@ -126,10 +129,16 @@ export function sunNow(when = new Date(), dayMinutes = 0) {
   const az = Math.atan2(-Math.sin(ha), Math.tan(decl) * Math.cos(lat) - Math.sin(lat) * Math.cos(ha));
   return { elevation: elev * 180 / Math.PI, azimuth: az, hourAngle: ha };
 }
-export function clockInTown(when = new Date(), dayMinutes = 0) {
+// offsetMin: the clock his town follows, as minutes from UTC (sky.offset_min), so a visitor
+// anywhere sees his time, not their own.
+export function clockInTown(when = new Date(), dayMinutes = 0, offsetMin = null) {
   if (dayMinutes > 0) {
     const hour = townHour(dayMinutes, when);
     return `${String(Math.floor(hour)).padStart(2, '0')}:${String(Math.floor(hour % 1 * 60)).padStart(2, '0')}`;
+  }
+  if (offsetMin !== null && offsetMin !== undefined) {
+    const d = new Date(when.getTime() + offsetMin * 60000);
+    return `${String(d.getUTCHours()).padStart(2, '0')}:${String(d.getUTCMinutes()).padStart(2, '0')}`;
   }
   try {
     return new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Amsterdam', hour: '2-digit', minute: '2-digit' }).format(when);

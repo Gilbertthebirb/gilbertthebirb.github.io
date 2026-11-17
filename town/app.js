@@ -319,7 +319,9 @@ function frame(ms) {
   frames++;
   if (ms - fpsAt > 2000) { fps = Math.round(frames * 1000 / (ms - fpsAt)); frames = 0; fpsAt = ms; if (demo.fps) console.log('FPS', fps); ui.setFps(fps); }
 
-  const night = sky.update((state && state.weather) || 'cloud', camera, dt, clock, demo.sun, (state && state.sky && state.sky.day_minutes) || 0).night;
+  const skyNow = (state && state.sky) || {};
+  const night = sky.update((state && state.weather) || 'cloud', camera, dt, clock, demo.sun, skyNow.day_minutes || 0,
+    skyNow.shift_s || 0).night;
   ui.beginLabels(camera);
   const city = view.area === 'city', off = city ? cityX() : 0;
   let birdHere = false;
