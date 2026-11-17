@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T16:31:02-05:00",
+ "asOf": "2026-11-17T16:36:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:31:02-05:00",
+   "iso": "2026-11-17T16:36:02-05:00",
    "hour": 16,
-   "minute": 31,
+   "minute": 36,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 2.5,
+   "sun": 1.8,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    5.0,
-    -22.0
+    16.0,
+    -9.0
    ],
-   "heading": 167.2,
-   "place": "drift",
-   "doing": null,
-   "target": null,
+   "heading": 40.2,
+   "place": "shed",
+   "doing": "drink",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.51,
-    "weariness": 0.64,
-    "company": 0.49,
-    "itch": 0.83,
+    "belly": 0.64,
+    "weariness": 0.67,
+    "company": 0.58,
+    "itch": 0.88,
     "nerves": 0.0,
-    "thirst": 0.18
+    "thirst": 0.02
    },
    "feeling": {
-    "mood": 0.11,
-    "energy": -0.03
+    "mood": 0.15,
+    "energy": -0.21
    },
-   "thought": "The empty answer makes me feel the same stillness I have found at home.",
+   "thought": "Silence makes my throat ache; I need to remember what it feels like to be full before I try again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -331,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Something shifted in the wind while I was napping yesterday, and now you're both buzzing.\"",
@@ -342,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -372,16 +372,16 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794951062.4,
+  "now": 1794951362.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1148,8 +1148,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.11248333066424052,
-    "energy": 0.02807611370405455
+    "mood": 0.32913775577209403,
+    "energy": -0.22059448980376895
    },
    "interests": {},
    "threads": [
