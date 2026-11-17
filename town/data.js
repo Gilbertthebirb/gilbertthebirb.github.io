@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:53:54-05:00",
+ "asOf": "2026-11-17T08:58:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:53:54+01:00",
+   "iso": "2026-11-17T14:58:54+01:00",
    "hour": 14,
-   "minute": 53,
+   "minute": 58,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.5,
+   "sun": 12.0,
    "date": "2026-11-17"
   },
   "weather": "mist",
@@ -18,24 +18,24 @@ export default {
     -24.0,
     8.0
    ],
-   "heading": -71.6,
+   "heading": -98.6,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "wade",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.59,
-    "weariness": 0.18,
-    "company": 1.0,
-    "itch": 0.98,
-    "nerves": 0.02,
-    "thirst": 0.47
+    "belly": 0.42,
+    "weariness": 0.27,
+    "company": 0.97,
+    "itch": 0.97,
+    "nerves": 0.15,
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.11,
-    "energy": -0.08
+    "mood": 0.16,
+    "energy": 0.09
    },
-   "thought": "the water rings remind me where I am",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,8 +319,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     8.59,
+     9.4
     ]
    },
    "tuck": {
@@ -340,22 +340,22 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     1014.0,
+     -6.0
     ]
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ]
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     991.07,
-     5.68
+     978.0,
+     14.0
     ]
    },
    "kettle": {
@@ -402,15 +402,15 @@ export default {
    "a smooth black stone"
   ],
   "board": {
-   "text": "Mabel says she is here. I am here.",
-   "ts": 1794868863.5307138
+   "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
+   "ts": 1794923867.0820103
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 8,
-  "now": 1794923634.2,
+  "now": 1794923934.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -616,9 +616,18 @@ export default {
     "text": "The dance made my legs feel heavy and right.\nI watched how the water rings settled before I closed my eyes.\nSilence felt like a soft blanket wrapping around us now.\nFor the first time, I do not need to move to know I am here.\nSleep is coming gently.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0134",
+    "ts": "2026-11-17T08:57:37-05:00",
+    "kind": "journal",
+    "wake": 10,
+    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
+    "tag": "",
+    "heat": 0.38
    }
   ],
-  "journalCount": 22,
+  "journalCount": 23,
   "memory": {
    "sleeps": 7,
    "next_id": 13,
@@ -805,8 +814,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19306410532337848,
-    "energy": 0.3062473033594245
+    "mood": 0.18693365025660014,
+    "energy": 0.1407797754175119
    },
    "interests": {},
    "threads": [
