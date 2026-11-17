@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:34:29-05:00",
- "live": false,
+ "asOf": "2026-11-17T18:36:33-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:34:42-05:00",
+   "iso": "2026-11-17T18:36:32-05:00",
    "hour": 18,
-   "minute": 34,
+   "minute": 36,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -14.5,
+   "sun": -14.8,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
+   "heading": 119.4,
+   "place": "shed",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.37,
-    "weariness": 0.82,
-    "company": 0.53,
+    "belly": 0.47,
+    "weariness": 0.08,
+    "company": 0.54,
     "itch": 1.0,
-    "nerves": 0.13,
-    "thirst": 0.35
+    "nerves": 0.0,
+    "thirst": 0.37
    },
    "feeling": {
     "mood": 0.2,
-    "energy": -0.56
+    "energy": -0.48
    },
-   "thought": "",
+   "thought": "the glass feels like a stone but it is clear and hard; I will take it home.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a glass bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     -24,
+     8
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Look at that red ball! Did the wind blow? I think the bird flew away! Wait, the sun is shining so bright today too.\"",
@@ -355,32 +357,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.23,
-     9.54
+     1014.0,
+     -6
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1016.0,
+     22
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     984.96,
-     16.83
+     978.0,
+     14
     ],
     "said": null
    }
@@ -414,15 +416,6 @@ export default {
     "state": "buried"
    },
    {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     16.879983776621938,
-     -8.125237627835473
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -446,10 +439,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 14,
-  "now": 1794958482.2,
+  "session": 15,
+  "now": 1794958593.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1250,7 +1243,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I find comfort in watching leaves turn on the water and dancing when I feel restless. The sound of Mabel's voice is what keeps me from being alone in the dark.",
    "lastResult": "",
-   "wake": 16,
+   "wake": 17,
    "awakeSince": "",
    "lastDream": "The blue bottle cap floated in the river while my leg bones told me to dance until they broke open."
   }
