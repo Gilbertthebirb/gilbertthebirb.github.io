@@ -77,7 +77,8 @@ export function gaitFrom(selfText, feeling, needs) {
 }
 
 const STILL = new Set(['probe', 'sniff', 'keep', 'leave_be', 'greet', 'call_out', 'wade', 'hide', 'nap', 'tidy',
-  'check_letterbox', 'read', 'tinker', 'pin_note', 'sit', 'ask_for_sleep']);
+  'check_letterbox', 'read', 'tinker', 'pin_note', 'sit', 'ask_for_sleep', 'drink', 'explore', 'scavenge', 'pick_up',
+  'put_down', 'dance', 'watch', 'wish']);
 
 // Move and pose him for this frame. `bird` is the town's word on him; `extra` is where things are.
 export function animateKiwi(k, bird, gait, dt, t, extra) {
@@ -93,6 +94,16 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
   else if (doing === 'pin_note') face = Math.atan2(10.4 - tx, 13.2 - tz);
   else if ((doing === 'greet' || doing === 'sniff') && extra.nearest) face = Math.atan2(extra.nearest[0] - tx, extra.nearest[1] - tz);
   else if (doing === 'hide') { tx += 0.9; tz -= 0.4; }
+  else if (doing === 'explore') {                       // a little way out past the edge, and back
+    const far = Math.hypot(tx, tz) || 1, out = 5.5 * Math.sin(Math.min(1, (t % 90) / 90) * Math.PI);
+    tx += tx / far * out; tz += tz / far * out;
+  } else if (doing === 'drink' && Math.hypot(tx + 24, tz - 8) < 2) { tx = -25.6; tz = 8.3; face = -1.2; }
+  else if (doing === 'drink' && Math.hypot(tx - 16, tz + 9) < 2) { tx = 13.9; tz = -10.2; face = 2.6; }
+  else if (doing === 'drink' && Math.hypot(tx + 22, tz - 47) < 2) { tx = -22.8; tz = 48.4; face = 0; }
+  else if (doing === 'scavenge') face = Math.atan2(43.2 - tx, 8.6 - tz);
+  else if (doing === 'wish') { tx = 0.9; tz = 0.1; face = Math.PI + 0.5; }
+  else if (doing === 'watch' && extra.nearest) face = Math.atan2(extra.nearest[0] - tx, extra.nearest[1] - tz);
+  else if (doing === 'dance') face = k.heading + dt * 2.4;
 
   const before = k.pos.clone();
   const far = Math.hypot(tx - k.pos.x, tz - k.pos.y);
@@ -126,6 +137,13 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
   else if (doing === 'read') { tip = -0.1; dip = 0.1; k.lookAt = 0.5; }
   else if (doing === 'tinker') { tip = -0.2; dip = 0.1 + Math.max(0, Math.sin(t * 6)) * 0.5; }
   else if (doing === 'sit') { crouch = 0.24; dip = 0.15; }
+  else if (doing === 'drink') { tip = 0.4; dip = 0.95 + Math.max(0, Math.sin(t * 2.2)) * -0.9; }
+  else if (doing === 'scavenge') { tip = 0.35; dip = 0.85 + Math.sin(t * 8) * 0.15; legSwing = Math.sin(t * 6) * 0.25; }
+  else if (doing === 'pick_up' || doing === 'put_down') { tip = 0.35; dip = 0.95; }
+  else if (doing === 'dance') { bob = Math.abs(Math.sin(t * 6)) * 0.12; legSwing = Math.sin(t * 12) * 0.6; dip = Math.sin(t * 6) * 0.25; }
+  else if (doing === 'watch') { dip = -0.12; crouch = 0.08; k.lookAt = 0; }
+  else if (doing === 'wish') { tip = -0.15; dip = -0.2 + Math.sin(t * 9) * 0.12; k.lookAt = Math.sin(t * 9) * 0.15; }
+  else if (doing === 'explore') { legSwing = Math.sin(t * 7) * 0.6; bob = Math.abs(Math.sin(t * 7)) * 0.03; dip = 0.15 + (Math.sin(t * 0.9) > 0.7 ? 0.5 : 0); }
   else if (doing === 'ask_for_sleep') { crouch = 0.1; dip = 0.7 + Math.sin(t * 1.5) * 0.15; eye = 0.4; }
   else { dip += gait.droop * 0.5; eye = gait.droop > 0.6 ? 0.5 : 1; }
 

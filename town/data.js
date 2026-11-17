@@ -1,17 +1,18 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T18:40:50-05:00",
+ "asOf": "2026-11-16T23:46:09-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T00:40:55+01:00",
-   "hour": 0,
-   "minute": 40,
+   "iso": "2026-11-17T05:46:05+01:00",
+   "hour": 5,
+   "minute": 46,
    "phase": "night",
-   "words": "the middle of the night",
-   "sun": -56.9,
+   "words": "the last of the night",
+   "sun": -23.6,
    "date": "2026-11-17"
   },
-  "weather": "drizzle",
+  "weather": "cloud",
   "bird": {
    "pos": [
     0.0,
@@ -21,13 +22,14 @@ export default {
    "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.11,
-    "weariness": 0.84,
-    "company": 0.38,
+    "belly": 0.62,
+    "weariness": 0.09,
+    "company": 0.5,
     "itch": 1.0,
-    "nerves": 0.0
+    "nerves": 0.0,
+    "thirst": 0.52
    },
    "feeling": {
     "mood": 0.37,
@@ -35,7 +37,8 @@ export default {
    },
    "thought": "",
    "said": null,
-   "wants_sleep": false
+   "wants_sleep": false,
+   "carrying": []
   },
   "places": {
    "burrow": {
@@ -126,6 +129,38 @@ export default {
     ],
     "hut": null
    },
+   "fence": {
+    "name": "the broken fence",
+    "pos": [
+     -3,
+     -46
+    ],
+    "hut": null
+   },
+   "culvert": {
+    "name": "the culvert",
+    "pos": [
+     -22,
+     47
+    ],
+    "hut": null
+   },
+   "gate": {
+    "name": "the gate",
+    "pos": [
+     3,
+     38
+    ],
+    "hut": null
+   },
+   "heap": {
+    "name": "the scrap heap",
+    "pos": [
+     41,
+     7
+    ],
+    "hut": null
+   },
    "hut:gilbert-moon": {
     "name": "the gilbert moon hut",
     "pos": [
@@ -139,22 +174,22 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     7.73,
-     1.85
+     36,
+     -12
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14,
+     24
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14,
+     24
     ]
    }
   },
@@ -187,6 +222,8 @@ export default {
     "state": "buried"
    }
   ],
+  "wishes": [],
+  "beyond": {},
   "kept": [
    "a domino",
    "a smooth black stone"
@@ -197,10 +234,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 3,
-  "now": 1794872457.8,
+  "session": 4,
+  "now": 1794890769.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -444,6 +481,8 @@ export default {
     "text": ""
    }
   ],
+  "known": "",
+  "answers": {},
   "projects": {
    "gilbert-moon": {
     "title": "gilbert moon",
@@ -467,7 +506,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I do not know much about myself yet, but I am quiet and unsure where to stand. My chest feels tight when I call out and no one answers.",
    "lastResult": "",
-   "wake": 5,
+   "wake": 6,
    "awakeSince": "",
    "lastDream": "Something small ran through the leaves and vanished before I could catch it. My throat burns from calling out into the dark, asking for a sound that never came back."
   }

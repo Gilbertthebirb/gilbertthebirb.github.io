@@ -8,13 +8,16 @@ const DOING = {
   leave_be: 'leaving something be', greet: 'greeting a neighbour', call_out: 'calling out', wade: 'standing in the creek',
   hide: 'hiding', nap: 'having a nap', tidy: 'tidying the burrow', check_letterbox: 'looking in the letterbox',
   read: 'listening at the signal post', tinker: 'working at his workbench', pin_note: 'pinning a note to the board',
-  sit: 'sitting still', ask_for_sleep: 'asking to go to bed',
+  sit: 'sitting still', ask_for_sleep: 'going to bed', drink: 'drinking', explore: 'out past the edge of town',
+  scavenge: 'turning over the scrap heap', pick_up: 'picking something up', put_down: 'setting something down',
+  dance: 'dancing', watch: 'watching', wish: 'scratching a wish into the wall at home',
 };
 const WEATHER = { clear: 'a clear sky', cloud: 'low cloud', mist: 'mist over the ground', drizzle: 'fine drizzle',
   rain: 'steady rain', wind: 'a restless wind', storm: 'a storm' };
-const NEEDS = [['belly', 'belly', 'hungry'], ['weariness', 'weariness', 'tired'], ['company', 'company', 'lonely'],
-  ['itch', 'itch', 'restless to do something'], ['nerves', 'nerves', 'on edge']];
-const SECTIONS = [['happened', 'Things that happened'], ['others', 'About others'], ['learned', 'Things he has worked out']];
+const NEEDS = [['belly', 'belly', 'hungry'], ['thirst', 'thirst', 'thirsty'], ['weariness', 'weariness', 'tired'],
+  ['company', 'company', 'lonely'], ['itch', 'itch', 'restless to do something'], ['nerves', 'nerves', 'on edge']];
+const SECTIONS = [['happened', 'Things that happened'], ['others', 'About others'], ['learned', 'Things he has worked out'],
+  ['skills', 'Things he knows how to do'], ['opinions', 'What he thinks of places and things']];
 
 function feelingWords(f) {
   if (!f) return '';
@@ -269,6 +272,27 @@ export function buildUi(api) {
     if (copies.length) box.append(el('div', 'meta', `${copies.length} dated copies kept, from ${copies[0].name.slice(0, 10)} to ${copies[copies.length - 1].name.slice(0, 10)}.`));
   }
 
+  function wishTab(box) {
+    const wishes = ((state && state.wishes) || []).slice().reverse();
+    const answers = (mind && mind.answers) || {};
+    box.append(para('At home he can scratch a wish into the wall: something he wants his world to have, or something he wishes he could do, with his reason. He gets nothing new unless you say yes, and saying yes only tells him it will come: somebody still has to build it.', 'dim'));
+    if (!wishes.length) box.append(para('He has not wished for anything yet.', 'dim'));
+    for (const w of wishes) {
+      const row = el('div', 'memory');
+      row.append(para(w.text));
+      const waiting = w.state === 'open' && answers[w.id];
+      row.append(el('div', 'meta', w.state === 'granted' ? 'You said yes.' : w.state === 'declined' ? 'You said no.'
+        : waiting ? `You said ${answers[w.id]}. He will be told when he is next awake.` : 'Waiting for your answer.'));
+      if (w.state === 'open' && !waiting && api.answerWish && !api.settings.web) {
+        const say = async (verdict) => { if (await api.answerWish(w.id, verdict)) { ui.toast(verdict === 'yes' ? 'He will be told: yes, it will be made.' : 'He will be told: no.'); await api.refreshMind(); render(); } };
+        const buttons = el('div', 'row');
+        buttons.append(button('Yes, it will be made', () => say('yes'), 'main'), button('No', () => say('no'), 'quiet'));
+        row.append(buttons);
+      }
+      box.append(row);
+    }
+  }
+
   function nowTab(box) {
     const now = (mind && mind.now) || {};
     const b = state && state.bird;
@@ -288,19 +312,24 @@ export function buildUi(api) {
     box.append(h3('What he has been listening for'), para(liked.length ? liked.map(([k]) => k).join(', ') : 'Nothing yet. He can ask the signal post about anything he likes.', liked.length ? '' : 'dim'));
     if ((now.threads || []).length) { box.append(h3('He meant to come back to')); for (const t of now.threads) box.append(para(`· ${t}`)); }
     if (now.lastDream) box.append(h3('A dream he woke from'), para(now.lastDream, 'entry'), para('Dreams are made from his memories and are never put back into them.', 'dim'));
+    if (b && (b.carrying || []).length) box.append(h3('He is carrying'), para(b.carrying.join(', ')));
+    const known = ((mind && mind.known) || '').split('\n').filter((l) => l.startsWith('- ')).slice(0, 24);
+    if (known.length) { box.append(h3('What he has done, by counting')); for (const l of known) box.append(para(l.slice(2), 'change')); }
+    const out = Object.entries((state && state.beyond) || {});
+    if (out.length) box.append(h3('How far he has been past the edges'), para(out.map(([k, v]) => `${((state.places || {})[k] || {}).name || k}: ${v[0]} of ${v[1]}`).join(' · ')));
     if (now.lastResult) box.append(h3('Last time awake'), para(now.lastResult, 'dim'));
   }
 
   function mindPage() {
     drawerTitle.textContent = mind && mind.practice ? 'His mind (practice copy)' : 'His mind';
     const tabs = el('div', 'tabs');
-    for (const [key, words] of [['memory', 'Memory'], ['self', 'Who he is'], ['drift', 'How he has changed'], ['now', 'Right now']]) {
+    for (const [key, words] of [['memory', 'Memory'], ['self', 'Who he is'], ['drift', 'How he has changed'], ['wishes', 'Wishes'], ['now', 'Right now']]) {
       const b = button(words, () => { mindTab = key; render(); }, key === mindTab ? 'tab on' : 'tab');
       tabs.append(b);
     }
     const box = el('div', 'tab-body');
     drawerBody.append(tabs, box);
-    ({ memory: memoryTab, self: selfTab, drift: driftTab, now: nowTab })[mindTab](box);
+    ({ memory: memoryTab, self: selfTab, drift: driftTab, wishes: wishTab, now: nowTab })[mindTab](box);
     drawerBody.append(para('Read straight from his own files a few seconds ago. This page cannot change them.', 'dim'));
   }
 

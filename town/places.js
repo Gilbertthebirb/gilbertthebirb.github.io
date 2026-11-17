@@ -63,6 +63,14 @@ export function itemMesh(name) {
   else if (n.includes('pine cone')) add(roughen(cone(0.06, 0.15, 7), 0.02), 0x6a4a30, [0, 0.075, 0]);
   else if (n.includes('pencil')) { add(tube(0.012, 0.012, 0.16, 5), 0xe0b030, [0, 0.012, 0], [Math.PI / 2, 0, 0]); add(cone(0.012, 0.03, 5), 0x3a3028, [0, 0.012, 0.095], [Math.PI / 2, 0, 0]); }
   else if (n.includes('bell')) { add(cone(0.05, 0.08, 7), 0xd4b040, [0, 0.05, 0]); add(ball(0.015, 0), 0xd4b040, [0, 0.095, 0]); }
+  else if (n.includes('twine')) add(new THREE.TorusGeometry(0.07, 0.022, 5, 9), 0x4a3a2a, [0, 0.025, 0], [Math.PI / 2, 0, 0]);
+  else if (n.includes('wire')) add(new THREE.TorusGeometry(0.08, 0.008, 4, 10), 0xb0b6bc, [0, 0.02, 0], [Math.PI / 2, 0, 0]);
+  else if (n.includes('tin')) add(box(0.16, 0.012, 0.16), 0xc8ccd0, [0, 0.01, 0], [0.12, 0.4, 0]);
+  else if (n.includes('cork')) add(tube(0.035, 0.04, 0.08, 7), 0xc9a36a, [0, 0.04, 0]);
+  else if (n.includes('bark')) add(tube(0.05, 0.05, 0.2, 6, 1, true, 0, 4), mat(0x6a4a30, { side: THREE.DoubleSide }), [0, 0.05, 0], [Math.PI / 2, 0, 0]);
+  else if (n.includes('jar lid')) add(tube(0.075, 0.075, 0.02, 10), 0x3f6fc0, [0, 0.012, 0]);
+  else if (n.includes('wooden bead')) add(ball(0.05, 1), 0xc9a878, [0, 0.05, 0]);
+  else if (n.includes('sailcloth')) add(box(0.2, 0.01, 0.15), 0x9aa0a0, [0, 0.01, 0], [0.1, 0.3, 0.05]);
   else add(box(0.1, 0.06, 0.1), 0x9a8a7a, [0, 0.03, 0]);
   g.scale.setScalar(1.9);                    // a little larger than life, or nobody would see them
   return g;
@@ -325,6 +333,55 @@ function gate(h) {
   return g;
 }
 
+function brokenFence() {
+  const g = at(new THREE.Group(), -3, -48.2);
+  const rnd = seeded(0.83);
+  for (let i = -6; i <= 6; i++) {
+    if (i === 0 || i === 1) continue;                    // the gap he goes out through
+    const post = part(tube(0.07, 0.09, 1.2, 5), WOOD_DARK, [i * 1.7, 0.55 + heightAt(-3 + i * 1.7, -48.2) - heightAt(-3, -48.2), 0]);
+    post.rotation.z = (rnd() - 0.5) * (Math.abs(i) < 3 ? 0.7 : 0.15);
+    g.add(post);
+  }
+  for (const [x, w, tilt] of [[-6.8, 6.6, 0.02], [7.0, 6.6, -0.03]]) {
+    for (const y of [0.5, 0.9]) { const rail = part(box(w, 0.07, 0.06), WOOD, [x, y, 0]); rail.rotation.z = tilt; g.add(rail); }
+  }
+  const fallen = part(box(3.2, 0.07, 0.06), WOOD, [0.9, 0.12, 0.5]);
+  fallen.rotation.set(0, 0.5, 0.05);
+  g.add(fallen);
+  return g;
+}
+
+function culvert() {
+  const g = at(new THREE.Group(), -22.6, 51.5);
+  const bank = part(roughen(ball(1, 2), 0.14, 0.44), 0x4c6b3c, [0, 0.3, 0.6]);
+  bank.scale.set(7.5, 1.9, 2.4);
+  g.add(bank);
+  const ring = part(new THREE.TorusGeometry(1.25, 0.18, 6, 12), 0x8d938f, [0, 0.55, -1.75]);
+  g.add(ring);
+  g.add(part(new THREE.CircleGeometry(1.25, 12), new THREE.MeshBasicMaterial({ color: DARK, side: THREE.DoubleSide }), [0, 0.55, -1.7]));
+  return g;
+}
+
+function scrapHeap() {
+  const g = at(new THREE.Group(), 43.2, 8.6);
+  const rnd = seeded(0.29);
+  const rusty = [0x8a5a3a, 0x6f6f72, 0x9a7a4a, 0x55606a, 0x7a4a36];
+  for (let i = 0; i < 16; i++) {
+    const a = rnd() * 6.28, r = rnd() * 1.9, y = 0.15 + (1.9 - r) * 0.42 * rnd();
+    const kind = i % 4, s = 0.3 + rnd() * 0.55;
+    const piece = kind === 0 ? part(box(s, s * 0.6, s * 1.3), rusty[i % 5], [Math.cos(a) * r, y, Math.sin(a) * r])
+      : kind === 1 ? part(tube(s * 0.4, s * 0.4, s * 1.4, 7), rusty[i % 5], [Math.cos(a) * r, y, Math.sin(a) * r])
+        : kind === 2 ? part(roughen(ball(s * 0.6, 0), 0.12, rnd()), rusty[i % 5], [Math.cos(a) * r, y, Math.sin(a) * r])
+          : part(box(s * 1.6, 0.05, s), rusty[i % 5], [Math.cos(a) * r, y, Math.sin(a) * r]);
+    piece.rotation.set(rnd() * 3, rnd() * 3, rnd() * 3);
+    g.add(piece);
+  }
+  const wheel = part(new THREE.TorusGeometry(0.55, 0.08, 5, 10), 0x3a3a3e, [-1.9, 0.5, 0.6]);
+  wheel.rotation.set(0.3, 0.9, 0);
+  g.add(wheel);
+  return g;
+}
+
 function hut(slug, title, pos, online) {
   const g = at(new THREE.Group(), pos[0], pos[1]);
   const facing = pos[1] > SPOTS.lane[1] ? Math.PI : 0;       // every door opens onto the lane
@@ -348,7 +405,7 @@ export function buildPlaces(scene) {
   const h = { huts: new Map(), objects: new Map(), kept: '' };
   const all = new THREE.Group();
   all.add(burrow(h), stump(h), shed(h), board(h), letterbox(h), signalPost(h), lookout(), mossyBank(), fallenLog(),
-    leafDrift(), laneSign(), gate(h));
+    leafDrift(), laneSign(), gate(h), brokenFence(), culvert(), scrapHeap());
   h.hutGroup = new THREE.Group();
   h.objectGroup = new THREE.Group();
   all.add(h.hutGroup, h.objectGroup);
@@ -358,7 +415,8 @@ export function buildPlaces(scene) {
   h.colliders = [{ x: 0, z: -3.0, r: 2.7 }, { x: 16, z: -12.6, r: 1.9 }, { x: 14.1, z: -11.2, r: 0.5 }, { x: 17.9, z: -11.2, r: 0.5 },
     { x: 30.6, z: 28.2, r: 3.3 }, { x: 10.4, z: 13.2, r: 0.9 }, { x: -8.1, z: -15.3, r: 0.45 }, { x: -19, z: -22.8, r: 0.45 },
     { x: 15.4, z: 25.8, r: 1.1 }, { x: 13.4, z: 24.7, r: 1.0 }, { x: 17.4, z: 26.9, r: 1.0 }, { x: STUMP[0], z: STUMP[1], r: 0.6 },
-    { x: -2.5, z: 0.2, r: 0.9 }, { x: GATE[0] - 1.5, z: GATE[1] + 1.8, r: 0.3 }, { x: GATE[0] + 1.5, z: GATE[1] + 1.8, r: 0.3 }];
+    { x: -2.5, z: 0.2, r: 0.9 }, { x: GATE[0] - 1.5, z: GATE[1] + 1.8, r: 0.3 }, { x: GATE[0] + 1.5, z: GATE[1] + 1.8, r: 0.3 },
+    { x: 43.2, z: 8.6, r: 2.0 }, { x: -22.6, z: 52.1, r: 2.2 }];
   h.hutColliders = [];
 
   h.syncHuts = (places, projects) => {

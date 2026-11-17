@@ -3,7 +3,7 @@
 import * as THREE from './vendor/three.module.js';
 import { clamp, damp, dampAngle } from './util.js';
 import { buildLand, heightAt, SPOTS, GATE, STUMP } from './land.js';
-import { buildPlaces } from './places.js';
+import { buildPlaces, itemMesh } from './places.js';
 import { makeKiwi, animateKiwi, gaitFrom, makeResident, animateResident, makeVisitor, animateVisitor } from './creatures.js';
 import { buildSky } from './sky.js';
 import { buildUi } from './ui.js';
@@ -44,6 +44,7 @@ const ui = buildUi({
   openPage: (slug) => window.town.open(slug),
   saveSettings: async (change) => Object.assign(settings, await window.town.settings(change)),
   restart: () => window.town.restart(),
+  answerWish: (id, verdict) => window.town.wish(id, verdict),
   refreshMind,
 });
 
@@ -308,6 +309,14 @@ function frame(ms) {
     if (me.active && me.online && !bird.doing && me.pos.distanceTo(kiwi.pos) < 6 && bird.said && state.now - bird.said.t < 8) nearest = [me.pos.x, me.pos.y];
     const pose = animateKiwi(kiwi, bird, gait, dt, clock, { shedInside: places.shedInside, nearest: bird.doing ? nearest : (nearest && bird.said && state.now - bird.said.t < 8 ? nearest : null) });
     ui.label('gilbert', 'Gilbert', pose.head, 'name bird');
+    const load = (bird.carrying || []).join('|');           // what he is carrying rides on his back
+    if (load !== kiwi.load) {
+      kiwi.load = load;
+      if (kiwi.pack) kiwi.body.remove(kiwi.pack);
+      kiwi.pack = new THREE.Group();
+      (bird.carrying || []).forEach((name, i) => { const it = itemMesh(name); it.position.set(i ? 0.14 : -0.12, 1.05, -0.12 - i * 0.16); kiwi.pack.add(it); });
+      kiwi.body.add(kiwi.pack);
+    }
     if (bird.asleep) ui.label('zzz', 'z z z', v3.copy(pose.head).setY(pose.head.y + 0.5 + Math.sin(clock) * 0.1), 'sleep');
     if (bird.said && state.now - bird.said.t < 9 && !state.offline) ui.label('said', bird.said.text, v3.copy(pose.head).setY(pose.head.y + 0.55), 'speech');
 
