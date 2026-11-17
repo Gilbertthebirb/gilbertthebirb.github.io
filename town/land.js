@@ -7,7 +7,7 @@ import { clamp, lerp, smooth, noise, seeded, distToLine, mat, ball, cone, tube, 
 export const SPOTS = {
   burrow: [0, 0], shed: [16, -9], creek: [-24, 8], lookout: [28, 26], board: [9, 13], letterbox: [-7, -15],
   post: [-18, -22], lane: [36, -12], moss: [-12, 20], log: [14, 24], drift: [5, -22],
-  fence: [-3, -46], culvert: [-22, 47], heap: [41, 7],
+  fence: [-3, -46], culvert: [-22, 47], heap: [41, 7], halt: [2, 57],
 };
 export const GATE = [3, 38];
 export const STUMP = [3.4, 2.6];             // where his journal lies open
@@ -16,7 +16,7 @@ export const PATHS = [
   [[0, 1.5], [4, 7], [9, 12]], [[0, 1.5], [8, -3], [15, -7.5]], [[0, 1.5], [-3, -7], [-6.5, -14]],
   [[-6.5, -14], [-12, -18], [-17, -21.5]], [[-6.5, -14], [0, -19], [5, -21]],
   [[0, 1.5], [-10, 4], [-18, 7], [-23, 8]], [[9, 12], [12, 18], [14, 22.5]], [[14, 22.5], [21, 25], [26.5, 25.5]],
-  [[9, 12], [-2, 17], [-11, 19.5]], [[15, -7.5], [25, -10], [36, -12], [66, -12]], [[9, 12], [6, 25], [3, 37], [2, 48]],
+  [[9, 12], [-2, 17], [-11, 19.5]], [[15, -7.5], [25, -10], [36, -12], [66, -12]], [[9, 12], [6, 25], [3, 37], [2, 48], [2, 57]],
   [[-6.5, -14], [-5, -30], [-3, -45]], [[-11, 19.5], [-16, 33], [-20.5, 45.5]], [[16, -7], [28, 0], [40, 6]],
 ];
 
@@ -32,7 +32,12 @@ export function nearestPath(x, z) {
 }
 export const creekDistance = (x, z) => distToLine(x, z, CREEK);
 
+// The city is flat. While someone is looking at it, the ground is level everywhere.
+let level = false;
+export function setLevel(on) { level = on; }
+
 export function heightAt(x, z) {
+  if (level) return 0;
   const r = Math.hypot(x, z);
   const dc = creekDistance(x, z);
   const rim = smooth(58, 104, r) * smooth(2, 16, dc);            // hills all round, with a gap for the creek

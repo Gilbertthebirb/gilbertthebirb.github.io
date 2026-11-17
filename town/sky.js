@@ -147,7 +147,7 @@ export function buildSky(scene) {
       rain.material.opacity = 0.16 + day * 0.14;
     }
 
-    sparks.material.opacity = clamp((s.night - 0.5) * 2) * (0.55 + Math.sin(t * 1.7) * 0.25) * (1 - s.rain * 0.5);
+    sparks.material.opacity = (s.inCity ? 0 : 1) * clamp((s.night - 0.5) * 2) * (0.55 + Math.sin(t * 1.7) * 0.25) * (1 - s.rain * 0.5);
     if (sparks.material.opacity > 0.01) {
       for (let i = 0; i < SPARKS; i++) {
         const h = sparkHome[i];

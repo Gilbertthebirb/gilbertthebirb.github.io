@@ -382,6 +382,18 @@ function scrapHeap() {
   return g;
 }
 
+function tramHalt() {
+  const g = at(new THREE.Group(), 4.6, 57.5);
+  g.add(part(box(2.2, 0.3, 5), WOOD, [0, 0.15, 0]));                       // a platform of sleepers
+  for (const x of [1.9, 3.3]) g.add(part(box(0.12, 0.08, 60), 0x3a3a3e, [x, 0.05, 24]));
+  for (let z = -4; z < 54; z += 2.2) g.add(part(box(2.2, 0.06, 0.3), WOOD_DARK, [2.6, 0.03, z]));
+  g.add(part(tube(0.07, 0.09, 2.4, 6), WOOD_DARK, [-0.8, 1.2, -2.2]));
+  const board = textPlane('TRAM', 1.1, 0.4);
+  board.position.set(-0.8, 2.2, -2.13);
+  g.add(part(box(1.2, 0.5, 0.06), 0x7a6248, [-0.8, 2.2, -2.2]), board);
+  return g;
+}
+
 function hut(slug, title, pos, online) {
   const g = at(new THREE.Group(), pos[0], pos[1]);
   const facing = pos[1] > SPOTS.lane[1] ? Math.PI : 0;       // every door opens onto the lane
@@ -405,11 +417,12 @@ export function buildPlaces(scene) {
   const h = { huts: new Map(), objects: new Map(), kept: '' };
   const all = new THREE.Group();
   all.add(burrow(h), stump(h), shed(h), board(h), letterbox(h), signalPost(h), lookout(), mossyBank(), fallenLog(),
-    leafDrift(), laneSign(), gate(h), brokenFence(), culvert(), scrapHeap());
+    leafDrift(), laneSign(), gate(h), brokenFence(), culvert(), scrapHeap(), tramHalt());
   h.hutGroup = new THREE.Group();
   h.objectGroup = new THREE.Group();
   all.add(h.hutGroup, h.objectGroup);
   scene.add(all);
+  h.root = all;
 
   // Things a visitor cannot walk through.
   h.colliders = [{ x: 0, z: -3.0, r: 2.7 }, { x: 16, z: -12.6, r: 1.9 }, { x: 14.1, z: -11.2, r: 0.5 }, { x: 17.9, z: -11.2, r: 0.5 },

@@ -8,6 +8,7 @@ const DOING = {
   leave_be: 'leaving something be', greet: 'greeting a neighbour', call_out: 'calling out', wade: 'standing in the creek',
   hide: 'hiding', nap: 'having a nap', tidy: 'tidying the burrow', check_letterbox: 'looking in the letterbox',
   read: 'listening at the signal post', tinker: 'working at his workbench', pin_note: 'pinning a note to the board',
+  ride_tram: 'travelling by tram', trade: 'trading something',
   sit: 'sitting still', ask_for_sleep: 'going to bed', drink: 'drinking', explore: 'out past the edge of town',
   scavenge: 'turning over the scrap heap', pick_up: 'picking something up', put_down: 'setting something down',
   dance: 'dancing', watch: 'watching', wish: 'scratching a wish into the wall at home',
@@ -87,6 +88,34 @@ export function buildUi(api) {
   const walkBtn = button('Walk into town', () => (walking ? api.leave() : api.walkIn()), 'main');
   bar.append(walkBtn, button('Journal', () => ui.openPanel('journal')), button('His mind', () => ui.openPanel('mind')),
     button('Help', () => ui.openPanel('help')));
+  const areaBtn = button('See the city', () => api.switchArea());
+  bar.append(areaBtn);
+  let areaNow = 'town';
+  ui.setArea = (area) => { areaNow = area; areaBtn.textContent = area === 'city' ? 'Back to town' : 'See the city'; walkBtn.style.display = area === 'city' ? 'none' : ''; };
+  // A small map: his town, the tram line, the city, and a mark for where he is.
+  const map = el('section', 'card map');
+  const line = el('div', 'map-line'), mark = el('div', 'map-mark'), mapText = el('div', 'meta');
+  line.append(el('span', 'map-end', 'town'), el('span', 'map-end right', 'city'), mark);
+  map.append(line, mapText);
+  hud.append(map);
+  let mapKey = '';
+  ui.setMap = (s, view) => {
+    const b = s.bird || {}, tram = s.tram, area = b.area || 'town';
+    let at = area === 'city' ? 1 : 0, words = area === 'city' ? 'He is in the city.' : 'He is in his town.';
+    if (tram && !tram.aboard) words = `He is waiting for the tram ${tram.to === 'city' ? 'to the city' : 'home'}.`;
+    if (tram && tram.aboard) {
+      const done = clamp((s.now - tram.departs) / Math.max(1, tram.arrives - tram.departs));
+      at = tram.to === 'city' ? done : 1 - done;
+      words = `He is on the tram ${tram.to === 'city' ? 'to the city' : 'home'}.`;
+    }
+    if (b.asleep) words = area === 'city' ? 'He is asleep in the city.' : 'He is asleep at home.';
+    words += view.area === 'city' ? ' You are looking at the city.' : ' You are looking at his town.';
+    const key = `${Math.round(at * 200)}|${words}`;
+    if (key === mapKey) return;
+    mapKey = key;
+    mark.style.left = `${(8 + at * 84).toFixed(1)}%`;
+    mapText.textContent = words;
+  };
   if (!api.settings.web) bar.append(button('Settings', () => ui.openPanel('settings')));
   else bar.append(button('His home page', () => api.openPage('')));
   hud.append(bar);
@@ -144,7 +173,8 @@ export function buildUi(api) {
 
   ui.setPrompt = (isWalking, reach, linkNow, s) => {
     const lines = [];
-    if (!isWalking) lines.push(linkNow.mode === 'asleep' ? 'Drag to look around · scroll to zoom · Enter to walk about' : 'Drag to look around · scroll to zoom · Enter to walk into town');
+    if (areaNow === 'city') lines.push('Drag to look around · scroll to zoom · visitors walk in his town, not here');
+    else if (!isWalking) lines.push(linkNow.mode === 'asleep' ? 'Drag to look around · scroll to zoom · Enter to walk about' : 'Drag to look around · scroll to zoom · Enter to walk into town');
     else {
       if (reach.talk) lines.push('T — say something to him');
       if (reach.spot) lines.push(`E — ${reach.spot.words}`);

@@ -1,16 +1,17 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T23:59:06-05:00",
- "live": false,
+ "asOf": "2026-11-17T07:58:18-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T05:59:17+01:00",
-   "hour": 5,
-   "minute": 59,
+   "iso": "2026-11-17T13:58:18+01:00",
+   "hour": 23,
+   "minute": 19,
    "phase": "night",
-   "words": "the last of the night",
-   "sun": -21.6,
-   "date": "2026-11-17"
+   "words": "the middle of the night",
+   "sun": -49.2,
+   "date": "2026-11-17",
+   "day_minutes": 60.0
   },
   "weather": "mist",
   "bird": {
@@ -20,25 +21,26 @@ export default {
    ],
    "heading": 108.4,
    "place": "burrow",
-   "doing": null,
-   "target": null,
-   "asleep": true,
+   "doing": "call_out",
+   "target": "",
+   "asleep": false,
    "needs": {
-    "belly": 0.34,
-    "weariness": 0.19,
-    "company": 0.26,
+    "belly": 0.74,
+    "weariness": 0.1,
+    "company": 0.45,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.18
+    "thirst": 0.65
    },
    "feeling": {
-    "mood": 0.36,
-    "energy": 0.26
+    "mood": 0.22,
+    "energy": 0.13
    },
-   "thought": "",
+   "thought": "to hear the dark talk back",
    "said": null,
    "wants_sleep": false,
-   "carrying": []
+   "carrying": [],
+   "area": "town"
   },
   "places": {
    "burrow": {
@@ -47,7 +49,8 @@ export default {
      0,
      0
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "shed": {
     "name": "the shed",
@@ -55,7 +58,8 @@ export default {
      16,
      -9
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "creek": {
     "name": "the creek",
@@ -63,7 +67,8 @@ export default {
      -24,
      8
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "lookout": {
     "name": "the lookout",
@@ -71,7 +76,8 @@ export default {
      28,
      26
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "board": {
     "name": "the board",
@@ -79,7 +85,8 @@ export default {
      9,
      13
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "letterbox": {
     "name": "the letterbox",
@@ -87,7 +94,8 @@ export default {
      -7,
      -15
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "post": {
     "name": "the signal post",
@@ -95,7 +103,8 @@ export default {
      -18,
      -22
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "lane": {
     "name": "Hut Lane",
@@ -103,7 +112,8 @@ export default {
      36,
      -12
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "moss": {
     "name": "the mossy bank",
@@ -111,7 +121,8 @@ export default {
      -12,
      20
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "log": {
     "name": "the log",
@@ -119,7 +130,8 @@ export default {
      14,
      24
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "drift": {
     "name": "the leaf drift",
@@ -127,7 +139,8 @@ export default {
      5,
      -22
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "fence": {
     "name": "the broken fence",
@@ -135,7 +148,8 @@ export default {
      -3,
      -46
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "culvert": {
     "name": "the culvert",
@@ -143,7 +157,8 @@ export default {
      -22,
      47
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "gate": {
     "name": "the gate",
@@ -151,7 +166,8 @@ export default {
      3,
      38
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
    },
    "heap": {
     "name": "the scrap heap",
@@ -159,7 +175,17 @@ export default {
      41,
      7
     ],
-    "hut": null
+    "hut": null,
+    "area": "town"
+   },
+   "halt": {
+    "name": "the tram halt",
+    "pos": [
+     2,
+     57
+    ],
+    "hut": null,
+    "area": "town"
    },
    "hut:gilbert-moon": {
     "name": "the gilbert moon hut",
@@ -167,29 +193,168 @@ export default {
      41.0,
      -7
     ],
-    "hut": "gilbert-moon"
+    "hut": "gilbert-moon",
+    "area": "town"
+   },
+   "square": {
+    "name": "the tram square",
+    "pos": [
+     1000.0,
+     0
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "market": {
+    "name": "the night market",
+    "pos": [
+     1014.0,
+     -6
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "fountain": {
+    "name": "the fountain",
+    "pos": [
+     1006.0,
+     10
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "chandlery": {
+    "name": "the chandlery",
+    "pos": [
+     1022.0,
+     8
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "mender": {
+    "name": "the mending shop",
+    "pos": [
+     988.0,
+     -8
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "bandstand": {
+    "name": "the bandstand",
+    "pos": [
+     994.0,
+     18
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "window": {
+    "name": "the lit window",
+    "pos": [
+     1016.0,
+     22
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "arcade": {
+    "name": "the arcade",
+    "pos": [
+     1028.0,
+     -10
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "garden": {
+    "name": "the garden",
+    "pos": [
+     978.0,
+     14
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "pier": {
+    "name": "the pier",
+    "pos": [
+     996.0,
+     29
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "tower": {
+    "name": "the clock tower",
+    "pos": [
+     980.0,
+     -20
+    ],
+    "hut": null,
+    "area": "city"
+   },
+   "loft": {
+    "name": "the net loft",
+    "pos": [
+     1010.0,
+     27
+    ],
+    "hut": null,
+    "area": "city"
    }
   },
+  "tram": null,
+  "city_x": 1000.0,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36,
+     -12
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14,
+     24
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5,
+     -22
+    ]
+   },
+   "odile": {
+    "name": "Odile",
+    "pos": [
+     1006.0,
+     10
+    ]
+   },
+   "bram": {
+    "name": "Bram",
+    "pos": [
+     1022.0,
+     8
+    ]
+   },
+   "twins": {
+    "name": "the Twins",
+    "pos": [
+     1000.0,
+     0
+    ]
+   },
+   "kettle": {
+    "name": "Sister Kettle",
+    "pos": [
+     1010.0,
+     27
     ]
    }
   },
@@ -234,10 +399,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 4,
-  "now": 1794891557.3,
+  "session": 5,
+  "now": 1794920298.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -555,7 +720,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and often unsure of my place, yet I learned that my walking stirs up good insects, making me feel less alone. Even though no one answered when I called out yesterday, I now listen for new things rather than empty silence.",
    "lastResult": "",
-   "wake": 6,
+   "wake": 7,
    "awakeSince": "",
    "lastDream": "I dream of a beetle slipping through green leaves and a metal belly screaming down a road I cannot see."
   }

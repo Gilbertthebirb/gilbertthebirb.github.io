@@ -94,3 +94,10 @@ input[type=text]:focus, textarea:focus, button:focus-visible { outline: 2px soli
   .toasts { top: 96px; width: 92vw; }
   .drawer { left: 8px; right: 8px; top: 96px; width: auto; max-width: none; }
 }
+
+.map { position: absolute; right: 16px; bottom: 34px; width: 250px; padding: 10px 12px; }
+.map-line { position: relative; height: 22px; margin: 2px 0 4px; border-bottom: 2px dashed rgba(241, 234, 216, 0.3); }
+.map-end { position: absolute; left: 0; bottom: 4px; font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: 1px; }
+.map-end.right { left: auto; right: 0; }
+.map-mark { position: absolute; bottom: -6px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--warm); box-shadow: 0 0 6px var(--warm); transition: left 0.5s linear; }
+@media (max-width: 900px) { .map { right: 12px; bottom: 150px; width: 200px; } }

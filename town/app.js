@@ -2,7 +2,8 @@
 // Everything shown here comes from the town's state or from his files. Nothing here can change him.
 import * as THREE from './vendor/three.module.js';
 import { clamp, damp, dampAngle } from './util.js';
-import { buildLand, heightAt, SPOTS, GATE, STUMP } from './land.js';
+import { buildLand, heightAt, setLevel, SPOTS, GATE, STUMP } from './land.js';
+import { buildCity } from './city.js';
 import { buildPlaces, itemMesh } from './places.js';
 import { makeKiwi, animateKiwi, gaitFrom, makeResident, animateResident, makeVisitor, animateVisitor } from './creatures.js';
 import { buildSky } from './sky.js';
@@ -24,6 +25,29 @@ const camera = new THREE.PerspectiveCamera(50, 1, 0.3, 1200);
 const land = buildLand();
 scene.add(land.group);
 const places = buildPlaces(scene);
+// Which of the two areas is on screen. The city is only built the first time someone looks at it.
+const view = { area: 'town', follow: true, city: null };
+const cityX = () => (state && state.city_x) || 1000;
+const inCityPos = (pos) => pos[0] > 500;
+function showArea(area) {
+  if (area === view.area) return;
+  if (area === 'city' && me.active) leave();                 // visitors walk in town; the city is for watching
+  view.area = area;
+  if (area === 'city' && !view.city) { view.city = buildCity(); scene.add(view.city.group); }
+  if (view.city) view.city.group.visible = area === 'city';
+  land.group.visible = places.root.visible = area === 'town';
+  setLevel(area === 'city');
+  sky.inCity = area === 'city';
+  cam.target.set(0, 1, 0);
+  kiwi.pos.set(9999, 9999);
+  syncThings();
+  ui.setArea(view.area);
+}
+function syncThings() {
+  if (!state) return;
+  const city = view.area === 'city', off = city ? cityX() : 0;
+  places.syncObjects((state.objects || []).filter((o) => inCityPos(o.pos) === city).map((o) => ({ ...o, pos: [o.pos[0] - off, o.pos[1]] })));
+}
 const sky = buildSky(scene);
 const kiwi = makeKiwi();
 scene.add(kiwi.root);
@@ -40,6 +64,7 @@ const cam = { yaw: 0.6, pitch: 0.42, dist: 15, target: new THREE.Vector3(0, 1, 0
 const keys = new Set();
 
 const ui = buildUi({
+  switchArea: () => { view.follow = false; showArea(view.area === 'town' ? 'city' : 'town'); },
   walkIn, leave, settings,
   openPage: (slug) => window.town.open(slug),
   saveSettings: async (change) => Object.assign(settings, await window.town.settings(change)),
@@ -65,7 +90,7 @@ window.town.onState((s) => {
   state = s;
   places.syncHuts(s.places || {}, (mind && mind.projects) || {});
   places.syncKept(s.kept || []);
-  places.syncObjects(s.objects || []);
+  syncThings();
   watchReplies(s);
 });
 
@@ -215,7 +240,7 @@ window.addEventListener('keydown', (e) => {
   else if (k === 'j') ui.openPanel('journal');
   else if (k === 'm') ui.openPanel('mind');
   else if (k === 'h' || k === '?') ui.openPanel('help');
-  else if (k === 'g') cam.watch = cam.watch === 'me' || !me.active ? 'gilbert' : 'me';
+  else if (k === 'g') { cam.watch = cam.watch === 'me' || !me.active ? 'gilbert' : 'me'; view.follow = true; }
   else if (k === 'e') { e.preventDefault(); use(inReach().spot); }
   else if (k === 't' || k === 'enter') {
     e.preventDefault();
@@ -296,19 +321,25 @@ function frame(ms) {
 
   const night = sky.update((state && state.weather) || 'cloud', camera, dt, clock, demo.sun, (state && state.sky && state.sky.day_minutes) || 0).night;
   ui.beginLabels(camera);
+  const city = view.area === 'city', off = city ? cityX() : 0;
+  let birdHere = false;
   if (state && state.bird) {
-    const bird = state.bird;
+    const where = state.bird.area || 'town';
+    if (view.follow && !me.active && (where === 'town' || where === 'city') && where !== view.area) showArea(where);
+    birdHere = where === view.area;
+    kiwi.root.visible = birdHere;
+    const bird = { ...state.bird, pos: [state.bird.pos[0] - off, state.bird.pos[1]] };
     gait = gaitFrom(mind && mind.self, bird.feeling, bird.needs);
     let nearest = null, best = 9;
     for (const r of residents.values()) { const far = r.pos.distanceTo(kiwi.pos); if (far < best) { best = far; nearest = [r.pos.x, r.pos.y]; } }
     for (const o of state.objects || []) {
       const far = Math.hypot(o.pos[0] - kiwi.pos.x, o.pos[1] - kiwi.pos.y);
-      if (o.state !== 'buried' && far < best) { best = far; nearest = o.pos; }
+      if (o.state !== 'buried' && far < best && !city) { best = far; nearest = o.pos; }
     }
     for (const o of others.values()) { const far = o.pos.distanceTo(kiwi.pos); if (far < Math.min(best, 6) && bird.doing === null) { nearest = [o.pos.x, o.pos.y]; } }
     if (me.active && me.online && !bird.doing && me.pos.distanceTo(kiwi.pos) < 6 && bird.said && state.now - bird.said.t < 8) nearest = [me.pos.x, me.pos.y];
-    const pose = animateKiwi(kiwi, bird, gait, dt, clock, { shedInside: places.shedInside, nearest: bird.doing ? nearest : (nearest && bird.said && state.now - bird.said.t < 8 ? nearest : null) });
-    ui.label('gilbert', 'Gilbert', pose.head, 'name bird');
+    const pose = animateKiwi(kiwi, bird, gait, dt, clock, { city, shedInside: places.shedInside, nearest: bird.doing ? nearest : (nearest && bird.said && state.now - bird.said.t < 8 ? nearest : null) });
+    if (birdHere) ui.label('gilbert', 'Gilbert', pose.head, 'name bird');
     const load = (bird.carrying || []).join('|');           // what he is carrying rides on his back
     if (load !== kiwi.load) {
       kiwi.load = load;
@@ -317,17 +348,20 @@ function frame(ms) {
       (bird.carrying || []).forEach((name, i) => { const it = itemMesh(name); it.position.set(i ? 0.14 : -0.12, 1.05, -0.12 - i * 0.16); kiwi.pack.add(it); });
       kiwi.body.add(kiwi.pack);
     }
-    if (bird.asleep) ui.label('zzz', 'z z z', v3.copy(pose.head).setY(pose.head.y + 0.5 + Math.sin(clock) * 0.1), 'sleep');
-    if (bird.said && state.now - bird.said.t < 9 && !state.offline) ui.label('said', bird.said.text, v3.copy(pose.head).setY(pose.head.y + 0.55), 'speech');
+    if (bird.asleep && birdHere) ui.label('zzz', 'z z z', v3.copy(pose.head).setY(pose.head.y + 0.5 + Math.sin(clock) * 0.1), 'sleep');
+    if (birdHere && bird.said && state.now - bird.said.t < 9 && !state.offline) ui.label('said', bird.said.text, v3.copy(pose.head).setY(pose.head.y + 0.55), 'speech');
 
     for (const [key, r] of Object.entries(state.residents || {})) {
       if (!residents.has(key)) { const one = makeResident(key); residents.set(key, one); scene.add(one.root); }
-      const top = animateResident(residents.get(key), r.pos, dt, clock);
+      const one = residents.get(key);
+      one.root.visible = inCityPos(r.pos) === city;
+      if (!one.root.visible) continue;
+      const top = animateResident(one, [r.pos[0] - off, r.pos[1]], dt, clock);
       ui.label(`r:${key}`, r.name, top, 'name');
     }
     const seen = new Set();
     for (const [vid, v] of Object.entries(state.visitors || {})) {
-      if (vid === me.vid) continue;
+      if (vid === me.vid || city) continue;
       seen.add(vid);
       if (!others.has(vid)) { const one = makeVisitor(v.name, false); one.pos.set(v.pos[0], v.pos[1]); others.set(vid, one); scene.add(one.root); }
       const o = others.get(vid);
@@ -340,8 +374,9 @@ function frame(ms) {
       if (v.said && state.now - v.said.t < 7) ui.label(`vs:${vid}`, v.said.text, v3.copy(top).setY(top.y + 0.35), 'speech visitor');
     }
     for (const [vid, o] of others) if (!seen.has(vid)) { scene.remove(o.root); others.delete(vid); }
-    places.update(state, night, clock);
+    if (city) view.city.update(night, clock); else places.update(state, night, clock);
     ui.setState(state, gait, link);
+    ui.setMap(state, view);
   }
 
   if (me.active) {
@@ -356,7 +391,7 @@ function frame(ms) {
 
   // The camera circles whoever is being watched.
   const focus = cam.watch === 'me' && me.active ? v3.set(me.pos.x, heightAt(me.pos.x, me.pos.y) + 1.3, me.pos.y)
-    : v3.set(kiwi.pos.x, heightAt(kiwi.pos.x, kiwi.pos.y) + 0.8, kiwi.pos.y);
+    : birdHere ? v3.set(kiwi.pos.x, heightAt(kiwi.pos.x, kiwi.pos.y) + 0.8, kiwi.pos.y) : v3.set(0, 1, 6);
   cam.target.x = damp(cam.target.x, focus.x, 6, dt); cam.target.y = damp(cam.target.y, focus.y, 6, dt); cam.target.z = damp(cam.target.z, focus.z, 6, dt);
   if (!drag && cam.watch === 'gilbert' && !me.active) cam.yaw += dt * 0.02;       // a slow drift while only watching
   const flat = Math.cos(cam.pitch) * cam.dist;
@@ -371,5 +406,6 @@ if (demo.look) { const [yaw, pitch, dist] = demo.look.split(',').map(Number); Ob
 ui.setLink(await window.town.link());
 await refreshMind();
 if (demo.at) { if (!me.name) me.name = 'Tester'; await walkIn(); const [x, z] = demo.at.split(',').map(Number); me.pos.set(x, z); }
+if (query.get('area') === 'city') { view.follow = false; showArea('city'); }
 if (demo.panel) ui.openPanel(demo.panel);
 requestAnimationFrame(frame);

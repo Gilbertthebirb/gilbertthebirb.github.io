@@ -85,7 +85,8 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
   const doing = bird.asleep ? 'asleep' : (bird.doing || 'idle');
   // Where to draw him. The town gives one point per place; a few actions look better a step away.
   let tx = bird.pos[0], tz = bird.pos[1], face = null;
-  if (doing === 'asleep' || doing === 'nap') { tx = 0; tz = 0.35; face = 0.5; }
+  if ((doing === 'asleep' || doing === 'nap') && extra.city) { /* in the city he sleeps where he is */ }
+  else if (doing === 'asleep' || doing === 'nap') { tx = 0; tz = 0.35; face = 0.5; }
   else if (doing === 'tinker') { tx = extra.shedInside[0]; tz = extra.shedInside[1]; face = Math.PI; }
   else if (doing === 'wade') { tx = -26.4; tz = 8.4; face = -1.2; }
   else if (doing === 'tidy') { tx = -1.4 + Math.sin(t * 0.5) * 0.5; tz = 0.6; face = -1.9; }
@@ -95,8 +96,8 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
   else if ((doing === 'greet' || doing === 'sniff') && extra.nearest) face = Math.atan2(extra.nearest[0] - tx, extra.nearest[1] - tz);
   else if (doing === 'hide') { tx += 0.9; tz -= 0.4; }
   else if (doing === 'explore') {                       // a little way out past the edge, and back
-    const far = Math.hypot(tx, tz) || 1, out = 5.5 * Math.sin(Math.min(1, (t % 90) / 90) * Math.PI);
-    tx += tx / far * out; tz += tz / far * out;
+    const far = Math.hypot(tx, tz) || 1, out = (extra.city ? 16 : 5.5) * Math.sin(Math.min(1, (t % 60) / 60) * Math.PI);
+    if (extra.city) tz += out; else { tx += tx / far * out; tz += tz / far * out; }
   } else if (doing === 'drink' && Math.hypot(tx + 24, tz - 8) < 2) { tx = -25.6; tz = 8.3; face = -1.2; }
   else if (doing === 'drink' && Math.hypot(tx - 16, tz + 9) < 2) { tx = 13.9; tz = -10.2; face = 2.6; }
   else if (doing === 'drink' && Math.hypot(tx + 22, tz - 47) < 2) { tx = -22.8; tz = 48.4; face = 0; }
@@ -183,10 +184,10 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
 }
 
 // ---- the neighbours ---------------------------------------------------------------------------
-function makeWeka() {                                    // Mabel: stocky, upright, into everything
+function makeWeka(feathers = 0x8a5a36) {                  // Mabel: stocky, upright, into everything
   const root = new THREE.Group(), body = new THREE.Group();
   root.add(body);
-  const torso = part(roughen(ball(0.36, 1), 0.04, 0.3), 0x8a5a36, [0, 0.52, 0]);
+  const torso = part(roughen(ball(0.36, 1), 0.04, 0.3), feathers, [0, 0.52, 0]);
   torso.scale.set(0.85, 0.95, 1.2);
   body.add(torso);
   const tail = part(cone(0.16, 0.42, 4), 0x5c3c26, [0, 0.62, -0.46]);
@@ -272,8 +273,46 @@ function makeFantail() {                                 // Pip: cannot keep sti
   return { root, body, neck: null, legs: [], wings, fan, kind: 'fantail', offset: [0.4, -1.3] };
 }
 
+function makeHeron() {                                   // Odile: tall, grey, very still
+  const root = new THREE.Group(), body = new THREE.Group();
+  root.add(body);
+  for (const side of [-1, 1]) body.add(part(tube(0.025, 0.025, 1.3, 4), 0x5a5a48, [side * 0.1, 0.65, 0]));
+  const torso = part(roughen(ball(0.34, 1), 0.04, 0.2), 0x8f99a6, [0, 1.5, -0.05]);
+  torso.scale.set(0.8, 0.9, 1.5);
+  body.add(torso);
+  const neck = new THREE.Group();
+  neck.position.set(0, 1.7, 0.35);
+  neck.add(part(tube(0.05, 0.07, 0.8, 5), 0xa8b0bb, [0, 0.38, 0.05]), part(ball(0.11, 1), 0xe0e4ea, [0, 0.82, 0.1]));
+  const beak = part(cone(0.035, 0.42, 4), 0xd8a840, [0, 0.8, 0.38]);
+  beak.rotation.x = Math.PI / 2;
+  neck.add(beak);
+  body.add(neck);
+  root.add(shadow(0.4));
+  return { root, body, neck, legs: [], kind: 'tuatara', offset: [1.6, -1.1] };
+}
+
+function makeRat() {                                     // Bram: low, quick, brown
+  const root = new THREE.Group(), body = new THREE.Group();
+  root.add(body);
+  const torso = part(roughen(ball(0.28, 1), 0.03, 0.8), 0x6a5444, [0, 0.26, 0]);
+  torso.scale.set(0.8, 0.8, 1.5);
+  body.add(torso);
+  const neck = new THREE.Group();
+  neck.position.set(0, 0.32, 0.36);
+  neck.add(part(cone(0.15, 0.36, 6), 0x6a5444, [0, 0, 0.12]));
+  neck.children[0].rotation.x = Math.PI / 2;
+  for (const side of [-1, 1]) neck.add(part(ball(0.07, 0), 0xc9a0a0, [side * 0.11, 0.13, 0.0]), part(ball(0.02, 0), 0x0c0a08, [side * 0.07, 0.05, 0.18]));
+  body.add(neck);
+  const tail = part(cone(0.035, 0.8, 4), 0xc9a0a0, [0, 0.14, -0.75]);
+  tail.rotation.x = -Math.PI / 2;
+  body.add(tail);
+  root.add(shadow(0.32));
+  return { root, body, neck, legs: [], kind: 'tuatara', offset: [-1.2, 0.9] };
+}
+
 export function makeResident(key) {
-  const r = key === 'mabel' ? makeWeka() : key === 'tuck' ? makeTuatara() : makeFantail();
+  const r = key === 'mabel' ? makeWeka() : key === 'tuck' ? makeTuatara() : key === 'odile' ? makeHeron()
+    : key === 'bram' ? makeRat() : key === 'kettle' ? makeWeka(0x3a4a8a) : makeFantail();
   Object.assign(r, { pos: new THREE.Vector2(999, 999), heading: hash(key) * 6, phase: hash(key) * 10, speed: 0, seed: hash(key) * 100 });
   return r;
 }
