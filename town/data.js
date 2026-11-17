@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:19:45-05:00",
+ "asOf": "2026-11-17T15:24:45-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T21:19:44+01:00",
+   "iso": "2026-11-17T21:24:44+01:00",
    "hour": 21,
-   "minute": 19,
+   "minute": 24,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -39.3,
+   "sun": -40.0,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    5.0,
+    -22.0
    ],
-   "heading": -67.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 136.0,
+   "place": "drift",
+   "doing": "probe",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.55,
-    "weariness": 0.8,
-    "company": 0.2,
-    "itch": 0.94,
+    "belly": 0.67,
+    "weariness": 0.81,
+    "company": 0.28,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.06
+    "thirst": 0.16
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.01
+    "mood": 0.13,
+    "energy": -0.55
    },
-   "thought": "I am tired, but the motion is what keeps me from breaking into pieces in this dark.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,8 +328,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -339,8 +339,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     19.86,
+     24.84
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +350,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"But wait! Did you hear the cricket? Oh, right, we talked about water cycles earlier.\"",
@@ -377,16 +377,16 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     994.0,
+     18.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -446,7 +446,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794946785.6,
+  "now": 1794947085.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1094,8 +1094,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.21355817375560116,
-    "energy": 0.42422408777294895
+    "mood": 0.24431643716598628,
+    "energy": -0.24891631683618604
    },
    "interests": {},
    "threads": [
