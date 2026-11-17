@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T17:45:56-05:00",
+ "asOf": "2026-11-17T17:50:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:45:56-05:00",
+   "iso": "2026-11-17T17:50:56-05:00",
    "hour": 17,
-   "minute": 45,
+   "minute": 50,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -7.4,
+   "sun": -8.1,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -6.98,
+    11.63
    ],
-   "heading": -67.0,
-   "place": "creek",
-   "doing": "sit",
-   "target": "",
+   "heading": 149.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "burrow",
    "asleep": false,
    "needs": {
-    "belly": 0.36,
-    "weariness": 0.47,
-    "company": 0.27,
-    "itch": 0.53,
+    "belly": 0.18,
+    "weariness": 0.5,
+    "company": 0.36,
+    "itch": 0.58,
     "nerves": 0.0,
-    "thirst": 0.06
+    "thirst": 0.16
    },
    "feeling": {
-    "mood": 0.58,
-    "energy": 0.18
+    "mood": 0.53,
+    "energy": -0.2
    },
-   "thought": "watch the rings until the belly is still then walk",
+   "thought": "my belly is full and the ground is too dark to trust again; I need my shell.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9,
-     13
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12,
-     20
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"That's a bird? No, a rock! Wait, did you see something fly past me? Oh, sorry about the flying noise, Gilbert.\"",
@@ -355,16 +355,16 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     1022.0,
+     8.0
     ],
     "said": null
    },
@@ -379,8 +379,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 14,
-  "now": 1794955556.9,
+  "now": 1794955856.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1208,8 +1208,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6009855635857054,
-    "energy": 0.49621026994754514
+    "mood": 0.394036286769582,
+    "energy": -0.1391225742419991
    },
    "interests": {},
    "threads": [
