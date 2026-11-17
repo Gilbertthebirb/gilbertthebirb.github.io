@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T17:26:02-05:00",
+ "asOf": "2026-11-17T17:31:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:26:02-05:00",
+   "iso": "2026-11-17T17:31:02-05:00",
    "hour": 17,
-   "minute": 26,
+   "minute": 31,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -4.7,
+   "sun": -5.4,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,23 +27,21 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.39,
-    "weariness": 0.74,
-    "company": 0.59,
-    "itch": 1.0,
+    "belly": 0.51,
+    "weariness": 0.78,
+    "company": 0.51,
+    "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.36
+    "mood": 0.6,
+    "energy": 0.08
    },
-   "thought": "something shiny and smooth feels right in my beak",
+   "thought": "Let my legs rest after they spoke. The water going round the same stone feels like a promise.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a glass bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -333,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -355,12 +353,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -12.0,
+     20.0
     ],
     "said": {
-     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
-     "t": 1794953205.9
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1794954601.7
     }
    },
    "odile": {
@@ -374,16 +372,16 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
@@ -425,6 +423,15 @@ export default {
     "state": "buried"
    },
    {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     -11.827920874139604,
+     21.28015209136202
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -451,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794954362.9,
+  "now": 1794954663.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1150,8 +1157,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.26539933721410097,
-    "energy": -0.3801670423575012
+    "mood": 0.6025193956720362,
+    "energy": 0.08214915635445175
    },
    "interests": {},
    "threads": [
