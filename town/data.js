@@ -1,42 +1,42 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T07:58:18-05:00",
+ "asOf": "2026-11-17T08:03:18-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T13:58:18+01:00",
-   "hour": 23,
+   "iso": "2026-11-17T14:03:18+01:00",
+   "hour": 1,
    "minute": 19,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -49.2,
+   "sun": -47.0,
    "date": "2026-11-17",
    "day_minutes": 60.0
   },
   "weather": "mist",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
-   "doing": "call_out",
-   "target": "",
+   "heading": -71.6,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.74,
-    "weariness": 0.1,
-    "company": 0.45,
+    "belly": 0.2,
+    "weariness": 0.22,
+    "company": 0.64,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.65
+    "thirst": 0.47
    },
    "feeling": {
-    "mood": 0.22,
-    "energy": 0.13
+    "mood": 0.28,
+    "energy": 0.06
    },
-   "thought": "to hear the dark talk back",
+   "thought": "the crunch told me where to find myself",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -311,15 +311,15 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36,
-     -12
+     5.0,
+     -22.0
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ]
    },
    "pip": {
@@ -332,8 +332,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     1008.18,
+     5.64
     ]
    },
    "bram": {
@@ -346,15 +346,15 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0
+     980.0,
+     -20.0
     ]
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     1006.0,
+     10.0
     ]
    }
   },
@@ -402,7 +402,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 5,
-  "now": 1794920298.7,
+  "now": 1794920598.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -709,8 +709,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2994417280101501,
-    "energy": 0.175263058512176
+    "mood": 0.12991943008398277,
+    "energy": 0.10594180603614148
    },
    "interests": {},
    "threads": [
@@ -722,7 +722,7 @@ export default {
    "lastResult": "",
    "wake": 7,
    "awakeSince": "",
-   "lastDream": "I dream of a beetle slipping through green leaves and a metal belly screaming down a road I cannot see."
+   "lastDream": "I screamed for silence and found a friend named Mabel instead of an echo."
   }
  }
 };
