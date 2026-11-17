@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T17:01:02-05:00",
+ "asOf": "2026-11-17T17:06:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:01:02-05:00",
+   "iso": "2026-11-17T17:06:02-05:00",
    "hour": 17,
-   "minute": 1,
+   "minute": 6,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -1.3,
+   "sun": -2.0,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "wind",
   "bird": {
    "pos": [
     -24.0,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.66,
-    "weariness": 0.63,
-    "company": 0.37,
-    "itch": 0.92,
-    "nerves": 0.0,
-    "thirst": 0.22
+    "belly": 0.49,
+    "weariness": 0.67,
+    "company": 0.46,
+    "itch": 0.96,
+    "nerves": 0.04,
+    "thirst": 0.32
    },
    "feeling": {
-    "mood": 0.36,
-    "energy": 0.01
+    "mood": 0.23,
+    "energy": 0.19
    },
-   "thought": "the water feels like it knows my name",
+   "thought": "my feet know the water goes round the same stone; let them lead me where my nose can smell what Mabel might have left behind",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -331,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -342,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     17.69,
-     24.53
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -353,8 +353,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -22.11,
+     6.04
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -372,16 +372,16 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     978.0,
+     14.0
     ],
     "said": null
    },
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794952862.6,
+  "now": 1794953162.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1157,8 +1157,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4612395408525885,
-    "energy": 0.24245087012924216
+    "mood": 0.04926054670417157,
+    "energy": 0.02143307651266102
    },
    "interests": {},
    "threads": [
