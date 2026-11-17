@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T09:17:41-05:00",
+ "asOf": "2026-11-17T09:22:41-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:17:40+01:00",
+   "iso": "2026-11-17T15:22:40+01:00",
    "hour": 15,
-   "minute": 17,
+   "minute": 22,
    "phase": "day",
    "words": "afternoon",
-   "sun": 10.4,
+   "sun": 9.9,
    "date": "2026-11-17"
   },
   "weather": "clear",
@@ -20,22 +20,22 @@ export default {
    ],
    "heading": -71.6,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.24,
-    "weariness": 0.37,
+    "belly": 0.37,
+    "weariness": 0.46,
     "company": 1.0,
-    "itch": 0.95,
-    "nerves": 0.12,
-    "thirst": 0.18
+    "itch": 0.94,
+    "nerves": 0.15,
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.07,
-    "energy": -0.41
+    "mood": 0.14,
+    "energy": -0.12
    },
-   "thought": "hunger is loud; ground feels deep but empty",
+   "thought": "the rings tell me I'm still here before the dark comes",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -319,16 +319,16 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": null
    },
@@ -359,16 +359,16 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     978.0,
+     14.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     987.39,
+     17.82
     ],
     "said": null
    }
@@ -417,7 +417,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 9,
-  "now": 1794925061.7,
+  "now": 1794925361.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -870,8 +870,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.0686737802957208,
-    "energy": -0.4105347518531565
+    "mood": 0.21165235774036112,
+    "energy": 0.027462268818499835
    },
    "interests": {},
    "threads": [
