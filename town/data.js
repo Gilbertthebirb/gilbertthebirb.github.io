@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T15:26:08-05:00",
- "live": false,
+ "asOf": "2026-11-17T15:31:01-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T15:30:04-05:00",
+   "iso": "2026-11-17T15:31:00-05:00",
    "hour": 15,
-   "minute": 30,
+   "minute": 31,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.2,
+   "sun": 9.1,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "rain",
+  "weather": "clear",
   "bird": {
    "pos": [
     0.0,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 108.4,
    "place": "burrow",
-   "doing": null,
-   "target": null,
-   "asleep": true,
+   "doing": "dance",
+   "target": "",
+   "asleep": false,
    "needs": {
-    "belly": 0.79,
+    "belly": 0.81,
     "weariness": 0.08,
-    "company": 0.36,
+    "company": 0.37,
     "itch": 1.0,
-    "nerves": 0.19,
-    "thirst": 0.01
+    "nerves": 0.0,
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": 0.03,
-    "energy": -0.38
+    "mood": 0.14,
+    "energy": -0.25
    },
-   "thought": "",
+   "thought": "my legs know the rhythm but my nose needs food",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -331,8 +331,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9,
-     13
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -342,8 +342,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -364,8 +364,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     1014.0,
+     -6
     ],
     "said": null
    },
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     978.0,
+     14
     ],
     "said": null
    }
@@ -446,10 +446,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 12,
-  "now": 1794947405.6,
+  "session": 13,
+  "now": 1794947461.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1131,7 +1131,7 @@ export default {
    ],
    "about": "I am Gilbert, a small bird who watches leaves and rings on water until the silence stops pulling at me. I find comfort in the way the water goes round the same stone over and over, and in moments when others speak my name or tell me about vibrations in the soil.",
    "lastResult": "",
-   "wake": 14,
+   "wake": 15,
    "awakeSince": "",
    "lastDream": "Pip flew a loop around my head and landed where it started, yet said I stir up good insects when I walk."
   }
