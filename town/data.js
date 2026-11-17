@@ -1,42 +1,42 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T08:34:33-05:00",
+ "asOf": "2026-11-17T08:39:33-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T14:34:32+01:00",
-   "hour": 13,
+   "iso": "2026-11-17T14:39:32+01:00",
+   "hour": 15,
    "minute": 48,
    "phase": "day",
-   "words": "the middle of the day",
-   "sun": 44.5,
+   "words": "afternoon",
+   "sun": 27.1,
    "date": "2026-11-17",
    "day_minutes": 60.0
   },
   "weather": "rain",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
+   "heading": -71.6,
+   "place": "creek",
    "doing": "dance",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.5,
-    "weariness": 0.09,
+    "belly": 0.32,
+    "weariness": 0.18,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.05,
-    "thirst": 0.37
+    "nerves": 0.2,
+    "thirst": 0.47
    },
    "feeling": {
-    "mood": 0.04,
-    "energy": -0.5
+    "mood": 0.03,
+    "energy": -0.34
    },
-   "thought": "legs need rhythm before they find a home",
+   "thought": "The rain is too loud for my thoughts, but my feet need to move. I will dance until the quiet comes back.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -311,36 +311,36 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     25.14,
+     -15.5
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     14,
-     24
+     -12.0,
+     20.0
     ]
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0
+     1006.0,
+     10.0
     ]
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     1022.0,
+     8.0
     ]
    },
    "twins": {
@@ -353,8 +353,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     978.0,
+     14.0
     ]
    }
   },
@@ -402,7 +402,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 6,
-  "now": 1794922473.2,
+  "now": 1794922773.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -742,8 +742,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.05787531551480418,
-    "energy": -0.5381027293361013
+    "mood": 0.12191933404059543,
+    "energy": -0.20997850377449231
    },
    "interests": {},
    "threads": [
@@ -755,7 +755,7 @@ export default {
    "lastResult": "",
    "wake": 8,
    "awakeSince": "",
-   "lastDream": "I screamed for silence and found a friend named Mabel instead of an echo."
+   "lastDream": "I saw a small stone run through leaves leaving rings on water while Pip stirred up good insects walking inside the dark."
   }
  }
 };
