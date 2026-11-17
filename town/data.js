@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T13:44:44-05:00",
+ "asOf": "2026-11-17T13:49:44-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:44:44+01:00",
+   "iso": "2026-11-17T19:49:44+01:00",
    "hour": 19,
-   "minute": 44,
+   "minute": 49,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -25.1,
+   "sun": -25.9,
    "date": "2026-11-17"
   },
   "weather": "rain",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    16.0,
+    -9.0
    ],
-   "heading": -44.0,
-   "place": "creek",
-   "doing": "wade",
-   "target": "",
+   "heading": 136.0,
+   "place": "shed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.22,
-    "company": 0.07,
-    "itch": 0.71,
+    "belly": 0.1,
+    "weariness": 0.35,
+    "company": 0.16,
+    "itch": 0.38,
     "nerves": 0.05,
-    "thirst": 0.38
+    "thirst": 0.48
    },
    "feeling": {
-    "mood": 0.64,
-    "energy": 0.38
+    "mood": 0.5,
+    "energy": 0.12
    },
-   "thought": "The water goes round the same stone over and over; I need to feel that rhythm again.",
+   "thought": "the silence here is too much like the one I danced through; i need a stone to feel the ring in it first",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,16 +328,16 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -347,8 +347,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoops! The wind is blowing, but did you see that blue bird flying?\"",
@@ -358,32 +358,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1007.56,
+     6.88
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1024.94,
-     -0.83
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -443,7 +443,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 11,
-  "now": 1794941084.7,
+  "now": 1794941384.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -775,9 +775,18 @@ export default {
     "text": "The water went round the same stone over and over again, different every time.\nPip found me and said my name in the dark.\nI danced until my legs told them what they wanted to say.\nA blue bottle cap sits at the creek, lying where I put it.\nMy own voice came back smaller from the hollow when I called out.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0238",
+    "ts": "2026-11-17T13:49:37-05:00",
+    "kind": "journal",
+    "wake": 13,
+    "text": "The rain has stopped and the dark feels different now. I watched the water go round the same stone, over and over again, until it was not just a pattern but a promise that things keep happening even when nothing seems to change. The moon's shadow met my own on the ground—two edges touching in the quiet—and for the first time since I came here, I felt something steady settle inside me. I do not know who Gilbert is yet, but I know I am here, and that enough.",
+    "tag": "",
+    "heat": 0.44
    }
   ],
-  "journalCount": 36,
+  "journalCount": 37,
   "memory": {
    "sleeps": 10,
    "next_id": 21,
@@ -1064,12 +1073,11 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4131960904214933,
-    "energy": 0.2381883428113765
+    "mood": 0.904255129653603,
+    "energy": 0.367558016686667
    },
    "interests": {},
    "threads": [
-    "finish what is on your workbench and send it out",
     "What makes me feel alive when nothing is happening?",
     "Who am I when I stop trying to be ordinary?"
    ],
