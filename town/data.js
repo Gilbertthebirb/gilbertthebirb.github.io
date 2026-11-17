@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T16:36:02-05:00",
+ "asOf": "2026-11-17T16:41:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T16:36:02-05:00",
+   "iso": "2026-11-17T16:41:02-05:00",
    "hour": 16,
-   "minute": 36,
+   "minute": 41,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 1.8,
+   "sun": 1.2,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 40.2,
    "place": "shed",
-   "doing": "drink",
+   "doing": "dance",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.64,
-    "weariness": 0.67,
-    "company": 0.58,
-    "itch": 0.88,
+    "belly": 0.76,
+    "weariness": 0.68,
+    "company": 0.16,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.02
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": 0.15,
-    "energy": -0.21
+    "mood": 0.16,
+    "energy": -0.17
    },
-   "thought": "Silence makes my throat ache; I need to remember what it feels like to be full before I try again.",
+   "thought": "the ground feels right under me now",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -335,15 +335,15 @@ export default {
      -22.0
     ],
     "said": {
-     "text": "Mabel said to you: \"Something shifted in the wind while I was napping yesterday, and now you're both buzzing.\"",
-     "t": 1794949607.3
+     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
+     "t": 1794951459.4
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     19.24,
+     24.75
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -353,8 +353,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -364,8 +364,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -380,16 +380,16 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     978.0,
+     14.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -458,7 +458,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 13,
-  "now": 1794951362.4,
+  "now": 1794951662.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1148,8 +1148,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.32913775577209403,
-    "energy": -0.22059448980376895
+    "mood": 0.44521238331182916,
+    "energy": 0.16084232263840437
    },
    "interests": {},
    "threads": [
