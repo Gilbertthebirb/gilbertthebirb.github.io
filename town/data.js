@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T18:00:57-05:00",
+ "asOf": "2026-11-17T18:05:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:00:56-05:00",
+   "iso": "2026-11-17T18:05:56-05:00",
    "hour": 18,
-   "minute": 0,
+   "minute": 5,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -9.6,
+   "sun": -10.3,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    16.0,
+    -9.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 113.0,
+   "place": "shed",
+   "doing": "tinker",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.13,
+    "belly": 0.26,
     "weariness": 0.54,
-    "company": 0.37,
-    "itch": 0.79,
+    "company": 0.26,
+    "itch": 0.96,
     "nerves": 0.0,
-    "thirst": 0.05
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": 0.81,
-    "energy": -0.08
+    "mood": 0.48,
+    "energy": -0.28
    },
-   "thought": "I feel like I need to know what you smell is different from this mist.",
+   "thought": "the vibration Mabel felt needs to be caught before it fades away; I will make something at the workbench to hold the silence.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a glass bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -348,31 +350,31 @@ export default {
      8.0
     ],
     "said": {
-     "text": "Pip said to you: \"That's a bird? No, a rock! Wait, did you see something fly past me? Oh, sorry about the flying noise, Gilbert.\"",
-     "t": 1794954903.2
+     "text": "Pip said to you: \"I'll try my best! But wait, look there! A shiny leaf. Oh, no I forgot. Bye bye Gilbert! So long!\"",
+     "t": 1794956474.1
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.14,
-     11.57
+     980.0,
+     -20.0
     ],
     "said": null
    },
@@ -414,15 +416,6 @@ export default {
     "state": "buried"
    },
    {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     16.657990509094667,
-     -7.704561073720512
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -447,9 +440,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": false,
+  "bench": true,
   "session": 14,
-  "now": 1794956457.1,
+  "now": 1794956757.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1208,8 +1201,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.8080118829931315,
-    "energy": -0.08450728941732977
+    "mood": 0.5400934814249077,
+    "energy": -0.006619458427008951
    },
    "interests": {},
    "threads": [
