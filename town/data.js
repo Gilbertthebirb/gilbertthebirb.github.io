@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T12:16:09-05:00",
+ "asOf": "2026-11-17T12:21:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:16:08+01:00",
+   "iso": "2026-11-17T18:21:08+01:00",
    "hour": 18,
-   "minute": 16,
+   "minute": 21,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -11.8,
+   "sun": -12.5,
    "date": "2026-11-17"
   },
   "weather": "drizzle",
@@ -20,25 +20,27 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": "drink",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.84,
-    "weariness": 0.6,
-    "company": 0.62,
-    "itch": 0.54,
+    "belly": 0.67,
+    "weariness": 0.67,
+    "company": 0.4,
+    "itch": 0.41,
     "nerves": 0.0,
-    "thirst": 0.08
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.19,
-    "energy": -0.28
+    "mood": 0.71,
+    "energy": 0.12
    },
-   "thought": "water feels like something that stays even when it moves",
+   "thought": "my legs need to move before my nose finds something",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a blue bottle cap"
+   ],
    "area": "town"
   },
   "places": {
@@ -336,8 +338,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -347,12 +349,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
-     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
-     "t": 1794934037.4
+     "text": "Pip said to you: \"Hi there! Oh look at that butterfly over there... hello again!\"",
+     "t": 1794935835.0
     }
    },
    "odile": {
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
@@ -415,15 +417,6 @@ export default {
      23.777667595512078
     ],
     "state": "buried"
-   },
-   {
-    "id": "o4-744",
-    "name": "a blue bottle cap",
-    "pos": [
-     -24.332809430650688,
-     6.416715158974908
-    ],
-    "state": "buried"
    }
   ],
   "wishes": [],
@@ -441,7 +434,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 10,
-  "now": 1794935769.9,
+  "now": 1794936069.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1002,8 +995,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4163348432601402,
-    "energy": -0.026303754909587362
+    "mood": 0.6584117746881013,
+    "energy": 0.1366713857957058
    },
    "interests": {},
    "threads": [
