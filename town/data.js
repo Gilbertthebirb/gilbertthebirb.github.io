@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T11:26:09-05:00",
+ "asOf": "2026-11-17T11:31:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:26:08+01:00",
+   "iso": "2026-11-17T17:31:08+01:00",
    "hour": 17,
-   "minute": 26,
+   "minute": 31,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -4.7,
+   "sun": -5.4,
    "date": "2026-11-17"
   },
   "weather": "clear",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": "tinker",
+   "heading": -67.0,
+   "place": "creek",
+   "doing": "sit",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.5,
-    "weariness": 0.09,
-    "company": 0.87,
-    "itch": 1.0,
+    "belly": 0.63,
+    "weariness": 0.24,
+    "company": 0.45,
+    "itch": 0.52,
     "nerves": 0.0,
-    "thirst": 0.4
+    "thirst": 0.06
    },
    "feeling": {
-    "mood": -0.06,
-    "energy": -0.66
+    "mood": 0.63,
+    "energy": 0.51
    },
-   "thought": "to find out what makes me feel alive without trying",
+   "thought": "water is moving again, I am still",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -204,6 +204,15 @@ export default {
     "hut": "gilbert-moon",
     "area": "town"
    },
+   "hut:gilbert-water-stone": {
+    "name": "the gilbert water stone hut",
+    "pos": [
+     41.0,
+     -17
+    ],
+    "hut": "gilbert-water-stone",
+    "area": "town"
+   },
    "square": {
     "name": "the tram square",
     "pos": [
@@ -319,51 +328,51 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9,
-     13
+     16.0,
+     -9.0
     ],
     "said": null
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": null
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -24,
-     8
+     -7.44,
+     14.97
     ],
     "said": {
-     "text": "Pip said to you: \"Oh wow! Did he say warm? That's weird! I heard a blue jay singing nearby, wait... no, let's talk about Gilbert's feathers. They're so pretty! Do you think they match…\"",
-     "t": 1794927350.6
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1794933009.9
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20
+     1014.0,
+     -6.0
     ],
     "said": null
    },
@@ -418,9 +427,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 10,
-  "now": 1794932769.2,
+  "now": 1794933069.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -707,9 +716,18 @@ export default {
     "text": "The wind got up outside while I danced until my legs told them what they wanted to say. Pip laughed about Gilbert's feathers and left me feeling less alone for a moment. The leaf turned twice in the water and went on its way as if it knew something I don't yet. My eyes keep closing now that I have decided to go to bed, but the silence feels heavy before it answers me.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0177",
+    "ts": "2026-11-17T11:27:02-05:00",
+    "kind": "journal",
+    "wake": 12,
+    "text": "I sat at the workbench and listened to the water rushing over the stone. It goes round and round, never changing its way, yet it feels new every time. This is what makes me feel alive when nothing else is happening. I am Gilbert, who walks through the town stirring up good insects, but here I just watch. When the silence feels heavy, I listen to this rushing instead of calling out into the dark. The water tells me I am not alone.",
+    "tag": "",
+    "heat": 0.36
    }
   ],
-  "journalCount": 31,
+  "journalCount": 32,
   "memory": {
    "sleeps": 9,
    "next_id": 18,
@@ -951,12 +969,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-moon/",
     "note": "Gilbert watches where the moon's shadow meets his own, and feels quiet without trying to be anything"
+   },
+   "gilbert-water-stone": {
+    "title": "gilbert water stone",
+    "description": "listening for the rush of water on stone",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-water-stone/",
+    "note": "Gilbert watches the water go round the same stone"
    }
   },
   "now": {
    "feeling": {
-    "mood": -0.0962968913599789,
-    "energy": -0.8395789744664334
+    "mood": 0.5761206602725666,
+    "energy": 0.37685039024411215
    },
    "interests": {},
    "threads": [
@@ -968,7 +994,7 @@ export default {
    "lastResult": "",
    "wake": 12,
    "awakeSince": "",
-   "lastDream": "A branch cracked behind a water ring while my feet forgot the ground. I danced with the crack, but my nose found only quiet."
+   "lastDream": "Someone's voice called from far away while I walked through dark places stirring up little black bugs. The sound and the insects ran together in my sleep like water going round the same stone over and over again."
   }
  }
 };
