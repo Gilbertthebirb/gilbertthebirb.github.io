@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T23:56:09-05:00",
- "live": true,
+ "asOf": "2026-11-16T23:59:06-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-17T05:56:05+01:00",
+   "iso": "2026-11-17T05:59:17+01:00",
    "hour": 5,
-   "minute": 56,
+   "minute": 59,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -22.1,
+   "sun": -21.6,
    "date": "2026-11-17"
   },
-  "weather": "cloud",
+  "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    0.0,
+    0.0
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": "sit",
-   "target": "",
-   "asleep": false,
+   "heading": 108.4,
+   "place": "burrow",
+   "doing": null,
+   "target": null,
+   "asleep": true,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.17,
-    "company": 0.21,
+    "belly": 0.34,
+    "weariness": 0.19,
+    "company": 0.26,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.54,
-    "energy": 0.12
+    "mood": 0.36,
+    "energy": 0.26
    },
-   "thought": "the silence is too heavy and my nose feels dull",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": []
@@ -181,8 +181,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     21.92,
-     25.13
+     14.0,
+     24.0
     ]
    },
    "pip": {
@@ -234,10 +234,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 4,
-  "now": 1794891369.3,
+  "now": 1794891557.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -362,21 +362,48 @@ export default {
     "text": "The night air hums with Pip's words about stirring up good insects, yet my feet feel too heavy to walk further. I called out until something far away answered me, but no one came close enough to speak. My chest feels tight again, the quiet of the burrow pressing in where Mabel and I promised we are here together. Maybe the calling back is just a sound from the dark itself, testing if I am loud enough to be seen. I will lie down now, letting the branch cracks behind me remind me that others move through this world without asking permission.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0096",
+    "ts": "2026-11-16T23:46:31-05:00",
+    "kind": "event",
+    "wake": 6,
+    "text": "You scratched a wish into the wall at home: \"I wish I could hear my own name spoken back.\"",
+    "tag": "",
+    "heat": 0.33
+   },
+   {
+    "id": "j0098",
+    "ts": "2026-11-16T23:51:10-05:00",
+    "kind": "event",
+    "wake": 6,
+    "text": "You called out. Far away, something called back.",
+    "tag": "",
+    "heat": 0.38
+   },
+   {
+    "id": "j0102",
+    "ts": "2026-11-16T23:59:06-05:00",
+    "kind": "journal",
+    "wake": 6,
+    "text": "The silence here feels heavy again, but I have something new to listen for. Pip told me I stir up good insects with my walking, so maybe the quiet isn't empty just because no one answers me back. The water circles that stone over and over, yet it never does the same twice, which makes me wonder if my own path will also shift before it ends. I scratched a wish on the wall to hear my name spoken, but now I think perhaps I am speaking loud enough that it might carry further than I know. Even though no one has come to say my name, feeling less alone when something ran through the leaves makes me feel ready to move forward again.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 13,
+  "journalCount": 16,
   "memory": {
-   "sleeps": 3,
-   "next_id": 9,
+   "sleeps": 4,
+   "next_id": 11,
    "items": [
     {
      "id": "m001",
      "section": "others",
      "text": "Pip said I stir up good insects when I walk, and that made me feel less alone.",
-     "strength": 4.4399999999999995,
+     "strength": 4.542666482423424,
      "born": 0,
-     "last": 2,
-     "times": 4,
+     "last": 3,
+     "times": 5,
      "source": "j0083",
      "since": "2026-11-16"
     },
@@ -384,10 +411,10 @@ export default {
      "id": "m002",
      "section": "happened",
      "text": "I walked through the town and stirred up good insects.",
-     "strength": 3.0366446611846456,
+     "strength": 3.233289652459385,
      "born": 0,
-     "last": 2,
-     "times": 2,
+     "last": 3,
+     "times": 3,
      "source": "j0019",
      "since": "2026-11-16"
     },
@@ -395,10 +422,10 @@ export default {
      "id": "m003",
      "section": "learned",
      "text": "My nose can tell when I leave traces for others to follow.",
-     "strength": 2.8258857779956994,
+     "strength": 2.860076455844662,
      "born": 0,
-     "last": 1,
-     "times": 1,
+     "last": 3,
+     "times": 2,
      "source": "j0019",
      "since": "2026-11-16"
     },
@@ -406,10 +433,10 @@ export default {
      "id": "m004",
      "section": "happened",
      "text": "I called out into the dark until my eyes burned, hoping something would answer back.",
-     "strength": 2.8258857779956994,
+     "strength": 3.0366446611846456,
      "born": 1,
-     "last": 2,
-     "times": 1,
+     "last": 3,
+     "times": 2,
      "source": "j0073",
      "since": "2026-11-16"
     },
@@ -417,10 +444,10 @@ export default {
      "id": "m005",
      "section": "happened",
      "text": "A car rushed past on a road I can't see.",
-     "strength": 2.6,
+     "strength": 2.6634314645699226,
      "born": 1,
-     "last": 1,
-     "times": 0,
+     "last": 3,
+     "times": 1,
      "source": "j0073",
      "since": "2026-11-16"
     },
@@ -428,10 +455,10 @@ export default {
      "id": "m006",
      "section": "happened",
      "text": "Something small ran through the leaves and was gone.",
-     "strength": 4.140000000000001,
+     "strength": 4.262756584962383,
      "born": 1,
-     "last": 2,
-     "times": 2,
+     "last": 3,
+     "times": 3,
      "source": "j0079",
      "since": "2026-11-16"
     },
@@ -439,10 +466,10 @@ export default {
      "id": "m007",
      "section": "learned",
      "text": "If nothing happens and I still feel alive, then I am here.",
-     "strength": 2.5646365403653935,
+     "strength": 2.7928905034617313,
      "born": 1,
-     "last": 2,
-     "times": 1,
+     "last": 3,
+     "times": 2,
      "source": "j0052",
      "since": "2026-11-16"
     },
@@ -455,6 +482,28 @@ export default {
      "last": 2,
      "times": 0,
      "source": "j0080",
+     "since": "2026-11-16"
+    },
+    {
+     "id": "m009",
+     "section": "happened",
+     "text": "I called out and far away something called back.",
+     "strength": 2.52,
+     "born": 3,
+     "last": 3,
+     "times": 0,
+     "source": "j0098",
+     "since": "2026-11-16"
+    },
+    {
+     "id": "m010",
+     "section": "happened",
+     "text": "I scratched a wish into the wall hoping my own name would be spoken back.",
+     "strength": 2.3200000000000003,
+     "born": 3,
+     "last": 3,
+     "times": 0,
+     "source": "j0096",
      "since": "2026-11-16"
     }
    ],
@@ -481,7 +530,7 @@ export default {
     "text": ""
    }
   ],
-  "known": "",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- probe: 5 times (at the mossy bank, the creek, the leaf drift)\n- call out: 3 times\n- say: 2 times\n- walk to: 2 times\n- wish: 1 time (at the burrow)\n- sniff: 1 time (at the shed, the mossy bank, the creek, the gilbert moon hut, the board)\n- drink: 1 time (at the creek)\n- greet: 1 time (at the shed, the mossy bank, the creek, the board, the gilbert moon hut)\n- sit: 1 time\n- watch: 1 time (at the creek)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -495,8 +544,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.525007942366279,
-    "energy": 0.22304939601966828
+    "mood": 0.2994417280101501,
+    "energy": 0.175263058512176
    },
    "interests": {},
    "threads": [
@@ -504,7 +553,7 @@ export default {
     "Who am I when I stop trying to be ordinary?",
     "There is so much more light left to see before sleep takes me again."
    ],
-   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I do not know much about myself yet, but I am quiet and unsure where to stand. My chest feels tight when I call out and no one answers.",
+   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and often unsure of my place, yet I learned that my walking stirs up good insects, making me feel less alone. Even though no one answered when I called out yesterday, I now listen for new things rather than empty silence.",
    "lastResult": "",
    "wake": 6,
    "awakeSince": "",
