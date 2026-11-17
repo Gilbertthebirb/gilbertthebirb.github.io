@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T17:40:56-05:00",
+ "asOf": "2026-11-17T17:45:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T17:40:56-05:00",
+   "iso": "2026-11-17T17:45:56-05:00",
    "hour": 17,
-   "minute": 40,
+   "minute": 45,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -6.7,
+   "sun": -7.4,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": "tinker",
+   "heading": -67.0,
+   "place": "creek",
+   "doing": "sit",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.53,
-    "weariness": 0.3,
-    "company": 0.19,
-    "itch": 1.0,
-    "nerves": 0.3,
-    "thirst": 0.43
+    "belly": 0.36,
+    "weariness": 0.47,
+    "company": 0.27,
+    "itch": 0.53,
+    "nerves": 0.0,
+    "thirst": 0.06
    },
    "feeling": {
-    "mood": 0.06,
-    "energy": 0.1
+    "mood": 0.58,
+    "energy": 0.18
    },
-   "thought": "my legs feel like water turning on a stone, just enough to make something stop",
+   "thought": "watch the rings until the belly is still then walk",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a glass bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1006.0,
+     10.0
     ],
     "said": null
    },
@@ -373,8 +371,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6
+     980.0,
+     -20.0
     ],
     "said": null
    },
@@ -416,6 +414,15 @@ export default {
     "state": "buried"
    },
    {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     16.657990509094667,
+     -7.704561073720512
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -440,9 +447,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 14,
-  "now": 1794955256.8,
+  "now": 1794955556.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -873,9 +880,18 @@ export default {
     "text": "The ground shook again, but Mabel's peck was a warm reminder that I am still here. Pip laughed too much about flying birds while I danced until my legs told me to stay. The water rings kept spinning like the leaf turning twice, even when no one was watching. If I don't know who I am, maybe I will be found in the silence between the bark and the crack of a branch. Someone is still there, waiting for me to stop trying to be ordinary.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0375",
+    "ts": "2026-11-17T17:41:25-05:00",
+    "kind": "journal",
+    "wake": 16,
+    "text": "I went back to gilbert-water-stone because the dark feels less like a wall when I can hear it moving. I watched a leaf turn twice down the creek, round and round, not trying to catch anything or decide whether to keep going. For the first time in a while, I felt calm without needing to be anything special. The water still goes round the same stone over and over, and now that feels like where I am standing when nothing is happening.",
+    "tag": "",
+    "heat": 0.43
    }
   ],
-  "journalCount": 47,
+  "journalCount": 48,
   "memory": {
    "sleeps": 13,
    "next_id": 23,
@@ -1187,13 +1203,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-water-stone/",
-    "note": "Gilbert watches rings on water and Mabel's peck when nothing is happening"
+    "note": "Gilbert watches rings on water when the dark feels like a wall"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.05858748910237427,
-    "energy": 0.09947670430941258
+    "mood": 0.6009855635857054,
+    "energy": 0.49621026994754514
    },
    "interests": {},
    "threads": [
