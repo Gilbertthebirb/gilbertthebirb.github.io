@@ -294,7 +294,7 @@ function frame(ms) {
   frames++;
   if (ms - fpsAt > 2000) { fps = Math.round(frames * 1000 / (ms - fpsAt)); frames = 0; fpsAt = ms; if (demo.fps) console.log('FPS', fps); ui.setFps(fps); }
 
-  const night = sky.update((state && state.weather) || 'cloud', camera, dt, clock, demo.sun).night;
+  const night = sky.update((state && state.weather) || 'cloud', camera, dt, clock, demo.sun, (state && state.sky && state.sky.day_minutes) || 0).night;
   ui.beginLabels(camera);
   if (state && state.bird) {
     const bird = state.bird;

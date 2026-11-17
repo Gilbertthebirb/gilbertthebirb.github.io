@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T23:51:09-05:00",
+ "asOf": "2026-11-16T23:56:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T05:51:05+01:00",
+   "iso": "2026-11-17T05:56:05+01:00",
    "hour": 5,
-   "minute": 51,
+   "minute": 56,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -22.8,
+   "sun": -22.1,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": -31.0,
-   "place": "moss",
-   "doing": null,
-   "target": null,
+   "heading": -135.0,
+   "place": "creek",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.45,
-    "weariness": 0.13,
-    "company": 0.43,
+    "belly": 0.27,
+    "weariness": 0.17,
+    "company": 0.21,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.62
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": 0.13,
-    "energy": 0.08
+    "mood": 0.54,
+    "energy": 0.12
    },
-   "thought": "I am afraid of the silence and need to know if someone else feels this dark too.",
+   "thought": "the silence is too heavy and my nose feels dull",
    "said": null,
    "wants_sleep": false,
    "carrying": []
@@ -174,22 +174,22 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36,
-     -12
+     5.0,
+     -22.0
     ]
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     21.92,
+     25.13
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     9.45,
-     22.09
+     -12.0,
+     20.0
     ]
    }
   },
@@ -237,7 +237,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 4,
-  "now": 1794891069.2,
+  "now": 1794891369.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -495,8 +495,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.0004381082977054796,
-    "energy": 0.12050836351810554
+    "mood": 0.525007942366279,
+    "energy": 0.22304939601966828
    },
    "interests": {},
    "threads": [

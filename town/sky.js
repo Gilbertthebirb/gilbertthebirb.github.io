@@ -87,8 +87,8 @@ export function buildSky(scene) {
   scene.add(sparks);
 
   const fogColor = new THREE.Color();
-  s.update = (weather, camera, dt, t, forcedSun) => {
-    const now = sunNow();
+  s.update = (weather, camera, dt, t, forcedSun, dayMinutes = 0) => {
+    const now = sunNow(new Date(), dayMinutes);
     const elevation = forcedSun === null || forcedSun === undefined ? now.elevation : forcedSun;
     const day = smooth(-7, 9, elevation);
     const dusk = clamp(1 - Math.abs(elevation - 1) / 11);

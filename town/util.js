@@ -103,7 +103,18 @@ export function roughen(geometry, amount, seed = 0.5) {
 
 // ---- the sun, worked out the same way the town works it out -----------------------------------
 const LAT = 52.37, LON = 4.90;
-export function sunNow(when = new Date()) {
+// The town's own short day: a whole day and night in `dayMinutes` of real time, light from 6 to 18.
+// The same sums as the town program, so the app, the website and his mind agree.
+export function townHour(dayMinutes, when = new Date()) {
+  const length = dayMinutes * 60;
+  return ((when.getTime() / 1000) % length) / length * 24;
+}
+export function sunNow(when = new Date(), dayMinutes = 0) {
+  if (dayMinutes > 0) {
+    const hour = townHour(dayMinutes, when);
+    const angle = 2 * Math.PI * (hour - 6) / 24;          // rises in the east at 6, south at noon, sets west at 18
+    return { elevation: 50 * Math.sin(angle), azimuth: Math.PI / 2 + angle, hourAngle: angle - Math.PI / 2 };
+  }
   const start = Date.UTC(when.getUTCFullYear(), 0, 0);
   const day = Math.floor((when.getTime() - start) / 86400000);
   const hours = when.getUTCHours() + when.getUTCMinutes() / 60 + when.getUTCSeconds() / 3600;
@@ -115,7 +126,11 @@ export function sunNow(when = new Date()) {
   const az = Math.atan2(-Math.sin(ha), Math.tan(decl) * Math.cos(lat) - Math.sin(lat) * Math.cos(ha));
   return { elevation: elev * 180 / Math.PI, azimuth: az, hourAngle: ha };
 }
-export function clockInTown(when = new Date()) {
+export function clockInTown(when = new Date(), dayMinutes = 0) {
+  if (dayMinutes > 0) {
+    const hour = townHour(dayMinutes, when);
+    return `${String(Math.floor(hour)).padStart(2, '0')}:${String(Math.floor(hour % 1 * 60)).padStart(2, '0')}`;
+  }
   try {
     return new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Amsterdam', hour: '2-digit', minute: '2-digit' }).format(when);
   } catch { return ''; }
