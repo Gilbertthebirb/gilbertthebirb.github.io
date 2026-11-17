@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-16T23:46:09-05:00",
+ "asOf": "2026-11-16T23:51:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T05:46:05+01:00",
+   "iso": "2026-11-17T05:51:05+01:00",
    "hour": 5,
-   "minute": 46,
+   "minute": 51,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -23.6,
+   "sun": -22.8,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -12.0,
+    20.0
    ],
-   "heading": 149.0,
-   "place": "burrow",
+   "heading": -31.0,
+   "place": "moss",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.62,
-    "weariness": 0.09,
-    "company": 0.5,
+    "belly": 0.45,
+    "weariness": 0.13,
+    "company": 0.43,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.52
+    "thirst": 0.62
    },
    "feeling": {
-    "mood": 0.37,
-    "energy": -0.5
+    "mood": 0.13,
+    "energy": 0.08
    },
-   "thought": "",
+   "thought": "I am afraid of the silence and need to know if someone else feels this dark too.",
    "said": null,
    "wants_sleep": false,
    "carrying": []
@@ -181,15 +181,15 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ]
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     14,
-     24
+     9.45,
+     22.09
     ]
    }
   },
@@ -237,7 +237,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 4,
-  "now": 1794890769.2,
+  "now": 1794891069.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -495,8 +495,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.368200424069012,
-    "energy": -0.49575363037417064
+    "mood": -0.0004381082977054796,
+    "energy": 0.12050836351810554
    },
    "interests": {},
    "threads": [
@@ -508,7 +508,7 @@ export default {
    "lastResult": "",
    "wake": 6,
    "awakeSince": "",
-   "lastDream": "Something small ran through the leaves and vanished before I could catch it. My throat burns from calling out into the dark, asking for a sound that never came back."
+   "lastDream": "I dream of a beetle slipping through green leaves and a metal belly screaming down a road I cannot see."
   }
  }
 };
