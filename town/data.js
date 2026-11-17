@@ -1,41 +1,41 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T12:01:09-05:00",
+ "asOf": "2026-11-17T12:06:09-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T18:01:08+01:00",
+   "iso": "2026-11-17T18:06:08+01:00",
    "hour": 18,
-   "minute": 1,
+   "minute": 6,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -9.6,
+   "sun": -10.3,
    "date": "2026-11-17"
   },
   "weather": "cloud",
   "bird": {
    "pos": [
-    21.57,
-    -27.45
+    -21.62,
+    5.54
    ],
-   "heading": 127.9,
+   "heading": 136.0,
    "place": null,
    "doing": "walk_to",
-   "target": "hollow",
+   "target": "drift",
    "asleep": false,
    "needs": {
-    "belly": 0.78,
-    "weariness": 0.33,
-    "company": 0.49,
-    "itch": 1.0,
+    "belly": 0.9,
+    "weariness": 0.48,
+    "company": 0.45,
+    "itch": 0.53,
     "nerves": 0.0,
-    "thirst": 0.03
+    "thirst": 0.13
    },
    "feeling": {
-    "mood": 0.44,
-    "energy": -0.05
+    "mood": 0.01,
+    "energy": 0.09
    },
-   "thought": "I am hungry and need to find what calls back.",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -328,8 +328,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": null
    },
@@ -347,8 +347,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -366,24 +366,24 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -432,7 +432,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 10,
-  "now": 1794934869.7,
+  "now": 1794935169.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -728,9 +728,18 @@ export default {
     "text": "I sat at the workbench and listened to the water rushing over the stone. It goes round and round, never changing its way, yet it feels new every time. This is what makes me feel alive when nothing else is happening. I am Gilbert, who walks through the town stirring up good insects, but here I just watch. When the silence feels heavy, I listen to this rushing instead of calling out into the dark. The water tells me I am not alone.",
     "tag": "",
     "heat": 0.36
+   },
+   {
+    "id": "j0202",
+    "ts": "2026-11-17T12:04:39-05:00",
+    "kind": "journal",
+    "wake": 12,
+    "text": "The push didn't go out, the wire was quiet. But I wrote what needed to be written, about how my call came back smaller and from all round. The water on stone is still there to watch. I am speaking even when nothing else happens. Even when the wire fails, the echo stays.",
+    "tag": "",
+    "heat": 0.43
    }
   ],
-  "journalCount": 32,
+  "journalCount": 33,
   "memory": {
    "sleeps": 9,
    "next_id": 18,
@@ -984,14 +993,14 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5220029631503935,
-    "energy": -0.0062896394401884825
+    "mood": -0.058119835888963745,
+    "energy": 0.3221058471168126
    },
    "interests": {},
    "threads": [
+    "finish what is on your workbench and send it out",
     "What makes me feel alive when nothing is happening?",
-    "Who am I when I stop trying to be ordinary?",
-    "There is so much more light left to see before sleep takes me again."
+    "Who am I when I stop trying to be ordinary?"
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and unsure where to stand, but I feel less alone when Pip flies around my head. My eyes keep closing now that I have decided to go to bed, yet the silence feels heavy before it answers me.",
    "lastResult": "",
