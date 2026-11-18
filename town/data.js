@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T20:15:40-05:00",
+ "asOf": "2026-11-18T12:09:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T20:15:40-05:00",
-   "hour": 20,
-   "minute": 15,
-   "phase": "night",
-   "words": "evening, and dark",
-   "sun": -29.8,
-   "date": "2026-11-17",
+   "iso": "2026-11-18T12:09:38-05:00",
+   "hour": 12,
+   "minute": 9,
+   "phase": "day",
+   "words": "the middle of the day",
+   "sun": 17.6,
+   "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "clear",
   "bird": {
    "pos": [
-    9.89,
-    29.23
+    14.0,
+    24.0
    ],
    "heading": 141.8,
-   "place": null,
-   "doing": "walk_to",
-   "target": "log",
+   "place": "log",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.49,
-    "weariness": 0.26,
-    "company": 0.87,
-    "itch": 0.8,
-    "nerves": 0.0,
-    "thirst": 0.37
+    "belly": 0.77,
+    "weariness": 0.33,
+    "company": 0.58,
+    "itch": 0.6,
+    "nerves": 0.3,
+    "thirst": 0.67
    },
    "feeling": {
-    "mood": 0.27,
-    "energy": 0.07
+    "mood": -0.09,
+    "energy": 0.47
    },
-   "thought": "the water goes round the same stone over and over",
+   "thought": "my legs have too many words to hold still",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     13.63,
-     -1.54
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28,
+     26
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,35 +344,35 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9,
+     13
     ],
     "said": {
-     "text": "Pip said to you: \"Hi there! Did you see the squirrel? Wait... did you bring fruit? Maybe we should dance a bit?\"",
-     "t": 1794960186.1
+     "text": "Pip said to you: \"Whoa! It's lunchtime but look at that blue jay flying by. Did you see the squirrel? Gilbert is right about being hungry though!\"",
+     "t": 1794964624.5
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     980.0,
+     -20
     ],
     "said": null
    },
@@ -380,21 +380,12 @@ export default {
     "name": "Sister Kettle",
     "pos": [
      1010.0,
-     27.0
+     27
     ],
     "said": null
    }
   },
   "objects": [
-   {
-    "id": "o3-86",
-    "name": "a brass button",
-    "pos": [
-     15.502004300613615,
-     23.777667595512078
-    ],
-    "state": "buried"
-   },
    {
     "id": "o4-744",
     "name": "a blue bottle cap",
@@ -443,7 +434,8 @@ export default {
    "a domino",
    "a smooth black stone",
    "a feather that is not yours",
-   "a piece of blue-and-white china"
+   "a piece of blue-and-white china",
+   "a brass button"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -453,8 +445,8 @@ export default {
   "quiet": false,
   "sleep_call": false,
   "bench": false,
-  "session": 17,
-  "now": 1794964540.5,
+  "session": 18,
+  "now": 1795021779.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1339,8 +1331,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.16328565727853325,
-    "energy": 0.055244188209228995
+    "mood": -0.07203394668333202,
+    "energy": 0.5323212670941646
    },
    "interests": {},
    "threads": [
@@ -1349,7 +1341,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and unsure where to stand until others speak, but I find comfort in watching leaves and rings on water to calm myself.",
    "lastResult": "",
-   "wake": 19,
+   "wake": 20,
    "awakeSince": "",
    "lastDream": "I found a tiny insect with my long beak in the dark, all by myself, and the walking stirred up good insects so I didn't feel alone. Pip said I stirred up good insects when I walked, and that made me feel less alone."
   }
