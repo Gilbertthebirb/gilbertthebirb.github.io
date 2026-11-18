@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T15:53:48-05:00",
+ "asOf": "2026-11-18T15:58:48-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T15:53:48-05:00",
+   "iso": "2026-11-18T15:58:48-05:00",
    "hour": 15,
-   "minute": 53,
+   "minute": 58,
    "phase": "day",
    "words": "afternoon",
-   "sun": 6.6,
+   "sun": 6.0,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,33 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    1000.0,
-    0.0
+    -12.0,
+    20.0
    ],
-   "heading": -149.0,
-   "place": null,
-   "doing": "ride_tram",
-   "target": "town",
+   "heading": -159.3,
+   "place": "moss",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 1.0,
-    "weariness": 0.68,
-    "company": 0.23,
-    "itch": 1.0,
-    "nerves": 0.25,
-    "thirst": 0.29
+    "belly": 0.78,
+    "weariness": 0.79,
+    "company": 0.31,
+    "itch": 0.93,
+    "nerves": 0.13,
+    "thirst": 0.39
    },
    "feeling": {
-    "mood": -0.18,
-    "energy": 0.73
+    "mood": -0.05,
+    "energy": -0.45
    },
-   "thought": "the dark is too wide here; my legs will speak again on familiar ground.",
+   "thought": "the glass bead feels light but I am heavy with need, so I will keep it safe while I wait for the ground to give something back",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
-   "area": "tram"
+   "carrying": [
+    "a glass bead"
+   ],
+   "area": "town"
   },
   "places": {
    "burrow": {
@@ -316,20 +318,14 @@ export default {
     "area": "city"
    }
   },
-  "tram": {
-   "to": "town",
-   "from": "city",
-   "departs": 1795034999.9999933,
-   "arrives": 1795035239.9999933,
-   "aboard": true
-  },
+  "tram": null,
   "city_x": 1000.0,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -339,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     10.66,
-     16.66
+     7.06,
+     1.84
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -361,8 +357,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -372,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -383,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -394,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -410,15 +406,6 @@ export default {
     "pos": [
      -2.03595967195381,
      -44.79197284667333
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     -12.737795467296914,
-     21.317875027376704
     ],
     "state": "placed"
    },
@@ -484,7 +471,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795035228.1,
+  "now": 1795035528.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1537,8 +1524,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4701054287818393,
-    "energy": -0.3676967417453794
+    "mood": -0.01406499836552727,
+    "energy": -0.4147708433878755
    },
    "interests": {
     "the subject": 0.51
