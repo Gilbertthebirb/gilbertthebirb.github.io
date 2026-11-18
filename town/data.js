@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T14:13:47-05:00",
+ "asOf": "2026-11-18T14:18:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T14:13:46-05:00",
+   "iso": "2026-11-18T14:18:46-05:00",
    "hour": 14,
-   "minute": 13,
+   "minute": 18,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 15.1,
+   "sun": 14.8,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,31 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    2.0,
-    57.0
+    1006.0,
+    10.0
    ],
-   "heading": 2.0,
-   "place": null,
-   "doing": "ride_tram",
-   "target": "city",
+   "heading": -26.6,
+   "place": "fountain",
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.63,
-    "weariness": 0.09,
-    "company": 0.27,
-    "itch": 0.94,
-    "nerves": 0.15,
-    "thirst": 0.61
+    "belly": 0.76,
+    "weariness": 0.2,
+    "company": 0.23,
+    "itch": 0.58,
+    "nerves": 0.3,
+    "thirst": 0.71
    },
    "feeling": {
-    "mood": 0.64,
-    "energy": 0.63
+    "mood": 0.22,
+    "energy": 0.09
    },
-   "thought": "",
+   "thought": "the water goes round the same stone over and over again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
-   "area": "tram"
+   "area": "city"
   },
   "places": {
    "burrow": {
@@ -316,20 +316,14 @@ export default {
     "area": "city"
    }
   },
-  "tram": {
-   "to": "city",
-   "from": "town",
-   "departs": 1795028999.9999912,
-   "arrives": 1795029239.9999912,
-   "aboard": true
-  },
+  "tram": null,
   "city_x": 1000.0,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36,
-     -12
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -339,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     27.63,
-     25.95
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -364,7 +358,10 @@ export default {
      1000.0,
      0.0
     ],
-    "said": null
+    "said": {
+     "text": "Odile looked down at you and said: \"The small one is back.\"",
+     "t": 1795029328.6
+    }
    },
    "bram": {
     "name": "Bram",
@@ -388,7 +385,10 @@ export default {
      1006.0,
      10.0
     ],
-    "said": null
+    "said": {
+     "text": "Sister Kettle said: \"Quiet in here. You're welcome to it.\"",
+     "t": 1795029268.5
+    }
    }
   },
   "objects": [
@@ -472,7 +472,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795029227.1,
+  "now": 1795029527.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1525,8 +1525,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.23226723418541456,
-    "energy": 0.28399406402153815
+    "mood": 0.35036105275429985,
+    "energy": 0.3847421117040277
    },
    "interests": {
     "the subject": 0.51
