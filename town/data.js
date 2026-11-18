@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T14:28:47-05:00",
+ "asOf": "2026-11-18T14:33:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T14:28:46-05:00",
+   "iso": "2026-11-18T14:33:46-05:00",
    "hour": 14,
-   "minute": 28,
+   "minute": 33,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 14.1,
+   "sun": 13.8,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
     1000.0,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -149.0,
    "place": "square",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.24,
+    "weariness": 0.27,
     "company": 0.14,
-    "itch": 0.8,
+    "itch": 0.84,
     "nerves": 0.4,
-    "thirst": 0.31
+    "thirst": 0.41
    },
    "feeling": {
-    "mood": -0.02,
-    "energy": 0.1
+    "mood": -0.11,
+    "energy": 0.06
    },
-   "thought": "heron still means something in this light; let me see what she sees",
+   "thought": "too hungry to walk, need the rhythm of stillness first",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,19 +355,19 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1013.06,
+     -4.11
     ],
     "said": {
-     "text": "Odile looked down at you and said: \"The small one is back.\"",
-     "t": 1795029979.7
+     "text": "Odile said to you: \"No. Here is the truth: I have nothing for you to eat today. Leave me alone, or go find your own meals.\"",
+     "t": 1795030396.0
     }
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
@@ -385,8 +385,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said: \"Quiet in here. You're welcome to it.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795030127.2,
+  "now": 1795030427.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1528,8 +1528,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.02084617773899039,
-    "energy": 0.12879303721712296
+    "mood": -0.12658855975538336,
+    "energy": 0.04261571708051928
    },
    "interests": {
     "the subject": 0.51
