@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T16:28:48-05:00",
+ "asOf": "2026-11-18T16:33:48-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T16:28:48-05:00",
+   "iso": "2026-11-18T16:33:48-05:00",
    "hour": 16,
-   "minute": 28,
+   "minute": 33,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 2.5,
+   "sun": 1.9,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    30.0,
-    -34.0
+    -24.0,
+    8.0
    ],
-   "heading": 138.6,
-   "place": "hollow",
+   "heading": -52.1,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.64,
-    "weariness": 0.6,
-    "company": 0.3,
+    "belly": 0.76,
+    "weariness": 0.63,
+    "company": 0.38,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.41
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.13
+    "mood": 0.12,
+    "energy": -0.24
    },
-   "thought": "I am tired but the hollow feels like a word I haven't finished saying; my belly has an edge it can grip until I find the ground again",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a marble with a twist of green"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -415,6 +413,15 @@ export default {
     "pos": [
      -10.900840929676468,
      20.85587336657194
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o7-1007",
+    "name": "a marble with a twist of green",
+    "pos": [
+     29.248820968042587,
+     -32.72819487011723
     ],
     "state": "placed"
    },
@@ -471,7 +478,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795037328.5,
+  "now": 1795037628.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1524,8 +1531,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19516979833664913,
-    "energy": -0.011095484165518421
+    "mood": 0.2138678038538954,
+    "energy": 0.0750260814918976
    },
    "interests": {
     "the subject": 0.51
