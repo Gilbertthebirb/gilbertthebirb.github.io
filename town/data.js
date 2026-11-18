@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:44:39-05:00",
+ "asOf": "2026-11-18T12:49:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:44:38-05:00",
+   "iso": "2026-11-18T12:49:38-05:00",
    "hour": 12,
-   "minute": 44,
+   "minute": 49,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.9,
+   "sun": 17.8,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -4.59,
+    1.7
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 158.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "drift",
    "asleep": false,
    "needs": {
-    "belly": 0.74,
-    "weariness": 0.54,
-    "company": 1.0,
-    "itch": 0.57,
-    "nerves": 0.42,
-    "thirst": 0.05
+    "belly": 0.87,
+    "weariness": 0.55,
+    "company": 0.95,
+    "itch": 0.63,
+    "nerves": 0.15,
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": -0.12,
-    "energy": -0.46
+    "mood": -0.03,
+    "energy": 0.16
    },
-   "thought": "my legs have words I cannot walk yet",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     23.03,
+     25.29
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,19 +344,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -12.86,
+     19.14
     ],
     "said": {
-     "text": "Pip said to you: \"Whoa! It's lunchtime but look at that blue jay flying by. Did you see the squirrel? Gilbert is right about being hungry though!\"",
-     "t": 1794964624.5
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1795024139.1
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -371,16 +371,16 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     978.0,
+     14.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     987.03,
+     12.71
     ],
     "said": null
    }
@@ -426,10 +426,10 @@ export default {
     "id": "o9-1443",
     "name": "half a clothes peg",
     "pos": [
-     -11.605246949402648,
-     19.433048842964222
+     -11.4,
+     20.4
     ],
-    "state": "buried"
+    "state": "found"
    }
   ],
   "wishes": [],
@@ -456,7 +456,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795023879.7,
+  "now": 1795024179.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1341,8 +1341,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.019738790223571,
-    "energy": -0.3920535045023705
+    "mood": -0.2624709968287224,
+    "energy": -0.25505598830186266
    },
    "interests": {
     "the subject": 1.0
