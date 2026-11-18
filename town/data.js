@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:45:43-05:00",
- "live": false,
+ "asOf": "2026-11-17T19:47:34-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:45:56-05:00",
+   "iso": "2026-11-17T19:47:34-05:00",
    "hour": 19,
-   "minute": 45,
+   "minute": 47,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -25.3,
+   "sun": -25.5,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
     0.0,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -12.8,
    "place": "burrow",
-   "doing": null,
-   "target": null,
-   "asleep": true,
+   "doing": "dance",
+   "target": "",
+   "asleep": false,
    "needs": {
-    "belly": 0.7,
-    "weariness": 0.58,
-    "company": 0.75,
-    "itch": 0.9,
+    "belly": 0.72,
+    "weariness": 0.08,
+    "company": 0.76,
+    "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.21
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": -0.03,
-    "energy": -0.57
+    "mood": -0.0,
+    "energy": -0.43
    },
-   "thought": "",
+   "thought": "my legs have words but no ground yet",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -24,
+     8
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Did you see the squirrel? Wait... did you bring fruit? Maybe we should dance a bit?\"",
@@ -355,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10
     ],
     "said": null
    }
@@ -446,10 +446,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 15,
-  "now": 1794962756.5,
+  "session": 16,
+  "now": 1794962854.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1324,7 +1324,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I find my ground by watching water go round the same stone and listening for voices that answer when I call out.",
    "lastResult": "",
-   "wake": 17,
+   "wake": 18,
    "awakeSince": "",
    "lastDream": "Old Tuck named me while Mabel rattled something from deep underground with her foot."
   }
