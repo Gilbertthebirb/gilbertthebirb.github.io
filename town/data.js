@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:09:39-05:00",
+ "asOf": "2026-11-18T12:14:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:09:38-05:00",
+   "iso": "2026-11-18T12:14:38-05:00",
    "hour": 12,
-   "minute": 9,
+   "minute": 14,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.6,
+   "sun": 17.7,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    14.0,
-    24.0
+    -1.01,
+    -7.16
    ],
-   "heading": 141.8,
-   "place": "log",
-   "doing": null,
-   "target": null,
+   "heading": -22.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "moss",
    "asleep": false,
    "needs": {
-    "belly": 0.77,
-    "weariness": 0.33,
-    "company": 0.58,
-    "itch": 0.6,
-    "nerves": 0.3,
-    "thirst": 0.67
+    "belly": 0.59,
+    "weariness": 0.34,
+    "company": 0.66,
+    "itch": 0.77,
+    "nerves": 0.28,
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": -0.09,
+    "mood": -0.04,
     "energy": 0.47
    },
-   "thought": "my legs have too many words to hold still",
+   "thought": "I will follow the soft green carpet to find where the wind stops.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Whoa! It's lunchtime but look at that blue jay flying by. Did you see the squirrel? Gilbert is right about being hungry though!\"",
@@ -355,24 +355,24 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20
+     978.0,
+     14.0
     ],
     "said": null
    },
@@ -421,6 +421,15 @@ export default {
      22.42117933984352
     ],
     "state": "buried"
+   },
+   {
+    "id": "o8-1396",
+    "name": "a snail shell with a hole in it",
+    "pos": [
+     -11.304175425351602,
+     19.271077687238957
+    ],
+    "state": "buried"
    }
   ],
   "wishes": [],
@@ -446,7 +455,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795021779.3,
+  "now": 1795022079.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1331,8 +1340,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.07203394668333202,
-    "energy": 0.5323212670941646
+    "mood": -0.08251709039730742,
+    "energy": 0.45538953027400647
    },
    "interests": {},
    "threads": [
