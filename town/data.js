@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:55:40-05:00",
+ "asOf": "2026-11-17T20:00:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:55:40-05:00",
-   "hour": 19,
-   "minute": 55,
+   "iso": "2026-11-17T20:00:40-05:00",
+   "hour": 20,
+   "minute": 0,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -26.8,
+   "sun": -27.5,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 2.9,
    "place": "culvert",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.59,
-    "weariness": 0.12,
-    "company": 0.88,
+    "belly": 0.72,
+    "weariness": 0.15,
+    "company": 0.96,
     "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.51
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": -0.04,
-    "energy": 0.22
+    "mood": 0.16,
+    "energy": 0.14
    },
-   "thought": "the silence is heavy",
+   "thought": "my throat feels cold, my legs need water too",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16,
-     -9
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -379,8 +379,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 17,
-  "now": 1794963340.4,
+  "now": 1794963640.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1334,8 +1334,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.209089351188038,
-    "energy": 0.333936865788212
+    "mood": 0.11640753751799135,
+    "energy": 0.19418283331163566
    },
    "interests": {},
    "threads": [
