@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:47:34-05:00",
- "live": true,
+ "asOf": "2026-11-17T19:48:57-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:47:34-05:00",
+   "iso": "2026-11-17T19:49:07-05:00",
    "hour": 19,
-   "minute": 47,
+   "minute": 49,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -25.5,
+   "sun": -25.8,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -12.8,
    "place": "burrow",
-   "doing": "dance",
-   "target": "",
-   "asleep": false,
+   "doing": null,
+   "target": null,
+   "asleep": true,
    "needs": {
-    "belly": 0.72,
-    "weariness": 0.08,
-    "company": 0.76,
-    "itch": 0.92,
+    "belly": 0.75,
+    "weariness": 0.11,
+    "company": 0.78,
+    "itch": 0.85,
     "nerves": 0.0,
-    "thirst": 0.37
+    "thirst": 0.39
    },
    "feeling": {
-    "mood": -0.0,
-    "energy": -0.43
+    "mood": 0.11,
+    "energy": -0.24
    },
-   "thought": "my legs have words but no ground yet",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -446,10 +446,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 16,
-  "now": 1794962854.7,
+  "now": 1794962947.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -927,15 +927,6 @@ export default {
     "heat": 0.35
    },
    {
-    "id": "j0443",
-    "ts": "2026-11-17T19:16:33-05:00",
-    "kind": "event",
-    "wake": 17,
-    "text": "You watched. The water went round the same stone the same way, over and over, and was different every time.",
-    "tag": "",
-    "heat": 0.15
-   },
-   {
     "id": "j0444",
     "ts": "2026-11-17T19:19:40-05:00",
     "kind": "made",
@@ -961,12 +952,30 @@ export default {
     "text": "The water kept circling the same stone, yet every turn felt different. I found a tiny insect alone in the dark with just my long beak, proving I can answer when no one speaks. My legs still feel heavy from dancing until they finally said what they needed to say. The silence didn't frighten me anymore because I already heard something calling back far away.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0460",
+    "ts": "2026-11-17T19:48:34-05:00",
+    "kind": "event",
+    "wake": 18,
+    "text": "You scratched a wish into the wall at home: \"I wish I were the water that goes round the stone again. Because the silence is getting heavy and my legs have forgotten how to speak.\"",
+    "tag": "",
+    "heat": 0.33
+   },
+   {
+    "id": "j0461",
+    "ts": "2026-11-17T19:48:57-05:00",
+    "kind": "journal",
+    "wake": 18,
+    "text": "The water does not go round the same stone again; it flows on, breaking the silence I feared.\nI danced just enough to remind my legs they still know how to speak their own language.\nSleep feels heavy now, but the scratch on the wall hums with the sound of Mabel's voice.\nWhen I close my eyes, I watch the rings in the water until my heart finds its stone.\nThe dark is not empty if I listen for the crack of a branch before it comes.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 56,
+  "journalCount": 57,
   "memory": {
-   "sleeps": 15,
-   "next_id": 24,
+   "sleeps": 16,
+   "next_id": 25,
    "items": [
     {
      "id": "m001",
@@ -1037,12 +1046,12 @@ export default {
     {
      "id": "m007",
      "section": "learned",
-     "text": "The water went round the same stone, but every turn felt different.",
-     "strength": 6.147697387935819,
+     "text": "The water did not go round the same stone again; it broke the silence I feared.",
+     "strength": 7.0,
      "born": 1,
-     "last": 14,
-     "times": 14,
-     "source": "j0443",
+     "last": 15,
+     "times": 16,
+     "source": "j0461",
      "since": "2026-11-16"
     },
     {
@@ -1082,10 +1091,10 @@ export default {
      "id": "m011",
      "section": "happened",
      "text": "I danced until my legs said what they wanted to say.",
-     "strength": 6.605638806862576,
+     "strength": 6.563278936978617,
      "born": 4,
-     "last": 14,
-     "times": 15,
+     "last": 15,
+     "times": 16,
      "source": "j0107",
      "since": "2026-11-17"
     },
@@ -1093,10 +1102,10 @@ export default {
      "id": "m012",
      "section": "happened",
      "text": "I danced until my legs could not speak anymore.",
-     "strength": 3.69054680007494,
+     "strength": 3.843401921280513,
      "born": 5,
-     "last": 14,
-     "times": 8,
+     "last": 15,
+     "times": 9,
      "source": "j0117",
      "since": "2026-11-17"
     },
@@ -1198,6 +1207,17 @@ export default {
      "times": 1,
      "source": "j0387",
      "since": "2026-11-17"
+    },
+    {
+     "id": "m024",
+     "section": "happened",
+     "text": "I scratched a wish into the wall, but the silence was heavier than I thought.",
+     "strength": 2.3200000000000003,
+     "born": 15,
+     "last": 15,
+     "times": 0,
+     "source": "j0460",
+     "since": "2026-11-17"
     }
    ],
    "forgotten": [
@@ -1268,7 +1288,7 @@ export default {
     "text": ""
    }
   ],
-  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- watch: 106 times (at the creek, the lookout, the shed, the leaf drift, the mossy bank, the burrow)\n- walk to: 103 times\n- probe: 95 times (at the mossy bank, the creek, the leaf drift, the log)\n- drink: 81 times (at the creek, the shed)\n- dance: 68 times\n- sit: 53 times\n- sniff: 40 times (at the shed, the mossy bank, the creek, hut:gilbert-moon, the board, the lookout)\n- wade: 40 times (at the creek)\n- call out: 26 times\n- say: 22 times\n- greet: 14 times (at the shed, the mossy bank, the creek, the board, hut:gilbert-moon, the lookout)\n- tinker: 13 times (at the shed)\n- pick up: 8 times\n- put down: 8 times\n- wish: 4 times (at the burrow)\n- nap: 4 times (at the burrow)\n- ask for sleep: 3 times\n- tidy: 2 times (at the burrow)\n- keep: 2 times (at the creek, the mossy bank, the leaf drift, the burrow)\n- pin note: 1 time (at the board)\n",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- watch: 106 times (at the creek, the lookout, the shed, the leaf drift, the mossy bank, burrow)\n- walk to: 103 times\n- probe: 95 times (at the mossy bank, the creek, the leaf drift, the log)\n- drink: 81 times (at the creek, the shed)\n- dance: 69 times\n- sit: 53 times\n- sniff: 40 times (at the shed, the mossy bank, the creek, hut:gilbert-moon, the board, the lookout)\n- wade: 40 times (at the creek)\n- call out: 26 times\n- say: 22 times\n- greet: 14 times (at the shed, the mossy bank, the creek, the board, hut:gilbert-moon, the lookout)\n- tinker: 13 times (at the shed)\n- pick up: 8 times\n- put down: 8 times\n- wish: 5 times (at burrow)\n- nap: 4 times (at burrow)\n- ask for sleep: 3 times\n- tidy: 2 times (at burrow)\n- keep: 2 times (at the creek, the mossy bank, the leaf drift, burrow)\n- pin note: 1 time (at the board)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -1314,19 +1334,19 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.022392914507411127,
-    "energy": -0.5324602749000584
+    "mood": 0.08884027871653036,
+    "energy": -0.2291588331467762
    },
    "interests": {},
    "threads": [
     "What makes me feel alive when nothing is happening?",
     "Who am I when I stop trying to be ordinary?"
    ],
-   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I find my ground by watching water go round the same stone and listening for voices that answer when I call out.",
+   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and unsure where to stand until others speak, but I find comfort in watching leaves and rings on water to calm myself.",
    "lastResult": "",
    "wake": 18,
    "awakeSince": "",
-   "lastDream": "Old Tuck named me while Mabel rattled something from deep underground with her foot."
+   "lastDream": "I scratched a wish into the wall and heard my own name travel far without an answer. The water goes round the same stone over and over."
   }
  }
 };
