@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T13:46:54-05:00",
+ "asOf": "2026-11-18T13:51:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T13:46:54-05:00",
+   "iso": "2026-11-18T13:51:54-05:00",
    "hour": 13,
-   "minute": 46,
+   "minute": 51,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.4,
+   "sun": 16.2,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -67.0,
    "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.59,
+    "belly": 0.42,
     "weariness": 0.28,
-    "company": 0.28,
-    "itch": 0.51,
-    "nerves": 0.14,
-    "thirst": 0.1
+    "company": 0.37,
+    "itch": 0.68,
+    "nerves": 0.12,
+    "thirst": 0.2
    },
    "feeling": {
-    "mood": 0.45,
-    "energy": 0.06
+    "mood": 0.19,
+    "energy": 0.1
    },
-   "thought": "I watch the leaves and rings until they tell me what I need.",
+   "thought": "the ground has secrets like my shelf",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a marble with a twist of green"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -357,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1002.74,
-     4.56
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14
+     980.0,
+     -20.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -403,6 +401,15 @@ export default {
     "pos": [
      -11.945490755260833,
      21.124240725083975
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o7-1007",
+    "name": "a marble with a twist of green",
+    "pos": [
+     -24.65464497835887,
+     9.298049156297003
     ],
     "state": "placed"
    },
@@ -450,7 +457,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 20,
-  "now": 1795027614.6,
+  "now": 1795027914.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1435,8 +1442,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.7585866110278096,
-    "energy": 0.5652403001278723
+    "mood": 0.34008644760372886,
+    "energy": 0.04635315173860338
    },
    "interests": {
     "the subject": 0.64
