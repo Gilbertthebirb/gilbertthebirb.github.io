@@ -1,38 +1,38 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T14:06:42-05:00",
- "live": false,
+ "asOf": "2026-11-18T14:08:47-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T14:06:58-05:00",
+   "iso": "2026-11-18T14:08:46-05:00",
    "hour": 14,
-   "minute": 6,
+   "minute": 8,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 15.4,
+   "sun": 15.3,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    1.5,
+    42.71
    ],
-   "heading": -71.6,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
-   "asleep": true,
+   "heading": 2.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "halt",
+   "asleep": false,
    "needs": {
-    "belly": 0.49,
-    "weariness": 0.35,
-    "company": 0.17,
-    "itch": 0.75,
+    "belly": 0.51,
+    "weariness": 0.08,
+    "company": 0.18,
+    "itch": 0.77,
     "nerves": 0.15,
-    "thirst": 0.49
+    "thirst": 0.51
    },
    "feeling": {
     "mood": 0.64,
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36,
+     -12
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1016.0,
+     22
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14
     ],
     "said": null
    }
@@ -463,10 +463,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 20,
-  "now": 1795028818.9,
+  "session": 21,
+  "now": 1795028927.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1531,7 +1531,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who feels steady when the clouds are low. I enjoy the way water circles stones and the sounds of Mabel or branches breaking, though the grey quick water makes the silence feel heavier now.",
    "lastResult": "",
-   "wake": 22,
+   "wake": 23,
    "awakeSince": "",
    "lastDream": "I heard a call from far away, then scratched a wish into a wall where silence pressed too heavy against my feathers. I woke to the sound of Mabel laughing near the creek, her voice cracking dry leaves while the water kept turning the same round stone over and over."
   }
