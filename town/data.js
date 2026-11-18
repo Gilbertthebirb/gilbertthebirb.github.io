@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T13:09:39-05:00",
+ "asOf": "2026-11-18T13:14:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T13:09:38-05:00",
+   "iso": "2026-11-18T13:14:40-05:00",
    "hour": 13,
-   "minute": 9,
+   "minute": 14,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.6,
+   "sun": 17.5,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "rain",
   "bird": {
    "pos": [
-    -6.4,
-    34.81
+    14.0,
+    24.0
    ],
-   "heading": 20.7,
-   "place": null,
-   "doing": "walk_to",
-   "target": "halt",
+   "heading": 160.0,
+   "place": "log",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.66,
-    "company": 0.5,
-    "itch": 0.86,
-    "nerves": 0.15,
-    "thirst": 0.19
+    "belly": 0.59,
+    "weariness": 0.69,
+    "company": 0.52,
+    "itch": 0.73,
+    "nerves": 0.05,
+    "thirst": 0.29
    },
    "feeling": {
-    "mood": 0.37,
-    "energy": -0.46
+    "mood": 0.63,
+    "energy": 0.11
    },
-   "thought": "",
+   "thought": "the key feels heavy; it has stories stuck in its teeth",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,27 +344,27 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     14.0,
+     24.0
     ],
     "said": {
-     "text": "Pip said to you: \"Yes, but also it smells funny so let's look at that rock! Oh wait, I meant the water part again.\"",
-     "t": 1795025072.2
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1795025626.5
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": null
    },
@@ -381,8 +379,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -401,10 +399,10 @@ export default {
     "id": "o5-765",
     "name": "a rusted key",
     "pos": [
-     13.727541392020587,
-     23.964798699451045
+     14.6,
+     24.4
     ],
-    "state": "buried"
+    "state": "sniffed"
    },
    {
     "id": "o6-782",
@@ -423,6 +421,15 @@ export default {
      22.42117933984352
     ],
     "state": "buried"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     2.614054398840034,
+     58.01598152128194
+    ],
+    "state": "placed"
    },
    {
     "id": "o10-1467",
@@ -458,7 +465,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795025379.9,
+  "now": 1795025680.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1343,8 +1350,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3788916937433524,
-    "energy": -0.44924445009665387
+    "mood": 0.32727876082005686,
+    "energy": -0.5059744126236745
    },
    "interests": {
     "the subject": 1.0
