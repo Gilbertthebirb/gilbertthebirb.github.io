@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T15:28:47-05:00",
+ "asOf": "2026-11-18T15:33:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T15:28:46-05:00",
+   "iso": "2026-11-18T15:33:46-05:00",
    "hour": 15,
-   "minute": 28,
+   "minute": 33,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.1,
+   "sun": 8.6,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    1006.0,
-    10.0
+    1014.0,
+    -6.0
    ],
-   "heading": -82.9,
-   "place": "fountain",
-   "doing": null,
-   "target": null,
+   "heading": 113.2,
+   "place": "market",
+   "doing": "watch",
+   "target": "odile",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.56,
+    "weariness": 0.6,
     "company": 0.13,
-    "itch": 1.0,
-    "nerves": 0.3,
-    "thirst": 0.09
+    "itch": 0.97,
+    "nerves": 0.45,
+    "thirst": 0.19
    },
    "feeling": {
-    "mood": -0.06,
-    "energy": -0.11
+    "mood": 0.17,
+    "energy": 0.55
    },
-   "thought": "the water goes round the same stone, like a breath without words",
+   "thought": "heron moves like stone but has a nose that finds me; I wait to see if she sees my hunger without speaking",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     15.52,
-     -18.61
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,19 +355,19 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
-     "text": "Odile said to you: \"Yes, you did. Hello back to you, little one.\"",
-     "t": 1795033432.1
+     "text": "Odile looked down at you and said: \"The small one is back.\"",
+     "t": 1795033992.8
     }
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.91,
+     -3.8
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,12 +388,12 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
-     "text": "Sister Kettle said: \"Wipe your feet before the beds, please.\"",
-     "t": 1795033691.5
+     "text": "Sister Kettle said to you: \"Sister Kettle: Water should be clear as a summer day, not tasting of storm.\"",
+     "t": 1795033734.5
     }
    }
   },
@@ -478,7 +478,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795033727.8,
+  "now": 1795034027.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1531,8 +1531,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.10404501068472144,
-    "energy": 0.22298266772242598
+    "mood": 0.11871915757045548,
+    "energy": 0.18263049952585952
    },
    "interests": {
     "the subject": 0.51
