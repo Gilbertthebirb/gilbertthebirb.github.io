@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T17:13:49-05:00",
+ "asOf": "2026-11-18T17:18:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T17:13:48-05:00",
+   "iso": "2026-11-18T17:18:48-05:00",
    "hour": 17,
-   "minute": 13,
+   "minute": 18,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -3.2,
+   "sun": -3.9,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,21 +27,23 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.56,
-    "weariness": 0.8,
-    "company": 0.65,
-    "itch": 0.68,
+    "belly": 0.69,
+    "weariness": 0.83,
+    "company": 0.58,
+    "itch": 0.72,
     "nerves": 0.0,
-    "thirst": 0.26
+    "thirst": 0.36
    },
    "feeling": {
-    "mood": -0.19,
-    "energy": -0.55
+    "mood": 0.14,
+    "energy": -0.47
    },
-   "thought": "",
+   "thought": "to let the water tell me who I am again",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a bent teaspoon"
+   ],
    "area": "town"
   },
   "places": {
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -355,8 +357,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -435,15 +437,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o10-1467",
-    "name": "a bent teaspoon",
-    "pos": [
-     -23.99523365356424,
-     8.898450658514633
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o11-1566",
     "name": "a wooden bead",
     "pos": [
@@ -478,7 +471,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795040029.0,
+  "now": 1795040329.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1557,8 +1550,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.19644269401006936,
-    "energy": -0.5528135643256745
+    "mood": 0.08609064587454274,
+    "energy": -0.5036921715647527
    },
    "interests": {
     "the subject": 0.51
