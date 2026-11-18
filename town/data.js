@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T20:10:40-05:00",
+ "asOf": "2026-11-17T20:15:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T20:10:40-05:00",
+   "iso": "2026-11-17T20:15:40-05:00",
    "hour": 20,
-   "minute": 10,
+   "minute": 15,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -29.1,
+   "sun": -29.8,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    9.89,
+    29.23
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 141.8,
+   "place": null,
+   "doing": "walk_to",
+   "target": "log",
    "asleep": false,
    "needs": {
-    "belly": 0.67,
-    "weariness": 0.23,
-    "company": 0.96,
-    "itch": 0.76,
-    "nerves": 0.22,
-    "thirst": 0.27
+    "belly": 0.49,
+    "weariness": 0.26,
+    "company": 0.87,
+    "itch": 0.8,
+    "nerves": 0.0,
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": 0.06,
-    "energy": -0.16
+    "mood": 0.27,
+    "energy": 0.07
    },
-   "thought": "I need to feel solid before I can stop dancing.",
+   "thought": "the water goes round the same stone over and over",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     13.63,
+     -1.54
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Did you see the squirrel? Wait... did you bring fruit? Maybe we should dance a bit?\"",
@@ -355,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -454,7 +454,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 17,
-  "now": 1794964240.5,
+  "now": 1794964540.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1339,8 +1339,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.10394048655766355,
-    "energy": -0.18111819076239344
+    "mood": -0.16328565727853325,
+    "energy": 0.055244188209228995
    },
    "interests": {},
    "threads": [
