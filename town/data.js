@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:39:39-05:00",
+ "asOf": "2026-11-18T12:44:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:39:38-05:00",
+   "iso": "2026-11-18T12:44:38-05:00",
    "hour": 12,
-   "minute": 39,
+   "minute": 44,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 17.9,
@@ -18,32 +18,30 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": -31.0,
-   "place": "moss",
+   "heading": -135.0,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.62,
-    "weariness": 0.51,
+    "belly": 0.74,
+    "weariness": 0.54,
     "company": 1.0,
-    "itch": 0.52,
-    "nerves": 0.15,
-    "thirst": 0.34
+    "itch": 0.57,
+    "nerves": 0.42,
+    "thirst": 0.05
    },
    "feeling": {
-    "mood": -0.01,
-    "energy": -0.39
+    "mood": -0.12,
+    "energy": -0.46
    },
-   "thought": "legs have words but no ground; need rhythm before I move again",
+   "thought": "my legs have words I cannot walk yet",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a glass bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     6.55,
-     -8.4
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     26.72,
-     25.82
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoa! It's lunchtime but look at that blue jay flying by. Did you see the squirrel? Gilbert is right about being hungry though!\"",
@@ -365,24 +363,24 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     994.0,
+     18.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -407,11 +405,29 @@ export default {
     "state": "buried"
    },
    {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     -11.91360852716586,
+     21.21868305529842
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
      14.693960660339501,
      22.42117933984352
+    ],
+    "state": "buried"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -11.605246949402648,
+     19.433048842964222
     ],
     "state": "buried"
    }
@@ -440,7 +456,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795023579.6,
+  "now": 1795023879.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1325,8 +1341,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.0013019107815339936,
-    "energy": -0.3738197482775044
+    "mood": 0.019738790223571,
+    "energy": -0.3920535045023705
    },
    "interests": {
     "the subject": 1.0
