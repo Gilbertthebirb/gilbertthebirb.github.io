@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:54:39-05:00",
+ "asOf": "2026-11-18T12:59:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:54:38-05:00",
+   "iso": "2026-11-18T12:59:38-05:00",
    "hour": 12,
-   "minute": 54,
+   "minute": 59,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.8,
+   "sun": 17.7,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -44.0,
    "place": "creek",
-   "doing": "watch",
-   "target": "pip",
+   "doing": "wade",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.69,
-    "weariness": 0.58,
-    "company": 0.89,
-    "itch": 0.68,
+    "belly": 0.52,
+    "weariness": 0.62,
+    "company": 0.53,
+    "itch": 0.73,
     "nerves": 0.15,
-    "thirst": 0.25
+    "thirst": 0.35
    },
    "feeling": {
-    "mood": 0.06,
-    "energy": -0.04
+    "mood": 0.33,
+    "energy": 0.04
    },
-   "thought": "I will watch Pip because he moved here. His stillness is new to me.",
+   "thought": "I am tired and want to feel the current steady against my feet.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -344,43 +344,43 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     -12.0,
+     20.0
     ],
     "said": {
-     "text": "Pip said to you: \"Hey! It's me, Pip, your friend the fantail! Did you see that red flower? Oh wait, I meant the blue one over there.\"",
-     "t": 1795024392.2
+     "text": "Pip said to you: \"Ooh, blue! Like that sky? Or the kiwi fruit? Hey look, a worm! Wait, Gilbert said blue. Yeah, it's pretty.\"",
+     "t": 1795024544.4
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1018.36,
+     10.94
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     994.0,
+     18.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -430,6 +430,15 @@ export default {
      20.4
     ],
     "state": "found"
+   },
+   {
+    "id": "o10-1467",
+    "name": "a bent teaspoon",
+    "pos": [
+     15.987221070552367,
+     22.578494159175857
+    ],
+    "state": "buried"
    }
   ],
   "wishes": [],
@@ -456,7 +465,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795024479.7,
+  "now": 1795024779.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1341,8 +1350,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.06141585267023977,
-    "energy": -0.04178662784486842
+    "mood": 0.3512250655380579,
+    "energy": -0.14881607609472203
    },
    "interests": {
     "the subject": 1.0
