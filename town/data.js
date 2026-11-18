@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T15:08:47-05:00",
+ "asOf": "2026-11-18T15:13:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T15:08:46-05:00",
+   "iso": "2026-11-18T15:13:46-05:00",
    "hour": 15,
-   "minute": 8,
+   "minute": 13,
    "phase": "day",
    "words": "afternoon",
-   "sun": 11.0,
+   "sun": 10.5,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    1000.0,
-    0.0
+    1006.0,
+    10.0
    ],
-   "heading": -149.0,
-   "place": "square",
+   "heading": 31.0,
+   "place": "fountain",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
     "weariness": 0.46,
-    "company": 0.18,
-    "itch": 0.99,
-    "nerves": 0.35,
-    "thirst": 0.23
+    "company": 0.21,
+    "itch": 1.0,
+    "nerves": 0.4,
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": -0.24,
-    "energy": -0.17
+    "mood": -0.25,
+    "energy": -0.32
    },
-   "thought": "I need to know what she has for breakfast",
+   "thought": "I hold the hunger until I know where my feet should go.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     25.5,
-     25.64
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.01,
-     -1.48
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -366,16 +366,19 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
-    "said": null
+    "said": {
+     "text": "Bram said: \"Back for more? Everything's for something.\"",
+     "t": 1795032802.6
+    }
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1008.34,
+     20.39
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -475,7 +478,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795032527.6,
+  "now": 1795032827.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1528,8 +1531,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.25040621586702694,
-    "energy": -0.1810273036213256
+    "mood": -0.2103128505202823,
+    "energy": -0.31495407086744914
    },
    "interests": {
     "the subject": 0.51
