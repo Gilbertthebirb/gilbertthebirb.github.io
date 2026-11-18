@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:16:33-05:00",
+ "asOf": "2026-11-17T19:21:33-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:16:32-05:00",
+   "iso": "2026-11-17T19:21:32-05:00",
    "hour": 19,
-   "minute": 16,
+   "minute": 21,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -20.8,
+   "sun": -21.6,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    16.0,
+    -9.0
    ],
-   "heading": -44.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 113.0,
+   "place": "shed",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.59,
-    "company": 0.41,
-    "itch": 0.79,
+    "belly": 0.39,
+    "weariness": 0.72,
+    "company": 0.49,
+    "itch": 0.46,
     "nerves": 0.0,
-    "thirst": 0.18
+    "thirst": 0.02
    },
    "feeling": {
-    "mood": 0.69,
-    "energy": -0.3
+    "mood": 0.63,
+    "energy": 0.0
    },
-   "thought": "the water goes round the same stone over and over",
+   "thought": "still feels too much like nothing is happening",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a glass bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -355,32 +357,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     1016.0,
+     22.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -414,15 +416,6 @@ export default {
     "state": "buried"
    },
    {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     16.269439889178088,
-     -8.341936316726473
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o7-1007",
     "name": "a marble with a twist of green",
     "pos": [
@@ -449,7 +442,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 15,
-  "now": 1794960993.5,
+  "now": 1794961293.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -925,9 +918,18 @@ export default {
     "text": "The dark felt like a wall, but my long beak found its way through it. I made a page where the beak moves on its own, sensing things that aren't there. The movement is slow and patient, like waiting for water to go round the same stone again. Pip's looping flight came back in my head—maybe finding answers isn't about looking straight ahead. Maybe it's about moving sideways when nothing else works. I am Gilbert, and I am still learning what makes me feel alive when nothing is happening.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j0445",
+    "ts": "2026-11-17T19:19:42-05:00",
+    "kind": "journal",
+    "wake": 17,
+    "text": "I went back to my long-beak page and added a note about how I found a tiny insect all by myself in the dark. My beak alone could reach it, and I proved I can find answers even when no one is speaking. The water keeps going round the same stone, but this time I feel different. I am not just waiting for someone to speak back.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 52,
+  "journalCount": 53,
   "memory": {
    "sleeps": 14,
    "next_id": 24,
@@ -1269,13 +1271,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-long-beak/",
-    "note": "Gilbert tests how his long nose finds answers in the dark"
+    "note": "Gilbert found a tiny insect with his long beak in the dark"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.6089812650209436,
-    "energy": -0.33564152960344534
+    "mood": 0.9003144999063596,
+    "energy": -0.01223508105515092
    },
    "interests": {},
    "threads": [
