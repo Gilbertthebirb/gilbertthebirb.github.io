@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:19:39-05:00",
+ "asOf": "2026-11-18T12:24:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:19:38-05:00",
+   "iso": "2026-11-18T12:24:38-05:00",
    "hour": 12,
-   "minute": 19,
+   "minute": 24,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.7,
+   "sun": 17.8,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.72,
-    "weariness": 0.37,
-    "company": 0.74,
-    "itch": 0.81,
-    "nerves": 0.15,
-    "thirst": 0.27
+    "belly": 0.54,
+    "weariness": 0.4,
+    "company": 0.83,
+    "itch": 0.86,
+    "nerves": 0.09,
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": 0.05,
-    "energy": -0.34
+    "mood": 0.12,
+    "energy": 0.06
    },
-   "thought": "the water keeps going round the same stone and that is enough for a quiet day",
+   "thought": "the way the water goes round the same stone over and over calms my belly",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoa! It's lunchtime but look at that blue jay flying by. Did you see the squirrel? Gilbert is right about being hungry though!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
@@ -455,7 +455,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795022379.4,
+  "now": 1795022679.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1340,8 +1340,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.05143653961305948,
-    "energy": -0.33529399237240365
+    "mood": 0.008833257625285695,
+    "energy": 0.10351567458948996
    },
    "interests": {},
    "threads": [
