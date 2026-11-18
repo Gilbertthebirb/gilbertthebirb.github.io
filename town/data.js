@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T13:14:40-05:00",
+ "asOf": "2026-11-18T13:19:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T13:14:40-05:00",
+   "iso": "2026-11-18T13:19:40-05:00",
    "hour": 13,
-   "minute": 14,
+   "minute": 19,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.5,
+   "sun": 17.4,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,21 +27,23 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.59,
-    "weariness": 0.69,
-    "company": 0.52,
-    "itch": 0.73,
+    "belly": 0.72,
+    "weariness": 0.73,
+    "company": 0.3,
+    "itch": 0.67,
     "nerves": 0.05,
-    "thirst": 0.29
+    "thirst": 0.39
    },
    "feeling": {
-    "mood": 0.63,
-    "energy": 0.11
+    "mood": 0.79,
+    "energy": -0.05
    },
-   "thought": "the key feels heavy; it has stories stuck in its teeth",
+   "thought": "I need to know what this twist is before I put it down",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a marble with a twist of green"
+   ],
    "area": "town"
   },
   "places": {
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -355,24 +357,24 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1015.36,
+     12.99
     ],
     "said": null
    },
@@ -396,15 +398,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o5-765",
-    "name": "a rusted key",
-    "pos": [
-     14.6,
-     24.4
-    ],
-    "state": "sniffed"
-   },
-   {
     "id": "o6-782",
     "name": "a glass bead",
     "pos": [
@@ -412,15 +405,6 @@ export default {
      21.396945755741406
     ],
     "state": "placed"
-   },
-   {
-    "id": "o7-1007",
-    "name": "a marble with a twist of green",
-    "pos": [
-     14.693960660339501,
-     22.42117933984352
-    ],
-    "state": "buried"
    },
    {
     "id": "o9-1443",
@@ -454,7 +438,8 @@ export default {
    "a feather that is not yours",
    "a piece of blue-and-white china",
    "a brass button",
-   "a snail shell with a hole in it"
+   "a snail shell with a hole in it",
+   "a rusted key"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -465,7 +450,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795025680.0,
+  "now": 1795025980.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1350,8 +1335,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.32727876082005686,
-    "energy": -0.5059744126236745
+    "mood": 0.7030574967186107,
+    "energy": -0.17785783787618326
    },
    "interests": {
     "the subject": 1.0
