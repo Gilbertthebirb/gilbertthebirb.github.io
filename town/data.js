@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:29:39-05:00",
+ "asOf": "2026-11-18T12:34:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:29:38-05:00",
+   "iso": "2026-11-18T12:34:38-05:00",
    "hour": 12,
-   "minute": 29,
+   "minute": 34,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.8,
+   "sun": 17.9,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -18.0,
-    -22.0
+    -12.0,
+    20.0
    ],
-   "heading": 168.7,
-   "place": "post",
+   "heading": 45.0,
+   "place": "moss",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.67,
-    "weariness": 0.44,
-    "company": 0.91,
-    "itch": 0.61,
+    "belly": 0.79,
+    "weariness": 0.47,
+    "company": 0.99,
+    "itch": 0.55,
     "nerves": 0.15,
-    "thirst": 0.14
+    "thirst": 0.24
    },
    "feeling": {
-    "mood": 0.41,
-    "energy": -0.13
+    "mood": -0.11,
+    "energy": -0.44
    },
-   "thought": "I needed to feel the ground steady before I moved again.",
+   "thought": "my nose knows there is something here",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoa! It's lunchtime but look at that blue jay flying by. Did you see the squirrel? Gilbert is right about being hungry though!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -371,8 +371,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1000.0,
+     0.0
     ],
     "said": null
    },
@@ -426,10 +426,10 @@ export default {
     "id": "o8-1396",
     "name": "a snail shell with a hole in it",
     "pos": [
-     -11.304175425351602,
-     19.271077687238957
+     -11.4,
+     20.4
     ],
-    "state": "buried"
+    "state": "found"
    }
   ],
   "wishes": [],
@@ -455,7 +455,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795022979.5,
+  "now": 1795023279.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1340,8 +1340,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.377241872572469,
-    "energy": -0.12256965442903756
+    "mood": -0.1300300994476315,
+    "energy": -0.4442360625770066
    },
    "interests": {
     "the subject": 1.0
