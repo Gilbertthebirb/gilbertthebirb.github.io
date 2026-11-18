@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T12:24:39-05:00",
+ "asOf": "2026-11-18T12:29:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T12:24:38-05:00",
+   "iso": "2026-11-18T12:29:38-05:00",
    "hour": 12,
-   "minute": 24,
+   "minute": 29,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 17.8,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -18.0,
+    -22.0
    ],
-   "heading": -135.0,
-   "place": "creek",
+   "heading": 168.7,
+   "place": "post",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.54,
-    "weariness": 0.4,
-    "company": 0.83,
-    "itch": 0.86,
-    "nerves": 0.09,
-    "thirst": 0.04
+    "belly": 0.67,
+    "weariness": 0.44,
+    "company": 0.91,
+    "itch": 0.61,
+    "nerves": 0.15,
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": 0.12,
-    "energy": 0.06
+    "mood": 0.41,
+    "energy": -0.13
    },
-   "thought": "the way the water goes round the same stone over and over calms my belly",
+   "thought": "I needed to feel the ground steady before I moved again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -363,24 +363,24 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     978.0,
+     14.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": null
    }
@@ -455,7 +455,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 18,
-  "now": 1795022679.4,
+  "now": 1795022979.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1340,10 +1340,12 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.008833257625285695,
-    "energy": 0.10351567458948996
+    "mood": 0.377241872572469,
+    "energy": -0.12256965442903756
    },
-   "interests": {},
+   "interests": {
+    "the subject": 1.0
+   },
    "threads": [
     "What makes me feel alive when nothing is happening?",
     "Who am I when I stop trying to be ordinary?"
