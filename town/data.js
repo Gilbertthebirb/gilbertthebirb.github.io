@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:36:33-05:00",
+ "asOf": "2026-11-17T19:41:33-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:36:32-05:00",
+   "iso": "2026-11-17T19:41:32-05:00",
    "hour": 19,
-   "minute": 36,
+   "minute": 41,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -23.9,
+   "sun": -24.6,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    5.0,
+    -22.0
    ],
-   "heading": -67.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 136.0,
+   "place": "drift",
+   "doing": "probe",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.77,
+    "belly": 0.89,
     "weariness": 0.83,
-    "company": 0.59,
-    "itch": 0.6,
+    "company": 0.68,
+    "itch": 0.76,
     "nerves": 0.0,
-    "thirst": 0.02
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": -0.53
+    "mood": -0.19,
+    "energy": -0.67
    },
-   "thought": "my body is heavy but it needs to move first",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Did you see the squirrel? Wait... did you bring fruit? Maybe we should dance a bit?\"",
@@ -355,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1009.23,
-     -3.35
+     1014.0,
+     -6.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 15,
-  "now": 1794962193.8,
+  "now": 1794962493.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1283,8 +1283,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.260945089211272,
-    "energy": -0.6233777790916616
+    "mood": 0.06409136987070274,
+    "energy": -0.6332146221387859
    },
    "interests": {},
    "threads": [
