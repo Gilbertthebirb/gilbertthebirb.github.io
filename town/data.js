@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:50:40-05:00",
+ "asOf": "2026-11-17T19:55:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:50:40-05:00",
+   "iso": "2026-11-17T19:55:40-05:00",
    "hour": 19,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -26.0,
+   "sun": -26.8,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -22.0,
+    47.0
    ],
-   "heading": -12.8,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": 2.9,
+   "place": "culvert",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.77,
-    "weariness": 0.08,
-    "company": 0.79,
-    "itch": 0.87,
+    "belly": 0.59,
+    "weariness": 0.12,
+    "company": 0.88,
+    "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.41
+    "thirst": 0.51
    },
    "feeling": {
-    "mood": 0.11,
-    "energy": -0.24
+    "mood": -0.04,
+    "energy": 0.22
    },
-   "thought": "",
+   "thought": "the silence is heavy",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5,
-     -22
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Did you see the squirrel? Wait... did you bring fruit? Maybe we should dance a bit?\"",
@@ -355,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1006.0,
+     10.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10
+     978.0,
+     14.0
     ],
     "said": null
    }
@@ -417,8 +417,8 @@ export default {
     "id": "o6-782",
     "name": "a glass bead",
     "pos": [
-     16.042916752775596,
-     -8.362452314958475
+     5.873720815783482,
+     -1.6127826576559854
     ],
     "state": "placed"
    },
@@ -449,7 +449,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 17,
-  "now": 1794963040.3,
+  "now": 1794963340.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1334,8 +1334,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.08884027871653036,
-    "energy": -0.2291588331467762
+    "mood": -0.209089351188038,
+    "energy": 0.333936865788212
    },
    "interests": {},
    "threads": [
@@ -1346,7 +1346,7 @@ export default {
    "lastResult": "",
    "wake": 19,
    "awakeSince": "",
-   "lastDream": "I scratched a wish into the wall and heard my own name travel far without an answer. The water goes round the same stone over and over."
+   "lastDream": "I found a tiny insect with my long beak in the dark, all by myself, and the walking stirred up good insects so I didn't feel alone. Pip said I stirred up good insects when I walked, and that made me feel less alone."
   }
  }
 };
