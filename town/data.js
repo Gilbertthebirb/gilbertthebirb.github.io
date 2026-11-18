@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T13:40:50-05:00",
- "live": false,
+ "asOf": "2026-11-18T13:41:54-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T13:40:57-05:00",
+   "iso": "2026-11-18T13:41:54-05:00",
    "hour": 13,
-   "minute": 40,
+   "minute": 41,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.7,
+   "sun": 16.6,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 154.9,
-   "place": "burrow",
+   "heading": 119.4,
+   "place": "shed",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.34,
-    "weariness": 0.12,
-    "company": 0.19,
+    "belly": 0.47,
+    "weariness": 0.08,
+    "company": 0.2,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.07
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.39,
-    "energy": 0.13
+    "mood": 0.34,
+    "energy": 0.02
    },
-   "thought": "",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9,
+     13
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     20.71,
-     24.96
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     9,
+     13
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -356,31 +356,31 @@ export default {
     "name": "Odile",
     "pos": [
      1014.0,
-     -6.0
+     -6
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     978.0,
+     14
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1008.9,
-     22.33
+     1006.0,
+     10
     ],
     "said": null
    }
@@ -454,10 +454,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 19,
-  "now": 1795027257.7,
+  "session": 20,
+  "now": 1795027314.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1437,7 +1437,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and unsure where to stand until others speak, yet I find my footing on the ground. I do not know much about myself yet.",
    "lastResult": "",
-   "wake": 21,
+   "wake": 22,
    "awakeSince": "",
    "lastDream": "I remember Pip looping the sky while my feet stir up dark ants on the earth, a bird chasing bugs beneath me in one long, tangled sleep."
   }
