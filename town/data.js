@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-17T19:48:57-05:00",
- "live": false,
+ "asOf": "2026-11-17T19:50:40-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-17T19:49:07-05:00",
+   "iso": "2026-11-17T19:50:40-05:00",
    "hour": 19,
-   "minute": 49,
+   "minute": 50,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -25.8,
+   "sun": -26.0,
    "date": "2026-11-17",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "drizzle",
   "bird": {
    "pos": [
     0.0,
@@ -25,14 +25,14 @@ export default {
    "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.75,
-    "weariness": 0.11,
-    "company": 0.78,
-    "itch": 0.85,
+    "belly": 0.77,
+    "weariness": 0.08,
+    "company": 0.79,
+    "itch": 0.87,
     "nerves": 0.0,
-    "thirst": 0.39
+    "thirst": 0.41
    },
    "feeling": {
     "mood": 0.11,
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     16,
+     -9
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28,
+     26
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24,
-     8
+     5,
+     -22
     ],
     "said": {
      "text": "Pip said to you: \"Hi there! Did you see the squirrel? Wait... did you bring fruit? Maybe we should dance a bit?\"",
@@ -355,24 +355,24 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0
+     1014.0,
+     -6
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     996.0,
+     29
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6
+     1016.0,
+     22
     ],
     "said": null
    },
@@ -446,10 +446,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 16,
-  "now": 1794962947.9,
+  "session": 17,
+  "now": 1794963040.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1344,7 +1344,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am quiet and unsure where to stand until others speak, but I find comfort in watching leaves and rings on water to calm myself.",
    "lastResult": "",
-   "wake": 18,
+   "wake": 19,
    "awakeSince": "",
    "lastDream": "I scratched a wish into the wall and heard my own name travel far without an answer. The water goes round the same stone over and over."
   }
