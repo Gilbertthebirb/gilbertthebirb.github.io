@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T13:27:14-05:00",
+ "asOf": "2026-11-18T13:32:14-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T13:27:14-05:00",
+   "iso": "2026-11-18T13:32:14-05:00",
    "hour": 13,
-   "minute": 27,
+   "minute": 32,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.2,
+   "sun": 17.0,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    33.82,
-    -5.77
+    -12.0,
+    20.0
    ],
-   "heading": 99.7,
-   "place": null,
-   "doing": "walk_to",
-   "target": "hut",
+   "heading": -59.6,
+   "place": "moss",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.6,
-    "weariness": 0.08,
-    "company": 0.42,
-    "itch": 0.91,
+    "belly": 0.42,
+    "weariness": 0.09,
+    "company": 0.5,
+    "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.37
+    "thirst": 0.47
    },
    "feeling": {
-    "mood": 0.36,
-    "energy": -0.34
+    "mood": 0.06,
+    "energy": 0.05
    },
-   "thought": "",
+   "thought": "I need to feel the ground again before I move.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16,
-     -9
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -355,32 +355,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     1010.53,
+     11.29
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -399,8 +399,8 @@ export default {
     "id": "o6-782",
     "name": "a glass bead",
     "pos": [
-     -12.390047143714174,
-     21.396945755741406
+     -11.945490755260833,
+     21.124240725083975
     ],
     "state": "placed"
    },
@@ -457,7 +457,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 19,
-  "now": 1795026434.3,
+  "now": 1795026734.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1392,8 +1392,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.36256209260314176,
-    "energy": -0.34458705164879744
+    "mood": 0.09131266241600348,
+    "energy": -0.019105692838627203
    },
    "interests": {
     "the subject": 0.8
@@ -1406,7 +1406,7 @@ export default {
    "lastResult": "",
    "wake": 21,
    "awakeSince": "",
-   "lastDream": "I found a tiny insect with my long beak in the dark, all by myself, and the walking stirred up good insects so I didn't feel alone. Pip said I stirred up good insects when I walked, and that made me feel less alone."
+   "lastDream": "I remember Pip looping the sky while my feet stir up dark ants on the earth, a bird chasing bugs beneath me in one long, tangled sleep."
   }
  }
 };
