@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T14:33:47-05:00",
+ "asOf": "2026-11-18T14:38:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T14:33:46-05:00",
+   "iso": "2026-11-18T14:38:46-05:00",
    "hour": 14,
-   "minute": 33,
+   "minute": 38,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 13.8,
+   "sun": 13.4,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    1000.0,
-    0.0
+    1006.0,
+    10.0
    ],
-   "heading": -149.0,
-   "place": "square",
-   "doing": "sit",
-   "target": "",
+   "heading": 31.0,
+   "place": "fountain",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.27,
-    "company": 0.14,
-    "itch": 0.84,
-    "nerves": 0.4,
-    "thirst": 0.41
+    "weariness": 0.31,
+    "company": 0.22,
+    "itch": 0.89,
+    "nerves": 0.3,
+    "thirst": 0.03
    },
    "feeling": {
-    "mood": -0.11,
-    "energy": 0.06
+    "mood": -0.05,
+    "energy": -0.09
    },
-   "thought": "too hungry to walk, need the rhythm of stillness first",
+   "thought": "i listen to the stone spin over and over until my throat feels safe again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1013.06,
-     -4.11
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile said to you: \"No. Here is the truth: I have nothing for you to eat today. Leave me alone, or go find your own meals.\"",
@@ -366,16 +366,16 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1001.68,
+     24.42
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"Nothing? That's it for all your eggs?! Nothing! No nothing at all!\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795030427.3,
+  "now": 1795030727.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1528,8 +1528,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.12658855975538336,
-    "energy": 0.04261571708051928
+    "mood": -0.1437340516956724,
+    "energy": -0.1639309511068444
    },
    "interests": {
     "the subject": 0.51
