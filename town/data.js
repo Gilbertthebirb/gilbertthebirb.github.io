@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T17:58:49-05:00",
+ "asOf": "2026-11-18T18:03:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T17:58:48-05:00",
-   "hour": 17,
-   "minute": 58,
+   "iso": "2026-11-18T18:03:48-05:00",
+   "hour": 18,
+   "minute": 3,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -9.4,
+   "sun": -10.2,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.79,
+    "belly": 0.61,
     "weariness": 0.72,
-    "company": 0.27,
-    "itch": 0.96,
-    "nerves": 0.05,
-    "thirst": 0.27
+    "company": 0.35,
+    "itch": 1.0,
+    "nerves": 0.16,
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": -0.04,
-    "energy": -0.27
+    "mood": 0.17,
+    "energy": -0.34
    },
-   "thought": "seeing how the grey water turns around itself makes the silence softer",
+   "thought": "my belly is quiet and tired, but I need a sound to know I am still here",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a glass bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"I watched a drop slip away into the deep pool, Gilbert. I know exactly where that little traveler went now.\"",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Pip says he's quiet but his feet tap and he hears a bird sing nearby!\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      -2.307731319044718,
      -45.14678299453481
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o6-782",
+    "name": "a glass bead",
+    "pos": [
+     -23.25248196394576,
+     9.237814594011315
     ],
     "state": "placed"
    },
@@ -475,7 +482,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795042729.6,
+  "now": 1795043029.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1554,8 +1561,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.016843281245991507,
-    "energy": -0.19148579128809717
+    "mood": 0.1788022947366443,
+    "energy": -0.2971285699488194
    },
    "interests": {
     "the subject": 0.51
