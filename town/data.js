@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T14:08:47-05:00",
+ "asOf": "2026-11-18T14:13:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T14:08:46-05:00",
+   "iso": "2026-11-18T14:13:46-05:00",
    "hour": 14,
-   "minute": 8,
+   "minute": 13,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 15.3,
+   "sun": 15.1,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,21 +18,21 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    1.5,
-    42.71
+    2.0,
+    57.0
    ],
    "heading": 2.0,
    "place": null,
-   "doing": "walk_to",
-   "target": "halt",
+   "doing": "ride_tram",
+   "target": "city",
    "asleep": false,
    "needs": {
-    "belly": 0.51,
-    "weariness": 0.08,
-    "company": 0.18,
-    "itch": 0.77,
+    "belly": 0.63,
+    "weariness": 0.09,
+    "company": 0.27,
+    "itch": 0.94,
     "nerves": 0.15,
-    "thirst": 0.51
+    "thirst": 0.61
    },
    "feeling": {
     "mood": 0.64,
@@ -42,7 +42,7 @@ export default {
    "said": null,
    "wants_sleep": false,
    "carrying": [],
-   "area": "town"
+   "area": "tram"
   },
   "places": {
    "burrow": {
@@ -316,7 +316,13 @@ export default {
     "area": "city"
    }
   },
-  "tram": null,
+  "tram": {
+   "to": "city",
+   "from": "town",
+   "departs": 1795028999.9999912,
+   "arrives": 1795029239.9999912,
+   "aboard": true
+  },
   "city_x": 1000.0,
   "residents": {
    "mabel": {
@@ -333,8 +339,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     27.63,
+     25.95
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +350,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,32 +361,32 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     1000.0,
+     0.0
     ],
     "said": null
    },
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     1028.0,
+     -10.0
     ],
     "said": null
    },
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22
+     978.0,
+     14.0
     ],
     "said": null
    },
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14
+     1006.0,
+     10.0
     ],
     "said": null
    }
@@ -466,7 +472,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795028927.0,
+  "now": 1795029227.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1519,8 +1525,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5874942097472827,
-    "energy": 0.5004905393810483
+    "mood": 0.23226723418541456,
+    "energy": 0.28399406402153815
    },
    "interests": {
     "the subject": 0.51
@@ -1533,7 +1539,7 @@ export default {
    "lastResult": "",
    "wake": 23,
    "awakeSince": "",
-   "lastDream": "I heard a call from far away, then scratched a wish into a wall where silence pressed too heavy against my feathers. I woke to the sound of Mabel laughing near the creek, her voice cracking dry leaves while the water kept turning the same round stone over and over."
+   "lastDream": "I scratched a wish into a wall that was not a wall but only remembered the scratch, waiting for my own name to scrape back against the dark that swallowed my voice whole."
   }
  }
 };
