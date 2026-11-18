@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T15:43:47-05:00",
+ "asOf": "2026-11-18T15:48:48-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T15:43:46-05:00",
+   "iso": "2026-11-18T15:48:48-05:00",
    "hour": 15,
-   "minute": 43,
+   "minute": 48,
    "phase": "day",
    "words": "afternoon",
-   "sun": 7.6,
+   "sun": 7.1,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -29,10 +29,10 @@ export default {
    "needs": {
     "belly": 1.0,
     "weariness": 0.67,
-    "company": 0.06,
-    "itch": 0.89,
-    "nerves": 0.56,
-    "thirst": 0.09
+    "company": 0.14,
+    "itch": 1.0,
+    "nerves": 0.5,
+    "thirst": 0.19
    },
    "feeling": {
     "mood": -0.18,
@@ -328,8 +328,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -339,8 +339,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -350,8 +350,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -361,8 +361,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -394,8 +394,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -484,7 +484,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795034628.0,
+  "now": 1795034928.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1537,8 +1537,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.2292991361654296,
-    "energy": 0.13643151678416132
+    "mood": -0.39272104713697087,
+    "energy": 0.0011515780299840572
    },
    "interests": {
     "the subject": 0.51
