@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T17:08:49-05:00",
+ "asOf": "2026-11-18T17:13:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T17:08:48-05:00",
+   "iso": "2026-11-18T17:13:48-05:00",
    "hour": 17,
-   "minute": 8,
+   "minute": 13,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -2.5,
+   "sun": -3.2,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.74,
-    "weariness": 0.76,
-    "company": 0.57,
-    "itch": 0.63,
+    "belly": 0.56,
+    "weariness": 0.8,
+    "company": 0.65,
+    "itch": 0.68,
     "nerves": 0.0,
-    "thirst": 0.16
+    "thirst": 0.26
    },
    "feeling": {
-    "mood": 0.13,
-    "energy": -0.56
+    "mood": -0.19,
+    "energy": -0.55
    },
-   "thought": "the grey water is too loud without watching it",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"That stone is moving now; I saw it shift while you were speaking. Why are you staring at such a silly thing?\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -478,7 +478,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795039729.0,
+  "now": 1795040029.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1557,8 +1557,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2573698916590223,
-    "energy": -0.4664142891868379
+    "mood": -0.19644269401006936,
+    "energy": -0.5528135643256745
    },
    "interests": {
     "the subject": 0.51
