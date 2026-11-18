@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T15:38:47-05:00",
+ "asOf": "2026-11-18T15:43:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T15:38:46-05:00",
+   "iso": "2026-11-18T15:43:46-05:00",
    "hour": 15,
-   "minute": 38,
+   "minute": 43,
    "phase": "day",
    "words": "afternoon",
-   "sun": 8.1,
+   "sun": 7.6,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "wind",
   "bird": {
    "pos": [
-    1009.84,
-    2.32
+    1000.0,
+    0.0
    ],
-   "heading": -26.6,
-   "place": null,
-   "doing": "walk_to",
-   "target": "fountain",
+   "heading": -149.0,
+   "place": "square",
+   "doing": "ride_tram",
+   "target": "town",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.63,
-    "company": 0.22,
-    "itch": 0.95,
-    "nerves": 0.34,
-    "thirst": 0.29
+    "weariness": 0.67,
+    "company": 0.06,
+    "itch": 0.89,
+    "nerves": 0.56,
+    "thirst": 0.09
    },
    "feeling": {
-    "mood": -0.2,
-    "energy": -0.28
+    "mood": -0.18,
+    "energy": 0.73
    },
-   "thought": "the grey water makes the silence hard, but watching how it moves might be easier than holding my hunger or calling out into nothing",
+   "thought": "the dark is too wide here; my legs will speak again on familiar ground.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -316,7 +316,13 @@ export default {
     "area": "city"
    }
   },
-  "tram": null,
+  "tram": {
+   "to": "town",
+   "from": "city",
+   "departs": 1795034999.9999933,
+   "arrives": 1795035239.9999933,
+   "aboard": false
+  },
   "city_x": 1000.0,
   "residents": {
    "mabel": {
@@ -333,8 +339,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +350,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +361,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1011.11,
-     -0.22
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +372,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +383,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,12 +394,12 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
-     "text": "Sister Kettle said to you: \"Sister Kettle: Water should be clear as a summer day, not tasting of storm.\"",
-     "t": 1795033734.5
+     "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
+     "t": 1795034588.5
     }
    }
   },
@@ -478,7 +484,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 21,
-  "now": 1795034328.0,
+  "now": 1795034628.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1531,8 +1537,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.14119523830270309,
-    "energy": -0.23728237668761898
+    "mood": -0.2292991361654296,
+    "energy": 0.13643151678416132
    },
    "interests": {
     "the subject": 0.51
