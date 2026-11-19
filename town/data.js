@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T12:07:46-05:00",
+ "asOf": "2026-11-19T12:12:46-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T12:07:46-05:00",
+   "iso": "2026-11-19T12:12:46-05:00",
    "hour": 12,
-   "minute": 7,
+   "minute": 12,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.3,
+   "sun": 17.4,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    30.0,
+    -34.0
    ],
-   "heading": -60.6,
-   "place": "burrow",
-   "doing": "dance",
-   "target": "",
+   "heading": 115.6,
+   "place": "hollow",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.5,
-    "weariness": 0.28,
-    "company": 0.2,
-    "itch": 0.1,
-    "nerves": 0.0,
-    "thirst": 0.03
+    "belly": 0.24,
+    "weariness": 0.31,
+    "company": 0.29,
+    "itch": 0.27,
+    "nerves": 0.15,
+    "thirst": 0.06
    },
    "feeling": {
-    "mood": 0.78,
-    "energy": -0.0
+    "mood": 0.46,
+    "energy": -0.34
    },
-   "thought": "legs want to move before they can find food",
+   "thought": "it has color and a twist I can follow",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a marble with a twist of green"
+   ],
    "area": "town"
   },
   "places": {
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Hello hello! Did you see the shiny stone? Wait, oh look, a bug! Bye bye!\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22
+     983.97,
+     -9.21
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      -2.307731319044718,
      -45.14678299453481
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o7-1007",
-    "name": "a marble with a twist of green",
-    "pos": [
-     29.248820968042587,
-     -32.72819487011723
     ],
     "state": "placed"
    },
@@ -490,7 +483,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 25,
-  "now": 1795108066.4,
+  "now": 1795108366.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1743,8 +1736,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.8018818794018227,
-    "energy": 0.5968506271389911
+    "mood": 0.4700206347228507,
+    "energy": -0.33304922337909315
    },
    "interests": {
     "the subject": 0.26
