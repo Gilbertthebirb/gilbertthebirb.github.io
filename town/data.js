@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T10:13:40-05:00",
+ "asOf": "2026-11-19T10:18:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T10:13:40-05:00",
+   "iso": "2026-11-19T10:18:40-05:00",
    "hour": 10,
-   "minute": 13,
+   "minute": 18,
    "phase": "day",
    "words": "morning",
-   "sun": 10.9,
+   "sun": 11.4,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,23 +27,21 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.22,
-    "weariness": 0.63,
-    "company": 0.88,
-    "itch": 0.91,
+    "belly": 0.26,
+    "weariness": 0.66,
+    "company": 0.96,
+    "itch": 0.96,
     "nerves": 0.15,
-    "thirst": 0.08
+    "thirst": 0.11
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": -0.62
+    "mood": 0.12,
+    "energy": -0.65
    },
-   "thought": "the crunch feels like something held tight; I need an edge for my hunger",
+   "thought": "I hear Mabel's voice in the stillness; I wait for the branch to crack.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1003.82,
-     -1.64
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -415,6 +413,15 @@ export default {
     "pos": [
      29.248820968042587,
      -32.72819487011723
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -21.265783641890266,
+     48.26150603936827
     ],
     "state": "placed"
    },
@@ -479,7 +486,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795101220.2,
+  "now": 1795101520.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1651,8 +1658,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2597160437112981,
-    "energy": -0.42833982597552056
+    "mood": 0.22279419818065282,
+    "energy": -0.6721295328507473
    },
    "interests": {
     "the subject": 0.33
