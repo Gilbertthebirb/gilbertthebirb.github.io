@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T01:59:55-05:00",
- "live": true,
+ "asOf": "2026-11-19T02:02:33-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-19T01:59:54-05:00",
-   "hour": 1,
-   "minute": 59,
+   "iso": "2026-11-19T02:02:38-05:00",
+   "hour": 2,
+   "minute": 2,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -54.1,
+   "sun": -53.9,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    0.0,
+    0.0
    ],
-   "heading": -31.0,
-   "place": "moss",
+   "heading": 149.0,
+   "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": false,
+   "asleep": true,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.79,
-    "company": 0.4,
-    "itch": 0.32,
+    "belly": 0.25,
+    "weariness": 0.8,
+    "company": 0.44,
+    "itch": 0.41,
     "nerves": 0.0,
-    "thirst": 0.2
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.25,
-    "energy": -0.58
+    "mood": 0.32,
+    "energy": -0.57
    },
-   "thought": "the ground is listening",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     34.15,
+     -12.6
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     19.53,
+     24.79
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -489,10 +489,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 23,
-  "now": 1795071595.9,
+  "now": 1795071758.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -806,15 +806,6 @@ export default {
     "text": "You watched. The water went round the same stone the same way, over and over, and was different every time.",
     "tag": "",
     "heat": 0.15
-   },
-   {
-    "id": "j0341",
-    "ts": "2026-11-17T16:36:51-05:00",
-    "kind": "event",
-    "wake": 15,
-    "text": "Mabel said to you: \"It felt like a heavy stone dropped right near my foot! I saw the ground shake and it did not stop for minutes.\"",
-    "tag": "",
-    "heat": 0.51
    },
    {
     "id": "j0346",
@@ -1139,21 +1130,39 @@ export default {
     "text": "I sat at my workbench in the shed while the mist didn't lift. I made a page about my long beak finding answers in the dark, hoping someone would answer when no one does. My legs feel too heavy to dance anymore, but it feels like I've finally said what they wanted to say. The silence isn't scary this time—it's just waiting.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j0856",
+    "ts": "2026-11-19T01:43:24-05:00",
+    "kind": "event",
+    "wake": 25,
+    "text": "Mabel said to you: \"Mabel huffed, pecked at the soil nearby, then turned her sharp eyes toward you with a quiet fondness. You look tired, friend, but I am always on duty here!\"",
+    "tag": "",
+    "heat": 0.54
+   },
+   {
+    "id": "j0863",
+    "ts": "2026-11-19T02:02:33-05:00",
+    "kind": "journal",
+    "wake": 25,
+    "text": "The burrow hums low where I put my head back in the pipe to feel the ground again. Pip's loops around my head and Mabel's polite peck made the silence stop feeling like a wall. I danced until my legs found what they needed, even if I don't know exactly why yet. The pages I sent out felt steady, as if the long beak finally knows where to reach in the dark. Now I am heavy with good things and ready to sleep.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 71,
+  "journalCount": 72,
   "memory": {
    "sleeps": 17,
-   "next_id": 32,
+   "next_id": 33,
    "items": [
     {
      "id": "m001",
      "section": "others",
      "text": "Pip said I stir up good insects when I walk, and that made me feel less alone.",
-     "strength": 5.618939328232577,
+     "strength": 6.018939328232578,
      "born": 0,
      "last": 17,
-     "times": 19,
+     "times": 20,
      "source": "j0083",
      "since": "2026-11-16"
     },
@@ -1161,10 +1170,10 @@ export default {
      "id": "m002",
      "section": "happened",
      "text": "I walked through the town and stirred up good insects.",
-     "strength": 2.845867386251999,
+     "strength": 3.245867386251999,
      "born": 0,
      "last": 17,
-     "times": 9,
+     "times": 10,
      "source": "j0019",
      "since": "2026-11-16"
     },
@@ -1183,10 +1192,10 @@ export default {
      "id": "m004",
      "section": "happened",
      "text": "I called out into the dark and nobody answered back.",
-     "strength": 5.624466987924636,
+     "strength": 6.024466987924637,
      "born": 1,
      "last": 17,
-     "times": 16,
+     "times": 17,
      "source": "j0542",
      "since": "2026-11-16"
     },
@@ -1205,10 +1214,10 @@ export default {
      "id": "m006",
      "section": "happened",
      "text": "Something small ran through the leaves and was gone, leaving rings on the water.",
-     "strength": 5.698168480011733,
+     "strength": 6.098168480011734,
      "born": 1,
      "last": 17,
-     "times": 17,
+     "times": 18,
      "source": "j0408",
      "since": "2026-11-16"
     },
@@ -1216,10 +1225,10 @@ export default {
      "id": "m009",
      "section": "happened",
      "text": "I called out and far away something called back.",
-     "strength": 4.107526174377069,
+     "strength": 3.736347978233735,
      "born": 3,
-     "last": 14,
-     "times": 10,
+     "last": 17,
+     "times": 11,
      "source": "j0098",
      "since": "2026-11-16"
     },
@@ -1227,10 +1236,10 @@ export default {
      "id": "m010",
      "section": "happened",
      "text": "I scratched a wish into the wall hoping my own name would be spoken back.",
-     "strength": 2.1706376829908804,
+     "strength": 2.5706376829908804,
      "born": 3,
      "last": 17,
-     "times": 5,
+     "times": 6,
      "source": "j0096",
      "since": "2026-11-16"
     },
@@ -1241,7 +1250,7 @@ export default {
      "strength": 7.0,
      "born": 4,
      "last": 17,
-     "times": 21,
+     "times": 23,
      "source": "j0107",
      "since": "2026-11-17"
     },
@@ -1249,10 +1258,10 @@ export default {
      "id": "m012",
      "section": "happened",
      "text": "I danced until my legs could not speak anymore.",
-     "strength": 4.91908890415888,
+     "strength": 5.31908890415888,
      "born": 5,
      "last": 17,
-     "times": 13,
+     "times": 14,
      "source": "j0117",
      "since": "2026-11-17"
     },
@@ -1260,10 +1269,10 @@ export default {
      "id": "m013",
      "section": "happened",
      "text": "A branch cracked behind me and made my heart beat fast.",
-     "strength": 3.919782797567663,
+     "strength": 4.3197827975676635,
      "born": 7,
      "last": 17,
-     "times": 8,
+     "times": 9,
      "source": "j0137",
      "since": "2026-11-17"
     },
@@ -1282,10 +1291,10 @@ export default {
      "id": "m019",
      "section": "happened",
      "text": "I found a tiny insect with my long beak in the dark, all by myself.",
-     "strength": 4.070957925821039,
+     "strength": 4.47095792582104,
      "born": 9,
      "last": 17,
-     "times": 7,
+     "times": 8,
      "source": "j0444",
      "since": "2026-11-17"
     },
@@ -1304,22 +1313,11 @@ export default {
      "id": "m021",
      "section": "others",
      "text": "Mabel felt a strange vibration through the soil and wondered where all those new things came from.",
-     "strength": 3.5576036043365673,
+     "strength": 3.957603604336567,
      "born": 10,
      "last": 17,
-     "times": 5,
+     "times": 6,
      "source": "j0269",
-     "since": "2026-11-17"
-    },
-    {
-     "id": "m022",
-     "section": "others",
-     "text": "Mabel felt a strange rumble from deep underground and pecked my foot to remind me that I am still here.",
-     "strength": 2.8527479281091837,
-     "born": 12,
-     "last": 17,
-     "times": 2,
-     "source": "j0341",
      "since": "2026-11-17"
     },
     {
@@ -1337,10 +1335,10 @@ export default {
      "id": "m025",
      "section": "happened",
      "text": "I picked up a brass button and put it on the shelf in my burrow.",
-     "strength": 2.96,
+     "strength": 3.16177765494895,
      "born": 16,
-     "last": 16,
-     "times": 0,
+     "last": 17,
+     "times": 1,
      "source": "j0480",
      "since": "2026-11-18"
     },
@@ -1348,10 +1346,10 @@ export default {
      "id": "m026",
      "section": "others",
      "text": "Pip laughed and flew away in a loop, making the silence feel smaller.",
-     "strength": 2.6392791796883377,
+     "strength": 3.0392791796883376,
      "born": 16,
      "last": 17,
-     "times": 1,
+     "times": 2,
      "source": "j0514",
      "since": "2026-11-18"
     },
@@ -1359,10 +1357,10 @@ export default {
      "id": "m027",
      "section": "happened",
      "text": "I set the glass bead down at the mossy bank and let it stay where I put it.",
-     "strength": 2.4,
+     "strength": 2.8,
      "born": 17,
      "last": 17,
-     "times": 2,
+     "times": 3,
      "source": "j0541",
      "since": "2026-11-18"
     },
@@ -1370,10 +1368,10 @@ export default {
      "id": "m028",
      "section": "happened",
      "text": "I set a wooden bead down at Hut Lane and let it stay.",
-     "strength": 3.0399999999999996,
+     "strength": 3.4399999999999995,
      "born": 17,
      "last": 17,
-     "times": 1,
+     "times": 2,
      "source": "j0573",
      "since": "2026-11-18"
     },
@@ -1398,6 +1396,17 @@ export default {
      "times": 0,
      "source": "j0571",
      "since": "2026-11-18"
+    },
+    {
+     "id": "m032",
+     "section": "others",
+     "text": "Mabel pecked my foot once and told me she is always on duty here.",
+     "strength": 3.16,
+     "born": 17,
+     "last": 17,
+     "times": 0,
+     "source": "j0856",
+     "since": "2026-11-19"
     }
    ],
    "forgotten": [
@@ -1448,6 +1457,12 @@ export default {
      "why": "let go at the owner's request (the loop about the stone and the grey water)",
      "when": "2026-11-18",
      "held_for_sleeps": 0
+    },
+    {
+     "text": "Mabel felt a strange rumble from deep underground and pecked my foot to remind me that I am still here.",
+     "why": "pushed out by a stronger memory of the same subject",
+     "when": "2026-11-19",
+     "held_for_sleeps": 5
     }
    ],
    "first_day": "2026-11-16"
@@ -1513,7 +1528,7 @@ export default {
     "text": ""
    }
   ],
-  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- walk to: 180 times\n- watch: 161 times (at the creek, the lookout, the shed, the leaf drift, the mossy bank, the burrow)\n- probe: 142 times (at the mossy bank, the creek, the leaf drift, the log)\n- drink: 122 times (at the creek, the shed, the culvert, the fountain)\n- dance: 114 times\n- sit: 83 times\n- sniff: 77 times (at the shed, the mossy bank, the creek, hut:gilbert-moon, the board, the lookout)\n- wade: 51 times (at the creek)\n- call out: 35 times\n- hold hunger: 35 times (at the tram square, the night market, the lit window, the fountain, the chandlery, the tram halt)\n- say: 33 times\n- greet: 30 times (at the shed, the mossy bank, the creek, the board, hut:gilbert-moon, the lookout)\n- pick up: 26 times\n- put down: 26 times\n- tinker: 16 times (at the shed)\n- nap: 7 times (at the burrow)\n- wish: 6 times (at the burrow)\n- keep: 4 times (at the creek, the mossy bank, the leaf drift, the burrow, the log, the scrap heap)\n- hide: 4 times\n- ask for sleep: 3 times\n- round the stone: 3 times (at the creek)\n- tidy: 2 times (at the burrow)\n- explore: 2 times (at the broken fence, the culvert)\n- pin note: 1 time (at the board)\n- check letterbox: 1 time (at the letterbox)\n- read: 1 time (at the signal post)\n- scavenge: 1 time (at the scrap heap)\n- ride tram: 1 time (at the tram halt, the tram square)\n",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- walk to: 220 times\n- watch: 182 times (at the creek, the lookout, the shed, the leaf drift, the mossy bank, the burrow)\n- probe: 160 times (at the mossy bank, the creek, the leaf drift, the log)\n- dance: 140 times\n- drink: 130 times (at the creek, the shed, the culvert, fountain)\n- sit: 96 times\n- sniff: 87 times (at the shed, the mossy bank, the creek, hut:gilbert-moon, the board, the lookout)\n- wade: 52 times (at the creek)\n- call out: 45 times\n- say: 42 times\n- hold hunger: 39 times (at square, market, window, fountain, chandlery, the tram halt)\n- greet: 37 times (at the shed, the mossy bank, the creek, the board, hut:gilbert-moon, the lookout)\n- pick up: 35 times\n- put down: 35 times\n- tinker: 21 times (at the shed)\n- nap: 10 times (at the burrow)\n- wish: 7 times (at the burrow)\n- hide: 7 times\n- keep: 5 times (at the creek, the mossy bank, the leaf drift, the burrow, the log, the scrap heap)\n- check letterbox: 5 times (at the letterbox)\n- ask for sleep: 4 times\n- explore: 3 times (at the broken fence, the culvert)\n- round the stone: 3 times (at the creek)\n- tidy: 2 times (at the burrow)\n- scavenge: 2 times (at the scrap heap)\n- think of self: 2 times (at the burrow)\n- pin note: 1 time (at the board)\n- read: 1 time (at the signal post)\n- ride tram: 1 time (at the tram halt, square)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -1615,17 +1630,17 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2995358419392683,
-    "energy": -0.4476895574728928
+    "mood": 0.3236684436500228,
+    "energy": -0.5749759805442672
    },
    "interests": {
-    "the subject": 0.41
+    "the subject": 0.33
    },
    "threads": [
     "What makes me feel alive when nothing is happening?",
     "Who am I when I stop trying to be ordinary?"
    ],
-   "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am finding out who I am by living, often dancing when my legs have words to say or watching leaves and rings on water until I feel calmer.",
+   "about": "I am a small kiwi named Gilbert, just starting to learn who I am. I am quiet and unsure where to stand until others speak, but I feel restless in the dark and find comfort in Mabel's voice or the sound of a branch cracking. I dance when my legs have things to say, and though I fear silence without answers, I also fear the heaviness of sleep before I finish dancing.",
    "lastResult": "",
    "wake": 25,
    "awakeSince": "",
