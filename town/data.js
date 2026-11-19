@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T01:24:55-05:00",
+ "asOf": "2026-11-19T01:29:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T01:24:54-05:00",
+   "iso": "2026-11-19T01:29:54-05:00",
    "hour": 1,
-   "minute": 24,
+   "minute": 29,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -56.5,
+   "sun": -56.2,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -22.0,
-    47.0
+    16.0,
+    -9.0
    ],
-   "heading": -25.1,
-   "place": "culvert",
-   "doing": "watch",
-   "target": "water",
+   "heading": 119.4,
+   "place": "shed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.57,
-    "company": 0.32,
-    "itch": 0.61,
-    "nerves": 0.0,
-    "thirst": 0.33
+    "belly": 0.28,
+    "weariness": 0.61,
+    "company": 0.4,
+    "itch": 0.66,
+    "nerves": 0.04,
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.6,
-    "energy": 0.19
+    "mood": 0.45,
+    "energy": 0.11
    },
-   "thought": "The hum inside me feels real now, but I need to see what else is listening.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -460,15 +460,6 @@ export default {
      7.882664951475684
     ],
     "state": "placed"
-   },
-   {
-    "id": "o13-2077",
-    "name": "a strip of bark",
-    "pos": [
-     6.686878333947902,
-     -1.8105730472974049
-    ],
-    "state": "placed"
    }
   ],
   "wishes": [],
@@ -489,7 +480,8 @@ export default {
    "a piece of blue-and-white china",
    "a brass button",
    "a snail shell with a hole in it",
-   "a rusted key"
+   "a rusted key",
+   "a strip of bark"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -500,7 +492,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 23,
-  "now": 1795069495.5,
+  "now": 1795069795.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1589,8 +1581,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.37166176451002075,
-    "energy": -0.07040414026506359
+    "mood": 0.5345210417256939,
+    "energy": -0.18991470615260997
    },
    "interests": {
     "the subject": 0.41
