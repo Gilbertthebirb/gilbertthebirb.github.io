@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T08:38:39-05:00",
+ "asOf": "2026-11-19T08:43:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T08:38:38-05:00",
+   "iso": "2026-11-19T08:43:38-05:00",
    "hour": 8,
-   "minute": 38,
+   "minute": 43,
    "phase": "dawn",
    "words": "first light",
-   "sun": 0.7,
+   "sun": 1.3,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "rain",
   "bird": {
    "pos": [
-    41.0,
-    -7.0
+    5.7,
+    -2.5
    ],
-   "heading": 67.4,
-   "place": "hut",
+   "heading": -82.7,
+   "place": "letterbox",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.63,
-    "weariness": 0.17,
+    "belly": 0.67,
+    "weariness": 0.2,
     "company": 1.0,
-    "itch": 0.66,
-    "nerves": 0.1,
-    "thirst": 0.2
+    "itch": 0.71,
+    "nerves": 0.05,
+    "thirst": 0.24
    },
    "feeling": {
-    "mood": 0.06,
-    "energy": 0.05
+    "mood": 0.0,
+    "energy": 0.0
    },
-   "thought": "The bead in my beak feels like a question; the silence is heavy. I must make a sound before I disappear again.",
+   "thought": "to check if her eyes hold a map for my hunger",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a wooden bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"That's a spooky line for a full moon! But wait, did you find any shiny rocks? They're perfect for throwing at Gilbert!\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -446,6 +444,15 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o11-1566",
+    "name": "a wooden bead",
+    "pos": [
+     4.899131205763313,
+     -1.7235233165719301
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o12-2069",
     "name": "a jar lid",
     "pos": [
@@ -485,7 +492,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795095519.3,
+  "now": 1795095819.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1640,8 +1647,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.04916655687349186,
-    "energy": 0.040044603643935195
+    "mood": -0.05050493085313856,
+    "energy": -0.02441745365159828
    },
    "interests": {
     "the subject": 0.33
