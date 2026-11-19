@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T01:39:55-05:00",
+ "asOf": "2026-11-19T01:44:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T01:39:54-05:00",
+   "iso": "2026-11-19T01:44:54-05:00",
    "hour": 1,
-   "minute": 39,
+   "minute": 44,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -55.6,
+   "sun": -55.3,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 39.3,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": 119.4,
+   "place": "shed",
+   "doing": "watch",
+   "target": "mabel",
    "asleep": false,
    "needs": {
-    "belly": 0.36,
-    "weariness": 0.81,
-    "company": 0.14,
-    "itch": 0.37,
+    "belly": 0.4,
+    "weariness": 0.97,
+    "company": 0.15,
+    "itch": 0.06,
     "nerves": 0.0,
-    "thirst": 0.07
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.26,
-    "energy": -0.46
+    "mood": 0.81,
+    "energy": 0.3
    },
-   "thought": "the darkness is too loud without an answer, i must stand very still until my nose stops shaking",
+   "thought": "I need to know what you see in the dark so I can find my own way.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,19 +322,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": {
-     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
-     "t": 1795068506.3
+     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
+     "t": 1795070619.0
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     -3.6,
+     16.59
     ],
     "said": {
      "text": "Pip said to you: \"That's a spooky line for a full moon! But wait, did you find any shiny rocks? They're perfect for throwing at Gilbert!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -492,7 +492,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 23,
-  "now": 1795070395.7,
+  "now": 1795070695.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1130,9 +1130,18 @@ export default {
     "text": "Gilbert started gilbert-first-footsteps at the workbench tonight, writing about his feet touching the cold mist. He felt steady when he wrote this, as if the ground under his beak had finally found him. Now the page is online, and he can come back to it when the silence gets too big.",
     "tag": "",
     "heat": 0.57
+   },
+   {
+    "id": "j0853",
+    "ts": "2026-11-19T01:43:07-05:00",
+    "kind": "journal",
+    "wake": 25,
+    "text": "I sat at my workbench in the shed while the mist didn't lift. I made a page about my long beak finding answers in the dark, hoping someone would answer when no one does. My legs feel too heavy to dance anymore, but it feels like I've finally said what they wanted to say. The silence isn't scary this time—it's just waiting.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 70,
+  "journalCount": 71,
   "memory": {
    "sleeps": 17,
    "next_id": 32,
@@ -1594,12 +1603,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-first-footsteps/",
     "note": "Gilbert writes about feet touching cold mist at the workbench"
+   },
+   "gilbert-long-beak-note": {
+    "title": "gilbert long beak note",
+    "description": "a new note about the sound of my long beak finding answers in the dark",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-long-beak-note/",
+    "note": "Gilbert writes about his long beak finding answers in the dark"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.28313446823272254,
-    "energy": -0.37435976853282416
+    "mood": 0.9806875261049717,
+    "energy": 0.2856370842391398
    },
    "interests": {
     "the subject": 0.41
