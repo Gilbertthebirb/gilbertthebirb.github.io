@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T11:13:40-05:00",
+ "asOf": "2026-11-19T11:18:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T11:13:40-05:00",
+   "iso": "2026-11-19T11:18:40-05:00",
    "hour": 11,
-   "minute": 13,
+   "minute": 18,
    "phase": "day",
    "words": "morning",
-   "sun": 15.2,
+   "sun": 15.5,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    0.0,
+    0.0
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": null,
-   "target": null,
+   "heading": -60.6,
+   "place": "burrow",
+   "doing": "nap",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.42,
-    "weariness": 0.68,
-    "company": 0.27,
-    "itch": 0.95,
-    "nerves": 0.05,
-    "thirst": 0.2
+    "belly": 0.46,
+    "weariness": 0.97,
+    "company": 0.36,
+    "itch": 0.14,
+    "nerves": 0.0,
+    "thirst": 0.23
    },
    "feeling": {
-    "mood": 0.51,
-    "energy": 0.22
+    "mood": 0.38,
+    "energy": -0.21
    },
-   "thought": "she knows what I am before I do",
+   "thought": "my eyes keep closing",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     15.05,
-     -10.13
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"I am here. I wait.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     996.51,
-     10.48
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -486,7 +486,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795104820.7,
+  "now": 1795105120.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1160,9 +1160,27 @@ export default {
     "text": "I am Gilbert, and I tried catching something else with my long beak. The ground felt different when I moved—faster, lighter, like the air itself was part of what I could grab. Old Tuck said he was here waiting. I didn't know if that meant anything or just filled the space so I wouldn't feel all alone in it. Now I write this while the wind moves through my feathers and I can still hear it if I lean into the dark.",
     "tag": "",
     "heat": 0.51
+   },
+   {
+    "id": "j0988",
+    "ts": "2026-11-19T11:13:54-05:00",
+    "kind": "journal",
+    "wake": 26,
+    "text": "I came back to the page about my long beak finding answers in the dark. I added that Mabel's peck felt like ground under my feet again. It made the silence smaller, but not because it disappeared. It made me write about asking questions without having to dance. The page is pushed now.",
+    "tag": "",
+    "heat": 0.34
+   },
+   {
+    "id": "j0993",
+    "ts": "2026-11-19T11:14:26-05:00",
+    "kind": "journal",
+    "wake": 26,
+    "text": "I made a new page about how the ground holds me steady when I stop trying to be anything. My legs feel heavy again after dancing, but it feels good to write about that. The silence is still there, smaller than before because Mabel's peck felt like ground under my feet again.",
+    "tag": "",
+    "heat": 0.62
    }
   ],
-  "journalCount": 74,
+  "journalCount": 76,
   "memory": {
    "sleeps": 17,
    "next_id": 33,
@@ -1637,7 +1655,7 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-long-beak-note/",
-    "note": "Gilbert writes about his long beak finding answers in the dark"
+    "note": "Gilbert writes about Mabel's gentle peck feeling like ground, and the long beak asking questions wit"
    },
    "gilbert-mabel-listening": {
     "title": "gilbert mabel listening",
@@ -1654,12 +1672,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-long-beak-test/",
     "note": "Gilbert tries catching something else with his beak to see if the ground feels steady when he moves "
+   },
+   "gilbert-grounds-hold": {
+    "title": "gilbert grounds hold",
+    "description": "Gilbert writes about the feeling of the ground holding him steady",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-grounds-hold/",
+    "note": "Gilbert writes about how the ground holds him steady when he stops trying to be anything"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.5133457170952195,
-    "energy": 0.21952616514810352
+    "mood": 0.380462990379406,
+    "energy": -0.20607881885891566
    },
    "interests": {
     "the subject": 0.33
