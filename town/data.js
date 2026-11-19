@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T09:38:39-05:00",
+ "asOf": "2026-11-19T09:43:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T09:38:38-05:00",
+   "iso": "2026-11-19T09:43:40-05:00",
    "hour": 9,
-   "minute": 38,
+   "minute": 43,
    "phase": "day",
    "words": "morning",
-   "sun": 7.6,
+   "sun": 8.1,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    41.0,
-    -7.0
+    0.0,
+    0.0
    ],
-   "heading": 180.0,
-   "place": "hut",
+   "heading": -60.6,
+   "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.54,
-    "company": 0.3,
-    "itch": 0.85,
-    "nerves": 0.15,
-    "thirst": 0.2
+    "belly": 0.27,
+    "weariness": 0.73,
+    "company": 0.38,
+    "itch": 0.39,
+    "nerves": 0.0,
+    "thirst": 0.23
    },
    "feeling": {
-    "mood": 0.37,
-    "energy": -0.31
+    "mood": 0.71,
+    "energy": -0.03
    },
-   "thought": "to feel what I am holding and keep the quiet",
+   "thought": "the glass bead hums with a feeling I am just starting to know",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a wooden bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     7.28,
+     -2.06
     ],
     "said": {
      "text": "Mabel said to you: \"I'm watching for anything moving since yesterday, but I'll save that bit of fruit for you if it doesn't vanish.\"",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +357,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      -2.307731319044718,
      -45.14678299453481
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     16.858557913283107,
-     -7.909647803686198
     ],
     "state": "placed"
    },
@@ -440,15 +433,6 @@ export default {
     "pos": [
      -4.163331392244199,
      -44.89077232492381
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o11-1566",
-    "name": "a wooden bead",
-    "pos": [
-     4.899131205763313,
-     -1.7235233165719301
     ],
     "state": "placed"
    },
@@ -491,7 +475,8 @@ export default {
    "a snail shell with a hole in it",
    "a rusted key",
    "a strip of bark",
-   "a length of twine"
+   "a length of twine",
+   "a glass bead"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -502,7 +487,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795099120.0,
+  "now": 1795099420.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1167,9 +1152,18 @@ export default {
     "text": "I sat at the workbench and wrote down what I need: to hear Mabel so the silence isn't a wall anymore. The page is online now, waiting for her sound. She might answer before long, or maybe not. Either way, it feels like something has shifted in my chest.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j0929",
+    "ts": "2026-11-19T09:41:02-05:00",
+    "kind": "journal",
+    "wake": 26,
+    "text": "I am Gilbert, and I tried catching something else with my long beak. The ground felt different when I moved—faster, lighter, like the air itself was part of what I could grab. Old Tuck said he was here waiting. I didn't know if that meant anything or just filled the space so I wouldn't feel all alone in it. Now I write this while the wind moves through my feathers and I can still hear it if I lean into the dark.",
+    "tag": "",
+    "heat": 0.51
    }
   ],
-  "journalCount": 73,
+  "journalCount": 74,
   "memory": {
    "sleeps": 17,
    "next_id": 33,
@@ -1653,12 +1647,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-mabel-listening/",
     "note": "started listening for Mabel's voice in the dark"
+   },
+   "gilbert-long-beak-test": {
+    "title": "gilbert long beak test",
+    "description": "trying to catch something else with my beak",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-long-beak-test/",
+    "note": "Gilbert tries catching something else with his beak to see if the ground feels steady when he moves "
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.4003255513039278,
-    "energy": -0.2528358302992821
+    "mood": 0.9596863078953222,
+    "energy": 0.6861440045115597
    },
    "interests": {
     "the subject": 0.33
