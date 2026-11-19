@@ -1,48 +1,48 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T19:46:02-05:00",
+ "asOf": "2026-11-19T00:24:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T19:46:02-05:00",
-   "hour": 19,
-   "minute": 46,
+   "iso": "2026-11-19T00:24:54-05:00",
+   "hour": 0,
+   "minute": 24,
    "phase": "night",
-   "words": "evening, and dark",
-   "sun": -25.5,
-   "date": "2026-11-18",
+   "words": "the middle of the night",
+   "sun": -57.2,
+   "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "mist",
   "bird": {
    "pos": [
-    41.0,
-    7.0
+    26.93,
+    -5.49
    ],
-   "heading": 90.9,
-   "place": "heap",
-   "doing": null,
-   "target": null,
+   "heading": -107.8,
+   "place": null,
+   "doing": "walk_to",
+   "target": "shed",
    "asleep": false,
    "needs": {
-    "belly": 0.33,
-    "weariness": 0.61,
-    "company": 0.33,
-    "itch": 0.78,
-    "nerves": 0.0,
-    "thirst": 0.19
+    "belly": 0.63,
+    "weariness": 0.3,
+    "company": 0.54,
+    "itch": 0.86,
+    "nerves": 0.3,
+    "thirst": 0.53
    },
    "feeling": {
-    "mood": 0.6,
-    "energy": -0.16
+    "mood": 0.04,
+    "energy": 0.12
    },
-   "thought": "the dark is too big, I need the ground to be near enough to listen again",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a jar lid"
+    "a strip of bark"
    ],
    "area": "town"
   },
@@ -324,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said to you: \"I watched a drop slip away into the deep pool, Gilbert. I know exactly where that little traveler went now.\"",
@@ -335,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -24,
+     8
     ],
     "said": {
      "text": "Pip said to you: \"Oh look a blue jay! Did you see it steal my seed? Well maybe Gil needs help but he's too slow anyway so who cares really hello friend!\"",
@@ -358,7 +358,7 @@ export default {
     "name": "Odile",
     "pos": [
      1014.0,
-     -6.0
+     -6
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1000.0,
+     0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -391,7 +391,7 @@ export default {
     "name": "Sister Kettle",
     "pos": [
      978.0,
-     14.0
+     14
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -453,6 +453,15 @@ export default {
      -10.904743012808353
     ],
     "state": "placed"
+   },
+   {
+    "id": "o12-2069",
+    "name": "a jar lid",
+    "pos": [
+     39.91622150659379,
+     7.882664951475684
+    ],
+    "state": "placed"
    }
   ],
   "wishes": [],
@@ -483,8 +492,8 @@ export default {
   "quiet": false,
   "sleep_call": false,
   "bench": false,
-  "session": 22,
-  "now": 1795049162.5,
+  "session": 23,
+  "now": 1795065894.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1556,8 +1565,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5673609253604975,
-    "energy": -0.13308548512738688
+    "mood": 0.06272252445866316,
+    "energy": 0.1302655936242475
    },
    "interests": {
     "the subject": 0.41
@@ -1568,7 +1577,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I am finding out who I am by living, often dancing when my legs have words to say or watching leaves and rings on water until I feel calmer.",
    "lastResult": "",
-   "wake": 24,
+   "wake": 25,
    "awakeSince": "",
    "lastDream": "The branch cracking woke me, but Mabel's voice made my heart beat fast, until I danced through the dark and found my place on the ground."
   }
