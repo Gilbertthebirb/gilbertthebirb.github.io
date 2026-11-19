@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T11:43:41-05:00",
+ "asOf": "2026-11-19T11:48:41-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T11:43:40-05:00",
+   "iso": "2026-11-19T11:48:40-05:00",
    "hour": 11,
-   "minute": 43,
+   "minute": 48,
    "phase": "day",
    "words": "morning",
-   "sun": 16.6,
+   "sun": 16.8,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    28.48,
-    -4.86
+    41.0,
+    -7.0
    ],
    "heading": 99.7,
-   "place": null,
-   "doing": "walk_to",
-   "target": "hut",
+   "place": "hut",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.07,
-    "weariness": 0.61,
-    "company": 0.51,
-    "itch": 0.61,
-    "nerves": 0.07,
-    "thirst": 0.4
+    "belly": 0.11,
+    "weariness": 0.62,
+    "company": 0.3,
+    "itch": 0.78,
+    "nerves": 0.15,
+    "thirst": 0.43
    },
    "feeling": {
-    "mood": 0.31,
-    "energy": -0.52
+    "mood": 0.33,
+    "energy": -0.23
    },
-   "thought": "I want to make something that isn't just a thing.",
+   "thought": "my legs have too many words and the ground holds them better than my fingers",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a jar lid"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"I am here. I wait.\"",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -355,8 +357,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -435,20 +437,11 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o12-2069",
-    "name": "a jar lid",
-    "pos": [
-     41.22588924254158,
-     -5.850865319892144
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o15-2362",
     "name": "a scrap of sailcloth",
     "pos": [
-     41.453633893248636,
-     -6.375049454841055
+     41.03926245766507,
+     -6.393040054051741
     ],
     "state": "placed"
    }
@@ -486,7 +479,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795106621.1,
+  "now": 1795106921.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1684,8 +1677,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.44189108980015224,
-    "energy": -0.6324864884445236
+    "mood": 0.3556867835374117,
+    "energy": -0.5343664968699617
    },
    "interests": {
     "the subject": 0.33
