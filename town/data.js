@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T08:13:38-05:00",
+ "asOf": "2026-11-19T08:18:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T08:13:38-05:00",
+   "iso": "2026-11-19T08:18:38-05:00",
    "hour": 8,
-   "minute": 13,
+   "minute": 18,
    "phase": "dawn",
    "words": "first light",
-   "sun": -2.5,
+   "sun": -1.8,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -24.0,
+    8.0
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": "drink",
-   "target": "",
+   "heading": -11.3,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.72,
-    "weariness": 0.31,
-    "company": 0.74,
-    "itch": 0.07,
-    "nerves": 0.16,
-    "thirst": 0.04
+    "belly": 0.76,
+    "weariness": 0.34,
+    "company": 0.82,
+    "itch": 0.24,
+    "nerves": 0.0,
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": 0.72,
-    "energy": 0.94
+    "mood": 0.01,
+    "energy": -0.12
    },
-   "thought": "",
+   "thought": "the water moves like something alive, and I am not yet hungry enough to eat",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a glass bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -355,8 +357,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      -2.307731319044718,
      -45.14678299453481
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     -23.83406582989678,
-     8.91850185463476
     ],
     "state": "placed"
    },
@@ -492,7 +485,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795094018.9,
+  "now": 1795094319.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1647,8 +1640,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 1.0,
-    "energy": 1.0
+    "mood": -0.02717566680459131,
+    "energy": -0.1906474249670158
    },
    "interests": {
     "the subject": 0.33
