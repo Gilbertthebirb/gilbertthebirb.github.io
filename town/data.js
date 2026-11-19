@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T18:56:02-05:00",
+ "asOf": "2026-11-18T19:01:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T18:56:02-05:00",
-   "hour": 18,
-   "minute": 56,
+   "iso": "2026-11-18T19:01:02-05:00",
+   "hour": 19,
+   "minute": 1,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -17.9,
+   "sun": -18.6,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -4.71,
-    7.85
+    2.0,
+    57.0
    ],
-   "heading": -31.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "moss",
+   "heading": 20.7,
+   "place": "halt",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.21,
-    "weariness": 0.13,
-    "company": 0.52,
-    "itch": 0.83,
+    "belly": 0.25,
+    "weariness": 0.17,
+    "company": 0.55,
+    "itch": 0.88,
     "nerves": 0.0,
-    "thirst": 0.13
+    "thirst": 0.16
    },
    "feeling": {
-    "mood": 0.38,
-    "energy": -0.02
+    "mood": 0.37,
+    "energy": 0.17
    },
-   "thought": "the dark makes me feel thin, but touching the moss feels real",
+   "thought": "a weight in the beak feels like a ground when my feet feel too light",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "half a clothes peg"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     14.12,
-     -3.11
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I watched a drop slip away into the deep pool, Gilbert. I know exactly where that little traveler went now.\"",
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,12 +346,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -12.0,
+     20.0
     ],
     "said": {
-     "text": "Pip said to you: \"Oh hi there! Did you see that butterfly? I think he was wearing my hat. What a silly bird!\"",
-     "t": 1795045678.8
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1795046406.0
     }
    },
    "odile": {
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.97,
-     -5.03
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     995.95,
-     21.29
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -422,15 +424,6 @@ export default {
     "pos": [
      29.248820968042587,
      -32.72819487011723
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o9-1443",
-    "name": "half a clothes peg",
-    "pos": [
-     2.614054398840034,
-     58.01598152128194
     ],
     "state": "placed"
    },
@@ -482,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 22,
-  "now": 1795046162.0,
+  "now": 1795046462.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1537,8 +1530,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5502170223098248,
-    "energy": -0.17618868722019657
+    "mood": 0.4489520058496491,
+    "energy": -0.0030557235540554506
    },
    "interests": {
     "the subject": 0.41
