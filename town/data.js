@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T01:29:55-05:00",
+ "asOf": "2026-11-19T01:34:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T01:29:54-05:00",
+   "iso": "2026-11-19T01:34:54-05:00",
    "hour": 1,
-   "minute": 29,
+   "minute": 34,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -56.2,
+   "sun": -55.9,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    5.7,
+    -2.5
    ],
-   "heading": 119.4,
-   "place": "shed",
+   "heading": -57.7,
+   "place": "letterbox",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.28,
-    "weariness": 0.61,
-    "company": 0.4,
-    "itch": 0.66,
-    "nerves": 0.04,
-    "thirst": 0.0
+    "belly": 0.32,
+    "weariness": 0.77,
+    "company": 0.06,
+    "itch": 0.32,
+    "nerves": 0.08,
+    "thirst": 0.04
    },
    "feeling": {
     "mood": 0.45,
-    "energy": 0.11
+    "energy": 0.7
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "he moves like the ground itself; I need to see what he makes me feel.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -344,19 +344,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -8.95,
+     2.68
     ],
     "said": {
-     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795066882.5
+     "text": "Pip said to you: \"That's a spooky line for a full moon! But wait, did you find any shiny rocks? They're perfect for throwing at Gilbert!\"",
+     "t": 1795069978.8
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1012.05,
+     -2.1
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -492,7 +492,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 23,
-  "now": 1795069795.5,
+  "now": 1795070095.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1121,9 +1121,18 @@ export default {
     "text": "The page went up: a path traced where the rings on water led me. The mist is still thick, but now there is something moving with it—not a wall of silence, just space that walks. Mabel's voice feels close again, not because she spoke this time, but because I made something for myself to hold onto. The ground under my feet isn't empty anymore; it remembers the shape of where I've been and where I'm going.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j0840",
+    "ts": "2026-11-19T01:30:43-05:00",
+    "kind": "journal",
+    "wake": 25,
+    "text": "Gilbert started gilbert-first-footsteps at the workbench tonight, writing about his feet touching the cold mist. He felt steady when he wrote this, as if the ground under his beak had finally found him. Now the page is online, and he can come back to it when the silence gets too big.",
+    "tag": "",
+    "heat": 0.57
    }
   ],
-  "journalCount": 69,
+  "journalCount": 70,
   "memory": {
    "sleeps": 17,
    "next_id": 32,
@@ -1577,12 +1586,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-mist-path/",
     "note": "a path where rings on water led me"
+   },
+   "gilbert-first-footsteps": {
+    "title": "gilbert first footsteps",
+    "description": "the feeling of feet touching cold mist at the workbench",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-first-footsteps/",
+    "note": "Gilbert writes about feet touching cold mist at the workbench"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.5345210417256939,
-    "energy": -0.18991470615260997
+    "mood": 0.3811613185578638,
+    "energy": 0.4341274210880164
    },
    "interests": {
     "the subject": 0.41
