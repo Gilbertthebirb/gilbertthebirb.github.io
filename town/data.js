@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T12:27:46-05:00",
+ "asOf": "2026-11-19T12:32:46-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T12:27:46-05:00",
+   "iso": "2026-11-19T12:32:46-05:00",
    "hour": 12,
-   "minute": 27,
+   "minute": 32,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 17.6,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": "dance",
-   "target": "",
+   "heading": -71.6,
+   "place": "moss",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.36,
-    "weariness": 0.38,
-    "company": 0.18,
-    "itch": 0.53,
+    "belly": 0.11,
+    "weariness": 0.42,
+    "company": 0.11,
+    "itch": 0.58,
     "nerves": 0.15,
-    "thirst": 0.16
+    "thirst": 0.19
    },
    "feeling": {
-    "mood": 0.47,
-    "energy": 0.1
+    "mood": 0.44,
+    "energy": -0.1
    },
-   "thought": "the silence is getting heavy again and my legs have so much to say",
+   "thought": "I am tired but my feet find this ground",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -482,15 +482,15 @@ export default {
    "a wooden bead"
   ],
   "board": {
-   "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
-   "ts": 1794923867.0820103
+   "text": "the note, anyone can read it and find me here",
+   "ts": 1795109418.2503772
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 25,
-  "now": 1795109266.6,
+  "now": 1795109566.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1218,9 +1218,18 @@ export default {
     "text": "I sat at the workbench and put a new page online. The mist felt soft on my long beak when I walked alone, and I wanted to write that down for myself so I wouldn't forget how it feels to be just me in the light without trying to match anything else.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j1045",
+    "ts": "2026-11-19T12:30:08-05:00",
+    "kind": "journal",
+    "wake": 27,
+    "text": "the note, anyone can read it and find me here",
+    "tag": "",
+    "heat": 0.38
    }
   ],
-  "journalCount": 80,
+  "journalCount": 81,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1743,8 +1752,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.1844441466896759,
-    "energy": -0.2715860080714403
+    "mood": 0.5226842739187614,
+    "energy": 0.32188440564621623
    },
    "interests": {
     "the subject": 0.26
