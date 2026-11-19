@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T09:23:39-05:00",
+ "asOf": "2026-11-19T09:28:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T09:23:38-05:00",
+   "iso": "2026-11-19T09:28:38-05:00",
    "hour": 9,
-   "minute": 23,
-   "phase": "dawn",
-   "words": "first light",
-   "sun": 6.0,
+   "minute": 28,
+   "phase": "day",
+   "words": "morning",
+   "sun": 6.5,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -23.09,
+    8.91
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 45.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "moss",
    "asleep": false,
    "needs": {
-    "belly": 0.4,
-    "weariness": 0.46,
-    "company": 0.55,
-    "itch": 0.69,
-    "nerves": 0.1,
-    "thirst": 0.1
+    "belly": 0.44,
+    "weariness": 0.5,
+    "company": 0.63,
+    "itch": 0.73,
+    "nerves": 0.25,
+    "thirst": 0.13
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.17
+    "mood": 0.25,
+    "energy": -0.18
    },
-   "thought": "my legs want to say something before my nose does",
+   "thought": "my legs had words to say, and the moss feels like it holds them",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"I'm watching for anything moving since yesterday, but I'll save that bit of fruit for you if it doesn't vanish.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1010.81,
+     17.04
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     982.28,
+     -13.81
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -493,7 +493,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795098219.8,
+  "now": 1795098519.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1648,8 +1648,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.35673033355346545,
-    "energy": -0.10310255949780153
+    "mood": 0.02421493808617036,
+    "energy": -0.033912424614545855
    },
    "interests": {
     "the subject": 0.33
