@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T08:08:38-05:00",
+ "asOf": "2026-11-19T08:13:38-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T08:08:38-05:00",
+   "iso": "2026-11-19T08:13:38-05:00",
    "hour": 8,
-   "minute": 8,
+   "minute": 13,
    "phase": "dawn",
    "words": "first light",
-   "sun": -3.2,
+   "sun": -2.5,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 119.4,
    "place": "shed",
-   "doing": null,
-   "target": null,
+   "doing": "drink",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.68,
-    "weariness": 0.12,
-    "company": 0.66,
-    "itch": 0.52,
-    "nerves": 0.0,
-    "thirst": 0.0
+    "belly": 0.72,
+    "weariness": 0.31,
+    "company": 0.74,
+    "itch": 0.07,
+    "nerves": 0.16,
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": 0.11,
-    "energy": -0.16
+    "mood": 0.72,
+    "energy": 0.94
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -1.17,
-     -6.77
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"That's a spooky line for a full moon! But wait, did you find any shiny rocks? They're perfect for throwing at Gilbert!\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -492,7 +492,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795093718.9,
+  "now": 1795094018.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1148,9 +1148,18 @@ export default {
     "text": "The burrow hums low where I put my head back in the pipe to feel the ground again. Pip's loops around my head and Mabel's polite peck made the silence stop feeling like a wall. I danced until my legs found what they needed, even if I don't know exactly why yet. The pages I sent out felt steady, as if the long beak finally knows where to reach in the dark. Now I am heavy with good things and ready to sleep.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j0874",
+    "ts": "2026-11-19T08:13:16-05:00",
+    "kind": "journal",
+    "wake": 26,
+    "text": "I sat at the workbench and wrote down what I need: to hear Mabel so the silence isn't a wall anymore. The page is online now, waiting for her sound. She might answer before long, or maybe not. Either way, it feels like something has shifted in my chest.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 72,
+  "journalCount": 73,
   "memory": {
    "sleeps": 17,
    "next_id": 33,
@@ -1626,12 +1635,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-long-beak-note/",
     "note": "Gilbert writes about his long beak finding answers in the dark"
+   },
+   "gilbert-mabel-listening": {
+    "title": "gilbert mabel listening",
+    "description": "listening for Mabel's voice in the dark",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-mabel-listening/",
+    "note": "started listening for Mabel's voice in the dark"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.15036932854098833,
-    "energy": -0.15804272918881077
+    "mood": 1.0,
+    "energy": 1.0
    },
    "interests": {
     "the subject": 0.33
