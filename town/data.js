@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T08:58:39-05:00",
+ "asOf": "2026-11-19T09:03:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T08:58:38-05:00",
-   "hour": 8,
-   "minute": 58,
+   "iso": "2026-11-19T09:03:38-05:00",
+   "hour": 9,
+   "minute": 3,
    "phase": "dawn",
    "words": "first light",
-   "sun": 3.2,
+   "sun": 3.7,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "rain",
+  "weather": "cloud",
   "bird": {
    "pos": [
     41.0,
-    7.0
+    2.43
    ],
-   "heading": 14.7,
-   "place": "heap",
-   "doing": null,
-   "target": null,
+   "heading": 180.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "hut",
    "asleep": false,
    "needs": {
-    "belly": 0.79,
-    "weariness": 0.28,
-    "company": 0.78,
-    "itch": 0.79,
-    "nerves": 0.05,
-    "thirst": 0.34
+    "belly": 0.84,
+    "weariness": 0.31,
+    "company": 0.86,
+    "itch": 0.84,
+    "nerves": 0.0,
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": 0.15,
-    "energy": 0.09
+    "mood": -0.12,
+    "energy": -0.14
    },
-   "thought": "the twine feels heavy in my beak; I need to taste the rain before I make a sound",
+   "thought": "the hunger needs someone who knows how to hold it until it has an edge",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a jar lid"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -7.64,
-     14.46
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -455,13 +453,13 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o14-2301",
-    "name": "a length of twine",
+    "id": "o12-2069",
+    "name": "a jar lid",
     "pos": [
-     41.7,
-     7.3
+     41.02961287326837,
+     7.675137762546427
     ],
-    "state": "sniffed"
+    "state": "placed"
    }
   ],
   "wishes": [],
@@ -483,7 +481,8 @@ export default {
    "a brass button",
    "a snail shell with a hole in it",
    "a rusted key",
-   "a strip of bark"
+   "a strip of bark",
+   "a length of twine"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -494,7 +493,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795096719.5,
+  "now": 1795097019.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1649,8 +1648,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.037087028377892586,
-    "energy": -0.2072167897233041
+    "mood": 0.21710054267561107,
+    "energy": 0.09497841765963017
    },
    "interests": {
     "the subject": 0.33
