@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T11:48:41-05:00",
+ "asOf": "2026-11-19T11:53:41-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T11:48:40-05:00",
+   "iso": "2026-11-19T11:53:40-05:00",
    "hour": 11,
-   "minute": 48,
+   "minute": 53,
    "phase": "day",
    "words": "morning",
-   "sun": 16.8,
+   "sun": 16.9,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    41.0,
-    -7.0
+    2.0,
+    57.0
    ],
-   "heading": 99.7,
-   "place": "hut",
-   "doing": null,
-   "target": null,
+   "heading": 2.0,
+   "place": "halt",
+   "doing": "dance",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.11,
+    "belly": 0.15,
     "weariness": 0.62,
-    "company": 0.3,
-    "itch": 0.78,
+    "company": 0.18,
+    "itch": 0.95,
     "nerves": 0.15,
-    "thirst": 0.43
+    "thirst": 0.46
    },
    "feeling": {
-    "mood": 0.33,
-    "energy": -0.23
+    "mood": 0.38,
+    "energy": -0.27
    },
-   "thought": "my legs have too many words and the ground holds them better than my fingers",
+   "thought": "my legs have too much they want to say before my nose can find anything",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a jar lid"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -350,8 +348,8 @@ export default {
      -2.5
     ],
     "said": {
-     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795105878.1
+     "text": "Pip said to you: \"Hello hello! Did you see the shiny stone? Wait, oh look, a bug! Bye bye!\"",
+     "t": 1795107010.5
     }
    },
    "odile": {
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1026.8,
+     -6.4
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -437,6 +435,15 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o12-2069",
+    "name": "a jar lid",
+    "pos": [
+     0.9677675947647513,
+     58.36895030191771
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o15-2362",
     "name": "a scrap of sailcloth",
     "pos": [
@@ -479,7 +486,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795106921.2,
+  "now": 1795107221.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1677,8 +1684,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3556867835374117,
-    "energy": -0.5343664968699617
+    "mood": 0.3837593095274149,
+    "energy": -0.272023574757095
    },
    "interests": {
     "the subject": 0.33
