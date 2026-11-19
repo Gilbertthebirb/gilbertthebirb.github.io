@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T09:28:39-05:00",
+ "asOf": "2026-11-19T09:33:39-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T09:28:38-05:00",
+   "iso": "2026-11-19T09:33:38-05:00",
    "hour": 9,
-   "minute": 28,
+   "minute": 33,
    "phase": "day",
    "words": "morning",
-   "sun": 6.5,
+   "sun": 7.1,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -23.09,
-    8.91
+    41.0,
+    7.0
    ],
-   "heading": 45.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "moss",
+   "heading": 122.2,
+   "place": "heap",
+   "doing": "scavenge",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.44,
+    "belly": 0.19,
     "weariness": 0.5,
-    "company": 0.63,
-    "itch": 0.73,
-    "nerves": 0.25,
-    "thirst": 0.13
+    "company": 0.21,
+    "itch": 0.9,
+    "nerves": 0.23,
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": 0.25,
-    "energy": -0.18
+    "mood": 0.38,
+    "energy": 0.01
    },
-   "thought": "my legs had words to say, and the moss feels like it holds them",
+   "thought": "the lid feels solid in my beak; let me see what else is hiding here before I feel lost again",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a jar lid"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I'm watching for anything moving since yesterday, but I'll save that bit of fruit for you if it doesn't vanish.\"",
@@ -337,15 +339,15 @@ export default {
      24.0
     ],
     "said": {
-     "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
-     "t": 1795038822.5
+     "text": "Old Tuck said to you: \"I am here. I wait.\"",
+     "t": 1795098666.7
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +357,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1010.81,
-     17.04
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.28,
-     -13.81
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -451,15 +453,6 @@ export default {
      -1.7235233165719301
     ],
     "state": "placed"
-   },
-   {
-    "id": "o12-2069",
-    "name": "a jar lid",
-    "pos": [
-     41.02961287326837,
-     7.675137762546427
-    ],
-    "state": "placed"
    }
   ],
   "wishes": [],
@@ -493,7 +486,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795098519.9,
+  "now": 1795098820.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1648,8 +1641,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.02421493808617036,
-    "energy": -0.033912424614545855
+    "mood": 0.14280886267366127,
+    "energy": -0.20491343383345034
    },
    "interests": {
     "the subject": 0.33
