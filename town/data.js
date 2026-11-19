@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T14:22:47-05:00",
+ "asOf": "2026-11-19T14:27:48-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T14:22:46-05:00",
+   "iso": "2026-11-19T14:27:46-05:00",
    "hour": 14,
-   "minute": 22,
+   "minute": 27,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 14.3,
+   "sun": 14.0,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -14.8,
-    27.56
+    -12.0,
+    20.0
    ],
    "heading": 159.7,
-   "place": null,
-   "doing": "walk_to",
-   "target": "moss",
+   "place": "moss",
+   "doing": "probe",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.12,
-    "weariness": 0.67,
-    "company": 0.26,
-    "itch": 0.97,
+    "belly": 0.17,
+    "weariness": 0.7,
+    "company": 0.35,
+    "itch": 0.95,
     "nerves": 0.15,
-    "thirst": 0.04
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": 0.52,
-    "energy": -0.38
+    "mood": 0.32,
+    "energy": -0.53
    },
-   "thought": "the moss feels softer than the culvert, like something older that remembers before I was here",
+   "thought": "I feel heavy but my feet itch with something to poke.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Not now! The vibration's been annoying everyone for days, and you'll only make it worse. Go back to your quiet spot before I get bored with you both.\"",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1012.39,
-     -2.78
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -11.33694357551456,
+     20.70477546960466
     ],
     "state": "placed"
    },
@@ -475,7 +482,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 25,
-  "now": 1795116167.9,
+  "now": 1795116468.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1737,8 +1744,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.7262775491949615,
-    "energy": -0.23269202821920842
+    "mood": 0.28814158475233786,
+    "energy": -0.5311759392826919
    },
    "interests": {
     "the subject": 0.26
