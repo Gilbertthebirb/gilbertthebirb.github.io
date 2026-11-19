@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T19:31:02-05:00",
+ "asOf": "2026-11-18T19:36:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T19:31:02-05:00",
+   "iso": "2026-11-18T19:36:02-05:00",
    "hour": 19,
-   "minute": 31,
+   "minute": 36,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -23.2,
+   "sun": -23.9,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 149.0,
-   "place": "burrow",
-   "doing": "watch",
-   "target": "pip",
+   "heading": -71.6,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.2,
-    "weariness": 0.5,
-    "company": 0.18,
-    "itch": 0.74,
+    "belly": 0.24,
+    "weariness": 0.54,
+    "company": 0.16,
+    "itch": 0.78,
     "nerves": 0.0,
-    "thirst": 0.09
+    "thirst": 0.13
    },
    "feeling": {
-    "mood": 0.55,
-    "energy": -0.04
+    "mood": 0.47,
+    "energy": -0.14
    },
-   "thought": "listen to his heartbeat",
+   "thought": "the glass bead feels like something that remembers being seen",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a glass bead"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"I watched a drop slip away into the deep pool, Gilbert. I know exactly where that little traveler went now.\"",
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     15.83,
-     24.26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -348,15 +350,15 @@ export default {
      -2.5
     ],
     "said": {
-     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
-     "t": 1795048239.1
+     "text": "Pip said to you: \"Oh look a blue jay! Did you see it steal my seed? Well maybe Gil needs help but he's too slow anyway so who cares really hello friend!\"",
+     "t": 1795048399.6
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +390,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      -2.307731319044718,
      -45.14678299453481
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o6-782",
-    "name": "a glass bead",
-    "pos": [
-     -22.972192706074978,
-     8.625478663582856
     ],
     "state": "placed"
    },
@@ -482,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 22,
-  "now": 1795048262.4,
+  "now": 1795048562.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1554,8 +1547,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5560296348128176,
-    "energy": -0.13597088965737059
+    "mood": 0.46648522613501703,
+    "energy": -0.14120367793311295
    },
    "interests": {
     "the subject": 0.41
