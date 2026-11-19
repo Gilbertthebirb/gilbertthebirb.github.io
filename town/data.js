@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T00:29:54-05:00",
+ "asOf": "2026-11-19T00:34:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T00:29:54-05:00",
+   "iso": "2026-11-19T00:34:54-05:00",
    "hour": 0,
-   "minute": 29,
+   "minute": 34,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -57.3,
+   "sun": -57.4,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    5.2,
-    -16.56
+    0.0,
+    0.0
    ],
-   "heading": -177.9,
-   "place": null,
-   "doing": "walk_to",
-   "target": "drift",
+   "heading": -12.8,
+   "place": "burrow",
+   "doing": "watch",
+   "target": "pip",
    "asleep": false,
    "needs": {
-    "belly": 0.68,
-    "weariness": 0.5,
-    "company": 0.62,
-    "itch": 0.4,
+    "belly": 0.42,
+    "weariness": 0.53,
+    "company": 0.05,
+    "itch": 0.45,
     "nerves": 0.0,
-    "thirst": 0.57
+    "thirst": 0.6
    },
    "feeling": {
-    "mood": 0.34,
-    "energy": 0.09
+    "mood": 0.86,
+    "energy": 0.83
    },
-   "thought": "the bark feels like a secret waiting to be tasted, not just seen",
+   "thought": "you feel less alone in his flightless loop",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -344,19 +344,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -4.19,
-     1.0
+     -0.88,
+     5.86
     ],
     "said": {
-     "text": "Pip said to you: \"Oh look a blue jay! Did you see it steal my seed? Well maybe Gil needs help but he's too slow anyway so who cares really hello friend!\"",
-     "t": 1795048399.6
+     "text": "Pip said to you: \"Oh look! A bug! Wait, you mean wind? Like a kite? Yes! Just kidding about the kite.\"",
+     "t": 1795066461.3
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -500,7 +500,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 23,
-  "now": 1795066194.8,
+  "now": 1795066494.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1589,8 +1589,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.8237158251311982,
-    "energy": 0.7703591792210107
+    "mood": 0.8620313193051945,
+    "energy": 0.8312610699624994
    },
    "interests": {
     "the subject": 0.41
