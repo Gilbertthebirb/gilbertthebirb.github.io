@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T10:43:40-05:00",
+ "asOf": "2026-11-19T10:48:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T10:43:40-05:00",
+   "iso": "2026-11-19T10:48:40-05:00",
    "hour": 10,
-   "minute": 43,
+   "minute": 48,
    "phase": "day",
    "words": "morning",
-   "sun": 13.3,
+   "sun": 13.7,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -14.21,
-    17.79
+    -24.0,
+    8.0
    ],
    "heading": -135.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "creek",
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.17,
-    "weariness": 0.81,
-    "company": 1.0,
+    "belly": 0.21,
+    "weariness": 0.82,
+    "company": 0.72,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.28
+    "thirst": 0.03
    },
    "feeling": {
-    "mood": -0.24,
-    "energy": -0.74
+    "mood": -0.01,
+    "energy": -0.39
    },
-   "thought": "to listen",
+   "thought": "the rings keep making circles but never break; I need to see what holds the water together",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"I'm watching for anything moving since yesterday, but I'll save that bit of fruit for you if it doesn't vanish.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"I am here. I wait.\"",
@@ -344,12 +344,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
-     "t": 1795095855.4
+     "t": 1795103047.2
     }
    },
    "odile": {
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -486,7 +486,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795103020.5,
+  "now": 1795103320.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1658,8 +1658,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.2777076003994791,
-    "energy": -0.464267007636795
+    "mood": -0.004715113142852384,
+    "energy": -0.4898266083069489
    },
    "interests": {
     "the subject": 0.33
