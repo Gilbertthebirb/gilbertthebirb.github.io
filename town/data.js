@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T01:34:55-05:00",
+ "asOf": "2026-11-19T01:39:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T01:34:54-05:00",
+   "iso": "2026-11-19T01:39:54-05:00",
    "hour": 1,
-   "minute": 34,
+   "minute": 39,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -55.9,
+   "sun": -55.6,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    5.7,
-    -2.5
+    0.0,
+    0.0
    ],
-   "heading": -57.7,
-   "place": "letterbox",
+   "heading": 39.3,
+   "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.32,
-    "weariness": 0.77,
-    "company": 0.06,
-    "itch": 0.32,
-    "nerves": 0.08,
-    "thirst": 0.04
+    "belly": 0.36,
+    "weariness": 0.81,
+    "company": 0.14,
+    "itch": 0.37,
+    "nerves": 0.0,
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": 0.45,
-    "energy": 0.7
+    "mood": 0.26,
+    "energy": -0.46
    },
-   "thought": "he moves like the ground itself; I need to see what he makes me feel.",
+   "thought": "the darkness is too loud without an answer, i must stand very still until my nose stops shaking",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -8.95,
-     2.68
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"That's a spooky line for a full moon! But wait, did you find any shiny rocks? They're perfect for throwing at Gilbert!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1012.05,
-     -2.1
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -492,7 +492,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 23,
-  "now": 1795070095.6,
+  "now": 1795070395.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1598,8 +1598,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3811613185578638,
-    "energy": 0.4341274210880164
+    "mood": 0.28313446823272254,
+    "energy": -0.37435976853282416
    },
    "interests": {
     "the subject": 0.41
