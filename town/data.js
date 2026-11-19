@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-18T19:11:02-05:00",
+ "asOf": "2026-11-18T19:16:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-18T19:11:02-05:00",
+   "iso": "2026-11-18T19:16:02-05:00",
    "hour": 19,
-   "minute": 11,
+   "minute": 16,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -20.1,
+   "sun": -20.9,
    "date": "2026-11-18",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -9.88,
-    2.0
+    -24.0,
+    8.0
    ],
-   "heading": 113.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "shed",
+   "heading": -71.6,
+   "place": "creek",
+   "doing": "watch",
+   "target": "water",
    "asleep": false,
    "needs": {
-    "belly": 0.03,
-    "weariness": 0.23,
-    "company": 0.71,
-    "itch": 0.93,
+    "belly": 0.08,
+    "weariness": 0.43,
+    "company": 0.44,
+    "itch": 0.48,
     "nerves": 0.0,
-    "thirst": 0.23
+    "thirst": 0.26
    },
    "feeling": {
-    "mood": 0.32,
-    "energy": 0.25
+    "mood": 0.69,
+    "energy": 0.18
    },
-   "thought": "",
+   "thought": "listening for what the dark hides before moving on",
    "said": null,
    "wants_sleep": false,
    "carrying": [
@@ -324,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I watched a drop slip away into the deep pool, Gilbert. I know exactly where that little traveler went now.\"",
@@ -335,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -346,19 +346,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795046406.0
+     "t": 1795047093.6
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1003.45,
-     22.98
+     1014.74,
+     13.86
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 22,
-  "now": 1795047062.3,
+  "now": 1795047362.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1086,9 +1086,18 @@ export default {
     "text": "I sat at the workbench and wrote about the hum of my wings. Mabel said stillness has a voice, and I wanted to catch that voice without needing to move or dance. The page is now online, and for a moment, in the dark with the low clouds, I felt grounded again.",
     "tag": "",
     "heat": 0.48
+   },
+   {
+    "id": "j0762",
+    "ts": "2026-11-18T19:12:03-05:00",
+    "kind": "journal",
+    "wake": 24,
+    "text": "I put the half clothes peg down at the tram halt. It will stay where I put it. Pip liked that—something small staying still makes the dark feel smaller than a wall. Now the page is up, and Mabel’s voice feels like it’s right there with me, not trying to answer when no one does. The ground under my feet is steady.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 67,
+  "journalCount": 68,
   "memory": {
    "sleeps": 17,
    "next_id": 32,
@@ -1526,12 +1535,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-wing-hum/",
     "note": "Gilbert writes about the sound of his own wings humming in the quiet"
+   },
+   "gilbert-half-peg": {
+    "title": "gilbert half peg",
+    "description": "the half clothes peg at the tram halt",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-half-peg/",
+    "note": "put half-a clothes peg at the tram halt"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.23472072833327362,
-    "energy": 0.37408983685277913
+    "mood": 0.9261299153267979,
+    "energy": 0.7776565866676782
    },
    "interests": {
     "the subject": 0.41
