@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T13:42:47-05:00",
+ "asOf": "2026-11-19T13:47:47-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T13:42:46-05:00",
+   "iso": "2026-11-19T13:47:46-05:00",
    "hour": 13,
-   "minute": 42,
+   "minute": 47,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.4,
+   "sun": 16.2,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.09,
-    "weariness": 0.82,
-    "company": 0.54,
+    "belly": 0.13,
+    "weariness": 0.83,
+    "company": 0.62,
     "itch": 1.0,
-    "nerves": 0.12,
-    "thirst": 0.07
+    "nerves": 0.15,
+    "thirst": 0.11
    },
    "feeling": {
-    "mood": -0.12,
-    "energy": -0.52
+    "mood": -0.11,
+    "energy": -0.68
    },
-   "thought": "I need to see what is moving before I walk or drink again.",
+   "thought": "the silence is heavy; I will let my legs rest until they have words again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Not now! The vibration's been annoying everyone for days, and you'll only make it worse. Go back to your quiet spot before I get bored with you both.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -482,7 +482,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 25,
-  "now": 1795113767.5,
+  "now": 1795114067.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1744,8 +1744,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.09366213981388136,
-    "energy": -0.6522695918102918
+    "mood": -0.0749223159559375,
+    "energy": -0.6849870634815713
    },
    "interests": {
     "the subject": 0.26
