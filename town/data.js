@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T09:48:40-05:00",
+ "asOf": "2026-11-19T09:53:40-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T09:48:40-05:00",
+   "iso": "2026-11-19T09:53:40-05:00",
    "hour": 9,
-   "minute": 48,
+   "minute": 53,
    "phase": "day",
    "words": "morning",
-   "sun": 8.6,
+   "sun": 9.1,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -21,29 +21,27 @@ export default {
     0.0,
     0.0
    ],
-   "heading": -60.6,
+   "heading": -66.3,
    "place": "burrow",
-   "doing": null,
-   "target": null,
+   "doing": "dance",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.31,
-    "weariness": 0.51,
-    "company": 0.46,
-    "itch": 0.44,
+    "belly": 0.35,
+    "weariness": 0.52,
+    "company": 0.55,
+    "itch": 0.61,
     "nerves": 0.0,
-    "thirst": 0.27
+    "thirst": 0.3
    },
    "feeling": {
-    "mood": 0.5,
-    "energy": -0.55
+    "mood": 0.45,
+    "energy": -0.45
    },
-   "thought": "legs have too many words and the dark makes them move before I can speak",
+   "thought": "my legs want to speak but my beak is full of quiet",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a wooden bead"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     25.83,
-     -2.58
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"I'm watching for anything moving since yesterday, but I'll save that bit of fruit for you if it doesn't vanish.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"I am here. I wait.\"",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -476,7 +474,8 @@ export default {
    "a rusted key",
    "a strip of bark",
    "a length of twine",
-   "a glass bead"
+   "a glass bead",
+   "a wooden bead"
   ],
   "board": {
    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
@@ -487,7 +486,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 24,
-  "now": 1795099720.1,
+  "now": 1795100020.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1659,8 +1658,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5348727321330301,
-    "energy": -0.43547189988558677
+    "mood": 0.7205534023396014,
+    "energy": -0.40711665760391846
    },
    "interests": {
     "the subject": 0.33
