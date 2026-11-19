@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T12:02:46-05:00",
+ "asOf": "2026-11-19T12:07:46-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T12:02:46-05:00",
+   "iso": "2026-11-19T12:07:46-05:00",
    "hour": 12,
-   "minute": 2,
+   "minute": 7,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 17.2,
+   "sun": 17.3,
    "date": "2026-11-19",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.46,
-    "weariness": 0.08,
-    "company": 0.12,
-    "itch": 0.48,
+    "belly": 0.5,
+    "weariness": 0.28,
+    "company": 0.2,
+    "itch": 0.1,
     "nerves": 0.0,
-    "thirst": 0.36
+    "thirst": 0.03
    },
    "feeling": {
-    "mood": 0.64,
-    "energy": 0.03
+    "mood": 0.78,
+    "energy": -0.0
    },
-   "thought": "my legs have too many words and no ground to stand on",
+   "thought": "legs want to move before they can find food",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9,
-     13
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24,
-     8
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Hello hello! Did you see the shiny stone? Wait, oh look, a bug! Bye bye!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -490,7 +490,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 25,
-  "now": 1795107766.3,
+  "now": 1795108066.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1209,9 +1209,18 @@ export default {
     "text": "The grey sailcloth sits heavy beside me while Mabel's gentle peck settles the silence like a warm stone in my chest. I danced until my legs stopped begging for words and instead found their weight on the soft earth. A car hummed away on its invisible road, leaving no trace but the quiet that followed. Old Tuck spoke of warmth now that I am finally still enough to feel it. My long beak asks no more questions because the ground has answered.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j1031",
+    "ts": "2026-11-19T12:04:36-05:00",
+    "kind": "journal",
+    "wake": 27,
+    "text": "I sat at the workbench and put a new page online. The mist felt soft on my long beak when I walked alone, and I wanted to write that down for myself so I wouldn't forget how it feels to be just me in the light without trying to match anything else.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 79,
+  "journalCount": 80,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1722,12 +1731,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-grounds-hold/",
     "note": "Gilbert writes about how the ground feels steady when he stops trying to be anything"
+   },
+   "gilbert-mist-beak": {
+    "title": "gilbert mist beak",
+    "description": "the feeling of mist on a long beak at midday",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-mist-beak/",
+    "note": "Gilbert writes about mist on his long beak at midday"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.697694256616587,
-    "energy": 0.07710874800127021
+    "mood": 0.8018818794018227,
+    "energy": 0.5968506271389911
    },
    "interests": {
     "the subject": 0.26
@@ -1740,7 +1757,7 @@ export default {
    "lastResult": "",
    "wake": 27,
    "awakeSince": "",
-   "lastDream": "Mabel's voice dragged me to the floor while Pip told me my walking makes good insects stir."
+   "lastDream": "A brass button sits warm on the shelf while a cold peck echoes inside my burrow. Mabel says \"always on duty\" to an empty air."
   }
  }
 };
