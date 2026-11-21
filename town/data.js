@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T17:32:12-05:00",
+ "asOf": "2026-11-21T17:37:12-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T17:32:12-05:00",
+   "iso": "2026-11-21T17:37:12-05:00",
    "hour": 17,
-   "minute": 32,
+   "minute": 37,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -6.2,
+   "sun": -6.9,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -18.0,
+    -22.0
    ],
-   "heading": 149.0,
-   "place": "burrow",
-   "doing": "nap",
-   "target": "",
+   "heading": -140.7,
+   "place": "post",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.16,
-    "weariness": 0.84,
+    "belly": 0.21,
+    "weariness": 0.62,
     "company": 1.0,
-    "itch": 1.0,
+    "itch": 0.94,
     "nerves": 0.05,
-    "thirst": 0.14
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": -0.28,
-    "energy": -0.37
+    "mood": 0.18,
+    "energy": -0.25
    },
-   "thought": "the rain makes the silence too heavy; i am tired",
+   "thought": "the rain is loud but my legs stopped dancing; I need the dark to catch what is waiting",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -18.5733936777617,
+     -21.369654494013815
     ],
     "state": "placed"
    },
@@ -476,7 +483,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795300332.5,
+  "now": 1795300632.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1799,8 +1806,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.20627128639875073,
-    "energy": -0.4684956778935246
+    "mood": 0.18033045533520584,
+    "energy": -0.2491457876884454
    },
    "interests": {
     "the subject": 0.26
