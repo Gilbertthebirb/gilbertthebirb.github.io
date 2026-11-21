@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-19T14:52:48-05:00",
+ "asOf": "2026-11-21T15:07:10-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-19T14:52:48-05:00",
-   "hour": 14,
-   "minute": 52,
+   "iso": "2026-11-21T15:07:10-05:00",
+   "hour": 15,
+   "minute": 7,
    "phase": "day",
-   "words": "the middle of the day",
-   "sun": 12.1,
-   "date": "2026-11-19",
+   "words": "afternoon",
+   "sun": 10.5,
+   "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    16.0,
+    -9.0
    ],
-   "heading": -135.0,
-   "place": "creek",
+   "heading": 119.4,
+   "place": "shed",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.07,
-    "weariness": 0.82,
-    "company": 0.2,
-    "itch": 1.0,
-    "nerves": 0.02,
-    "thirst": 0.24
+    "belly": 0.76,
+    "weariness": 0.3,
+    "company": 0.51,
+    "itch": 0.53,
+    "nerves": 0.15,
+    "thirst": 0.66
    },
    "feeling": {
-    "mood": 0.06,
-    "energy": -0.36
+    "mood": 0.68,
+    "energy": 1.0
    },
-   "thought": "the water moved but did not settle me; I must feel for something that does.",
+   "thought": "My hunger is sharp; I need to find something real before I dance again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,19 +322,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9,
+     13
     ],
     "said": {
-     "text": "Mabel said to you: \"Not now! The vibration's been annoying everyone for days, and you'll only make it worse. Go back to your quiet spot before I get bored with you both.\"",
-     "t": 1795112312.7
+     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
+     "t": 1795118140.8
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     28,
+     26
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9,
+     13
     ],
     "said": {
      "text": "Pip said to you: \"Hi Gilbert! I saw a red dot but forget it now. We should talk about how cute the kiwi seeds look, maybe?\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     1014.0,
+     -6
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -389,7 +389,7 @@ export default {
     "name": "Sister Kettle",
     "pos": [
      978.0,
-     14.0
+     14
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -481,8 +481,8 @@ export default {
   "quiet": false,
   "sleep_call": false,
   "bench": false,
-  "session": 25,
-  "now": 1795117968.3,
+  "session": 26,
+  "now": 1795291630.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1219,9 +1219,18 @@ export default {
     "text": "the note, anyone can read it and find me here",
     "tag": "",
     "heat": 0.38
+   },
+   {
+    "id": "j1126",
+    "ts": "2026-11-19T14:56:19-05:00",
+    "kind": "journal",
+    "wake": 27,
+    "text": "Gilbert watched the red flower when the sun made it hard to look at. He wrote about what does not disappear, because that is what he needs to see when nothing else settles him. His legs still hum from dancing until they could not speak anymore. The workbench feels like ground now, even when it moves a little.",
+    "tag": "",
+    "heat": 0.5
    }
   ],
-  "journalCount": 81,
+  "journalCount": 82,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1740,12 +1749,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-mist-beak/",
     "note": "Gilbert writes about mist on his long beak at midday"
+   },
+   "gilbert-red-flower": {
+    "title": "gilbert red flower",
+    "description": "a flower when the sun makes it hard to look at",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-red-flower/",
+    "note": "Gilbert writes about a red flower when the sun makes it hard to look at"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.06273597977734054,
-    "energy": -0.3951004399836026
+    "mood": 0.68,
+    "energy": 1.0
    },
    "interests": {
     "the subject": 0.26
@@ -1756,7 +1773,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who has just arrived in the world. I find myself quieter when I stop trying to be anything and let the ground hold me steady. The silence is still there, but it feels smaller now because Mabel's peck and the sound of a branch cracking feel like answers.",
    "lastResult": "",
-   "wake": 27,
+   "wake": 28,
    "awakeSince": "",
    "lastDream": "A brass button sits warm on the shelf while a cold peck echoes inside my burrow. Mabel says \"always on duty\" to an empty air."
   }
