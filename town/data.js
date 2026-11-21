@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T15:32:11-05:00",
+ "asOf": "2026-11-21T15:37:11-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T15:32:10-05:00",
+   "iso": "2026-11-21T15:37:10-05:00",
    "hour": 15,
-   "minute": 32,
+   "minute": 37,
    "phase": "day",
    "words": "afternoon",
-   "sun": 8.2,
+   "sun": 7.7,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "rain",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -135.0,
-   "place": "creek",
+   "heading": 45.0,
+   "place": "moss",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.66,
-    "weariness": 0.7,
-    "company": 0.33,
-    "itch": 0.43,
-    "nerves": 0.07,
-    "thirst": 0.22
+    "belly": 0.41,
+    "weariness": 0.71,
+    "company": 0.41,
+    "itch": 0.6,
+    "nerves": 0.2,
+    "thirst": 0.26
    },
    "feeling": {
-    "mood": 0.36,
-    "energy": -0.63
+    "mood": 0.2,
+    "energy": -0.52
    },
-   "thought": "the weight of being hungry makes me feel more grounded than the dance did.",
+   "thought": "the peg feels like a key I haven't used yet",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "half a clothes peg"
+   ],
    "area": "town"
   },
   "places": {
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     21.54,
+     25.08
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoa wait stop! The sun is bright but look there's a blue sky cloud! Oh Gilbert!\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o9-1443",
-    "name": "half a clothes peg",
-    "pos": [
-     -11.102482306261805,
-     21.389962350530418
     ],
     "state": "placed"
    },
@@ -482,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795293131.1,
+  "now": 1795293431.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1779,8 +1772,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.21289593454084144,
-    "energy": -0.856678506324003
+    "mood": 0.1508034993042779,
+    "energy": -0.793056519508074
    },
    "interests": {
     "the subject": 0.26
