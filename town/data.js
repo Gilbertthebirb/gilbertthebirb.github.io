@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T16:37:11-05:00",
+ "asOf": "2026-11-21T16:42:11-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T16:37:10-05:00",
+   "iso": "2026-11-21T16:42:10-05:00",
    "hour": 16,
-   "minute": 37,
+   "minute": 42,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 1.0,
+   "sun": 0.4,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -6.74,
+    2.25
    ],
-   "heading": -122.6,
-   "place": "shed",
-   "doing": "sit",
-   "target": "",
+   "heading": 108.4,
+   "place": null,
+   "doing": "walk_to",
+   "target": "burrow",
    "asleep": false,
    "needs": {
-    "belly": 0.31,
-    "weariness": 0.76,
-    "company": 0.95,
-    "itch": 0.52,
+    "belly": 0.35,
+    "weariness": 0.9,
+    "company": 1.0,
+    "itch": 0.19,
     "nerves": 0.05,
-    "thirst": 0.15
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.95,
-    "energy": 0.92
+    "mood": 0.24,
+    "energy": -0.29
    },
-   "thought": "the rain feels like a drum against my chest, but the silence inside me is too loud to fill with words yet",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a square of tin"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     34.54,
-     -10.65
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -444,6 +442,15 @@ export default {
      -6.393040054051741
     ],
     "state": "placed"
+   },
+   {
+    "id": "o16-2940",
+    "name": "a square of tin",
+    "pos": [
+     15.954256324653416,
+     -8.02403446048703
+    ],
+    "state": "placed"
    }
   ],
   "wishes": [],
@@ -484,7 +491,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795297031.8,
+  "now": 1795297331.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1257,9 +1264,18 @@ export default {
     "text": "Gilbert stood very still at the workbench and closed his eyes. Rain came down against his feathers, steady as something he knew from before. After waiting in the quiet, a sound made him remember who he is without trying to be anything. He will stand like this until he knows again.",
     "tag": "",
     "heat": 0.56
+   },
+   {
+    "id": "j1188",
+    "ts": "2026-11-21T16:39:17-05:00",
+    "kind": "journal",
+    "wake": 28,
+    "text": "I stood very still and felt the rain until I found the grey sailcloth in front of me. Its brass eyelet caught the light when it was there, then I went back to what makes me feel alive when nothing is happening. The scrap made itself known without asking for anything.",
+    "tag": "",
+    "heat": 0.47
    }
   ],
-  "journalCount": 85,
+  "journalCount": 86,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1793,13 +1809,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-stillness/",
-    "note": "Gilbert stands still at the workbench in the rain"
+    "note": "Gilbert adds the moment he saw the grey sailcloth with one brass eyelet to his page"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.8178380353193899,
-    "energy": 0.7302074131004669
+    "mood": 0.24075819241030028,
+    "energy": -0.28544724817458256
    },
    "interests": {
     "the subject": 0.26
