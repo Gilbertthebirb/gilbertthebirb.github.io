@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T17:27:12-05:00",
+ "asOf": "2026-11-21T17:32:12-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T17:27:12-05:00",
+   "iso": "2026-11-21T17:32:12-05:00",
    "hour": 17,
-   "minute": 27,
-   "phase": "dusk",
-   "words": "dusk",
-   "sun": -5.5,
+   "minute": 32,
+   "phase": "night",
+   "words": "evening, and dark",
+   "sun": -6.2,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    0.0,
+    0.0
    ],
-   "heading": 45.0,
-   "place": "moss",
-   "doing": "hide",
+   "heading": 149.0,
+   "place": "burrow",
+   "doing": "nap",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.12,
-    "weariness": 0.83,
+    "belly": 0.16,
+    "weariness": 0.84,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.22,
-    "thirst": 0.1
+    "nerves": 0.05,
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": -0.39,
-    "energy": -0.13
+    "mood": -0.28,
+    "energy": -0.37
    },
-   "thought": "I need ground. I am tired.",
+   "thought": "the rain makes the silence too heavy; i am tired",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "half a clothes peg"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -344,8 +346,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o9-1443",
-    "name": "half a clothes peg",
-    "pos": [
-     -11.098440518810795,
-     21.332010322403548
     ],
     "state": "placed"
    },
@@ -483,7 +476,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795300032.5,
+  "now": 1795300332.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1806,8 +1799,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.18867243754415827,
-    "energy": -0.3239063337664914
+    "mood": -0.20627128639875073,
+    "energy": -0.4684956778935246
    },
    "interests": {
     "the subject": 0.26
