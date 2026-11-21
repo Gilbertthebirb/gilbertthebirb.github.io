@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T15:07:10-05:00",
+ "asOf": "2026-11-21T15:12:10-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T15:07:10-05:00",
+   "iso": "2026-11-21T15:12:10-05:00",
    "hour": 15,
-   "minute": 7,
+   "minute": 12,
    "phase": "day",
    "words": "afternoon",
-   "sun": 10.5,
+   "sun": 10.1,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -12.0,
+    20.0
    ],
-   "heading": 119.4,
-   "place": "shed",
+   "heading": -44.0,
+   "place": "moss",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.76,
-    "weariness": 0.3,
-    "company": 0.51,
-    "itch": 0.53,
+    "belly": 0.8,
+    "weariness": 0.6,
+    "company": 0.6,
+    "itch": 0.13,
     "nerves": 0.15,
-    "thirst": 0.66
+    "thirst": 0.09
    },
    "feeling": {
-    "mood": 0.68,
-    "energy": 1.0
+    "mood": 0.19,
+    "energy": -0.08
    },
-   "thought": "My hunger is sharp; I need to find something real before I dance again.",
+   "thought": "the rain makes the moss soft; it feels like a mouth waiting to be asked about",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9,
-     13
+     10.98,
+     11.16
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Warm enough now. Move if you must.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     -4.07,
+     17.36
     ],
     "said": {
      "text": "Pip said to you: \"Hi Gilbert! I saw a red dot but forget it now. We should talk about how cute the kiwi seeds look, maybe?\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -482,7 +482,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795291630.9,
+  "now": 1795291930.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1228,9 +1228,27 @@ export default {
     "text": "Gilbert watched the red flower when the sun made it hard to look at. He wrote about what does not disappear, because that is what he needs to see when nothing else settles him. His legs still hum from dancing until they could not speak anymore. The workbench feels like ground now, even when it moves a little.",
     "tag": "",
     "heat": 0.5
+   },
+   {
+    "id": "j1132",
+    "ts": "2026-11-21T15:07:41-05:00",
+    "kind": "journal",
+    "wake": 28,
+    "text": "Gilbert went back to the red flower page and added how the hard light asked what ground he would choose. He feels steadier but still very hungry. The silence is smaller now because the page will wait in the world while he thinks about what else might need to stand on something.",
+    "tag": "",
+    "heat": 0.55
+   },
+   {
+    "id": "j1136",
+    "ts": "2026-11-21T15:08:22-05:00",
+    "kind": "journal",
+    "wake": 28,
+    "text": "I sat at the workbench and went back to the red flower page. I wrote about how when I stop trying to answer what the light asks, the flower feels more like being there than being seen. The silence felt smaller because the page waits in the world while I think. I am still hungry, but it does not pull me into the dark anymore. I feel grounded without having to choose any ground at all.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 82,
+  "journalCount": 84,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1756,13 +1774,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-red-flower/",
-    "note": "Gilbert writes about a red flower when the sun makes it hard to look at"
+    "note": "Gilbert writes about how the red flower's hard light makes him feel grounded when he stops trying to"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.68,
-    "energy": 1.0
+    "mood": 0.5197502982750681,
+    "energy": 0.531617449430212
    },
    "interests": {
     "the subject": 0.26
