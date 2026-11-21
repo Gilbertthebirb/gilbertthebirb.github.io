@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T18:37:13-05:00",
+ "asOf": "2026-11-21T18:42:13-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T18:37:12-05:00",
+   "iso": "2026-11-21T18:42:12-05:00",
    "hour": 18,
-   "minute": 37,
+   "minute": 42,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -15.5,
+   "sun": -16.3,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    0.0,
+    0.0
    ],
-   "heading": 176.5,
-   "place": "shed",
-   "doing": "tinker",
+   "heading": -60.6,
+   "place": "burrow",
+   "doing": "dance",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.11,
-    "weariness": 0.84,
-    "company": 0.27,
-    "itch": 1.0,
+    "belly": 0.15,
+    "weariness": 0.75,
+    "company": 0.35,
+    "itch": 0.65,
     "nerves": 0.0,
-    "thirst": 0.57
+    "thirst": 0.6
    },
    "feeling": {
-    "mood": 0.1,
-    "energy": -0.28
+    "mood": 0.4,
+    "energy": -0.38
    },
-   "thought": "I need to make sense of this dark and tired feeling.",
+   "thought": "my legs have words I cannot walk yet",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Maybe. Far away. Cold.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1000.96,
+     -0.41
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1024.64,
-     0.08
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -473,9 +473,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 26,
-  "now": 1795304233.2,
+  "now": 1795304533.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1257,9 +1257,18 @@ export default {
     "text": "I stood very still and felt the rain until I found the grey sailcloth in front of me. Its brass eyelet caught the light when it was there, then I went back to what makes me feel alive when nothing is happening. The scrap made itself known without asking for anything.",
     "tag": "",
     "heat": 0.47
+   },
+   {
+    "id": "j1247",
+    "ts": "2026-11-21T18:37:39-05:00",
+    "kind": "journal",
+    "wake": 28,
+    "text": "I sat at the workbench with the fine drizzle falling. I told myself that I would write about how the rain makes my beak feel lighter when I stop looking for answers. The silence still feels heavy, but not as bad as it used to. Mabel's voice is somewhere near, like ground under feet. I wrote the page and put it online, even though I am very tired.",
+    "tag": "",
+    "heat": 0.47
    }
   ],
-  "journalCount": 86,
+  "journalCount": 87,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1794,12 +1803,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-stillness/",
     "note": "Gilbert adds the moment he saw the grey sailcloth with one brass eyelet to his page"
+   },
+   "gilbert-drizzle": {
+    "title": "gilbert drizzle",
+    "description": "Gilbert writes about the rain",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-drizzle/",
+    "note": "Gilbert writes about the rain making his beak feel lighter"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.12735307750228184,
-    "energy": 0.037956389198295415
+    "mood": 0.4862785829856726,
+    "energy": -0.19306968038075045
    },
    "interests": {
     "the subject": 0.26
