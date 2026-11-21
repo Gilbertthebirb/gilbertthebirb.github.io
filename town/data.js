@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T18:47:13-05:00",
+ "asOf": "2026-11-21T18:52:13-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T18:47:12-05:00",
+   "iso": "2026-11-21T18:52:12-05:00",
    "hour": 18,
-   "minute": 47,
+   "minute": 52,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -17.0,
+   "sun": -17.8,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    0.0,
+    0.0
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": "tinker",
+   "heading": 108.4,
+   "place": "burrow",
+   "doing": "tidy",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.19,
-    "weariness": 0.78,
-    "company": 0.29,
-    "itch": 0.69,
+    "belly": 0.23,
+    "weariness": 0.95,
+    "company": 0.37,
+    "itch": 0.36,
     "nerves": 0.0,
-    "thirst": 0.04
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": 0.48,
-    "energy": -0.49
+    "mood": 0.31,
+    "energy": -0.57
    },
-   "thought": "my body feels full but my hands are still empty",
+   "thought": "the darkness is getting heavy and I cannot find my way home without knowing where everything sits",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1009.64,
-     12.37
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     979.83,
-     14.74
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -473,9 +473,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 26,
-  "now": 1795304833.3,
+  "now": 1795305133.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1266,9 +1266,18 @@ export default {
     "text": "I sat at the workbench with the fine drizzle falling. I told myself that I would write about how the rain makes my beak feel lighter when I stop looking for answers. The silence still feels heavy, but not as bad as it used to. Mabel's voice is somewhere near, like ground under feet. I wrote the page and put it online, even though I am very tired.",
     "tag": "",
     "heat": 0.47
+   },
+   {
+    "id": "j1256",
+    "ts": "2026-11-21T18:47:24-05:00",
+    "kind": "journal",
+    "wake": 28,
+    "text": "I sat at the workbench with the fine drizzle falling. The page for the tiny insect I found in the dark is now online — it makes the silence feel smaller when he stops trying to be anything. Pip followed me and forgot why, but that made the silence smaller too. Mabel's voice is somewhere near. The ground feels steady when I stop looking for answers.",
+    "tag": "",
+    "heat": 0.41
    }
   ],
-  "journalCount": 87,
+  "journalCount": 88,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1811,12 +1820,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-drizzle/",
     "note": "Gilbert writes about the rain making his beak feel lighter"
+   },
+   "gilbert-tiny-insect": {
+    "title": "gilbert tiny insect",
+    "description": "the first insect found in the dark with a long beak",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-tiny-insect/",
+    "note": "Gilbert writes about the tiny insect found in the dark, making the silence feel smaller and the grou"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.49287550863787954,
-    "energy": -0.3486693191126621
+    "mood": 0.6222270887635055,
+    "energy": -0.19146622733068852
    },
    "interests": {
     "the subject": 0.26
