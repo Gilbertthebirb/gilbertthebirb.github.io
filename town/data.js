@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T16:07:11-05:00",
+ "asOf": "2026-11-21T16:12:11-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T16:07:10-05:00",
+   "iso": "2026-11-21T16:12:10-05:00",
    "hour": 16,
-   "minute": 7,
+   "minute": 12,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 4.5,
+   "sun": 4.0,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": 45.0,
    "place": "moss",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.06,
+    "belly": 0.1,
     "weariness": 0.83,
-    "company": 0.45,
+    "company": 0.54,
     "itch": 1.0,
-    "nerves": 0.35,
-    "thirst": 0.46
+    "nerves": 0.23,
+    "thirst": 0.49
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.27
+    "mood": 0.04,
+    "energy": 0.1
    },
-   "thought": "the storm feels too loud for now; I am tired but not alone.",
+   "thought": "the noise stops my dancing and makes me feel safe",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     26.14,
-     -15.18
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -12.789441366147337,
+     21.095035740554092
     ],
     "state": "placed"
    },
@@ -475,7 +482,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795295231.4,
+  "now": 1795295531.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1772,8 +1779,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.20887251800454318,
-    "energy": -0.2714606845466582
+    "mood": 0.030934264845999617,
+    "energy": -0.311177190148074
    },
    "interests": {
     "the subject": 0.26
