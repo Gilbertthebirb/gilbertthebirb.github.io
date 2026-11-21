@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T15:52:11-05:00",
+ "asOf": "2026-11-21T15:57:11-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T15:52:10-05:00",
+   "iso": "2026-11-21T15:57:10-05:00",
    "hour": 15,
-   "minute": 52,
-   "phase": "day",
-   "words": "afternoon",
-   "sun": 6.2,
+   "minute": 57,
+   "phase": "dusk",
+   "words": "dusk",
+   "sun": 5.6,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": 45.0,
    "place": "moss",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.81,
-    "company": 0.2,
-    "itch": 0.74,
-    "nerves": 0.47,
-    "thirst": 0.36
+    "belly": 0.27,
+    "weariness": 0.82,
+    "company": 0.29,
+    "itch": 0.91,
+    "nerves": 0.54,
+    "thirst": 0.39
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.27
+    "mood": 0.16,
+    "energy": -0.43
    },
-   "thought": "the thunder is too loud for my tired legs; I just need to feel the moss under me until Pip stops chasing that nothing",
+   "thought": "the thunder is loud but my feet know the moss is real",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -10.825148614540225,
+     20.82958240985384
     ],
     "state": "placed"
    },
@@ -475,7 +482,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795294331.2,
+  "now": 1795294631.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1772,8 +1779,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19133232633910724,
-    "energy": 0.001349332076607812
+    "mood": 0.1350602442093693,
+    "energy": -0.28491810218639246
    },
    "interests": {
     "the subject": 0.26
