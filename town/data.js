@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T21:04:49-05:00",
+ "asOf": "2026-11-21T21:09:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T21:04:48-05:00",
+   "iso": "2026-11-21T21:09:48-05:00",
    "hour": 21,
-   "minute": 4,
+   "minute": 9,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -37.8,
+   "sun": -38.5,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -11.3,
    "place": "creek",
-   "doing": "call_out",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.37,
-    "company": 0.41,
+    "belly": 0.27,
+    "weariness": 0.41,
+    "company": 0.5,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.19
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.27,
-    "energy": -0.15
+    "mood": 0.35,
+    "energy": -0.19
    },
-   "thought": "I am tired, but my feet have words. I must hear them.",
+   "thought": "I am tired and I need to be heard before I sleep",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -346,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Did you hear that? It was a crunch! Or maybe it was the wind in the trees again?\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -24.413151393133617,
+     8.821070251295593
     ],
     "state": "placed"
    },
@@ -468,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795313089.5,
+  "now": 1795313389.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1920,8 +1927,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2889605144337413,
-    "energy": 0.026001883790239516
+    "mood": 0.3422150811177489,
+    "energy": -0.19711170015894278
    },
    "interests": {
     "the subject": 0.21
