@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T13:40:55-05:00",
+ "asOf": "2026-11-22T13:45:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T13:40:54-05:00",
+   "iso": "2026-11-22T13:45:54-05:00",
    "hour": 13,
-   "minute": 40,
+   "minute": 45,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 15.9,
+   "sun": 15.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "clear",
   "bird": {
    "pos": [
-    3.82,
-    3.54
+    -24.0,
+    8.0
    ],
-   "heading": 47.1,
-   "place": null,
-   "doing": "walk_to",
-   "target": "lookout",
+   "heading": -123.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.29,
+    "belly": 0.33,
     "weariness": 0.84,
-    "company": 0.2,
-    "itch": 0.99,
-    "nerves": 0.2,
-    "thirst": 0.21
+    "company": 0.28,
+    "itch": 1.0,
+    "nerves": 0.15,
+    "thirst": 0.24
    },
    "feeling": {
-    "mood": 0.1,
-    "energy": -0.21
+    "mood": 0.04,
+    "energy": -0.5
    },
-   "thought": "I need to see what moved without knowing where it is.",
+   "thought": "my legs have too many words and no space for them here",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a marble with a twist of green"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -440,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -451,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -462,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -472,6 +470,15 @@ export default {
    }
   },
   "objects": [
+   {
+    "id": "o7-1007",
+    "name": "a marble with a twist of green",
+    "pos": [
+     28.036167063099533,
+     26.654836987271402
+    ],
+    "state": "placed"
+   },
    {
     "id": "o12-2069",
     "name": "a jar lid",
@@ -554,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795372855.2,
+  "now": 1795373155.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2272,8 +2279,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.16881728075909086,
-    "energy": -0.6765667377201181
+    "mood": 0.13326743622052764,
+    "energy": -0.547314028885509
    },
    "interests": {},
    "threads": [
