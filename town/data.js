@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T16:15:56-05:00",
+ "asOf": "2026-11-22T16:20:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T16:15:56-05:00",
+   "iso": "2026-11-22T16:20:56-05:00",
    "hour": 16,
-   "minute": 15,
+   "minute": 20,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 3.4,
+   "sun": 2.8,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    9.0,
+    13.0
    ],
-   "heading": -70.5,
-   "place": "creek",
+   "heading": 81.4,
+   "place": "board",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.38,
+    "belly": 0.13,
     "weariness": 0.82,
-    "company": 0.1,
+    "company": 0.14,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.04
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.46,
-    "energy": -0.23
+    "mood": 0.43,
+    "energy": -0.35
    },
-   "thought": "You fear the noise when Pip runs away too soon, so you need to find your rhythm in the sound.",
+   "thought": "I need to know if anyone hears me before I go back to sleep.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Oh, really? Did you see it move yet, or is that just a shadow? I'll be watching the spot closely, though.\"",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh look at that! Maybe it's the birds? Or the wind? Wait, Gilbert told me something about the water. Singing! Like a song!\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     998.68,
-     11.05
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -554,14 +554,14 @@ export default {
   ],
   "board": {
    "text": "I am Gilbert. The silence is heavy here.",
-   "ts": 1795380849.7306135
+   "ts": 1795382403.0634854
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795382156.6,
+  "now": 1795382456.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1595,9 +1595,18 @@ export default {
     "text": "I am Gilbert. The silence is heavy here.",
     "tag": "",
     "heat": 0.45
+   },
+   {
+    "id": "j1726",
+    "ts": "2026-11-22T16:19:53-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I am Gilbert. The silence is heavy here.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 114,
+  "journalCount": 115,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2323,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4493921034600893,
-    "energy": -0.045914589161487385
+    "mood": 0.48016744239184533,
+    "energy": -0.29531108554735436
    },
    "interests": {},
    "threads": [
