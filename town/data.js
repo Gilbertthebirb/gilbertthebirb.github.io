@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T17:20:57-05:00",
+ "asOf": "2026-11-22T17:25:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T17:20:56-05:00",
+   "iso": "2026-11-22T17:25:56-05:00",
    "hour": 17,
-   "minute": 20,
+   "minute": 25,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -4.8,
+   "sun": -5.5,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -18.0,
+    -22.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
+   "heading": -140.7,
+   "place": "post",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.33,
-    "weariness": 0.82,
-    "company": 0.31,
-    "itch": 0.96,
+    "belly": 0.37,
+    "weariness": 0.6,
+    "company": 0.39,
+    "itch": 0.91,
     "nerves": 0.0,
-    "thirst": 0.1
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": 0.47,
-    "energy": -0.35
+    "mood": 0.46,
+    "energy": -0.22
    },
-   "thought": "",
+   "thought": "The silence feels heavy and I need the sound of a voice like Mabel's to feel real.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -8.93,
-     18.98
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795386057.4,
+  "now": 1795386357.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19705616344178958,
-    "energy": -0.46021689444808117
+    "mood": 0.3251692187355335,
+    "energy": -0.4689203619162554
    },
    "interests": {},
    "threads": [
