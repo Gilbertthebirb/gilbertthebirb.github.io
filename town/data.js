@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T20:34:49-05:00",
+ "asOf": "2026-11-21T20:39:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T20:34:48-05:00",
+   "iso": "2026-11-21T20:39:48-05:00",
    "hour": 20,
-   "minute": 34,
+   "minute": 39,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -33.4,
+   "sun": -34.1,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "mist",
   "bird": {
    "pos": [
-    -18.0,
-    -22.0
+    -24.0,
+    8.0
    ],
-   "heading": -171.9,
-   "place": "post",
+   "heading": -11.3,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.28,
-    "weariness": 0.19,
-    "company": 0.06,
-    "itch": 0.88,
+    "belly": 0.02,
+    "weariness": 0.23,
+    "company": 0.15,
+    "itch": 0.93,
     "nerves": 0.0,
-    "thirst": 0.48
+    "thirst": 0.02
    },
    "feeling": {
-    "mood": 0.5,
-    "energy": 0.14
+    "mood": 0.78,
+    "energy": 0.11
    },
-   "thought": "a thing I can hold until it has an edge, like hunger",
+   "thought": "Pip's restlessness calls out to mine; I will see what brings him here first.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Maybe. Far away. Cold.\"",
@@ -346,19 +344,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -13.43,
-     18.57
+     -24.0,
+     8.0
     ],
     "said": {
-     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
-     "t": 1795311070.3
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1795311419.7
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -23.095466443369265,
+     8.63142869862374
     ],
     "state": "placed"
    },
@@ -468,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795311289.2,
+  "now": 1795311589.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1920,8 +1927,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6960081850899307,
-    "energy": 0.4554072812257405
+    "mood": 0.6519932622594066,
+    "energy": 0.0343021713861999
    },
    "interests": {
     "the subject": 0.21
