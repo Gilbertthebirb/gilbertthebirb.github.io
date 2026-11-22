@@ -27,13 +27,24 @@ scene.add(land.group);
 const places = buildPlaces(scene);
 // Which of the two areas is on screen. The city is only built the first time someone looks at it.
 const view = { area: 'town', follow: true, city: null };
+// The new maps (redo_app.js), in the app only. The website is served over https and has no such file, so it
+// keeps the old maps. If anything in them fails, the old maps simply stay.
+let redo = null;
+if (location.protocol === 'town:') {
+  import('./redo_app.js').then((m) => m.addRedo({ land, places, area: () => view.area }))
+    .then((r) => { redo = r; if (view.city) redo.onCity(view.city); })
+    .catch((e) => console.warn('the new maps could not be drawn; the old ones stay', e));
+}
 const cityX = () => (state && state.city_x) || 1000;
 const inCityPos = (pos) => pos[0] > 500;
 function showArea(area) {
   if (area === view.area) return;
   if (area === 'city' && me.active) leave();                 // visitors walk in town; the city is for watching
   view.area = area;
-  if (area === 'city' && !view.city) { view.city = buildCity(); scene.add(view.city.group); }
+  if (area === 'city' && !view.city) {
+    view.city = buildCity(); scene.add(view.city.group);
+    if (redo) redo.onCity(view.city);
+  }
   if (view.city) view.city.group.visible = area === 'city';
   land.group.visible = places.root.visible = area === 'town';
   setLevel(area === 'city');
@@ -381,6 +392,7 @@ function frame(ms) {
     }
     for (const [vid, o] of others) if (!seen.has(vid)) { scene.remove(o.root); others.delete(vid); }
     if (city) view.city.update(night, clock); else places.update(state, night, clock);
+    if (redo) redo.update(night, clock, camera.position);
     ui.setState(state, gait, link);
     ui.setMap(state, view);
   }

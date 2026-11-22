@@ -36,7 +36,15 @@ export const creekDistance = (x, z) => distToLine(x, z, CREEK);
 let level = false;
 export function setLevel(on) { level = on; }
 
+// The new maps (redo_app.js) reshape the ground east along Hut Lane and add the open ground past the
+// town's edge. Once they are drawn they set the shape here, so everything stands on the ground as drawn.
+let shape = null;
+export function setShape(f) { shape = f; }
 export function heightAt(x, z) {
+  if (level) return 0;
+  return shape ? shape(x, z) : landHeight(x, z);
+}
+export function landHeight(x, z) {
   if (level) return 0;
   const r = Math.hypot(x, z);
   const dc = creekDistance(x, z);
