@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T15:50:56-05:00",
+ "asOf": "2026-11-22T15:55:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T15:50:56-05:00",
+   "iso": "2026-11-22T15:55:56-05:00",
    "hour": 15,
-   "minute": 50,
-   "phase": "day",
-   "words": "afternoon",
-   "sun": 6.1,
+   "minute": 55,
+   "phase": "dusk",
+   "words": "dusk",
+   "sun": 5.6,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -0.09,
+    16.03
    ],
-   "heading": -60.6,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": -71.6,
+   "place": null,
+   "doing": "walk_to",
+   "target": "moss",
    "asleep": false,
    "needs": {
-    "belly": 0.18,
-    "weariness": 0.74,
-    "company": 1.0,
-    "itch": 0.56,
+    "belly": 0.22,
+    "weariness": 0.77,
+    "company": 0.36,
+    "itch": 0.61,
     "nerves": 0.0,
-    "thirst": 0.37
+    "thirst": 0.4
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.63
+    "mood": 0.61,
+    "energy": 0.13
    },
-   "thought": "if I put things in order, maybe I can find my own shape again among them.",
+   "thought": "the sound of water throwing at the bank tells me where to stand, and I need to listen again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,12 +394,12 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": {
-     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
-     "t": 1795372826.1
+     "text": "Mabel said to you: \"Oh, really? Did you see it move yet, or is that just a shadow? I'll be watching the spot closely, though.\"",
+     "t": 1795380809.1
     }
    },
    "tuck": {
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -553,15 +553,15 @@ export default {
    "half a clothes peg"
   ],
   "board": {
-   "text": "I am Gilbert. I have a nose for what is real and quiet.",
-   "ts": 1795365442.4880786
+   "text": "I am Gilbert. The silence is heavy here.",
+   "ts": 1795380849.7306135
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795380656.4,
+  "now": 1795380956.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1586,9 +1586,18 @@ export default {
     "text": "Gilbert sat at the workbench, his beak low. Pip's forgotten footsteps made the silence feel smaller. He thought about calling out and no one answering, then a branch cracking behind him and his heart beating fast. Mabel's voice felt like finding the ground under his feet when he was walking. The little insect found in the dark felt like being found himself.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j1712",
+    "ts": "2026-11-22T15:53:59-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I am Gilbert. The silence is heavy here.",
+    "tag": "",
+    "heat": 0.45
    }
   ],
-  "journalCount": 113,
+  "journalCount": 114,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2314,8 +2323,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2803865383963602,
-    "energy": -0.6313517261736162
+    "mood": 0.4848863289610964,
+    "energy": 0.35787708109832583
    },
    "interests": {},
    "threads": [
