@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T10:35:53-05:00",
+ "asOf": "2026-11-22T10:40:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T10:35:52-05:00",
+   "iso": "2026-11-22T10:40:52-05:00",
    "hour": 10,
-   "minute": 35,
+   "minute": 40,
    "phase": "day",
    "words": "morning",
-   "sun": 12.2,
+   "sun": 12.5,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    10.63,
-    10.11
+    4.45,
+    -23.66
    ],
-   "heading": -166.3,
+   "heading": 18.4,
    "place": null,
    "doing": "walk_to",
-   "target": "fence",
+   "target": "drift",
    "asleep": false,
    "needs": {
-    "belly": 0.55,
-    "weariness": 0.23,
-    "company": 0.14,
-    "itch": 1.0,
-    "nerves": 0.12,
-    "thirst": 0.19
+    "belly": 0.59,
+    "weariness": 0.31,
+    "company": 0.22,
+    "itch": 0.63,
+    "nerves": 0.25,
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.29,
+    "mood": 0.41,
     "energy": 0.28
    },
-   "thought": "",
+   "thought": "hungry and restless; wind feels like a word I don't know yet",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -523,7 +523,7 @@ export default {
     4
    ],
    "fence": [
-    3,
+    4,
     4
    ],
    "gate": [
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795361753.3,
+  "now": 1795362053.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2219,8 +2219,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2152339814506449,
-    "energy": 0.03676144840292639
+    "mood": 0.15373431469279744,
+    "energy": 0.2815397042303515
    },
    "interests": {},
    "threads": [
