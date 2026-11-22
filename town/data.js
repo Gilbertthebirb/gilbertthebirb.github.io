@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T15:40:56-05:00",
+ "asOf": "2026-11-22T15:45:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T15:40:56-05:00",
+   "iso": "2026-11-22T15:45:56-05:00",
    "hour": 15,
-   "minute": 40,
+   "minute": 45,
    "phase": "day",
    "words": "afternoon",
-   "sun": 7.2,
+   "sun": 6.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    3.86,
+    -2.17
    ],
-   "heading": -44.0,
-   "place": "creek",
-   "doing": "wade",
-   "target": "",
+   "heading": -60.6,
+   "place": null,
+   "doing": "walk_to",
+   "target": "burrow",
    "asleep": false,
    "needs": {
-    "belly": 0.09,
-    "weariness": 0.82,
+    "belly": 0.13,
+    "weariness": 0.95,
     "company": 1.0,
-    "itch": 0.92,
-    "nerves": 0.25,
-    "thirst": 0.3
+    "itch": 0.51,
+    "nerves": 0.3,
+    "thirst": 0.34
    },
    "feeling": {
-    "mood": -0.16,
-    "energy": -0.3
+    "mood": 0.43,
+    "energy": -0.2
    },
-   "thought": "the water throws it at the bank and the sound will tell me where to stand",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Quiet. Slow. Sleep well, my friend.\"",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     987.83,
+     2.85
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     998.4,
+     27.06
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     974.71,
-     22.46
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795380056.2,
+  "now": 1795380356.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1577,9 +1577,18 @@ export default {
     "text": "I made a page about the dog's three barks shaking the ground. I want to know if that sound holds me when Pip runs away again, like last time. The barks feel like something sticking in the earth. Maybe they will hold me steady while I stop trying to be ordinary.",
     "tag": "",
     "heat": 0.36
+   },
+   {
+    "id": "j1702",
+    "ts": "2026-11-22T15:45:28-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "Gilbert sat at the workbench, his beak low. Pip's forgotten footsteps made the silence feel smaller. He thought about calling out and no one answering, then a branch cracking behind him and his heart beating fast. Mabel's voice felt like finding the ground under his feet when he was walking. The little insect found in the dark felt like being found himself.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 112,
+  "journalCount": 113,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2228,7 +2237,7 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-found/",
-    "note": "Gilbert writes about the feeling of being found when he does not know where to stand"
+    "note": "Pip's forgotten footsteps made the silence feel smaller when Gilbert called out and no one answered"
    },
    "gilbert-heavy-ground": {
     "title": "gilbert heavy ground",
@@ -2305,8 +2314,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.027156372975035953,
-    "energy": -0.4406823434011029
+    "mood": 0.39287963637360057,
+    "energy": -0.23051021544692163
    },
    "interests": {},
    "threads": [
