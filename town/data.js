@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T20:54:49-05:00",
+ "asOf": "2026-11-21T20:59:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T20:54:48-05:00",
+   "iso": "2026-11-21T20:59:48-05:00",
    "hour": 20,
-   "minute": 54,
+   "minute": 59,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -36.3,
+   "sun": -37.1,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    41.0,
-    7.0
+    -13.65,
+    18.35
    ],
-   "heading": 103.8,
-   "place": "heap",
-   "doing": null,
-   "target": null,
+   "heading": 45.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "moss",
    "asleep": false,
    "needs": {
-    "belly": 0.15,
-    "weariness": 0.3,
-    "company": 0.4,
+    "belly": 0.19,
+    "weariness": 0.34,
+    "company": 0.33,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": 0.32,
-    "energy": -0.19
+    "mood": 0.45,
+    "energy": -0.13
    },
-   "thought": "I am quiet, but my legs have words to say and they need to move.",
+   "thought": "the sound of water will tell me where to stand again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Maybe. Far away. Cold.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     991.12,
+     -8.88
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795312489.4,
+  "now": 1795312789.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1927,8 +1927,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3361395613967218,
-    "energy": -0.18259540088528006
+    "mood": 0.6913759984228636,
+    "energy": 0.03961268952410149
    },
    "interests": {
     "the subject": 0.21
