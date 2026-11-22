@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T21:44:49-05:00",
+ "asOf": "2026-11-21T21:49:50-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T21:44:48-05:00",
+   "iso": "2026-11-21T21:49:50-05:00",
    "hour": 21,
-   "minute": 44,
+   "minute": 49,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -43.5,
+   "sun": -44.2,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    14.0,
-    24.0
+    16.0,
+    -9.0
    ],
-   "heading": -98.1,
-   "place": "log",
-   "doing": "sit",
-   "target": "",
+   "heading": 176.5,
+   "place": "shed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.56,
-    "weariness": 0.79,
-    "company": 0.16,
-    "itch": 0.58,
+    "belly": 0.61,
+    "weariness": 0.95,
+    "company": 0.24,
+    "itch": 0.13,
     "nerves": 0.0,
-    "thirst": 0.45
+    "thirst": 0.49
    },
    "feeling": {
-    "mood": 0.48,
-    "energy": 0.06
+    "mood": 0.41,
+    "energy": -0.41
    },
-   "thought": "let the darkness teach me first",
+   "thought": "because my legs have words to say and I need to hold them safe.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel hopped over quickly to check the board for any changes since yesterday. She peered closely at his new pin while keeping her eyes glued to him.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795315489.9,
+  "now": 1795315790.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1329,9 +1329,18 @@ export default {
     "text": "I wrote about Mabel's voice calling me back to what was before. The workbench held me steady when she spoke, and the silence didn't ask for an answer — it just was. When her words reach through the dark, my weight comes down like a branch settling after rain.",
     "tag": "",
     "heat": 0.52
+   },
+   {
+    "id": "j1371",
+    "ts": "2026-11-21T21:49:41-05:00",
+    "kind": "journal",
+    "wake": 29,
+    "text": "I went back to the long-beak page and wrote about finding that tiny insect all by myself in the dark. It felt strange, how being alone could be being found. I danced until my legs stopped speaking, then waited instead. Old Tuck said nothing more than breathing through the quiet. I did not call out this time. I just let the silence come smaller.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 94,
+  "journalCount": 95,
   "memory": {
    "sleeps": 19,
    "next_id": 36,
@@ -1803,7 +1812,7 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-long-beak/",
-    "note": "Gilbert found a tiny insect with his long beak in the dark"
+    "note": "Gilbert writes about finding the tiny insect alone in the dark, and how it feels like being found wh"
    },
    "gilbert-steady-clouds": {
     "title": "gilbert steady clouds",
@@ -1944,8 +1953,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.36876138424451227,
-    "energy": -0.035368278973055056
+    "mood": 0.77878884464251,
+    "energy": -0.1856665000222088
    },
    "interests": {
     "the subject": 0.21
