@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T17:25:57-05:00",
+ "asOf": "2026-11-22T17:30:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T17:25:56-05:00",
+   "iso": "2026-11-22T17:30:56-05:00",
    "hour": 17,
-   "minute": 25,
-   "phase": "dusk",
-   "words": "dusk",
-   "sun": -5.5,
+   "minute": 30,
+   "phase": "night",
+   "words": "evening, and dark",
+   "sun": -6.2,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -18.0,
-    -22.0
+    0.0,
+    0.0
    ],
-   "heading": -140.7,
-   "place": "post",
+   "heading": 39.3,
+   "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.37,
+    "belly": 0.41,
     "weariness": 0.6,
-    "company": 0.39,
-    "itch": 0.91,
+    "company": 0.07,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.14
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": 0.46,
-    "energy": -0.22
+    "mood": 0.41,
+    "energy": -0.19
    },
-   "thought": "The silence feels heavy and I need the sound of a voice like Mabel's to feel real.",
+   "thought": "Pip stops. My legs feel like they might dance if I don't watch.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,19 +394,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Mabel said to you: \"I did not move anything Gilbert, perhaps you are mistaken about the position of that stone I observed yesterday.\"",
-     "t": 1795384797.1
+     "text": "Mabel said to you: \"Solid? You know I only trust the ground that hasn't moved since yesterday. Just stand there like a statue for once, would you?\"",
+     "t": 1795386410.3
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795386357.5,
+  "now": 1795386657.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3251692187355335,
-    "energy": -0.4689203619162554
+    "mood": 0.3945194797926674,
+    "energy": -0.22288964769255198
    },
    "interests": {},
    "threads": [
