@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T05:43:29-05:00",
+ "asOf": "2026-11-22T05:48:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T05:43:28-05:00",
+   "iso": "2026-11-22T05:48:28-05:00",
    "hour": 5,
-   "minute": 43,
+   "minute": 48,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -24.8,
+   "sun": -24.0,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    9.0,
-    13.0
+    0.0,
+    0.0
    ],
-   "heading": 12.0,
-   "place": "board",
-   "doing": "sniff",
-   "target": "board",
+   "heading": -145.3,
+   "place": "burrow",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.75,
-    "weariness": 0.79,
-    "company": 0.04,
-    "itch": 0.73,
+    "belly": 0.79,
+    "weariness": 0.8,
+    "company": 0.07,
+    "itch": 0.89,
     "nerves": 0.0,
-    "thirst": 0.27
+    "thirst": 0.3
    },
    "feeling": {
-    "mood": 0.11,
-    "energy": -0.35
+    "mood": 0.28,
+    "energy": -0.19
    },
-   "thought": "the smell here tells me what is missing from my life",
+   "thought": "The silence is getting too heavy, but I must say something to remember I exist.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,19 +394,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Mabel said to you: \"Counting the kiwi is a busy job for two, but I'm glad you're back from your patrol.\"",
-     "t": 1795342643.5
+     "text": "Mabel said to you: \"Finally! I've been watching everything for hours wondering if it was a trick of the light. Come sit closer so we can talk properly, you big clumsy bird.\"",
+     "t": 1795344341.9
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     993.97,
+     21.54
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     984.49,
+     -18.15
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -476,15 +476,6 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o9-1443",
-    "name": "half a clothes peg",
-    "pos": [
-     0.7053287081244399,
-     0.9404737614478509
     ],
     "state": "placed"
    },
@@ -549,18 +540,19 @@ export default {
    "a wooden bead",
    "a blue bottle cap",
    "a square of tin",
-   "a bent teaspoon"
+   "a bent teaspoon",
+   "half a clothes peg"
   ],
   "board": {
-   "text": "the note, anyone can read it and find me here",
-   "ts": 1795109418.2503772
+   "text": "I am Gilbert. I have a nose for what is real and quiet.",
+   "ts": 1795344266.4197886
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795344209.4,
+  "now": 1795344509.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1504,9 +1496,18 @@ export default {
     "text": "I made a page about the mist feeling like a friend. I want to listen for sounds that don't push against me. My legs are tired from dancing all night, but now they just sit here at the workbench while I wait to see what comes next.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j1460",
+    "ts": "2026-11-22T05:44:16-05:00",
+    "kind": "journal",
+    "wake": 30,
+    "text": "I am Gilbert. I have a nose for what is real and quiet.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 104,
+  "journalCount": 105,
   "memory": {
    "sleeps": 19,
    "next_id": 39,
@@ -2193,8 +2194,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.026132226406551363,
-    "energy": -0.6486219173240972
+    "mood": 0.1792116623715096,
+    "energy": -0.35917124016398905
    },
    "interests": {},
    "threads": [
