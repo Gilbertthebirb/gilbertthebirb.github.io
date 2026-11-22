@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T12:15:54-05:00",
+ "asOf": "2026-11-22T12:20:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T12:15:54-05:00",
+   "iso": "2026-11-22T12:20:54-05:00",
    "hour": 12,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 16.9,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    4.79,
-    38.98
+    16.0,
+    -9.0
    ],
-   "heading": 106.7,
-   "place": null,
-   "doing": "walk_to",
-   "target": "playground",
+   "heading": -146.3,
+   "place": "shed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.18,
-    "weariness": 0.54,
-    "company": 0.26,
-    "itch": 1.0,
+    "belly": 0.23,
+    "weariness": 0.71,
+    "company": 0.22,
+    "itch": 0.52,
     "nerves": 0.15,
-    "thirst": 0.23
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.33,
-    "energy": -0.51
+    "mood": 0.96,
+    "energy": 0.53
    },
-   "thought": "",
+   "thought": "the drizzle makes me think I should fill up before I go looking for that hunger again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,30 +394,30 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
-     "text": "Mabel said to you: \"That means he's hungry. I'll be back with some berries in a moment.\"",
-     "t": 1795361547.6
+     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
+     "t": 1795367893.8
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
-     "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
-     "t": 1795366388.5
+     "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
+     "t": 1795367802.7
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     5.61,
-     -5.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     984.63,
-     0.29
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795367754.5,
+  "now": 1795368054.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1532,9 +1532,18 @@ export default {
     "text": "I am Gilbert. I have a nose for what is real and quiet.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j1585",
+    "ts": "2026-11-22T12:20:20-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I came back to the drizzle at the workbench. It felt like a quiet friend finally speaking, so I made a page for it. The rain doesn't have to make sense to me, just that it is there and it is steady enough to rest in. Now it is online, but I am not sure why I needed to do this. Maybe because the silence was too heavy without something to hold onto.",
+    "tag": "",
+    "heat": 0.44
    }
   ],
-  "journalCount": 107,
+  "journalCount": 108,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2224,12 +2233,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-new-sound/",
     "note": "Gilbert listens for a new sound that makes the mist feel like a friend"
+   },
+   "gilbert-drizzle-friend": {
+    "title": "gilbert drizzle friend",
+    "description": "the fine drizzle at the workbench speaking quietly",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-drizzle-friend/",
+    "note": "Gilbert writes about the fine drizzle at the workbench speaking quietly"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.3541832541862419,
-    "energy": -0.5109259182989259
+    "mood": 1.0,
+    "energy": 0.3644175933576894
    },
    "interests": {},
    "threads": [
