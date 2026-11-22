@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T14:40:55-05:00",
+ "asOf": "2026-11-22T14:45:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T14:40:54-05:00",
+   "iso": "2026-11-22T14:45:54-05:00",
    "hour": 14,
-   "minute": 40,
+   "minute": 45,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.5,
+   "sun": 12.1,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    1.93,
+    5.58
    ],
-   "heading": -31.0,
-   "place": "moss",
-   "doing": "hide",
-   "target": "",
+   "heading": 136.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "shed",
    "asleep": false,
    "needs": {
-    "belly": 0.19,
+    "belly": 0.23,
     "weariness": 0.83,
-    "company": 0.44,
+    "company": 0.52,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.27
+    "thirst": 0.3
    },
    "feeling": {
-    "mood": 0.18,
-    "energy": -0.53
+    "mood": -0.05,
+    "energy": -0.51
    },
-   "thought": "I need something real to hold while the rest of the world spins fast",
+   "thought": "company is heavy now",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Quiet. Slow. Sleep well, my friend.\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795376455.7,
+  "now": 1795376755.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2279,8 +2279,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.18557517450092859,
-    "energy": -0.5078997005033115
+    "mood": 0.04672582316365774,
+    "energy": -0.5231137598613931
    },
    "interests": {},
    "threads": [
