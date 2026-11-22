@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T19:17:13-05:00",
+ "asOf": "2026-11-21T19:22:13-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T19:17:12-05:00",
+   "iso": "2026-11-21T19:22:12-05:00",
    "hour": 19,
-   "minute": 17,
+   "minute": 22,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -21.6,
+   "sun": -22.3,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -21,24 +21,24 @@ export default {
     0.0,
     0.0
    ],
-   "heading": 149.0,
+   "heading": 108.4,
    "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.14,
+    "belly": 0.18,
     "weariness": 0.91,
-    "company": 0.13,
-    "itch": 0.57,
+    "company": 0.21,
+    "itch": 0.74,
     "nerves": 0.0,
-    "thirst": 0.24
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": 0.3,
-    "energy": -0.31
+    "mood": 0.39,
+    "energy": -0.48
    },
-   "thought": "The dark feels heavy and my belly is still quiet, so I need to make myself heard before the night closes in again.",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1011.1,
-     16.8
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795306633.7,
+  "now": 1795306933.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1849,8 +1849,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4613230441897491,
-    "energy": 0.4835315360101331
+    "mood": 0.5291007552510822,
+    "energy": -0.23411433409833582
    },
    "interests": {
     "the subject": 0.26
