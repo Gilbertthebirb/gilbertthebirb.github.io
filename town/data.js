@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T17:50:57-05:00",
+ "asOf": "2026-11-22T17:55:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T17:50:56-05:00",
+   "iso": "2026-11-22T17:55:56-05:00",
    "hour": 17,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -9.0,
+   "sun": -9.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": -31.0,
-   "place": "moss",
-   "doing": "sit",
-   "target": "",
+   "heading": -135.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.28,
-    "weariness": 0.74,
-    "company": 0.4,
-    "itch": 0.91,
+    "belly": 0.32,
+    "weariness": 0.78,
+    "company": 0.48,
+    "itch": 0.9,
     "nerves": 0.0,
-    "thirst": 0.3
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": 0.32,
+    "mood": 0.31,
     "energy": -0.35
    },
-   "thought": "my legs have finished speaking and the dark feels heavy; I need to rest before moving again",
+   "thought": "the legs have words but the throat is full of cold silence",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     996.59,
-     1.4
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     954.53,
+     29.8
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795387857.9,
+  "now": 1795388157.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.15739573968448983,
-    "energy": -0.33234147356292165
+    "mood": 0.18099956401472614,
+    "energy": -0.26985352122607625
    },
    "interests": {},
    "threads": [
