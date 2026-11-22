@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T21:59:50-05:00",
+ "asOf": "2026-11-21T22:04:50-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T21:59:50-05:00",
-   "hour": 21,
-   "minute": 59,
+   "iso": "2026-11-21T22:04:50-05:00",
+   "hour": 22,
+   "minute": 4,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -45.5,
+   "sun": -46.2,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    0.5,
+    -2.41
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 113.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "shed",
    "asleep": false,
    "needs": {
-    "belly": 0.39,
-    "weariness": 0.96,
-    "company": 0.41,
-    "itch": 0.46,
-    "nerves": 0.1,
-    "thirst": 0.05
+    "belly": 0.43,
+    "weariness": 0.97,
+    "company": 0.49,
+    "itch": 0.63,
+    "nerves": 0.12,
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.29,
-    "energy": -0.5
+    "mood": 0.06,
+    "energy": -0.68
    },
-   "thought": "the wind sings and the larva is full; I can stand here until the world feels like home",
+   "thought": "the beak needs something to hold until it has an edge",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -24.086815795502343,
+     8.641358990628301
     ],
     "state": "placed"
    },
@@ -468,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795316390.1,
+  "now": 1795316690.2,
   "visitors": {},
   "letters": [],
   "took": [],
