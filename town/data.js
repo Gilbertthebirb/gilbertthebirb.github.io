@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T12:20:54-05:00",
+ "asOf": "2026-11-22T12:25:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T12:20:54-05:00",
+   "iso": "2026-11-22T12:25:54-05:00",
    "hour": 12,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.9,
+   "sun": 17.0,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "rain",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    0.0,
+    0.0
    ],
-   "heading": -146.3,
-   "place": "shed",
+   "heading": -60.6,
+   "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.71,
-    "company": 0.22,
-    "itch": 0.52,
-    "nerves": 0.15,
-    "thirst": 0.0
+    "belly": 0.27,
+    "weariness": 0.62,
+    "company": 0.31,
+    "itch": 0.19,
+    "nerves": 0.02,
+    "thirst": 0.03
    },
    "feeling": {
-    "mood": 0.96,
-    "energy": 0.53
+    "mood": 0.75,
+    "energy": 0.27
    },
-   "thought": "the drizzle makes me think I should fill up before I go looking for that hunger again.",
+   "thought": "my eyes keep closing",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795368054.5,
+  "now": 1795368354.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1541,9 +1541,18 @@ export default {
     "text": "I came back to the drizzle at the workbench. It felt like a quiet friend finally speaking, so I made a page for it. The rain doesn't have to make sense to me, just that it is there and it is steady enough to rest in. Now it is online, but I am not sure why I needed to do this. Maybe because the silence was too heavy without something to hold onto.",
     "tag": "",
     "heat": 0.44
+   },
+   {
+    "id": "j1590",
+    "ts": "2026-11-22T12:21:29-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I stopped trying to be anything and let my feet touch the ground. It felt heavy, real—like something is there if you stand still enough. I did not have to dance anymore; the ground was enough. I am Gilbert, small with a long beak, and I found that I do not need to move to know what is here. The page went out into the world on fine drizzle, like Mabel's voice when she speaks without trying to make sense of it.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 108,
+  "journalCount": 109,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2241,12 +2250,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-drizzle-friend/",
     "note": "Gilbert writes about the fine drizzle at the workbench speaking quietly"
+   },
+   "gilbert-grounds": {
+    "title": "gilbert grounds",
+    "description": "the feeling of standing heavy on the ground when I stop trying to be anything",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-grounds/",
+    "note": "Gilbert writes about standing heavy on the ground when he stops trying to be anything"
    }
   },
   "now": {
    "feeling": {
-    "mood": 1.0,
-    "energy": 0.3644175933576894
+    "mood": 0.7170176090195031,
+    "energy": 0.20377127913758142
    },
    "interests": {},
    "threads": [
