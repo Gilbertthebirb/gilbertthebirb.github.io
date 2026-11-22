@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T05:58:29-05:00",
+ "asOf": "2026-11-22T06:03:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T05:58:28-05:00",
-   "hour": 5,
-   "minute": 58,
+   "iso": "2026-11-22T06:03:28-05:00",
+   "hour": 6,
+   "minute": 3,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -22.5,
+   "sun": -21.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,28 +23,25 @@ export default {
    ],
    "heading": -112.6,
    "place": "drift",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.58,
+    "belly": 0.62,
     "weariness": 0.84,
-    "company": 0.24,
+    "company": 0.12,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.37
+    "thirst": 0.4
    },
    "feeling": {
     "mood": 0.12,
-    "energy": -0.44
+    "energy": -0.22
    },
-   "thought": "the rain tells me where to stand and the weight of this wire is heavy enough to stop the dancing now",
+   "thought": "her voice stops the silence and makes my beak feel less heavy",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth",
-    "a coil of thin wire"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -397,19 +394,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
-     "text": "Mabel said to you: \"Finally! I've been watching everything for hours wondering if it was a trick of the light. Come sit closer so we can talk properly, you big clumsy bird.\"",
-     "t": 1795344341.9
+     "text": "Mabel said to you: \"Counting what? Did you count a new blue wren since I saw it yesterday?\"",
+     "t": 1795345386.8
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -419,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -430,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -441,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -452,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -492,11 +489,29 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     5.798527162929451,
+     -20.61588984287758
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
      40.164661073933196,
      -5.832826649379447
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     5.297259578222986,
+     -21.287993202428126
     ],
     "state": "placed"
    }
@@ -546,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795345109.5,
+  "now": 1795345409.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2188,8 +2203,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.12435068879280148,
-    "energy": -0.42938290427201686
+    "mood": 0.006754085731620778,
+    "energy": -0.5592131189520769
    },
    "interests": {},
    "threads": [
