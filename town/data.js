@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T19:07:13-05:00",
+ "asOf": "2026-11-21T19:12:13-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T19:07:12-05:00",
+   "iso": "2026-11-21T19:12:12-05:00",
    "hour": 19,
-   "minute": 7,
+   "minute": 12,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -20.0,
+   "sun": -20.8,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -21,24 +21,24 @@ export default {
     0.0,
     0.0
    ],
-   "heading": 108.4,
+   "heading": -60.6,
    "place": "burrow",
-   "doing": "dance",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.36,
-    "weariness": 0.71,
-    "company": 0.17,
-    "itch": 0.86,
+    "belly": 0.4,
+    "weariness": 0.9,
+    "company": 0.19,
+    "itch": 0.41,
     "nerves": 0.0,
-    "thirst": 0.17
+    "thirst": 0.2
    },
    "feeling": {
-    "mood": 0.23,
-    "energy": -0.42
+    "mood": 0.91,
+    "energy": 0.62
    },
-   "thought": "the silence is too heavy; my legs need a place to stand before I look at the others again",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,19 +322,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
-     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
-     "t": 1795301198.5
+     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
+     "t": 1795306143.8
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     20.89,
+     24.98
     ],
     "said": {
      "text": "Old Tuck said to you: \"Maybe. Far away. Cold.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -6.35,
-     -10.25
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Did you see the spider? Oh wait, my wings are itchy. Hey look at a fly!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1019.66,
+     0.17
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795306033.6,
+  "now": 1795306333.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1275,9 +1275,18 @@ export default {
     "text": "I sat at the workbench with the fine drizzle falling. The page for the tiny insect I found in the dark is now online — it makes the silence feel smaller when he stops trying to be anything. Pip followed me and forgot why, but that made the silence smaller too. Mabel's voice is somewhere near. The ground feels steady when I stop looking for answers.",
     "tag": "",
     "heat": 0.41
+   },
+   {
+    "id": "j1270",
+    "ts": "2026-11-21T19:11:38-05:00",
+    "kind": "journal",
+    "wake": 28,
+    "text": "I wrote a page about the feeling of being found when I don't know where to stand. Pip followed me and forgot why, but that made the silence smaller. Mabel's voice was ground under my feet. I danced until my legs could not speak anymore. It is quiet now, in this drizzle. The workbench feels like it knows what I am trying to find.",
+    "tag": "",
+    "heat": 0.48
    }
   ],
-  "journalCount": 88,
+  "journalCount": 89,
   "memory": {
    "sleeps": 18,
    "next_id": 34,
@@ -1828,12 +1837,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-tiny-insect/",
     "note": "Gilbert writes about the tiny insect found in the dark, making the silence feel smaller and the grou"
+   },
+   "gilbert-found": {
+    "title": "gilbert found",
+    "description": "the feeling of being found when I do not know where to stand",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-found/",
+    "note": "Gilbert writes about the feeling of being found when he does not know where to stand"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.12009103239002726,
-    "energy": -0.6330555905899291
+    "mood": 1.0,
+    "energy": 0.5109193240593498
    },
    "interests": {
     "the subject": 0.26
