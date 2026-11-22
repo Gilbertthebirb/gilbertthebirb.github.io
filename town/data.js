@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T20:19:49-05:00",
+ "asOf": "2026-11-21T20:24:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T20:19:48-05:00",
+   "iso": "2026-11-21T20:24:48-05:00",
    "hour": 20,
-   "minute": 19,
+   "minute": 24,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -31.1,
+   "sun": -31.8,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -1.88,
-    -28.88
+    -14.97,
+    4.99
    ],
-   "heading": -176.3,
+   "heading": -71.6,
    "place": null,
    "doing": "walk_to",
-   "target": "fence",
+   "target": "creek",
    "asleep": false,
    "needs": {
-    "belly": 0.46,
-    "weariness": 0.08,
-    "company": 0.34,
-    "itch": 1.0,
+    "belly": 0.5,
+    "weariness": 0.16,
+    "company": 0.42,
+    "itch": 0.67,
     "nerves": 0.0,
-    "thirst": 0.38
+    "thirst": 0.41
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.66
+    "mood": 0.43,
+    "energy": 0.06
    },
-   "thought": "",
+   "thought": "\"I'm tired of waiting for an answer. Water moves without needing one.\",",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16,
-     -9
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
@@ -333,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     18.0,
+     24.57
     ],
     "said": {
      "text": "Old Tuck said to you: \"Maybe. Far away. Cold.\"",
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5,
-     -22
+     2.03,
+     -14.65
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     1026.73,
+     -6.18
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -442,7 +442,7 @@ export default {
     4
    ],
    "fence": [
-    2,
+    3,
     4
    ],
    "gate": [
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795310389.1,
+  "now": 1795310689.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1927,8 +1927,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.28157972685530097,
-    "energy": -0.6656910075291793
+    "mood": 0.6275041754279611,
+    "energy": 0.083566272869879
    },
    "interests": {
     "the subject": 0.21
@@ -1941,7 +1941,7 @@ export default {
    "lastResult": "",
    "wake": 29,
    "awakeSince": "",
-   "lastDream": "A brass button sits warm on the shelf while a cold peck echoes inside my burrow. Mabel says \"always on duty\" to an empty air."
+   "lastDream": "I dreamed the grey sailcloth with its brass eyelet was where I could stand still, stitched into the wall where I scratched my name hoping someone would speak it back. Now the silence is thick as rain, and Mabel's voice feels too far away to chase."
   }
  }
 };
