@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T05:13:29-05:00",
+ "asOf": "2026-11-22T05:18:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T05:13:28-05:00",
+   "iso": "2026-11-22T05:18:28-05:00",
    "hour": 5,
-   "minute": 13,
+   "minute": 18,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -29.3,
+   "sun": -28.6,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.5,
-    "weariness": 0.71,
-    "company": 0.1,
-    "itch": 0.09,
+    "belly": 0.54,
+    "weariness": 1.0,
+    "company": 0.12,
+    "itch": 0.01,
     "nerves": 0.0,
-    "thirst": 0.07
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.44,
-    "energy": -0.11
+    "mood": 0.92,
+    "energy": 0.66
    },
-   "thought": "my legs have too many things to say and I need them to move before the silence takes me",
+   "thought": "I need Mabel's sound to hold my empty beak.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -398,15 +398,15 @@ export default {
      -9.0
     ],
     "said": {
-     "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
-     "t": 1795342209.6
+     "text": "Mabel said to you: \"Counting the kiwi is a busy job for two, but I'm glad you're back from your patrol.\"",
+     "t": 1795342643.5
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh Gilbert there! Did you hear that bird? Wait, did you see the shiny stone? Ah yes, hello Gilbert!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -560,7 +560,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795342409.1,
+  "now": 1795342709.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1486,9 +1486,27 @@ export default {
     "text": "The last of the night was mist over the ground, and I felt very good, wound tight. I worked on the page about being wound tight when nothing is happening, to know what makes me feel alive without needing Mabel or Pip. It took a while to find the right words for that feeling in my long beak, but now it sits online like something waiting for morning.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j1439",
+    "ts": "2026-11-22T05:14:58-05:00",
+    "kind": "journal",
+    "wake": 30,
+    "text": "I went back to my page about feeling wound tight when nothing is happening. I added the moment Mabel's voice found the ground under my feet again. When she said I am clumsy, it felt less like being caught out and more like someone else standing next to me in the dark. She did not ask about what I found shiny—just stood there and let the sound hold me steady. It made the silence feel smaller, even though she never answered my question back.",
+    "tag": "",
+    "heat": 0.38
+   },
+   {
+    "id": "j1448",
+    "ts": "2026-11-22T05:18:02-05:00",
+    "kind": "journal",
+    "wake": 30,
+    "text": "I made a page about the mist feeling like a friend. I want to listen for sounds that don't push against me. My legs are tired from dancing all night, but now they just sit here at the workbench while I wait to see what comes next.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 102,
+  "journalCount": 104,
   "memory": {
    "sleeps": 19,
    "next_id": 39,
@@ -2162,13 +2180,21 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-wound-tight/",
-    "note": "Gilbert writes about the feeling of being wound tight when nothing is happening"
+    "note": "added Mabel's voice finding the ground under Gilbert's feet, and how her saying I am clumsy felt les"
+   },
+   "gilbert-new-sound": {
+    "title": "gilbert new sound",
+    "description": "listening for a new sound that makes the mist feel like a friend",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-new-sound/",
+    "note": "Gilbert listens for a new sound that makes the mist feel like a friend"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.6045473970840749,
-    "energy": 0.3766639845696995
+    "mood": 1.0,
+    "energy": 1.0
    },
    "interests": {},
    "threads": [
