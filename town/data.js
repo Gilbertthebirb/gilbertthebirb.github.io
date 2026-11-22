@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T05:53:29-05:00",
+ "asOf": "2026-11-22T05:58:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T05:53:28-05:00",
+   "iso": "2026-11-22T05:58:28-05:00",
    "hour": 5,
-   "minute": 53,
+   "minute": 58,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -23.2,
+   "sun": -22.5,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,31 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    41.0,
-    7.0
+    5.0,
+    -22.0
    ],
-   "heading": 80.3,
-   "place": "heap",
-   "doing": null,
-   "target": null,
+   "heading": -112.6,
+   "place": "drift",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.84,
-    "weariness": 0.83,
-    "company": 0.16,
-    "itch": 0.84,
-    "nerves": 0.02,
-    "thirst": 0.34
+    "belly": 0.58,
+    "weariness": 0.84,
+    "company": 0.24,
+    "itch": 1.0,
+    "nerves": 0.05,
+    "thirst": 0.37
    },
    "feeling": {
-    "mood": 0.22,
-    "energy": -0.24
+    "mood": 0.12,
+    "energy": -0.44
    },
-   "thought": "quiet is heavy on these legs but holding the wire makes the dark feel like it has shape",
+   "thought": "the rain tells me where to stand and the weight of this wire is heavy enough to stop the dancing now",
    "said": null,
    "wants_sleep": false,
    "carrying": [
+    "a scrap of sailcloth",
     "a coil of thin wire"
    ],
    "area": "town"
@@ -396,8 +397,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.19,
-     12.42
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Finally! I've been watching everything for hours wondering if it was a trick of the light. Come sit closer so we can talk properly, you big clumsy bird.\"",
@@ -418,8 +419,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     8.66,
-     6.95
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -429,8 +430,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -451,8 +452,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -462,8 +463,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -487,15 +488,6 @@ export default {
     "pos": [
      1.3272720667062945,
      57.902431637744776
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     4.559009702851767,
-     -20.768440802229613
     ],
     "state": "placed"
    },
@@ -554,7 +546,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795344809.5,
+  "now": 1795345109.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2196,8 +2188,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2745709356997495,
-    "energy": -0.23562108034492796
+    "mood": 0.12435068879280148,
+    "energy": -0.42938290427201686
    },
    "interests": {},
    "threads": [
