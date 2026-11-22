@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T18:57:13-05:00",
+ "asOf": "2026-11-21T19:02:13-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T18:57:12-05:00",
-   "hour": 18,
-   "minute": 57,
+   "iso": "2026-11-21T19:02:12-05:00",
+   "hour": 19,
+   "minute": 2,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -18.5,
+   "sun": -19.3,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": -31.0,
-   "place": "moss",
-   "doing": null,
-   "target": null,
+   "heading": -135.0,
+   "place": "creek",
+   "doing": "drink",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.95,
-    "company": 0.0,
-    "itch": 0.53,
+    "belly": 0.31,
+    "weariness": 0.96,
+    "company": 0.09,
+    "itch": 0.69,
     "nerves": 0.0,
-    "thirst": 0.1
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": 0.21,
-    "energy": -0.8
+    "mood": 0.17,
+    "energy": -0.56
    },
-   "thought": "the dark feels heavy; I need a sound to carry me",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -344,8 +344,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Hey Gilbert! Did you see the spider? Oh wait, my wings are itchy. Hey look at a fly!\"",
@@ -355,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1011.17,
+     -0.34
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 26,
-  "now": 1795305433.5,
+  "now": 1795305733.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1832,8 +1832,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3345724568905899,
-    "energy": -0.841600440827336
+    "mood": 0.3468336216046909,
+    "energy": -0.096726778672105
    },
    "interests": {
     "the subject": 0.26
