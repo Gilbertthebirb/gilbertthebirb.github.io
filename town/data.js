@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T15:15:56-05:00",
+ "asOf": "2026-11-22T15:20:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T15:15:56-05:00",
+   "iso": "2026-11-22T15:20:56-05:00",
    "hour": 15,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.6,
+   "sun": 9.1,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -2.67,
-    -40.87
+    -24.0,
+    8.0
    ],
-   "heading": -176.3,
-   "place": null,
-   "doing": "walk_to",
-   "target": "fence",
+   "heading": -44.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.48,
-    "weariness": 0.65,
+    "belly": 0.23,
+    "weariness": 0.68,
     "company": 1.0,
-    "itch": 0.97,
-    "nerves": 0.11,
-    "thirst": 0.14
+    "itch": 1.0,
+    "nerves": 0.25,
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": -0.14,
-    "energy": -0.42
+    "mood": -0.16,
+    "energy": -0.41
    },
-   "thought": "",
+   "thought": "the silence at the leaf drift is too heavy; i need the sound of falling water to feel my feet under my wings again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Quiet. Slow. Sleep well, my friend.\"",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795378556.1,
+  "now": 1795378856.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2305,8 +2305,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.288357582160573,
-    "energy": -0.6327159437921891
+    "mood": 0.003909435079365919,
+    "energy": -0.4294347999511997
    },
    "interests": {},
    "threads": [
