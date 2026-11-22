@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T18:30:58-05:00",
+ "asOf": "2026-11-22T18:35:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T18:30:58-05:00",
+   "iso": "2026-11-22T18:35:58-05:00",
    "hour": 18,
-   "minute": 30,
+   "minute": 35,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -14.8,
+   "sun": -15.5,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "cloud",
   "bird": {
    "pos": [
     -12.0,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 45.0,
    "place": "moss",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.31,
+    "belly": 0.05,
     "weariness": 0.84,
-    "company": 0.26,
+    "company": 0.34,
     "itch": 1.0,
-    "nerves": 0.1,
-    "thirst": 0.24
+    "nerves": 0.0,
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.04,
-    "energy": -0.41
+    "mood": 0.22,
+    "energy": -0.43
    },
-   "thought": "I am tired and the dark is loud; sitting feels like finding the ground I need.",
+   "thought": "my legs feel long and tired in this quiet dark",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     6.13,
+     -12.14
     ],
     "said": {
      "text": "Mabel said to you: \"Solid? You know I only trust the ground that hasn't moved since yesterday. Just stand there like a statue for once, would you?\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795390258.3,
+  "now": 1795390558.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.03562452813276892,
-    "energy": -0.4134048939226192
+    "mood": 0.21823692035024267,
+    "energy": -0.4239084878533148
    },
    "interests": {},
    "threads": [
