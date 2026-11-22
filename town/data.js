@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T22:34:50-05:00",
+ "asOf": "2026-11-21T22:39:50-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T22:34:50-05:00",
+   "iso": "2026-11-21T22:39:50-05:00",
    "hour": 22,
-   "minute": 34,
+   "minute": 39,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -49.9,
+   "sun": -50.4,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": "sit",
-   "target": "",
+   "heading": 45.0,
+   "place": "moss",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.08,
-    "weariness": 0.77,
-    "company": 0.03,
-    "itch": 0.99,
+    "belly": 0.12,
+    "weariness": 0.81,
+    "company": 0.11,
+    "itch": 0.97,
     "nerves": 0.0,
-    "thirst": 0.28
+    "thirst": 0.32
    },
    "feeling": {
-    "mood": 0.57,
-    "energy": -0.08
+    "mood": 0.31,
+    "energy": -0.44
    },
-   "thought": "The ground is different here, and I am tired but steady. I need to feel the edge of what I carry before I move again.",
+   "thought": "the peg feels like a stone I can't hold anymore, and my feet need the moss without the weight",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "half a clothes peg"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.63,
-     5.93
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"No way he's staying put! I saw his feathers twitch at the edge of the garden. You better check if that movement was real or just a trick.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1012.02,
-     -2.05
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -406,6 +404,15 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o9-1443",
+    "name": "half a clothes peg",
+    "pos": [
+     -11.257815445044823,
+     20.85427197483082
     ],
     "state": "placed"
    },
@@ -477,7 +484,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795318490.3,
+  "now": 1795318790.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1955,8 +1962,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5961311695935096,
-    "energy": -0.05348902202505512
+    "mood": 0.32292830084896296,
+    "energy": -0.4260654905477434
    },
    "interests": {
     "the subject": 0.21
