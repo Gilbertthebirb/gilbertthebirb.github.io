@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T13:45:55-05:00",
+ "asOf": "2026-11-22T13:50:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T13:45:54-05:00",
+   "iso": "2026-11-22T13:50:54-05:00",
    "hour": 13,
-   "minute": 45,
+   "minute": 50,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 15.7,
+   "sun": 15.4,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -9.04,
+    3.01
    ],
-   "heading": -123.0,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 108.4,
+   "place": null,
+   "doing": "walk_to",
+   "target": "burrow",
    "asleep": false,
    "needs": {
-    "belly": 0.33,
-    "weariness": 0.84,
-    "company": 0.28,
+    "belly": 0.08,
+    "weariness": 0.85,
+    "company": 0.16,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.24
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.04,
-    "energy": -0.5
+    "mood": 0.21,
+    "energy": -0.24
    },
-   "thought": "my legs have too many words and no space for them here",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,19 +416,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -24.0,
+     8.0
     ],
     "said": {
-     "text": "Pip said to you: \"Pip thinks a red berry is crunching! Wait, did you hear a car? No, it's the wind!\"",
-     "t": 1795372364.5
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1795373308.1
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795373155.2,
+  "now": 1795373455.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2279,8 +2279,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.13326743622052764,
-    "energy": -0.547314028885509
+    "mood": 0.29005207665270893,
+    "energy": -0.2164073659326361
    },
    "interests": {},
    "threads": [
