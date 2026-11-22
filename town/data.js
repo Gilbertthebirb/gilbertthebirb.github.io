@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T15:20:56-05:00",
+ "asOf": "2026-11-22T15:25:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T15:20:56-05:00",
+   "iso": "2026-11-22T15:25:56-05:00",
    "hour": 15,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.1,
+   "sun": 8.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.68,
+    "belly": 0.27,
+    "weariness": 0.71,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.25,
-    "thirst": 0.17
+    "nerves": 0.03,
+    "thirst": 0.2
    },
    "feeling": {
-    "mood": -0.16,
-    "energy": -0.41
+    "mood": -0.1,
+    "energy": -0.49
    },
-   "thought": "the silence at the leaf drift is too heavy; i need the sound of falling water to feel my feet under my wings again.",
+   "thought": "the water throws it at the bank and tells me where to stand",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Quiet. Slow. Sleep well, my friend.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795378856.1,
+  "now": 1795379156.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2305,8 +2305,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.003909435079365919,
-    "energy": -0.4294347999511997
+    "mood": -0.10370863845936011,
+    "energy": -0.4919958020066516
    },
    "interests": {},
    "threads": [
