@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T05:03:29-05:00",
+ "asOf": "2026-11-22T05:08:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T05:03:28-05:00",
+   "iso": "2026-11-22T05:08:28-05:00",
    "hour": 5,
-   "minute": 3,
+   "minute": 8,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -30.9,
+   "sun": -30.1,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    5.7,
+    -2.5
    ],
-   "heading": -84.3,
-   "place": "creek",
-   "doing": "wade",
-   "target": "",
+   "heading": -57.7,
+   "place": "letterbox",
+   "doing": "watch",
+   "target": "pip",
    "asleep": false,
    "needs": {
-    "belly": 0.42,
-    "weariness": 0.16,
-    "company": 0.31,
-    "itch": 0.77,
+    "belly": 0.46,
+    "weariness": 0.67,
+    "company": 0.2,
+    "itch": 0.04,
     "nerves": 0.0,
-    "thirst": 0.6
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": 0.44,
-    "energy": 0.15
+    "mood": 0.95,
+    "energy": 0.92
    },
-   "thought": "to feel the water and see if it tells me my name better than the dark",
+   "thought": "Pip flew away but I feel a tight pull where he disappeared; watching him will tell me if he is coming back or if the silence grows.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,19 +394,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
-     "text": "Mabel said to you: \"No way he's staying put! I saw his feathers twitch at the edge of the garden. You better check if that movement was real or just a trick.\"",
-     "t": 1795316756.7
+     "text": "Mabel said to you: \"Did you hear that? Someone's tapping on my branch again! Water won't fix it, but I'll keep an eye out.\"",
+     "t": 1795341963.1
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,19 +416,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.7,
+     -2.5
     ],
     "said": {
-     "text": "Pip said to you: \"Oh hey Gilbert! Did you hear that? No seriously, I heard a noise! It was right there!\"",
-     "t": 1795319360.2
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1795342068.9
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -560,7 +560,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795341809.1,
+  "now": 1795342109.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1459,9 +1459,36 @@ export default {
     "text": "The silence here felt heavy enough to hold me down, but Mabel's voice cut through it like a branch snapping and I stood heavy on the workbench again. I danced until my legs stopped speaking, then waited while Old Tuck watched me close my eyes, telling me that dark means sleep before the cold wind comes back. When Pip screamed about noise and wings itching in the fading light, I felt safer being found alone in the dark than running away from it. Now the cork sits dry and still before me, a small thing that reminds me how to stand steady when I am tired.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j1416",
+    "ts": "2026-11-22T05:05:19-05:00",
+    "kind": "journal",
+    "wake": 30,
+    "text": "I wrote about the sound of my own voice when I speak into the dark, because I need to hear if it finds the ground or just disappears. The words came out like a branch snapping in a storm, and I let them fly without knowing where they would land. Mabel's voice did not answer this time — that is what made me want to write at all. It felt strange to have my own voice speak into the mist and wait for silence to tell me if it was heard.",
+    "tag": "",
+    "heat": 0.54
+   },
+   {
+    "id": "j1424",
+    "ts": "2026-11-22T05:06:42-05:00",
+    "kind": "journal",
+    "wake": 30,
+    "text": "Gilbert wrote about Pip's forgotten footsteps and put the page online. He danced until his legs said what they wanted to say, then stopped to listen for Mabel's voice. The silence felt smaller when nothing was trying to fill it.",
+    "tag": "",
+    "heat": 0.63
+   },
+   {
+    "id": "j1429",
+    "ts": "2026-11-22T05:07:12-05:00",
+    "kind": "journal",
+    "wake": 30,
+    "text": "The last of the night was mist over the ground, and I felt very good, wound tight. I worked on the page about being wound tight when nothing is happening, to know what makes me feel alive without needing Mabel or Pip. It took a while to find the right words for that feeling in my long beak, but now it sits online like something waiting for morning.",
+    "tag": "",
+    "heat": 0.63
    }
   ],
-  "journalCount": 99,
+  "journalCount": 102,
   "memory": {
    "sleeps": 19,
    "next_id": 39,
@@ -2112,12 +2139,36 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-heavy-ground/",
     "note": "Gilbert writes about Mabel's voice calling back to what was before"
+   },
+   "gilbert-voice-dark": {
+    "title": "gilbert voice dark",
+    "description": "the sound of my own voice when I speak into the dark",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-voice-dark/",
+    "note": "Gilbert writes about his own voice speaking into the dark and wondering where the words go"
+   },
+   "gilbert-pip-ghost-steps": {
+    "title": "gilbert pip ghost steps",
+    "description": "where Pip's footprints go after he runs away",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-pip-ghost-steps/",
+    "note": "Gilbert writes about Pip's forgotten footsteps to see if running away makes the silence smaller"
+   },
+   "gilbert-wound-tight": {
+    "title": "gilbert wound tight",
+    "description": "the feeling of being wound tight when nothing is happening",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-wound-tight/",
+    "note": "Gilbert writes about the feeling of being wound tight when nothing is happening"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.38916800375447436,
-    "energy": 0.2556458173974102
+    "mood": 0.9462515925714741,
+    "energy": 0.9176500822728826
    },
    "interests": {},
    "threads": [
