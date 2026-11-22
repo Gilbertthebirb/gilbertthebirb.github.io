@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T12:10:54-05:00",
+ "asOf": "2026-11-22T12:15:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T12:10:54-05:00",
+   "iso": "2026-11-22T12:15:54-05:00",
    "hour": 12,
-   "minute": 10,
+   "minute": 15,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.8,
+   "sun": 16.9,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -22.0,
-    47.0
+    4.79,
+    38.98
    ],
-   "heading": -25.1,
-   "place": "culvert",
-   "doing": "watch",
-   "target": "water",
+   "heading": 106.7,
+   "place": null,
+   "doing": "walk_to",
+   "target": "playground",
    "asleep": false,
    "needs": {
-    "belly": 0.14,
+    "belly": 0.18,
     "weariness": 0.54,
-    "company": 0.18,
-    "itch": 0.95,
+    "company": 0.26,
+    "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.2
+    "thirst": 0.23
    },
    "feeling": {
-    "mood": 0.39,
-    "energy": -0.48
+    "mood": 0.33,
+    "energy": -0.51
    },
-   "thought": "listening for what moves before it does",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"That means he's hungry. I'll be back with some berries in a moment.\"",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.61,
+     -5.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     984.63,
+     0.29
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795367454.4,
+  "now": 1795367754.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2228,8 +2228,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4055382852245809,
-    "energy": -0.4730877107303231
+    "mood": 0.3541832541862419,
+    "energy": -0.5109259182989259
    },
    "interests": {},
    "threads": [
