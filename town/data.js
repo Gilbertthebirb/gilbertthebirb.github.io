@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T14:45:55-05:00",
+ "asOf": "2026-11-22T14:50:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T14:45:54-05:00",
+   "iso": "2026-11-22T14:50:54-05:00",
    "hour": 14,
-   "minute": 45,
+   "minute": 50,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.1,
+   "sun": 11.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    1.93,
-    5.58
+    0.0,
+    0.0
    ],
-   "heading": 136.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "shed",
+   "heading": -60.6,
+   "place": "burrow",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.83,
-    "company": 0.52,
-    "itch": 1.0,
-    "nerves": 0.15,
-    "thirst": 0.3
+    "belly": 0.28,
+    "weariness": 0.72,
+    "company": 0.6,
+    "itch": 0.64,
+    "nerves": 0.0,
+    "thirst": 0.34
    },
    "feeling": {
-    "mood": -0.05,
-    "energy": -0.51
+    "mood": 0.56,
+    "energy": -0.48
    },
-   "thought": "company is heavy now",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795376755.8,
+  "now": 1795377055.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1559,9 +1559,18 @@ export default {
     "text": "I made a page about Mabel's voice landing on the ground. When her words stop moving, they take my place instead of keeping shifting. I feel steadier when she says things and they stay still, like a stone resting on moss. Nothing is happening but it feels like I am somewhere solid. I do not know who I am without trying to be ordinary, but now her voice has something to hold me with while I stop moving myself.",
     "tag": "",
     "heat": 0.38
+   },
+   {
+    "id": "j1662",
+    "ts": "2026-11-22T14:46:50-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "Gilbert sat at his workbench in the shed when the low cloud hung heavy above him. He danced until his legs said what they wanted to say, then called into the dark and felt the silence stretch wide. Pip ran through leaves and left rings on water before he was gone again. When Mabel's voice came back—\"Quiet. Slow.\"—it landed where Gilbert's feet touch, like a stone resting on moss. It did not try to hold anything up; it just was there. In the dark with no answer coming back, he found a tiny insect alone and made the silence feel smaller. He writes now that his voice holds him when her words stop moving and take their own shape.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 110,
+  "journalCount": 111,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2274,13 +2283,13 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-mabel-land/",
-    "note": "Mabel's voice landing on the ground - feeling steadier when her words stop moving"
+    "note": "Mabel's voice settling into the earth — Gilbert writes about how her words hold him when they stop m"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.04672582316365774,
-    "energy": -0.5231137598613931
+    "mood": 0.2753369729265809,
+    "energy": -0.4628890456063225
    },
    "interests": {},
    "threads": [
