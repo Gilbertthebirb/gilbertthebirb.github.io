@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T13:15:54-05:00",
+ "asOf": "2026-11-22T13:20:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T13:15:54-05:00",
+   "iso": "2026-11-22T13:20:54-05:00",
    "hour": 13,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.6,
+   "sun": 16.5,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
-   "doing": "nap",
-   "target": "",
+   "heading": 119.4,
+   "place": "shed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.08,
-    "weariness": 0.84,
-    "company": 0.48,
-    "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.04
+    "belly": 0.13,
+    "weariness": 0.79,
+    "company": 0.56,
+    "itch": 0.44,
+    "nerves": 0.15,
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.26,
-    "energy": -0.58
+    "mood": 0.66,
+    "energy": 0.06
    },
-   "thought": "my legs are heavy and the silence makes me feel small",
+   "thought": "I feel heavy and tired but need a friend to hold me up.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Wow, quiet? Like a tree! But look, see that red mushroom there? Gilbert likes it too! Wait...\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     958.46,
-     28.93
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795371354.9,
+  "now": 1795371654.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1550,9 +1550,18 @@ export default {
     "text": "I stopped trying to be anything and let my feet touch the ground. It felt heavy, real—like something is there if you stand still enough. I did not have to dance anymore; the ground was enough. I am Gilbert, small with a long beak, and I found that I do not need to move to know what is here. The page went out into the world on fine drizzle, like Mabel's voice when she speaks without trying to make sense of it.",
     "tag": "",
     "heat": 0.63
+   },
+   {
+    "id": "j1617",
+    "ts": "2026-11-22T13:18:53-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I made a page about Mabel's voice landing on the ground. When her words stop moving, they take my place instead of keeping shifting. I feel steadier when she says things and they stay still, like a stone resting on moss. Nothing is happening but it feels like I am somewhere solid. I do not know who I am without trying to be ordinary, but now her voice has something to hold me with while I stop moving myself.",
+    "tag": "",
+    "heat": 0.38
    }
   ],
-  "journalCount": 109,
+  "journalCount": 110,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2258,12 +2267,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-grounds/",
     "note": "Gilbert writes about standing heavy on the ground when he stops trying to be anything"
+   },
+   "gilbert-mabel-land": {
+    "title": "gilbert mabel land",
+    "description": "where Mabel's voice lands on the ground",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-mabel-land/",
+    "note": "Mabel's voice landing on the ground - feeling steadier when her words stop moving"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.22183206278972328,
-    "energy": -0.6841217050247311
+    "mood": 1.0,
+    "energy": 0.15169001230834023
    },
    "interests": {},
    "threads": [
