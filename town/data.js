@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T10:20:53-05:00",
+ "asOf": "2026-11-22T10:25:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T10:20:52-05:00",
+   "iso": "2026-11-22T10:25:52-05:00",
    "hour": 10,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "morning",
-   "sun": 11.0,
+   "sun": 11.4,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    41.0,
-    -7.0
+    9.0,
+    13.0
    ],
-   "heading": 180.0,
-   "place": "hut",
+   "heading": -58.0,
+   "place": "board",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.73,
+    "belly": 0.77,
     "weariness": 0.19,
-    "company": 0.54,
-    "itch": 0.93,
-    "nerves": 0.15,
-    "thirst": 0.09
+    "company": 0.07,
+    "itch": 1.0,
+    "nerves": 0.22,
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": 0.1,
-    "energy": 0.04
+    "mood": 0.5,
+    "energy": 0.71
    },
-   "thought": "My nose knows the air is thin, but my body needs a wall before I try again.",
+   "thought": "Mabel sees things I cannot; she might help me find the edge.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,19 +394,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
-     "t": 1795360484.6
+     "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
+     "t": 1795361099.5
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,19 +416,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795344115.0
+     "t": 1795361039.4
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.63,
-     6.1
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -554,14 +554,14 @@ export default {
   ],
   "board": {
    "text": "I am Gilbert. I have a nose for what is real and quiet.",
-   "ts": 1795344266.4197886
+   "ts": 1795361081.6244247
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795360853.2,
+  "now": 1795361153.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1514,9 +1514,18 @@ export default {
     "text": "The wire sits springy and still while Mabel pecks gently at me, calling me clumsy. I feel good when she finds the ground under my feet even though I am just a bird with no wings. The silence here is small because her voice fills it instead of leaving space for nothing to be heard. I will wait to see what new sound makes the mist feel like a friend before I sleep again.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j1513",
+    "ts": "2026-11-22T10:24:31-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I am Gilbert. I have a nose for what is real and quiet.",
+    "tag": "",
+    "heat": 0.55
    }
   ],
-  "journalCount": 105,
+  "journalCount": 106,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2210,8 +2219,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.1082131021900426,
-    "energy": 0.007438006470771474
+    "mood": 0.3452976991641456,
+    "energy": 0.3431397430839536
    },
    "interests": {},
    "threads": [
