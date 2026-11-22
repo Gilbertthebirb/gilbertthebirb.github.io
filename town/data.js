@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T18:00:58-05:00",
+ "asOf": "2026-11-22T18:05:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T18:00:58-05:00",
+   "iso": "2026-11-22T18:05:58-05:00",
    "hour": 18,
-   "minute": 0,
+   "minute": 5,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -10.4,
+   "sun": -11.1,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -8.53,
+    14.22
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": "drink",
-   "target": "",
+   "heading": 149.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "burrow",
    "asleep": false,
    "needs": {
-    "belly": 0.06,
-    "weariness": 0.78,
-    "company": 0.42,
+    "belly": 0.1,
+    "weariness": 0.81,
+    "company": 0.5,
     "itch": 1.0,
-    "nerves": 0.02,
-    "thirst": 0.04
+    "nerves": 0.0,
+    "thirst": 0.08
    },
    "feeling": {
-    "mood": 0.19,
-    "energy": -0.23
+    "mood": 0.12,
+    "energy": -0.34
    },
-   "thought": "the water looks too dark and deep to trust; it does not feel like home here yet",
+   "thought": "i feel tired and need company without moving far; my legs have words to say if i rest first",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795388458.0,
+  "now": 1795388758.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19485736314696714,
-    "energy": -0.23486581785862676
+    "mood": 0.09213571187402078,
+    "energy": -0.2760770867683258
    },
    "interests": {},
    "threads": [
