@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T06:18:29-05:00",
+ "asOf": "2026-11-22T06:23:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T06:18:28-05:00",
+   "iso": "2026-11-22T06:23:28-05:00",
    "hour": 6,
-   "minute": 18,
+   "minute": 23,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -19.5,
+   "sun": -18.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,30 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -22.0,
+    47.0
    ],
-   "heading": -12.8,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": -25.1,
+   "place": "culvert",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.15,
-    "weariness": 0.6,
-    "company": 0.21,
-    "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.5
+    "belly": 0.19,
+    "weariness": 0.64,
+    "company": 0.3,
+    "itch": 0.92,
+    "nerves": 0.05,
+    "thirst": 0.02
    },
    "feeling": {
-    "mood": 0.23,
-    "energy": -0.63
+    "mood": 0.49,
+    "energy": -0.31
    },
-   "thought": "my legs have too many words and my beak is heavy; let the rain cover me so i can hear mabel's voice again before i wake up tired",
+   "thought": "letting the rain wash away the tired legs so the silence feels less like a trap",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth",
-    "a coil of thin wire"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -397,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Silence is boring when you can see the whole world, but I'll listen to that one moment.\"",
@@ -408,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -419,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -430,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1001.04,
-     -0.45
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -463,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -492,11 +489,29 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -22.66921637478869,
+     48.00468052849186
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
      40.164661073933196,
      -5.832826649379447
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     -22.711981779712314,
+     47.666987037118226
     ],
     "state": "placed"
    }
@@ -546,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795346309.7,
+  "now": 1795346609.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2188,8 +2203,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2519183893343896,
-    "energy": -0.7132157531770125
+    "mood": 0.5256359019017947,
+    "energy": -0.29617870161956744
    },
    "interests": {},
    "threads": [
