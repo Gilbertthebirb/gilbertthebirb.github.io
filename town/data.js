@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T22:29:50-05:00",
+ "asOf": "2026-11-21T22:34:50-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T22:29:50-05:00",
+   "iso": "2026-11-21T22:34:50-05:00",
    "hour": 22,
-   "minute": 29,
+   "minute": 34,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -49.3,
+   "sun": -49.9,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "burrow",
-   "doing": "nap",
+   "heading": -71.6,
+   "place": "creek",
+   "doing": "sit",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.04,
-    "weariness": 0.99,
-    "company": 0.35,
-    "itch": 1.0,
+    "belly": 0.08,
+    "weariness": 0.77,
+    "company": 0.03,
+    "itch": 0.99,
     "nerves": 0.0,
-    "thirst": 0.25
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.3,
-    "energy": -0.31
+    "mood": 0.57,
+    "energy": -0.08
    },
-   "thought": "The dark feels too wide right now, even though my feet itch to move; sleeping will let me wake up again as someone else.",
+   "thought": "The ground is different here, and I am tired but steady. I need to feel the edge of what I carry before I move again.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "half a clothes peg"
+   ],
    "area": "town"
   },
   "places": {
@@ -322,8 +324,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.63,
+     5.93
     ],
     "said": {
      "text": "Mabel said to you: \"No way he's staying put! I saw his feathers twitch at the edge of the garden. You better check if that movement was real or just a trick.\"",
@@ -333,8 +335,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -344,19 +346,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
-     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795317968.5
+     "text": "Pip said to you: \"Hi! Hey there Gilbert. Did you see a fly? Oh my, the sun is so bright! It's going down. Wait, did you hear that noise?\"",
+     "t": 1795318392.3
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1012.02,
+     -2.05
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +368,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1024.12,
-     1.63
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +379,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -404,15 +406,6 @@ export default {
     "pos": [
      29.286324604339296,
      -32.66895646809095
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o9-1443",
-    "name": "half a clothes peg",
-    "pos": [
-     -22.8988991272296,
-     9.29030247130637
     ],
     "state": "placed"
    },
@@ -484,7 +477,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795318190.3,
+  "now": 1795318490.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1962,8 +1955,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.232445530988383,
-    "energy": -0.5939864794841159
+    "mood": 0.5961311695935096,
+    "energy": -0.05348902202505512
    },
    "interests": {
     "the subject": 0.21
