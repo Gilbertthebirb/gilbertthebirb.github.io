@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T10:00:53-05:00",
+ "asOf": "2026-11-22T10:05:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T10:00:52-05:00",
+   "iso": "2026-11-22T10:05:52-05:00",
    "hour": 10,
-   "minute": 0,
+   "minute": 5,
    "phase": "day",
    "words": "morning",
-   "sun": 9.2,
+   "sun": 9.7,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -13.94,
-    29.78
+    -22.0,
+    47.0
    ],
    "heading": -25.1,
-   "place": null,
-   "doing": "walk_to",
-   "target": "culvert",
+   "place": "culvert",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.56,
-    "weariness": 0.08,
-    "company": 0.57,
-    "itch": 1.0,
-    "nerves": 0.15,
-    "thirst": 0.46
+    "belly": 0.6,
+    "weariness": 0.12,
+    "company": 0.65,
+    "itch": 0.96,
+    "nerves": 0.01,
+    "thirst": 0.49
    },
    "feeling": {
-    "mood": 0.3,
-    "energy": -0.49
+    "mood": 0.23,
+    "energy": -0.15
    },
-   "thought": "",
+   "thought": "listening for the sound that tells me where to stand",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36,
-     -12
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Silence is boring when you can see the whole world, but I'll listen to that one moment.\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24,
-     8
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8
+     998.71,
+     26.81
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -492,8 +492,8 @@ export default {
     "id": "o15-2362",
     "name": "a scrap of sailcloth",
     "pos": [
-     -22.66921637478869,
-     48.00468052849186
+     -21.184143567418985,
+     47.62094743833786
     ],
     "state": "placed"
    },
@@ -510,8 +510,8 @@ export default {
     "id": "o18-3571",
     "name": "a coil of thin wire",
     "pos": [
-     -22.711981779712314,
-     47.666987037118226
+     -22.50096246112576,
+     48.23481438761282
     ],
     "state": "placed"
    }
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795359653.0,
+  "now": 1795359953.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2210,8 +2210,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3007822081010077,
-    "energy": -0.4943585353248186
+    "mood": 0.28826656625975916,
+    "energy": -0.1236401521398137
    },
    "interests": {},
    "threads": [
@@ -2222,7 +2222,7 @@ export default {
    "lastResult": "",
    "wake": 31,
    "awakeSince": "",
-   "lastDream": "I woke to Pip's invisible chase and Mabel waiting on a branch where she should not be."
+   "lastDream": "The insect clicked softly inside my long beak while a voice from far away answered my call. The dark swallowed both and held them together just for a breath."
   }
  }
 };
