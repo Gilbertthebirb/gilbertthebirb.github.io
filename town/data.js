@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T21:24:49-05:00",
+ "asOf": "2026-11-21T21:29:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T21:24:48-05:00",
+   "iso": "2026-11-21T21:29:48-05:00",
    "hour": 21,
-   "minute": 24,
+   "minute": 29,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -40.7,
+   "sun": -41.4,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    9.0,
-    13.0
+    28.0,
+    26.0
    ],
-   "heading": 166.5,
-   "place": "board",
-   "doing": "watch",
-   "target": "mabel",
+   "heading": 47.1,
+   "place": "lookout",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.4,
-    "weariness": 0.52,
-    "company": 0.33,
-    "itch": 0.78,
+    "belly": 0.44,
+    "weariness": 0.72,
+    "company": 0.13,
+    "itch": 0.32,
     "nerves": 0.0,
-    "thirst": 0.32
+    "thirst": 0.35
    },
    "feeling": {
-    "mood": 0.58,
-    "energy": 0.17
+    "mood": 0.83,
+    "energy": 0.63
    },
-   "thought": "Mabel walked wrong, but I felt less alone. She looks into everything.",
+   "thought": "My legs are tired but my nose knows I belong right where my feet touch.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -322,41 +322,41 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
-     "text": "Mabel said: \"Evening, Gilbert. Or is it morning for you lot?\"",
-     "t": 1795314114.9
+     "text": "Mabel said to you: \"Mabel hopped over quickly to check the board for any changes since yesterday. She peered closely at his new pin while keeping her eyes glued to him.\"",
+     "t": 1795314385.0
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
-     "text": "Old Tuck said to you: \"Maybe. Far away. Cold.\"",
-     "t": 1795303835.0
+     "text": "Old Tuck said to you: \"Solid is good. I am still. Dark means sleep now.\"",
+     "t": 1795314579.8
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.7,
+     -2.5
     ],
     "said": {
-     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
-     "t": 1795314174.9
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1795314530.0
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -377,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -388,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795314289.7,
+  "now": 1795314589.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1320,9 +1320,18 @@ export default {
     "text": "The silence felt smaller because I am heavy enough to feel the ground under me. A branch cracked behind me, but it didn't ask for an answer, so I just breathed with the rain still dripping on my feathers. Pip found a worm and called it out loud, which made me feel seen even though no one is here yet. I will sleep now while the page waits to remember how it feels to just be.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j1348",
+    "ts": "2026-11-21T21:27:16-05:00",
+    "kind": "journal",
+    "wake": 29,
+    "text": "I wrote about Mabel's voice calling me back to what was before. The workbench held me steady when she spoke, and the silence didn't ask for an answer — it just was. When her words reach through the dark, my weight comes down like a branch settling after rain.",
+    "tag": "",
+    "heat": 0.52
    }
   ],
-  "journalCount": 93,
+  "journalCount": 94,
   "memory": {
    "sleeps": 19,
    "next_id": 36,
@@ -1923,12 +1932,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-found/",
     "note": "Gilbert writes about the feeling of being found when he does not know where to stand"
+   },
+   "gilbert-heavy-ground": {
+    "title": "gilbert heavy ground",
+    "description": "the feeling of standing heavy on the workbench when Mabel calls back to what was before",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-heavy-ground/",
+    "note": "Gilbert writes about Mabel's voice calling back to what was before"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.5707531335603722,
-    "energy": 0.40417641513095015
+    "mood": 0.9667609536793442,
+    "energy": 0.8757285314118449
    },
    "interests": {
     "the subject": 0.21
