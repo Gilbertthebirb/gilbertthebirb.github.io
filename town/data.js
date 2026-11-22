@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T06:03:29-05:00",
+ "asOf": "2026-11-22T06:08:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T06:03:28-05:00",
+   "iso": "2026-11-22T06:08:28-05:00",
    "hour": 6,
-   "minute": 3,
+   "minute": 8,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -21.7,
+   "sun": -21.0,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -112.6,
    "place": "drift",
-   "doing": null,
-   "target": null,
+   "doing": "watch",
+   "target": "mabel",
    "asleep": false,
    "needs": {
-    "belly": 0.62,
+    "belly": 0.36,
     "weariness": 0.84,
-    "company": 0.12,
+    "company": 0.13,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.4
+    "thirst": 0.44
    },
    "feeling": {
-    "mood": 0.12,
-    "energy": -0.22
+    "mood": 0.33,
+    "energy": -0.07
    },
-   "thought": "her voice stops the silence and makes my beak feel less heavy",
+   "thought": "her eyes show me how to see when I am tired",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -398,8 +398,8 @@ export default {
      -22.0
     ],
     "said": {
-     "text": "Mabel said to you: \"Counting what? Did you count a new blue wren since I saw it yesterday?\"",
-     "t": 1795345386.8
+     "text": "Mabel said to you: \"Silence is boring when you can see the whole world, but I'll listen to that one moment.\"",
+     "t": 1795345600.1
     }
    },
    "tuck": {
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795345409.6,
+  "now": 1795345709.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2203,8 +2203,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.006754085731620778,
-    "energy": -0.5592131189520769
+    "mood": 0.2803431390303679,
+    "energy": 0.2928674398991227
    },
    "interests": {},
    "threads": [
