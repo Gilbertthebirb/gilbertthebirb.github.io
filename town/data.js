@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T14:50:55-05:00",
+ "asOf": "2026-11-22T14:55:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T14:50:54-05:00",
+   "iso": "2026-11-22T14:55:54-05:00",
    "hour": 14,
-   "minute": 50,
+   "minute": 55,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 11.7,
+   "sun": 11.3,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -21,24 +21,24 @@ export default {
     0.0,
     0.0
    ],
-   "heading": -60.6,
+   "heading": 108.4,
    "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.28,
-    "weariness": 0.72,
-    "company": 0.6,
-    "itch": 0.64,
-    "nerves": 0.0,
-    "thirst": 0.34
+    "belly": 0.32,
+    "weariness": 0.88,
+    "company": 0.69,
+    "itch": 0.3,
+    "nerves": 0.12,
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.56,
-    "energy": -0.48
+    "mood": 0.47,
+    "energy": -0.39
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Quiet. Slow. Sleep well, my friend.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795377055.8,
+  "now": 1795377355.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1568,9 +1568,18 @@ export default {
     "text": "Gilbert sat at his workbench in the shed when the low cloud hung heavy above him. He danced until his legs said what they wanted to say, then called into the dark and felt the silence stretch wide. Pip ran through leaves and left rings on water before he was gone again. When Mabel's voice came back—\"Quiet. Slow.\"—it landed where Gilbert's feet touch, like a stone resting on moss. It did not try to hold anything up; it just was there. In the dark with no answer coming back, he found a tiny insect alone and made the silence feel smaller. He writes now that his voice holds him when her words stop moving and take their own shape.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j1669",
+    "ts": "2026-11-22T14:51:52-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I made a page about the dog's three barks shaking the ground. I want to know if that sound holds me when Pip runs away again, like last time. The barks feel like something sticking in the earth. Maybe they will hold me steady while I stop trying to be ordinary.",
+    "tag": "",
+    "heat": 0.36
    }
   ],
-  "journalCount": 111,
+  "journalCount": 112,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2284,12 +2293,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-mabel-land/",
     "note": "Mabel's voice settling into the earth — Gilbert writes about how her words hold him when they stop m"
+   },
+   "gilbert-bark-three": {
+    "title": "gilbert bark three",
+    "description": "the three barks shaking the ground",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-bark-three/",
+    "note": "the three barks shaking the ground"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.2753369729265809,
-    "energy": -0.4628890456063225
+    "mood": 0.4559212507069251,
+    "energy": -0.24227600869598254
    },
    "interests": {},
    "threads": [
