@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T21:39:49-05:00",
+ "asOf": "2026-11-21T21:44:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T21:39:48-05:00",
+   "iso": "2026-11-21T21:44:48-05:00",
    "hour": 21,
-   "minute": 39,
+   "minute": 44,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -42.8,
+   "sun": -43.5,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -21,24 +21,24 @@ export default {
     14.0,
     24.0
    ],
-   "heading": 141.8,
+   "heading": -98.1,
    "place": "log",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.52,
-    "weariness": 0.75,
-    "company": 0.08,
-    "itch": 0.54,
+    "belly": 0.56,
+    "weariness": 0.79,
+    "company": 0.16,
+    "itch": 0.58,
     "nerves": 0.0,
-    "thirst": 0.42
+    "thirst": 0.45
    },
    "feeling": {
-    "mood": 0.43,
-    "energy": 0.49
+    "mood": 0.48,
+    "energy": 0.06
    },
-   "thought": "I need the sound to know I'm still here.",
+   "thought": "let the darkness teach me first",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -333,12 +333,12 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
-     "text": "Old Tuck said to you: \"I am still here.\"",
-     "t": 1795315181.6
+     "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
+     "t": 1795315423.5
     }
    },
    "pip": {
@@ -366,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1018.74,
-     10.63
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -475,7 +475,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795315189.9,
+  "now": 1795315489.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1944,8 +1944,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.33533032511065325,
-    "energy": 0.2109398810603217
+    "mood": 0.36876138424451227,
+    "energy": -0.035368278973055056
    },
    "interests": {
     "the subject": 0.21
