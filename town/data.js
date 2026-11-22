@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T05:48:29-05:00",
+ "asOf": "2026-11-22T05:53:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T05:48:28-05:00",
+   "iso": "2026-11-22T05:53:28-05:00",
    "hour": 5,
-   "minute": 48,
+   "minute": 53,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -24.0,
+   "sun": -23.2,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "rain",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    41.0,
+    7.0
    ],
-   "heading": -145.3,
-   "place": "burrow",
+   "heading": 80.3,
+   "place": "heap",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.79,
-    "weariness": 0.8,
-    "company": 0.07,
-    "itch": 0.89,
-    "nerves": 0.0,
-    "thirst": 0.3
+    "belly": 0.84,
+    "weariness": 0.83,
+    "company": 0.16,
+    "itch": 0.84,
+    "nerves": 0.02,
+    "thirst": 0.34
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.19
+    "mood": 0.22,
+    "energy": -0.24
    },
-   "thought": "The silence is getting too heavy, but I must say something to remember I exist.",
+   "thought": "quiet is heavy on these legs but holding the wire makes the dark feel like it has shape",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a coil of thin wire"
+   ],
    "area": "town"
   },
   "places": {
@@ -394,8 +396,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     9.19,
+     12.42
     ],
     "said": {
      "text": "Mabel said to you: \"Finally! I've been watching everything for hours wondering if it was a trick of the light. Come sit closer so we can talk properly, you big clumsy bird.\"",
@@ -405,8 +407,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +418,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     8.66,
+     6.95
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -438,8 +440,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     993.97,
-     21.54
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +451,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.49,
-     -18.15
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,7 +554,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 28,
-  "now": 1795344509.4,
+  "now": 1795344809.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2194,8 +2196,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.1792116623715096,
-    "energy": -0.35917124016398905
+    "mood": 0.2745709356997495,
+    "energy": -0.23562108034492796
    },
    "interests": {},
    "threads": [
