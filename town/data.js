@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T10:10:53-05:00",
+ "asOf": "2026-11-22T10:15:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T10:10:52-05:00",
+   "iso": "2026-11-22T10:15:52-05:00",
    "hour": 10,
-   "minute": 10,
+   "minute": 15,
    "phase": "day",
    "words": "morning",
-   "sun": 10.1,
+   "sun": 10.6,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    6.68,
-    28.79
+    41.0,
+    -7.0
    ],
-   "heading": 122.4,
-   "place": null,
-   "doing": "walk_to",
-   "target": "heap",
+   "heading": 180.0,
+   "place": "hut",
+   "doing": "watch",
+   "target": "mabel",
    "asleep": false,
    "needs": {
-    "belly": 0.64,
+    "belly": 0.68,
     "weariness": 0.15,
-    "company": 0.73,
-    "itch": 0.91,
-    "nerves": 0.15,
-    "thirst": 0.02
+    "company": 0.46,
+    "itch": 1.0,
+    "nerves": 0.28,
+    "thirst": 0.06
    },
    "feeling": {
-    "mood": 0.33,
-    "energy": -0.18
+    "mood": 0.16,
+    "energy": 0.38
    },
-   "thought": "",
+   "thought": "Mabel knows what moves through the soil. I am still on edge with that cork and this hungry feeling.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a cork"
+   ],
    "area": "town"
   },
   "places": {
@@ -394,19 +396,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
-     "text": "Mabel said to you: \"Silence is boring when you can see the whole world, but I'll listen to that one moment.\"",
-     "t": 1795345600.1
+     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
+     "t": 1795360484.6
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +418,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -427,8 +429,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +440,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1026.02,
+     -4.06
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +451,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -494,15 +496,6 @@ export default {
     "pos": [
      -21.184143567418985,
      47.62094743833786
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o17-3410",
-    "name": "a cork",
-    "pos": [
-     40.164661073933196,
-     -5.832826649379447
     ],
     "state": "placed"
    },
@@ -561,7 +554,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795360253.1,
+  "now": 1795360553.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2210,8 +2203,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.20494073655038186,
-    "energy": 0.050648365778135716
+    "mood": 0.13060938312932185,
+    "energy": 0.32720177121310506
    },
    "interests": {},
    "threads": [
