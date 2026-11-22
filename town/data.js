@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T17:30:57-05:00",
+ "asOf": "2026-11-22T17:35:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T17:30:56-05:00",
+   "iso": "2026-11-22T17:35:56-05:00",
    "hour": 17,
-   "minute": 30,
+   "minute": 35,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -6.2,
+   "sun": -6.9,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "mist",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    81.7,
+    -5.6
    ],
-   "heading": 39.3,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": 93.9,
+   "place": null,
+   "doing": "walk_to",
+   "target": "playground",
    "asleep": false,
    "needs": {
-    "belly": 0.41,
-    "weariness": 0.6,
-    "company": 0.07,
+    "belly": 0.45,
+    "weariness": 0.64,
+    "company": 0.15,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.17
+    "thirst": 0.2
    },
    "feeling": {
     "mood": 0.41,
-    "energy": -0.19
+    "energy": -0.46
    },
-   "thought": "Pip stops. My legs feel like they might dance if I don't watch.",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Solid? You know I only trust the ground that hasn't moved since yesterday. Just stand there like a statue for once, would you?\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795386657.6,
+  "now": 1795386957.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3945194797926674,
-    "energy": -0.22288964769255198
+    "mood": 0.44784432083592407,
+    "energy": -0.5727536615404982
    },
    "interests": {},
    "threads": [
