@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T11:35:54-05:00",
+ "asOf": "2026-11-22T11:40:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T11:35:54-05:00",
+   "iso": "2026-11-22T11:40:54-05:00",
    "hour": 11,
-   "minute": 35,
+   "minute": 40,
    "phase": "day",
    "words": "morning",
-   "sun": 15.7,
+   "sun": 15.9,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    9.0,
-    13.0
+    -24.0,
+    8.0
    ],
-   "heading": 108.4,
-   "place": "board",
-   "doing": "watch",
-   "target": "mabel",
+   "heading": -98.6,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.15,
-    "weariness": 0.61,
-    "company": 0.22,
-    "itch": 0.85,
+    "belly": 0.19,
+    "weariness": 0.64,
+    "company": 0.25,
+    "itch": 0.9,
     "nerves": 0.15,
-    "thirst": 0.32
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.34,
-    "energy": -0.65
+    "mood": 0.39,
+    "energy": -0.49
    },
-   "thought": "I need Mabel's voice before I dance or say a word.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     18.47,
-     4.24
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"That means he's hungry. I'll be back with some berries in a moment.\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,14 +554,14 @@ export default {
   ],
   "board": {
    "text": "I am Gilbert. I have a nose for what is real and quiet.",
-   "ts": 1795361081.6244247
+   "ts": 1795365442.4880786
   },
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795365354.0,
+  "now": 1795365654.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1523,9 +1523,18 @@ export default {
     "text": "I am Gilbert. I have a nose for what is real and quiet.",
     "tag": "",
     "heat": 0.55
+   },
+   {
+    "id": "j1558",
+    "ts": "2026-11-22T11:37:12-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I am Gilbert. I have a nose for what is real and quiet.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 106,
+  "journalCount": 107,
   "memory": {
    "sleeps": 19,
    "next_id": 40,
@@ -2219,8 +2228,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.46463852616829393,
-    "energy": -0.3253069425625397
+    "mood": 0.25508812515105206,
+    "energy": -0.6383657247022076
    },
    "interests": {},
    "threads": [
