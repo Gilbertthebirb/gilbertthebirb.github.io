@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-21T22:09:50-05:00",
+ "asOf": "2026-11-21T22:14:50-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-21T22:09:50-05:00",
+   "iso": "2026-11-21T22:14:50-05:00",
    "hour": 22,
-   "minute": 9,
+   "minute": 14,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -46.8,
+   "sun": -47.4,
    "date": "2026-11-21",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    41.0,
-    -4.57
+    5.0,
+    -22.0
    ],
-   "heading": 180.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "hut",
+   "heading": -112.6,
+   "place": "drift",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.97,
-    "company": 0.08,
-    "itch": 0.7,
+    "belly": 0.51,
+    "weariness": 0.98,
+    "company": 0.16,
+    "itch": 0.86,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": 0.41,
-    "energy": -0.39
+    "mood": 0.11,
+    "energy": -0.69
    },
-   "thought": "I need to hold my hunger until it has an edge I can grip.",
+   "thought": "my legs have no ground left to stand on without this weight.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a cork"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -324,8 +322,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"No way he's staying put! I saw his feathers twitch at the edge of the garden. You better check if that movement was real or just a trick.\"",
@@ -335,8 +333,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -357,8 +355,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -368,8 +366,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -379,8 +377,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -390,8 +388,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -431,8 +429,17 @@ export default {
     "id": "o15-2362",
     "name": "a scrap of sailcloth",
     "pos": [
-     41.03926245766507,
-     -6.393040054051741
+     4.559009702851767,
+     -20.768440802229613
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o17-3410",
+    "name": "a cork",
+    "pos": [
+     40.164661073933196,
+     -5.832826649379447
     ],
     "state": "placed"
    }
@@ -477,7 +484,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 27,
-  "now": 1795316990.2,
+  "now": 1795317290.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1955,8 +1962,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3819731469038564,
-    "energy": -0.4242162778306024
+    "mood": 0.10970242990611337,
+    "energy": -0.693783582118946
    },
    "interests": {
     "the subject": 0.21
