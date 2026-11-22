@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T10:15:53-05:00",
+ "asOf": "2026-11-22T10:20:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T10:15:52-05:00",
+   "iso": "2026-11-22T10:20:52-05:00",
    "hour": 10,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "morning",
-   "sun": 10.6,
+   "sun": 11.0,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "cloud",
   "bird": {
    "pos": [
     41.0,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": 180.0,
    "place": "hut",
-   "doing": "watch",
-   "target": "mabel",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.68,
-    "weariness": 0.15,
-    "company": 0.46,
-    "itch": 1.0,
-    "nerves": 0.28,
-    "thirst": 0.06
+    "belly": 0.73,
+    "weariness": 0.19,
+    "company": 0.54,
+    "itch": 0.93,
+    "nerves": 0.15,
+    "thirst": 0.09
    },
    "feeling": {
-    "mood": 0.16,
-    "energy": 0.38
+    "mood": 0.1,
+    "energy": 0.04
    },
-   "thought": "Mabel knows what moves through the soil. I am still on edge with that cork and this hungry feeling.",
+   "thought": "My nose knows the air is thin, but my body needs a wall before I try again.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a cork"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -396,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -440,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1026.02,
-     -4.06
+     1022.63,
+     6.1
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -451,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -462,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -496,6 +494,15 @@ export default {
     "pos": [
      -21.184143567418985,
      47.62094743833786
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o17-3410",
+    "name": "a cork",
+    "pos": [
+     41.299103477770316,
+     -6.148011566363505
     ],
     "state": "placed"
    },
@@ -554,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795360553.1,
+  "now": 1795360853.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2203,8 +2210,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.13060938312932185,
-    "energy": 0.32720177121310506
+    "mood": 0.1082131021900426,
+    "energy": 0.007438006470771474
    },
    "interests": {},
    "threads": [
