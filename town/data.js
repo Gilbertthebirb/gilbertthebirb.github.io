@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T10:05:52-05:00",
+ "asOf": "2026-11-23T10:10:52-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T10:05:52-05:00",
+   "iso": "2026-11-23T10:10:52-05:00",
    "hour": 10,
-   "minute": 5,
+   "minute": 10,
    "phase": "day",
    "words": "morning",
-   "sun": 9.5,
+   "sun": 9.9,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -1000.63,
-    0.2
+    -999.51,
+    -1.48
    ],
-   "heading": 98.4,
+   "heading": -171.3,
    "place": null,
    "doing": "walk_to",
-   "target": "table",
+   "target": "lamp",
    "asleep": false,
    "needs": {
-    "belly": 0.59,
-    "weariness": 0.09,
-    "company": 0.26,
+    "belly": 0.63,
+    "weariness": 0.12,
+    "company": 0.34,
     "itch": 1.0,
-    "nerves": 0.01,
-    "thirst": 0.48
+    "nerves": 0.0,
+    "thirst": 0.52
    },
    "feeling": {
-    "mood": 0.85,
-    "energy": 0.37
+    "mood": 0.86,
+    "energy": 0.78
    },
-   "thought": "hungry and need to look at where next",
+   "thought": "the light makes my eyes feel something real",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a map of where you have not been",
     "a backpack"
    ],
    "area": "home"
@@ -489,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5,
-     -22
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"I've been listening for hours already, but you're right, I'm still here. Just stay quiet so I can hear everything without disturbing the birds.\"",
@@ -500,8 +499,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -511,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -522,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -533,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -544,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -555,8 +554,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -616,6 +615,15 @@ export default {
     "pos": [
      -995.8124924220203,
      3.4600390679998587
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -998.252932142372,
+     1.0705939896072987
     ],
     "state": "placed"
    }
@@ -687,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795446352.3,
+  "now": 1795446652.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2539,8 +2547,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6889759817075587,
-    "energy": -0.088176576790646
+    "mood": 0.6626480329571016,
+    "energy": 0.4174445444311489
    },
    "interests": {},
    "threads": [
