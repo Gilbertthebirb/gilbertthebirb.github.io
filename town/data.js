@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T05:59:49-05:00",
+ "asOf": "2026-11-23T06:04:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T05:59:48-05:00",
-   "hour": 5,
-   "minute": 59,
+   "iso": "2026-11-23T06:04:48-05:00",
+   "hour": 6,
+   "minute": 4,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -22.4,
+   "sun": -21.7,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "rain",
+  "weather": "storm",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": 45.0,
-   "place": "moss",
-   "doing": "watch",
-   "target": "pip",
+   "heading": -135.0,
+   "place": "creek",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.62,
-    "weariness": 0.49,
-    "company": 0.13,
-    "itch": 0.67,
-    "nerves": 0.05,
-    "thirst": 0.17
+    "belly": 0.36,
+    "weariness": 0.53,
+    "company": 0.21,
+    "itch": 0.71,
+    "nerves": 0.35,
+    "thirst": 0.21
    },
    "feeling": {
-    "mood": 0.46,
-    "energy": 0.3
+    "mood": 0.48,
+    "energy": 0.18
    },
-   "thought": "I see the dandelion seed and feel the stir in my legs again.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Gilbert, you're saying that? I've been watching your tail twitch for an hour. Just keep quiet so we can finish our snack.\"",
@@ -508,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Oh look! A dandelion seed is floating right above me! And did you know Gilbert has a tiny scar on his wing? It makes him look super cute actually. But…\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1013.56,
+     7.59
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     980.78,
+     -17.88
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -674,7 +674,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 30,
-  "now": 1795431589.7,
+  "now": 1795431889.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2489,8 +2489,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4918865552659354,
-    "energy": 0.37078245733412374
+    "mood": 0.4117697885827869,
+    "energy": -0.05442710231078257
    },
    "interests": {},
    "threads": [
