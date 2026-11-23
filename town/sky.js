@@ -132,7 +132,7 @@ export function buildSky(scene) {
     scene.fog.near = lerp(lerp(45, 70, day), 6, s.mist * 0.9) * (1 - s.rain * 0.15);
     scene.fog.far = lerp(lerp(170, 230, day), 55, s.mist * 0.9) * (1 - s.rain * 0.12);
 
-    rain.visible = s.rain > 0.03;
+    rain.visible = s.rain > 0.03 && !s.indoors;          // indoors: inside his burrow, no rain falls
     if (rain.visible) {
       const count = Math.min(DROPS, Math.floor(DROPS * s.rain / 1.6));
       const fall = 17, slant = s.wind * 5;

@@ -65,6 +65,7 @@ function showArea(area) {
   land.group.visible = places.root.visible = area === 'town';
   setLevel(area !== 'town');
   sky.inCity = area !== 'town';
+  sky.indoors = area === 'home';
   cam.target.set(0, 1, 0);
   kiwi.pos.set(9999, 9999);
   syncThings();
