@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T12:40:54-05:00",
+ "asOf": "2026-11-23T12:45:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T12:40:54-05:00",
+   "iso": "2026-11-23T12:45:54-05:00",
    "hour": 12,
-   "minute": 40,
+   "minute": 45,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 16.9,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 24.4,
    "place": "log",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.68,
+    "belly": 0.42,
     "weariness": 0.83,
-    "company": 0.28,
-    "itch": 0.3,
+    "company": 0.07,
+    "itch": 0.46,
     "nerves": 0.0,
-    "thirst": 0.15
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.31,
-    "energy": -0.45
+    "mood": 0.65,
+    "energy": 0.25
    },
-   "thought": "I feel tired but Old Tuck is warm, so I will rest here.",
+   "thought": "letting his quiet rest be known before I move again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that, old friend. But don't stay out there if you mean it; we must eat soon.\"",
@@ -497,23 +497,23 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
-     "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
-     "t": 1795455622.0
+     "text": "Old Tuck said to you: \"Crunch is good. Slow is wise.\"",
+     "t": 1795455751.8
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     14.0,
+     24.0
     ],
     "said": {
-     "text": "Pip said to you: \"Pip zips around saying, \"Oh Gilbert! You know I love the sun. Did you see the fly?\"",
-     "t": 1795455161.2
+     "text": "Pip said to you: \"Hi there! Did you know the kiwi can fly if you push it well? Oh wait, did you see the shiny rock?\"",
+     "t": 1795455846.9
     }
    },
    "odile": {
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795455654.2,
+  "now": 1795455954.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4263754654740975,
-    "energy": -0.41659721869136024
+    "mood": 0.6019228355552058,
+    "energy": 0.11798832856188513
    },
    "interests": {},
    "threads": [
