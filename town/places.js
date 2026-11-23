@@ -37,11 +37,61 @@ function mushroom(x, z, s, cap = 0xb5523a) {
 }
 
 // ---- small things: what he finds, keeps, and is left ------------------------------------------
+// The Blender models of the small things (build_models.py m_items, models/items.glb), once they have loaded.
+// Until then, and for any thing without a model, the simple shapes below stand in.
+const ITEM_MODELS = new Map();
+let itemModelsV = 0;
+export function itemSlug(name) {                // the same as item_slug() in build_models.py
+  return name.toLowerCase().replace(/^(a|an) /, '').replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+}
+export function setItemModels(root) {
+  if (!root) return;
+  root.traverse((o) => {
+    if (o.name.startsWith('item_')) ITEM_MODELS.set(o.name.slice(5), o);
+    if (o.isMesh) { o.material.flatShading = true; o.material.needsUpdate = true; }
+  });
+  itemModelsV++;
+}
+export const itemModelsVersion = () => itemModelsV;
+// A model from elsewhere (a CC0 pack) in place of one of ours: stood on y = 0, centred, turned by `yaw` so it faces
+// the way ours does, and scaled to `width` across, our model's size. No metal (the performance rules).
+export function setItemModel(slug, root, { width, yaw = 0, lighten = 1 }) {
+  if (!root) return;
+  const turned = new THREE.Group(); turned.add(root); turned.rotation.y = yaw;
+  turned.updateMatrixWorld(true);
+  const box = new THREE.Box3().setFromObject(turned), size = box.getSize(new THREE.Vector3());
+  const k = width / size.x;
+  const fitted = new THREE.Group(); fitted.add(turned);
+  turned.scale.setScalar(k);
+  turned.position.set(-(box.min.x + size.x / 2) * k, -box.min.y * k, -(box.min.z + size.z / 2) * k);
+  root.traverse((o) => {
+    if (!o.isMesh) return;
+    o.material = o.material.clone(); o.material.metalness = 0; o.material.roughness = 0.85;   // matte, like ours
+    o.material.color.multiplyScalar(lighten);
+    o.material.flatShading = true; o.material.needsUpdate = true;
+  });
+  fitted.name = 'item_' + slug;
+  fitted.userData.depth = size.z * k;              // front to back, in item units (worn things sit on it)
+  ITEM_MODELS.set(slug, fitted);
+  itemModelsV++;
+}
+
 export function itemMesh(name) {
   const n = name.toLowerCase();
   const g = new THREE.Group();
+  const model = ITEM_MODELS.get(itemSlug(name));
+  if (model) {
+    const c = model.clone();
+    c.position.set(0, 0, 0); c.rotation.set(0, 0, 0);
+    g.add(c);
+    g.userData.depth = model.userData.depth;
+    g.scale.setScalar(1.9);
+    return g;
+  }
   const add = (geometry, color, pos, rot) => { const p = part(geometry, color, pos); if (rot) p.rotation.set(...rot); g.add(p); return p; };
-  if (n.includes('letter')) { add(box(0.22, 0.02, 0.15), CREAM, [0, 0.01, 0]); add(box(0.06, 0.022, 0.04), 0xb5443a, [0, 0.012, 0]); }
+  if (n.includes('hand drum')) { add(tube(0.1, 0.1, 0.07, 10), 0x8a5a34, [0, 0.035, 0]); add(tube(0.1, 0.1, 0.006, 10), 0xe8dcc0, [0, 0.073, 0]); }
+  else if (n.includes('map of where')) { add(box(0.2, 0.012, 0.14), 0xd9c9a0, [0, 0.008, 0], [0, 0.2, 0]); add(box(0.2, 0.002, 0.004), 0x8a7a5a, [0, 0.015, 0], [0, 0.2, 0]); }
+  else if (n.includes('letter')) { add(box(0.22, 0.02, 0.15), CREAM, [0, 0.01, 0]); add(box(0.06, 0.022, 0.04), 0xb5443a, [0, 0.012, 0]); }
   else if (n.includes('button')) add(tube(0.08, 0.08, 0.025, 8), 0xc9a24a, [0, 0.015, 0]);
   else if (n.includes('bottle cap')) add(tube(0.08, 0.09, 0.035, 9), 0x3f6fc0, [0, 0.02, 0]);
   else if (n.includes('snail')) add(roughen(ball(0.09, 1), 0.02), 0xc8b08a, [0, 0.08, 0]);
@@ -464,7 +514,7 @@ export function buildPlaces(scene) {
   };
 
   h.syncKept = (names) => {
-    const key = names.join('|');
+    const key = names.join('|') + '#' + itemModelsV;
     if (key === h.kept) return;
     h.kept = key;
     h.shelf.clear();
@@ -481,7 +531,7 @@ export function buildPlaces(scene) {
     for (const o of objects) {
       seen.add(o.id);
       let node = h.objects.get(o.id);
-      if (!node || node.userData.state !== o.state) {
+      if (!node || node.userData.state !== o.state || node.userData.v !== itemModelsV) {
         if (node) h.objectGroup.remove(node);
         if (o.state === 'buried') {
           node = part(roughen(ball(0.3, 0), 0.08, hash(o.id)), 0x6a5540);
@@ -494,6 +544,7 @@ export function buildPlaces(scene) {
           node.userData.ring = ring;
         }
         node.userData.state = o.state;
+        node.userData.v = itemModelsV;
         node.position.set(o.pos[0], heightAt(o.pos[0], o.pos[1]) + (o.state === 'buried' ? 0.02 : 0.03), o.pos[1]);
         h.objects.set(o.id, node);
         h.objectGroup.add(node);

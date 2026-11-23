@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T21:10:37-05:00",
- "live": false,
+ "asOf": "2026-11-23T05:34:49-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T21:10:44-05:00",
-   "hour": 21,
-   "minute": 10,
+   "iso": "2026-11-23T05:34:48-05:00",
+   "hour": 5,
+   "minute": 34,
    "phase": "night",
-   "words": "evening, and dark",
-   "sun": -38.8,
-   "date": "2026-11-22",
+   "words": "the last of the night",
+   "sun": -26.2,
+   "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "rain",
   "bird": {
    "pos": [
     0.0,
@@ -25,20 +25,20 @@ export default {
    "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.14,
-    "weariness": 0.83,
-    "company": 0.15,
-    "itch": 0.9,
-    "nerves": 0.0,
-    "thirst": 0.13
+    "belly": 0.71,
+    "weariness": 0.08,
+    "company": 0.13,
+    "itch": 0.93,
+    "nerves": 0.05,
+    "thirst": 0.61
    },
    "feeling": {
-    "mood": 0.33,
-    "energy": -0.2
+    "mood": 0.72,
+    "energy": 0.77
    },
-   "thought": "",
+   "thought": "the hunger makes my legs move better than they did before",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -194,6 +194,15 @@ export default {
     "pos": [
      175,
      -12
+    ],
+    "hut": null,
+    "area": "town"
+   },
+   "ridge": {
+    "name": "the ridge",
+    "pos": [
+     196,
+     -44
     ],
     "hut": null,
     "area": "town"
@@ -386,16 +395,99 @@ export default {
     ],
     "hut": null,
     "area": "city"
+   },
+   "round_door": {
+    "name": "the round door",
+    "pos": [
+     -1000.0,
+     4.680000000000001
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "round_window": {
+    "name": "the round window",
+    "pos": [
+     -995.86,
+     2.7
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "hearth": {
+    "name": "the fireplace",
+    "pos": [
+     -1004.14,
+     0.7200000000000001
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "table": {
+    "name": "the table",
+    "pos": [
+     -999.28,
+     0.0
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "chair": {
+    "name": "the chair",
+    "pos": [
+     -997.66,
+     -1.26
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "bed": {
+    "name": "the bed",
+    "pos": [
+     -997.12,
+     -3.7800000000000002
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "shelves": {
+    "name": "the shelves",
+    "pos": [
+     -1003.06,
+     -3.6
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "chest": {
+    "name": "the chest",
+    "pos": [
+     -1000.99,
+     -4.05
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "lamp": {
+    "name": "the lamp",
+    "pos": [
+     -1000.0,
+     -4.680000000000001
+    ],
+    "hut": null,
+    "area": "home"
    }
   },
   "tram": null,
   "city_x": 1000.0,
+  "home_x": -1000.0,
+  "lamp": false,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16,
+     -9
     ],
     "said": {
      "text": "Mabel said to you: \"Gilbert, you're saying that? I've been watching your tail twitch for an hour. Just keep quiet so we can finish our snack.\"",
@@ -405,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -420,15 +512,15 @@ export default {
      -2.5
     ],
     "said": {
-     "text": "Pip said to you: \"Not really, it's just the leaves rustling while I'm trying to fix my feather cap! Hey, do you like blueberries?\"",
-     "t": 1795399001.8
+     "text": "Pip said to you: \"Hi! Did you see that? No, wait, hello back!\"",
+     "t": 1795430053.2
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -449,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1000.0,
+     0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -461,7 +553,7 @@ export default {
     "name": "Sister Kettle",
     "pos": [
      1010.0,
-     27.0
+     27
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -556,12 +648,33 @@ export default {
    "text": "I am Gilbert. The silence is heavy here.",
    "ts": 1795382403.0634854
   },
+  "shelves": [
+   "a domino",
+   "a smooth black stone",
+   "a feather that is not yours",
+   "a piece of blue-and-white china",
+   "a brass button",
+   "a snail shell with a hole in it",
+   "a rusted key",
+   "a strip of bark",
+   "a length of twine",
+   "a glass bead",
+   "a wooden bead",
+   "a blue bottle cap",
+   "a square of tin",
+   "a bent teaspoon",
+   "half a clothes peg",
+   "a hand drum",
+   "a map of where you have not been",
+   "a backpack"
+  ],
+  "chest": [],
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 29,
-  "now": 1795399845.0,
+  "session": 30,
+  "now": 1795430089.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2377,7 +2490,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who finds the ground when others speak. I like the sound of leaves rustling and the voice of my friend Pip.",
    "lastResult": "",
-   "wake": 31,
+   "wake": 32,
    "awakeSince": "",
    "lastDream": "The insect clicked softly inside my long beak while a voice from far away answered my call. The dark swallowed both and held them together just for a breath."
   }

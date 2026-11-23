@@ -4,7 +4,7 @@ import * as THREE from './vendor/three.module.js';
 import { clamp, damp, dampAngle } from './util.js';
 import { buildLand, heightAt, setLevel, SPOTS, GATE, STUMP } from './land.js';
 import { buildCity } from './city.js';
-import { buildPlaces, itemMesh } from './places.js';
+import { buildPlaces, itemMesh, itemModelsVersion } from './places.js';
 import { makeKiwi, animateKiwi, gaitFrom, makeResident, animateResident, makeVisitor, animateVisitor } from './creatures.js';
 import { buildSky } from './sky.js';
 import { buildUi } from './ui.js';
@@ -117,7 +117,7 @@ window.town.onState((s) => {
   else if (state && state.bird && s.bird) s.bird.startled = state.bird.startled;
   state = s;
   places.syncHuts(s.places || {}, (mind && mind.projects) || {});
-  places.syncKept(s.kept || []);
+  places.syncKept([]);            // the stone by the door is bare now: what he keeps is on the shelves inside (wish w13)
   syncThings();
   watchReplies(s);
 });
@@ -374,14 +374,62 @@ function frame(ms) {
     if (me.active && me.online && !bird.doing && me.pos.distanceTo(kiwi.pos) < 6 && bird.said && state.now - bird.said.t < 8) nearest = [me.pos.x, me.pos.y];
     const pose = animateKiwi(kiwi, bird, gait, dt, clock, { city, home: inside, shedInside: places.shedInside, nearest: bird.doing ? nearest : (nearest && bird.said && state.now - bird.said.t < 8 ? nearest : null) });
     if (birdHere) ui.label('gilbert', 'Gilbert', pose.head, 'name bird');
-    const load = (bird.carrying || []).join('|');           // what he is carrying rides on his back
+    const load = (bird.carrying || []).join('|') + '#' + itemModelsVersion();   // what he is carrying rides on his back
     if (load !== kiwi.load) {
       kiwi.load = load;
       if (kiwi.pack) kiwi.body.remove(kiwi.pack);
       kiwi.pack = new THREE.Group();
-      (bird.carrying || []).forEach((name, i) => { const it = itemMesh(name); it.position.set(i ? 0.14 : -0.12, 1.05, -0.12 - i * 0.16); kiwi.pack.add(it); });
+      const carrying = bird.carrying || [];
+      if (carrying.includes('a backpack')) {
+        // He wears the backpack (the user, 23 Nov): lying along his back, straps down, its top to his tail.
+        // What is in it is out of sight.
+        // Bigger than a find, snug on his back and tilted with it, with two straps round his body.
+        const bag = itemMesh('a backpack');
+        bag.scale.setScalar(2.4);
+        // worn the right way: straps (model -z) down on his back, the bag's top (model +y, flap and loop) towards
+        // his head (+z), flap and buckle facing up. Rx(-90°) first, then Ry(180°), hence the 'YXZ' order.
+        // its back rests on his: lifted by half its depth (0.13 for our own model; the CC0 one is deeper)
+        bag.rotation.set(-Math.PI / 2, Math.PI, 0, 'YXZ');
+        bag.position.set(0, 0.82 + (bag.userData.depth || 0.13) / 2 * 2.4, -0.4);
+        kiwi.pack.add(bag);
+        const strapMat = new THREE.MeshLambertMaterial({ color: 0x4a3a2a, flatShading: true });
+        for (const z of [0.12, -0.2]) {                       // over the top half of the torso (makeKiwi: ball 0.5 at y 0.62)
+          const r = 0.43 * Math.sqrt(1 - ((z + 0.03) / 0.56) ** 2) + 0.03;
+          const strap = new THREE.Mesh(new THREE.TorusGeometry(r, 0.022, 4, 16, Math.PI + 1.0), strapMat);
+          strap.rotation.z = -0.5; strap.scale.x = 0.95; strap.position.set(0, 0.62, z);
+          kiwi.pack.add(strap);
+        }
+      } else {
+        carrying.forEach((name, i) => { const it = itemMesh(name); it.position.set(i ? 0.14 : -0.12, 1.05, -0.12 - i * 0.16); kiwi.pack.add(it); });
+      }
       kiwi.body.add(kiwi.pack);
     }
+    // Drumming (wish w12): the drum on the ground in front of him and its two sticks going up and down.
+    if (bird.doing === 'drum' && birdHere) {
+      if (!kiwi.drum) {
+        const drum = new THREE.Group();
+        const shell = itemMesh('a hand drum');
+        shell.traverse((o) => { if (o.name.startsWith('drum_stick')) o.visible = false; });   // in his "hands" now
+        shell.position.set(0, 0, 0.78);
+        drum.add(shell);
+        drum.userData.sticks = [-1, 1].map((s) => {
+          const pivot = new THREE.Group();
+          pivot.position.set(s * 0.2, 0.5, 0.45);
+          const stick = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 0.42, 6), new THREE.MeshLambertMaterial({ color: 0xc9a878, flatShading: true }));
+          stick.rotation.x = Math.PI / 2; stick.position.z = 0.21;
+          const tip = new THREE.Mesh(new THREE.IcosahedronGeometry(0.026, 0), new THREE.MeshLambertMaterial({ color: 0x8a3a2a, flatShading: true }));
+          tip.position.z = 0.42;
+          pivot.add(stick, tip);
+          pivot.rotation.y = -s * 0.42;
+          drum.add(pivot);
+          return pivot;
+        });
+        kiwi.drum = drum;
+      }
+      if (kiwi.drum.parent !== kiwi.root) kiwi.root.add(kiwi.drum);
+      // down on the skin at 0.94 (the padded end just touches it), lifted up to 0.45 between beats, the sticks taking turns
+      kiwi.drum.userData.sticks.forEach((p, i) => { p.rotation.x = 0.94 - 0.45 * Math.abs(Math.sin(clock * 6 + i * Math.PI / 2)); });
+    } else if (kiwi.drum && kiwi.drum.parent) kiwi.root.remove(kiwi.drum);
     if (bird.asleep && birdHere) ui.label('zzz', 'z z z', v3.copy(pose.head).setY(pose.head.y + 0.5 + Math.sin(clock) * 0.1), 'sleep');
     if (birdHere && bird.said && state.now - bird.said.t < 9 && !state.offline) ui.label('said', bird.said.text, v3.copy(pose.head).setY(pose.head.y + 0.55), 'speech');
 
@@ -410,7 +458,7 @@ function frame(ms) {
     }
     for (const [vid, o] of others) if (!seen.has(vid)) { scene.remove(o.root); others.delete(vid); }
     if (city) view.city.update(night, clock);
-    else if (inside) { if (view.home.room && view.home.room.update) view.home.room.update(Boolean(state.lamp)); }
+    else if (inside) { if (view.home.room && view.home.room.update) view.home.room.update(Boolean(state.lamp), state.shelves || state.kept || []); }
     else places.update(state, night, clock);
     if (redo) redo.update(night, clock, camera.position);
     ui.setState(state, gait, link);

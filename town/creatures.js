@@ -78,7 +78,7 @@ export function gaitFrom(selfText, feeling, needs) {
 
 const STILL = new Set(['probe', 'sniff', 'keep', 'leave_be', 'greet', 'call_out', 'wade', 'hide', 'nap', 'tidy',
   'check_letterbox', 'read', 'tinker', 'pin_note', 'sit', 'ask_for_sleep', 'drink', 'explore', 'scavenge', 'pick_up',
-  'put_down', 'dance', 'watch', 'wish']);
+  'put_down', 'dance', 'watch', 'wish', 'drum']);
 
 // Move and pose him for this frame. `bird` is the town's word on him; `extra` is where things are.
 export function animateKiwi(k, bird, gait, dt, t, extra) {
