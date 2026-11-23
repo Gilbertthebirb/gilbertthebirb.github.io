@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T06:49:35-05:00",
- "live": false,
+ "asOf": "2026-11-23T10:00:52-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T06:49:43-05:00",
-   "hour": 6,
-   "minute": 49,
-   "phase": "night",
-   "words": "the last of the night",
-   "sun": -14.9,
+   "iso": "2026-11-23T10:00:52-05:00",
+   "hour": 10,
+   "minute": 0,
+   "phase": "day",
+   "words": "morning",
+   "sun": 9.0,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -997.12,
-    -3.78
+    -995.86,
+    2.7
    ],
-   "heading": 161.2,
-   "place": "bed",
+   "heading": 11.0,
+   "place": "round_window",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.13,
-    "weariness": 0.99,
-    "company": 0.25,
-    "itch": 0.84,
-    "nerves": 0.0,
-    "thirst": 0.11
+    "belly": 0.55,
+    "weariness": 0.08,
+    "company": 0.32,
+    "itch": 0.87,
+    "nerves": 0.03,
+    "thirst": 0.45
    },
    "feeling": {
-    "mood": 0.15,
-    "energy": -0.88
+    "mood": 0.83,
+    "energy": 0.03
    },
-   "thought": "",
+   "thought": "I want something I can carry with me",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a hand drum"
+   ],
    "area": "home"
   },
   "places": {
@@ -486,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said to you: \"I've been listening for hours already, but you're right, I'm still here. Just stay quiet so I can hear everything without disturbing the birds.\"",
@@ -497,8 +499,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     28,
+     26
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -508,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9,
+     13
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -519,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1014.0,
+     -6
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1016.0,
+     22
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -553,7 +555,7 @@ export default {
     "name": "Sister Kettle",
     "pos": [
      1010.0,
-     27.0
+     27
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -668,17 +670,16 @@ export default {
    "a square of tin",
    "a bent teaspoon",
    "half a clothes peg",
-   "a hand drum",
    "a map of where you have not been",
    "a backpack"
   ],
   "chest": [],
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 30,
-  "now": 1795434583.3,
+  "session": 31,
+  "now": 1795446052.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2540,7 +2541,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who finds the ground when others speak. I am tired but I built a little wooden house for Pip so silence would not feel too big again.",
    "lastResult": "",
-   "wake": 32,
+   "wake": 33,
    "awakeSince": "",
    "lastDream": "Pip chased a stone that vanished before it hit the dirt. I ran after the quiet, but forgot how to stop."
   }
