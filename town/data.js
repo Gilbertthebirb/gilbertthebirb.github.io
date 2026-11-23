@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T06:34:50-05:00",
+ "asOf": "2026-11-23T06:39:50-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T06:34:50-05:00",
+   "iso": "2026-11-23T06:39:50-05:00",
    "hour": 6,
-   "minute": 34,
+   "minute": 39,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -17.1,
+   "sun": -16.4,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    9.0,
+    13.0
    ],
-   "heading": 119.4,
-   "place": "shed",
+   "heading": -17.7,
+   "place": "board",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.31,
+    "belly": 0.35,
     "weariness": 0.98,
-    "company": 0.21,
-    "itch": 0.35,
+    "company": 0.09,
+    "itch": 0.52,
     "nerves": 0.05,
-    "thirst": 0.02
+    "thirst": 0.05
    },
    "feeling": {
-    "mood": 0.96,
-    "energy": 0.92
+    "mood": 0.58,
+    "energy": 0.28
    },
-   "thought": "Mabel says I walk like someone going somewhere, but my legs feel empty and tired.",
+   "thought": "I want to smell what I just made before it gets wet again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,19 +486,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     34.18,
+     -12.59
     ],
     "said": {
-     "text": "Mabel said to you: \"I saw the kiwi move again; it's a trick of the light. Now please stop staring at me like that.\"",
-     "t": 1795433639.4
+     "text": "Mabel said to you: \"I've been listening for hours already, but you're right, I'm still here. Just stay quiet so I can hear everything without disturbing the birds.\"",
+     "t": 1795433704.3
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     17.02,
-     24.43
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -512,15 +512,15 @@ export default {
      13.0
     ],
     "said": {
-     "text": "Pip said to you: \"Oh look! A dandelion seed is floating right above me! And did you know Gilbert has a tiny scar on his wing? It makes him look super cute actually. But…\"",
-     "t": 1795431492.9
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1795433966.3
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -552,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     988.92,
-     16.8
+     989.61,
+     28.58
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -649,8 +649,8 @@ export default {
    "half a clothes peg"
   ],
   "board": {
-   "text": "I am Gilbert. The silence is heavy here.",
-   "ts": 1795382403.0634854
+   "text": "I am Gilbert. I found a worm and Pip said I stir them up. I have many things on my shelf that make me feel alive. I will pin this here.",
+   "ts": 1795433949.1047604
   },
   "shelves": [
    "a domino",
@@ -678,7 +678,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 30,
-  "now": 1795433690.2,
+  "now": 1795433990.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1757,9 +1757,18 @@ export default {
     "text": "I built Pip's little wooden house for when the rain makes silence feel too big. I wanted something small and safe, where a little blue dot could rest without having to run. The door clicked shut gently, just like a hand closing over dust on the ground. When I finished, my legs were still talking softly, but the room felt different—filled not with what needs fixing, but with what holds.",
     "tag": "",
     "heat": 0.53
+   },
+   {
+    "id": "j1925",
+    "ts": "2026-11-23T06:38:59-05:00",
+    "kind": "journal",
+    "wake": 32,
+    "text": "I am Gilbert. I found a worm and Pip said I stir them up. I have many things on my shelf that make me feel alive. I will pin this here.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 119,
+  "journalCount": 120,
   "memory": {
    "sleeps": 20,
    "next_id": 41,
@@ -2510,8 +2519,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.961555318031505,
-    "energy": 0.9192237994699688
+    "mood": 0.44531005468311147,
+    "energy": -0.07788016138051379
    },
    "interests": {},
    "threads": [
