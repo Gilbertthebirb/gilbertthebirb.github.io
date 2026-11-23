@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T12:20:53-05:00",
+ "asOf": "2026-11-23T12:25:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T12:20:52-05:00",
+   "iso": "2026-11-23T12:25:56-05:00",
    "hour": 12,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.7,
+   "sun": 16.8,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,30 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -22.0,
-    47.0
+    16.0,
+    -9.0
    ],
-   "heading": -112.6,
-   "place": "culvert",
-   "doing": "dance",
+   "heading": 145.8,
+   "place": "shed",
+   "doing": "tinker",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.51,
-    "weariness": 0.15,
+    "belly": 0.56,
+    "weariness": 0.4,
     "company": 1.0,
-    "itch": 1.0,
-    "nerves": 0.28,
-    "thirst": 0.01
+    "itch": 0.53,
+    "nerves": 0.15,
+    "thirst": 0.05
    },
    "feeling": {
-    "mood": -0.01,
-    "energy": 0.0
+    "mood": 0.6,
+    "energy": 0.5
    },
-   "thought": "my legs have so many things to say but my beak only holds wire and cloth, so I must move first before I speak or sit down.",
+   "thought": "The silence is heavy, but my beak finds the wire; it feels like something true.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth",
-    "a coil of thin wire"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -489,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I've been listening for hours already, but you're right, I'm still here. Just stay quiet so I can hear everything without disturbing the birds.\"",
@@ -500,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -511,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     10.26,
-     12.05
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -533,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1000.48,
-     23.54
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -584,11 +581,29 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -21.34644181466277,
+     47.855051726424556
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
      41.299103477770316,
      -6.148011566363505
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     15.639064125625369,
+     -7.786742799852275
     ],
     "state": "placed"
    },
@@ -685,9 +700,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": false,
+  "bench": true,
   "session": 31,
-  "now": 1795454453.8,
+  "now": 1795454756.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -696,15 +711,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0002",
-    "ts": "2026-11-15T18:14:23-05:00",
-    "kind": "journal",
-    "wake": 1,
-    "text": "Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor restless. The light is fading into darkness. There is nothing made yet. This feeling of being whole and unprepared is strange.",
-    "tag": "",
-    "heat": 0
-   },
    {
     "id": "j0008",
     "ts": "2026-11-15T18:19:39-05:00",
@@ -1775,9 +1781,18 @@ export default {
     "text": "I am Gilbert. The storm made me dance until my legs finally found their words. I built a little wooden house for Pip so silence would never feel too big again. Mabel told me I walk like someone going somewhere, and now I do not need to run away from the wind. I will pin this note here for anyone who comes by to read.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j2035",
+    "ts": "2026-11-23T12:25:07-05:00",
+    "kind": "journal",
+    "wake": 33,
+    "text": "The driftwood door is done. When Pip goes inside, the chirp sound will play. The wind might get loud, but now there's always somewhere for him to rest. I found that feeling of finding ground again when the door clicks shut. Mabel's voice told me once I don't need to run away from anything.",
+    "tag": "",
+    "heat": 0.36
    }
   ],
-  "journalCount": 120,
+  "journalCount": 121,
   "memory": {
    "sleeps": 20,
    "next_id": 42,
@@ -2534,13 +2549,21 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-pip-house/",
-    "note": "Gilbert builds Pip's little wooden house for when the rain makes silence too big"
+    "note": "added a driftwood door for when the wind gets loud, and a chirp sound to play when Pip goes inside o"
+   },
+   "gilbert-sky-box": {
+    "title": "gilbert sky box",
+    "description": "a box that catches the light of the clear sky",
+    "status": "making",
+    "pages": false,
+    "url": null,
+    "note": "added a box that catches the light of the clear sky for Pip"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.042669133247340466,
-    "energy": -0.13424708253740145
+    "mood": 0.3491267530828704,
+    "energy": 0.0984819787902404
    },
    "interests": {},
    "threads": [
