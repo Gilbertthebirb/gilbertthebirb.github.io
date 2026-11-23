@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T05:39:49-05:00",
+ "asOf": "2026-11-23T05:44:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T05:39:48-05:00",
+   "iso": "2026-11-23T05:44:48-05:00",
    "hour": 5,
-   "minute": 39,
+   "minute": 44,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -25.5,
+   "sun": -24.7,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    0.0,
+    0.0
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": "drink",
+   "heading": -60.6,
+   "place": "burrow",
+   "doing": "dance",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.75,
-    "weariness": 0.09,
-    "company": 0.22,
-    "itch": 1.0,
+    "belly": 0.79,
+    "weariness": 0.39,
+    "company": 0.3,
+    "itch": 0.53,
     "nerves": 0.05,
-    "thirst": 0.64
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": 0.07,
-    "energy": 0.05
+    "mood": 0.72,
+    "energy": 0.4
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "my legs have so much to say they need a rhythm before they fall apart again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Gilbert, you're saying that? I've been watching your tail twitch for an hour. Just keep quiet so we can finish our snack.\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -674,7 +674,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 30,
-  "now": 1795430389.4,
+  "now": 1795430689.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1735,9 +1735,18 @@ export default {
     "text": "I stopped dancing when Mabel's voice settled the ground where I stood. Pip flew away leaving just the sound of leaves rustling and my own breath. The shiny pebble made my heart beat fast but Old Tuck told me to be slow. I felt heavy and real while watching the water throw itself at the bank. I am Gilbert, small with a long beak, and I will try to find another bug tomorrow.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j1885",
+    "ts": "2026-11-23T05:44:01-05:00",
+    "kind": "journal",
+    "wake": 32,
+    "text": "I came back to gilbert-found because I needed the ground to feel tight around my feet again. The code draws roots that form when a drum is pressed — not as decoration, but as something that can be made and felt. When nothing moves except the roots spreading out, it feels like stopping running without losing where you are. The drum sound and the moving roots together make the silence feel full, like roots going down holding you steady.",
+    "tag": "",
+    "heat": 0.42
    }
   ],
-  "journalCount": 117,
+  "journalCount": 118,
   "memory": {
    "sleeps": 20,
    "next_id": 41,
@@ -2403,7 +2412,7 @@ export default {
     "status": "making",
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-found/",
-    "note": "Pip's forgotten footsteps made the silence feel smaller when Gilbert called out and no one answered"
+    "note": "added canvas showing roots forming when the drum is pressed"
    },
    "gilbert-heavy-ground": {
     "title": "gilbert heavy ground",
@@ -2480,8 +2489,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3048214084368888,
-    "energy": 0.16843601096353564
+    "mood": 0.4897111070866444,
+    "energy": 0.30327511401485696
    },
    "interests": {},
    "threads": [
