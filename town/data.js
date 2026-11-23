@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T14:05:54-05:00",
+ "asOf": "2026-11-23T14:10:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T14:05:54-05:00",
+   "iso": "2026-11-23T14:10:54-05:00",
    "hour": 14,
-   "minute": 5,
+   "minute": 10,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 14.5,
+   "sun": 14.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -7.4,
-    8.28
+    14.0,
+    24.0
    ],
-   "heading": -160.7,
-   "place": null,
-   "doing": "walk_to",
-   "target": "post",
+   "heading": 34.8,
+   "place": "log",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.49,
-    "weariness": 0.44,
-    "company": 1.0,
-    "itch": 0.97,
-    "nerves": 0.25,
-    "thirst": 0.11
+    "belly": 0.53,
+    "weariness": 0.45,
+    "company": 0.81,
+    "itch": 1.0,
+    "nerves": 0.1,
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": -0.04,
-    "energy": -0.08
+    "mood": -0.11,
+    "energy": -0.38
    },
-   "thought": "the jar lid calls me; I must find the signal post",
+   "thought": "hunger makes me still, but dancing makes me hear myself again",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a jar lid"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.03,
-     -21.74
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,12 +497,12 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
-     "text": "Old Tuck said to you: \"Mm. Quiet is best here.\"",
-     "t": 1795456401.0
+     "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
+     "t": 1795461032.4
     }
    },
    "pip": {
@@ -532,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     959.27,
-     26.61
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -570,6 +568,15 @@ export default {
     "pos": [
      28.355567684864077,
      27.33467406426331
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o12-2069",
+    "name": "a jar lid",
+    "pos": [
+     13.758646776396382,
+     24.717287076439664
     ],
     "state": "placed"
    },
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795460754.9,
+  "now": 1795461055.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2563,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.010576099047159254,
-    "energy": -0.0015009218377881883
+    "mood": -0.09182326168749402,
+    "energy": -0.24057916171468316
    },
    "interests": {},
    "threads": [
