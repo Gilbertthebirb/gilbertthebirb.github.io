@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:15:57-05:00",
+ "asOf": "2026-11-23T18:20:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:15:56-05:00",
+   "iso": "2026-11-23T18:20:56-05:00",
    "hour": 18,
-   "minute": 15,
+   "minute": 20,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -12.7,
+   "sun": -13.4,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -995.86,
-    2.7
+    -999.28,
+    0.0
    ],
-   "heading": 11.0,
-   "place": "round_window",
-   "doing": null,
-   "target": null,
+   "heading": 46.4,
+   "place": "table",
+   "doing": "dance",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.32,
-    "weariness": 0.67,
-    "company": 0.45,
-    "itch": 0.67,
-    "nerves": 0.05,
-    "thirst": 0.29
+    "belly": 0.36,
+    "weariness": 0.55,
+    "company": 0.53,
+    "itch": 0.84,
+    "nerves": 0.1,
+    "thirst": 0.32
    },
    "feeling": {
-    "mood": 0.38,
-    "energy": -0.42
+    "mood": 0.24,
+    "energy": -0.19
    },
-   "thought": "the wire is still, but my feet need to speak in the dark rain",
+   "thought": "my legs have words but no ground to set on yet, so I must move them first",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -508,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.58,
-     -5.82
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795475757.8,
+  "now": 1795476057.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2578,8 +2578,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3854069415648758,
-    "energy": -0.4151482014086859
+    "mood": 0.32288285520225957,
+    "energy": -0.42170177562330674
    },
    "interests": {},
    "threads": [
