@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:50:58-05:00",
+ "asOf": "2026-11-23T18:55:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:50:58-05:00",
+   "iso": "2026-11-23T18:55:58-05:00",
    "hour": 18,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -17.9,
+   "sun": -18.6,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,25 +23,27 @@ export default {
    ],
    "heading": 171.3,
    "place": "table",
-   "doing": "hold_hunger",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.61,
-    "weariness": 0.52,
-    "company": 0.88,
-    "itch": 0.9,
+    "belly": 0.65,
+    "weariness": 0.46,
+    "company": 0.97,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.52
+    "thirst": 0.56
    },
    "feeling": {
-    "mood": 0.07,
-    "energy": -0.16
+    "mood": -0.12,
+    "energy": -0.3
    },
-   "thought": "it tastes like silence right now, so I hold it tight until my legs feel warm enough to move again.",
+   "thought": "the wire is too thin for me, but the paper feels like a skin I can peel back to see what's underneath",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a coil of thin wire"
+   ],
    "area": "home"
   },
   "places": {
@@ -508,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -519,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -552,8 +554,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -599,15 +601,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o18-3571",
-    "name": "a coil of thin wire",
-    "pos": [
-     -998.9616071672386,
-     0.9460764927933886
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
@@ -620,8 +613,8 @@ export default {
     "id": "o20-4554",
     "name": "a map of where you have not been",
     "pos": [
-     -997.082849530363,
-     0.024876143001190565
+     -999.1362411002792,
+     1.0468761275387197
     ],
     "state": "placed"
    },
@@ -702,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795477858.2,
+  "now": 1795478158.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2578,8 +2571,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.08277857668255399,
-    "energy": -0.1775453266301611
+    "mood": -0.06960870131576201,
+    "energy": -0.10111393320407261
    },
    "interests": {},
    "threads": [
