@@ -85,7 +85,8 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
   const doing = bird.asleep ? 'asleep' : (bird.doing || 'idle');
   // Where to draw him. The town gives one point per place; a few actions look better a step away.
   let tx = bird.pos[0], tz = bird.pos[1], face = null;
-  if ((doing === 'asleep' || doing === 'nap') && extra.city) { /* in the city he sleeps where he is */ }
+  if (extra.home) { /* inside his burrow (wish w13) every place is a piece of furniture: he is drawn at it */ }
+  else if ((doing === 'asleep' || doing === 'nap') && extra.city) { /* in the city he sleeps where he is */ }
   else if (doing === 'asleep' || doing === 'nap') { tx = 0; tz = 0.35; face = 0.5; }
   else if (doing === 'tinker') { tx = extra.shedInside[0]; tz = extra.shedInside[1]; face = Math.PI; }
   else if (doing === 'wade') { tx = -26.4; tz = 8.4; face = -1.2; }

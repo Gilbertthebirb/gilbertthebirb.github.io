@@ -95,7 +95,7 @@ export function buildUi(api) {
   const areaBtn = button('See the city', () => api.switchArea());
   bar.append(areaBtn);
   let areaNow = 'town';
-  ui.setArea = (area) => { areaNow = area; areaBtn.textContent = area === 'city' ? 'Back to town' : 'See the city'; walkBtn.style.display = area === 'city' ? 'none' : ''; };
+  ui.setArea = (area) => { areaNow = area; areaBtn.textContent = area === 'town' ? 'See the city' : 'Back to town'; walkBtn.style.display = area === 'town' ? '' : 'none'; };
   // A small map: his town, the tram line, the city, and a mark for where he is.
   const map = el('section', 'card map');
   const line = el('div', 'map-line'), mark = el('div', 'map-mark'), mapText = el('div', 'meta');
@@ -105,15 +105,15 @@ export function buildUi(api) {
   let mapKey = '';
   ui.setMap = (s, view) => {
     const b = s.bird || {}, tram = s.tram, area = b.area || 'town';
-    let at = area === 'city' ? 1 : 0, words = area === 'city' ? 'He is in the city.' : 'He is in his town.';
+    let at = area === 'city' ? 1 : 0, words = area === 'city' ? 'He is in the city.' : area === 'home' ? 'He is inside his burrow.' : 'He is in his town.';
     if (tram && !tram.aboard) words = `He is waiting for the tram ${tram.to === 'city' ? 'to the city' : 'home'}.`;
     if (tram && tram.aboard) {
       const done = clamp((s.now - tram.departs) / Math.max(1, tram.arrives - tram.departs));
       at = tram.to === 'city' ? done : 1 - done;
       words = `He is on the tram ${tram.to === 'city' ? 'to the city' : 'home'}.`;
     }
-    if (b.asleep) words = area === 'city' ? 'He is asleep in the city.' : 'He is asleep at home.';
-    words += view.area === 'city' ? ' You are looking at the city.' : ' You are looking at his town.';
+    if (b.asleep) words = area === 'city' ? 'He is asleep in the city.' : area === 'home' ? 'He is asleep in his bed.' : 'He is asleep at home.';
+    words += view.area === 'city' ? ' You are looking at the city.' : view.area === 'home' ? ' You are looking inside his burrow.' : ' You are looking at his town.';
     const key = `${Math.round(at * 200)}|${words}`;
     if (key === mapKey) return;
     mapKey = key;
@@ -179,6 +179,7 @@ export function buildUi(api) {
   ui.setPrompt = (isWalking, reach, linkNow, s) => {
     const lines = [];
     if (areaNow === 'city') lines.push('Drag to look around · scroll to zoom · visitors walk in his town, not here');
+    else if (areaNow === 'home') lines.push('Drag to look around · scroll to zoom · this is inside his burrow; visitors walk in his town');
     else if (!isWalking) lines.push(linkNow.mode === 'asleep' ? 'Drag to look around · scroll to zoom · Enter to walk about' : 'Drag to look around · scroll to zoom · Enter to walk into town');
     else {
       if (reach.talk) lines.push('T — say something to him');
