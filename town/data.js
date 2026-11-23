@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T15:20:55-05:00",
+ "asOf": "2026-11-23T15:25:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T15:20:54-05:00",
+   "iso": "2026-11-23T15:25:54-05:00",
    "hour": 15,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.0,
+   "sun": 8.5,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -1000.0,
-    4.68
+    -1003.06,
+    -3.6
    ],
-   "heading": -64.4,
-   "place": "round_door",
-   "doing": null,
-   "target": null,
+   "heading": -133.6,
+   "place": "shelves",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.52,
-    "weariness": 0.64,
+    "belly": 0.56,
+    "weariness": 0.61,
     "company": 1.0,
-    "itch": 0.74,
+    "itch": 0.79,
     "nerves": 0.0,
-    "thirst": 0.08
+    "thirst": 0.11
    },
    "feeling": {
-    "mood": 0.08,
-    "energy": -0.75
+    "mood": 0.05,
+    "energy": -0.69
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the map is too big here; I need the edge of hunger first.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     15.36,
+     -18.66
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -497,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     23.92,
-     25.42
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795465255.7,
+  "now": 1795465555.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.024577792922350267,
-    "energy": -0.7782244873409396
+    "mood": 0.04086434574780676,
+    "energy": -0.6958015874541115
    },
    "interests": {},
    "threads": [
