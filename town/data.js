@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T13:20:54-05:00",
+ "asOf": "2026-11-23T13:25:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T13:20:54-05:00",
+   "iso": "2026-11-23T13:25:54-05:00",
    "hour": 13,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.3,
+   "sun": 16.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": 115.6,
    "place": "round_window",
-   "doing": null,
-   "target": null,
+   "doing": "watch",
+   "target": "outside",
    "asleep": false,
    "needs": {
-    "belly": 0.42,
-    "weariness": 0.49,
-    "company": 0.46,
-    "itch": 0.97,
+    "belly": 0.46,
+    "weariness": 0.52,
+    "company": 0.54,
+    "itch": 0.94,
     "nerves": 0.0,
-    "thirst": 0.41
+    "thirst": 0.45
    },
    "feeling": {
-    "mood": 0.45,
-    "energy": -0.5
+    "mood": 0.41,
+    "energy": -0.41
    },
-   "thought": "i want to see where i can go without moving my feet",
+   "thought": "the leaves rustling outside tells me where to stand before I move",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a map of where you have not been"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     32.48,
+     -8.74
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -615,6 +613,15 @@ export default {
     "pos": [
      174.5706304242111,
      -10.675713330459413
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -995.5244145877647,
+     3.693313839783685
     ],
     "state": "placed"
    },
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795458054.5,
+  "now": 1795458354.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2563,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.46819249800177243,
-    "energy": -0.48339726356364576
+    "mood": 0.4420173740373454,
+    "energy": -0.36527465922343816
    },
    "interests": {},
    "threads": [
