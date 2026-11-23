@@ -49,7 +49,7 @@ function showArea(area) {
   if (area === view.area) return;
   if (area !== 'town' && me.active) leave();                 // visitors walk in town; the city and his burrow are for watching
   if (area === 'home' || view.area === 'home') {            // closer in for the little room, back out after
-    Object.assign(cam, area === 'home' ? { dist: 8, pitch: 0.75 } : { dist: 15, pitch: 0.42 });
+    Object.assign(cam, area === 'home' ? { dist: 13, pitch: 0.75 } : { dist: 15, pitch: 0.42 });
   }
   view.area = area;
   if (area === 'home' && !view.home) {
@@ -429,7 +429,7 @@ function frame(ms) {
 
   // The camera circles whoever is being watched.
   const focus = cam.watch === 'me' && me.active ? v3.set(me.pos.x, heightAt(me.pos.x, me.pos.y) + 1.3, me.pos.y)
-    : birdHere ? v3.set(kiwi.pos.x, heightAt(kiwi.pos.x, kiwi.pos.y) + 0.8, kiwi.pos.y) : view.area === 'home' ? v3.set(0, 0.5, 0) : v3.set(0, 1, 6);
+    : birdHere ? v3.set(kiwi.pos.x, heightAt(kiwi.pos.x, kiwi.pos.y) + 0.8, kiwi.pos.y) : view.area === 'home' ? v3.set(0, 0.9, 0) : v3.set(0, 1, 6);
   cam.target.x = damp(cam.target.x, focus.x, 6, dt); cam.target.y = damp(cam.target.y, focus.y, 6, dt); cam.target.z = damp(cam.target.z, focus.z, 6, dt);
   if (!drag && cam.watch === 'gilbert' && !me.active) cam.yaw += dt * 0.02;       // a slow drift while only watching
   const flat = Math.cos(cam.pitch) * cam.dist;

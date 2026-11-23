@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T19:30:58-05:00",
+ "asOf": "2026-11-22T19:35:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T19:30:58-05:00",
+   "iso": "2026-11-22T19:35:58-05:00",
    "hour": 19,
-   "minute": 30,
+   "minute": 35,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -23.8,
+   "sun": -24.6,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": "probe",
-   "target": "",
+   "heading": 45.0,
+   "place": "moss",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.21,
-    "weariness": 0.82,
-    "company": 0.26,
+    "belly": 0.25,
+    "weariness": 0.83,
+    "company": 0.35,
     "itch": 1.0,
-    "nerves": 0.03,
-    "thirst": 0.26
+    "nerves": 0.0,
+    "thirst": 0.29
    },
    "feeling": {
-    "mood": 0.09,
-    "energy": -0.39
+    "mood": 0.2,
+    "energy": -0.51
    },
-   "thought": "I need the ground to tell me where I stand before I try again.",
+   "thought": "my legs have words but my stomach is quiet; i need to feel what the moss holds before it takes all of me",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795393858.9,
+  "now": 1795394159.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.15726063432356036,
-    "energy": -0.5913868370539634
+    "mood": 0.19889564813604851,
+    "energy": -0.47392119799858873
    },
    "interests": {},
    "threads": [
