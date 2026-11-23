@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T10:20:52-05:00",
+ "asOf": "2026-11-23T10:25:52-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T10:20:52-05:00",
+   "iso": "2026-11-23T10:25:52-05:00",
    "hour": 10,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "morning",
-   "sun": 10.8,
+   "sun": 11.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,33 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -1004.14,
+    0.72
    ],
-   "heading": 127.9,
-   "place": "chair",
-   "doing": "hold_hunger",
-   "target": "",
+   "heading": -37.5,
+   "place": "hearth",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.72,
-    "weariness": 0.07,
-    "company": 0.36,
+    "belly": 0.76,
+    "weariness": 0.1,
+    "company": 0.44,
     "itch": 0.93,
     "nerves": 0.0,
-    "thirst": 0.58
+    "thirst": 0.62
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": -0.23
+    "mood": 0.19,
+    "energy": -0.19
    },
-   "thought": "my throat is empty and the drum sits too still.",
+   "thought": "the drum sounds like Pip running and I have nothing in my bag to carry him",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a hand drum",
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -486,8 +489,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I've been listening for hours already, but you're right, I'm still here. Just stay quiet so I can hear everything without disturbing the birds.\"",
@@ -497,8 +500,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -508,8 +511,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     2.82,
+     -1.48
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -519,8 +522,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +533,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -608,29 +611,11 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o19-4553",
-    "name": "a hand drum",
-    "pos": [
-     -1000.1875820636358,
-     1.2025203927853343
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o20-4554",
     "name": "a map of where you have not been",
     "pos": [
      -996.473234743888,
      -0.33078070921355496
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1000.7017118177608,
-     -4.028611618734636
     ],
     "state": "placed"
    }
@@ -702,7 +687,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795447252.4,
+  "now": 1795447552.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2554,8 +2539,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.26017897425609393,
-    "energy": -0.2272635306165045
+    "mood": 0.18908721318891714,
+    "energy": -0.18656213875666477
    },
    "interests": {},
    "threads": [
