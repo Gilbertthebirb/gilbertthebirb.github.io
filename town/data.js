@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T13:05:54-05:00",
+ "asOf": "2026-11-23T13:10:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T13:05:54-05:00",
+   "iso": "2026-11-23T13:10:54-05:00",
    "hour": 13,
-   "minute": 5,
+   "minute": 10,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 16.6,
@@ -15,30 +15,30 @@ export default {
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -997.12,
-    -3.78
+    -999.28,
+    0.0
    ],
-   "heading": 161.2,
-   "place": "bed",
-   "doing": "nap",
-   "target": "",
+   "heading": 46.4,
+   "place": "table",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.29,
-    "weariness": 0.85,
-    "company": 0.21,
-    "itch": 1.0,
-    "nerves": 0.1,
-    "thirst": 0.31
+    "belly": 0.33,
+    "weariness": 0.48,
+    "company": 0.29,
+    "itch": 0.98,
+    "nerves": 0.0,
+    "thirst": 0.35
    },
    "feeling": {
-    "mood": 0.15,
-    "energy": -0.58
+    "mood": 0.42,
+    "energy": -0.64
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the map is flat on the table; it will stay where I put it",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -497,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Mm. Quiet is best here.\"",
@@ -508,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     4.73,
+     -1.27
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -620,8 +620,8 @@ export default {
     "id": "o20-4554",
     "name": "a map of where you have not been",
     "pos": [
-     -996.4145257933126,
-     3.653932196092788
+     -998.6747133178533,
+     1.1949212485106058
     ],
     "state": "placed"
    },
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795457154.4,
+  "now": 1795457454.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.13875578331020022,
-    "energy": -0.6628192132878783
+    "mood": 0.44217661014901793,
+    "energy": -0.6531843015411818
    },
    "interests": {},
    "threads": [
