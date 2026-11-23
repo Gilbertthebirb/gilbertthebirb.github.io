@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T14:40:55-05:00",
+ "asOf": "2026-11-23T14:45:55-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T14:40:54-05:00",
+   "iso": "2026-11-23T14:45:54-05:00",
    "hour": 14,
-   "minute": 40,
+   "minute": 45,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.3,
+   "sun": 11.9,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,31 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    39.41,
-    1.63
+    3.0,
+    38.0
    ],
-   "heading": -84.3,
-   "place": null,
-   "doing": "walk_to",
-   "target": "creek",
+   "heading": 42.0,
+   "place": "gate",
+   "doing": "dance",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.48,
-    "weariness": 0.66,
-    "company": 0.91,
+    "belly": 0.52,
+    "weariness": 0.67,
+    "company": 0.99,
     "itch": 1.0,
-    "nerves": 0.15,
-    "thirst": 0.07
+    "nerves": 0.06,
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.31,
-    "energy": -0.34
+    "mood": 0.09,
+    "energy": -0.66
    },
-   "thought": "the sound of water might tell me where to stand again",
+   "thought": "my legs have words but my beak is full of hunger and I am tired",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a hand drum"
+    "a backpack"
    ],
    "area": "town"
   },
@@ -488,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -521,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1011.4,
-     13.9
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     997.99,
-     2.89
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -610,20 +610,20 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o19-4553",
+    "name": "a hand drum",
+    "pos": [
+     3.3133715630379648,
+     38.940513173437424
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o20-4554",
     "name": "a map of where you have not been",
     "pos": [
      -1000.3794279059873,
      5.52813513676613
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     2.368918741161094,
-     39.00482166640609
     ],
     "state": "placed"
    }
@@ -695,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795462855.3,
+  "now": 1795463155.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2563,8 +2563,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.15811554115656842,
-    "energy": -0.45880368903806734
+    "mood": -0.036849869185604275,
+    "energy": -0.5779766213276648
    },
    "interests": {},
    "threads": [
