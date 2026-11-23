@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T17:00:57-05:00",
+ "asOf": "2026-11-23T17:05:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T17:00:56-05:00",
+   "iso": "2026-11-23T17:05:56-05:00",
    "hour": 17,
-   "minute": 0,
+   "minute": 5,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -2.3,
+   "sun": -3.0,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1000.0,
+    -4.68
    ],
-   "heading": 46.4,
-   "place": "table",
-   "doing": null,
-   "target": null,
+   "heading": 109.4,
+   "place": "lamp",
+   "doing": "pick_up",
+   "target": "o20-4554",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.67,
+    "weariness": 0.7,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.75
+    "thirst": 0.78
    },
    "feeling": {
-    "mood": -0.74,
-    "energy": -0.46
+    "mood": -0.8,
+    "energy": -0.36
    },
-   "thought": "the words need air to speak; I will not hide in the dark again.",
+   "thought": "I need something to carry until the rain stops talking",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1008.46,
-     -4.81
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1009.02,
-     18.49
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795471257.0,
+  "now": 1795471557.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.6665575734203439,
-    "energy": -0.44515224346049515
+    "mood": -0.7324232632860985,
+    "energy": -0.18532947759565876
    },
    "interests": {},
    "threads": [
