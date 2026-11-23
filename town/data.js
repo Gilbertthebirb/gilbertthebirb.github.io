@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T10:00:52-05:00",
+ "asOf": "2026-11-23T10:05:52-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T10:00:52-05:00",
+   "iso": "2026-11-23T10:05:52-05:00",
    "hour": 10,
-   "minute": 0,
+   "minute": 5,
    "phase": "day",
    "words": "morning",
-   "sun": 9.0,
+   "sun": 9.5,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,32 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -995.86,
-    2.7
+    -1000.63,
+    0.2
    ],
-   "heading": 11.0,
-   "place": "round_window",
-   "doing": null,
-   "target": null,
+   "heading": 98.4,
+   "place": null,
+   "doing": "walk_to",
+   "target": "table",
    "asleep": false,
    "needs": {
-    "belly": 0.55,
-    "weariness": 0.08,
-    "company": 0.32,
-    "itch": 0.87,
-    "nerves": 0.03,
-    "thirst": 0.45
+    "belly": 0.59,
+    "weariness": 0.09,
+    "company": 0.26,
+    "itch": 1.0,
+    "nerves": 0.01,
+    "thirst": 0.48
    },
    "feeling": {
-    "mood": 0.83,
-    "energy": 0.03
+    "mood": 0.85,
+    "energy": 0.37
    },
-   "thought": "I want something I can carry with me",
+   "thought": "hungry and need to look at where next",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a hand drum"
+    "a map of where you have not been",
+    "a backpack"
    ],
    "area": "home"
   },
@@ -499,8 +500,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28,
-     26
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -510,8 +511,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -521,8 +522,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -543,8 +544,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +555,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -606,6 +607,15 @@ export default {
     "pos": [
      -21.043110098656555,
      47.981498033031386
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o19-4553",
+    "name": "a hand drum",
+    "pos": [
+     -995.8124924220203,
+     3.4600390679998587
     ],
     "state": "placed"
    }
@@ -669,9 +679,7 @@ export default {
    "a blue bottle cap",
    "a square of tin",
    "a bent teaspoon",
-   "half a clothes peg",
-   "a map of where you have not been",
-   "a backpack"
+   "half a clothes peg"
   ],
   "chest": [],
   "letters_waiting": 0,
@@ -679,7 +687,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795446052.3,
+  "now": 1795446352.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2531,8 +2539,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.14963147463886312,
-    "energy": -0.8760972523422547
+    "mood": 0.6889759817075587,
+    "energy": -0.088176576790646
    },
    "interests": {},
    "threads": [
@@ -2543,7 +2551,7 @@ export default {
    "lastResult": "",
    "wake": 33,
    "awakeSince": "",
-   "lastDream": "Pip chased a stone that vanished before it hit the dirt. I ran after the quiet, but forgot how to stop."
+   "lastDream": "The small rings on the water and Mabel's voice standing beneath my feet."
   }
  }
 };
