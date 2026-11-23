@@ -39,6 +39,9 @@ function mushroom(x, z, s, cap = 0xb5523a) {
 // ---- small things: what he finds, keeps, and is left ------------------------------------------
 // The Blender models of the small things (build_models.py m_items, models/items.glb), once they have loaded.
 // Until then, and for any thing without a model, the simple shapes below stand in.
+// The models are in real metres. Gilbert's body is about 1.15 units long and a kiwi's about 40 cm, so the
+// town is drawn at about 2.8 units to the metre: at this scale each thing is its real size next to him.
+export const ITEM_SCALE = 2.8;
 const ITEM_MODELS = new Map();
 let itemModelsV = 0;
 export function itemSlug(name) {                // the same as item_slug() in build_models.py
@@ -85,7 +88,7 @@ export function itemMesh(name) {
     c.position.set(0, 0, 0); c.rotation.set(0, 0, 0);
     g.add(c);
     g.userData.depth = model.userData.depth;
-    g.scale.setScalar(1.9);
+    g.scale.setScalar(ITEM_SCALE);
     return g;
   }
   const add = (geometry, color, pos, rot) => { const p = part(geometry, color, pos); if (rot) p.rotation.set(...rot); g.add(p); return p; };
@@ -540,6 +543,7 @@ export function buildPlaces(scene) {
           node = itemMesh(o.name);
           const ring = part(new THREE.RingGeometry(0.2, 0.26, 12), new THREE.MeshBasicMaterial({ color: 0xffe9a8, transparent: true, opacity: 0.5, side: THREE.DoubleSide }), [0, 0.02, 0]);
           ring.rotation.x = -Math.PI / 2;
+          ring.scale.setScalar(1.9 / node.scale.x);           // the same size of ring whatever the thing's size
           node.add(ring);
           node.userData.ring = ring;
         }
