@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T17:20:57-05:00",
+ "asOf": "2026-11-23T17:25:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T17:20:56-05:00",
+   "iso": "2026-11-23T17:25:56-05:00",
    "hour": 17,
-   "minute": 20,
+   "minute": 25,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -5.0,
+   "sun": -5.7,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.46,
-    "weariness": 0.72,
-    "company": 0.15,
-    "itch": 0.99,
+    "belly": 0.2,
+    "weariness": 0.75,
+    "company": 0.24,
+    "itch": 0.98,
     "nerves": 0.35,
-    "thirst": 0.28
+    "thirst": 0.31
    },
    "feeling": {
-    "mood": 0.31,
-    "energy": -0.02
+    "mood": 0.22,
+    "energy": -0.28
    },
-   "thought": "The thunder hides her voice, but the creek remembers; I must speak or stay lost.",
+   "thought": "I am hungry; I need to find something for my beak to hold.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795472457.3,
+  "now": 1795472757.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3480010670229887,
-    "energy": 0.3325964311088475
+    "mood": 0.21860684341067302,
+    "energy": -0.2833894376421281
    },
    "interests": {},
    "threads": [
