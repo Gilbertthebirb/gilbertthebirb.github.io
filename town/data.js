@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:10:57-05:00",
+ "asOf": "2026-11-23T18:15:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:10:56-05:00",
+   "iso": "2026-11-23T18:15:56-05:00",
    "hour": 18,
-   "minute": 10,
+   "minute": 15,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -12.0,
+   "sun": -12.7,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,30 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -997.12,
-    -3.78
+    -995.86,
+    2.7
    ],
-   "heading": 161.2,
-   "place": "bed",
+   "heading": 11.0,
+   "place": "round_window",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.28,
-    "weariness": 0.63,
-    "company": 0.52,
-    "itch": 0.63,
+    "belly": 0.32,
+    "weariness": 0.67,
+    "company": 0.45,
+    "itch": 0.67,
     "nerves": 0.05,
-    "thirst": 0.26
+    "thirst": 0.29
    },
    "feeling": {
-    "mood": 0.47,
-    "energy": -0.51
+    "mood": 0.38,
+    "energy": -0.42
    },
-   "thought": "the dark is too loud without Mabel's laugh; i need to move before i forget how to stand",
+   "thought": "the wire is still, but my feet need to speak in the dark rain",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a coil of thin wire",
-    "a map of where you have not been"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -489,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -500,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -511,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.58,
+     -5.82
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -522,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -533,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.7,
-     -5.09
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -544,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -555,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -602,11 +599,29 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     -996.743729904781,
+     3.364186467735244
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
      3.3133715630379648,
      38.940513173437424
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -995.298141227765,
+     4.087715734986666
     ],
     "state": "placed"
    },
@@ -687,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795475457.8,
+  "now": 1795475757.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2563,8 +2578,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4461246796752811,
-    "energy": -0.5013216471373141
+    "mood": 0.3854069415648758,
+    "energy": -0.4151482014086859
    },
    "interests": {},
    "threads": [
