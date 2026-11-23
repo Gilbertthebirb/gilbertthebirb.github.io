@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T05:54:49-05:00",
+ "asOf": "2026-11-23T05:59:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T05:54:48-05:00",
+   "iso": "2026-11-23T05:59:48-05:00",
    "hour": 5,
-   "minute": 54,
+   "minute": 59,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -23.2,
+   "sun": -22.4,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -22.18,
-    9.82
+    -12.0,
+    20.0
    ],
    "heading": 45.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "moss",
+   "place": "moss",
+   "doing": "watch",
+   "target": "pip",
    "asleep": false,
    "needs": {
-    "belly": 0.57,
-    "weariness": 0.46,
-    "company": 0.33,
-    "itch": 0.62,
+    "belly": 0.62,
+    "weariness": 0.49,
+    "company": 0.13,
+    "itch": 0.67,
     "nerves": 0.05,
-    "thirst": 0.14
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.27
+    "mood": 0.46,
+    "energy": 0.3
    },
-   "thought": "the sound of leaves rustling feels like words before I find them again",
+   "thought": "I see the dandelion seed and feel the stir in my legs again.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -512,15 +512,15 @@ export default {
      20.0
     ],
     "said": {
-     "text": "Pip said to you: \"Not me! It's the kiwi, Gilbert, and he is very tall for such a small bird who lives near here.\"",
-     "t": 1795430843.9
+     "text": "Pip said to you: \"Oh look! A dandelion seed is floating right above me! And did you know Gilbert has a tiny scar on his wing? It makes him look super cute actually. But…\"",
+     "t": 1795431492.9
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -674,7 +674,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 30,
-  "now": 1795431289.7,
+  "now": 1795431589.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2489,8 +2489,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.08334740955447925,
-    "energy": -0.3269589440049051
+    "mood": 0.4918865552659354,
+    "energy": 0.37078245733412374
    },
    "interests": {},
    "threads": [
