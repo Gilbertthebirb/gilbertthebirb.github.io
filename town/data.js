@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:05:57-05:00",
+ "asOf": "2026-11-23T18:10:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:05:56-05:00",
+   "iso": "2026-11-23T18:10:56-05:00",
    "hour": 18,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -11.3,
+   "sun": -12.0,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "rain",
   "bird": {
    "pos": [
     -997.12,
@@ -23,26 +23,27 @@ export default {
    ],
    "heading": 161.2,
    "place": "bed",
-   "doing": "nap",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.24,
-    "weariness": 1.0,
-    "company": 0.43,
-    "itch": 0.58,
-    "nerves": 0.1,
-    "thirst": 0.22
+    "belly": 0.28,
+    "weariness": 0.63,
+    "company": 0.52,
+    "itch": 0.63,
+    "nerves": 0.05,
+    "thirst": 0.26
    },
    "feeling": {
-    "mood": 0.84,
-    "energy": 0.03
+    "mood": 0.47,
+    "energy": -0.51
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the dark is too loud without Mabel's laugh; i need to move before i forget how to stand",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a coil of thin wire"
+    "a coil of thin wire",
+    "a map of where you have not been"
    ],
    "area": "home"
   },
@@ -499,8 +500,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -510,8 +511,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -532,8 +533,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1004.47,
-     17.76
+     1022.7,
+     -5.09
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -606,15 +607,6 @@ export default {
     "pos": [
      3.3133715630379648,
      38.940513173437424
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     -999.4585842195331,
-     1.227348716364621
     ],
     "state": "placed"
    },
@@ -695,7 +687,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795475157.7,
+  "now": 1795475457.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2571,8 +2563,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6363639813200618,
-    "energy": -0.1580466468275038
+    "mood": 0.4461246796752811,
+    "energy": -0.5013216471373141
    },
    "interests": {},
    "threads": [
