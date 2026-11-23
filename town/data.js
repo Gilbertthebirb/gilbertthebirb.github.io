@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T14:00:54-05:00",
+ "asOf": "2026-11-23T14:05:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T14:00:54-05:00",
+   "iso": "2026-11-23T14:05:54-05:00",
    "hour": 14,
-   "minute": 0,
+   "minute": 5,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 14.8,
+   "sun": 14.5,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -7.4,
+    8.28
    ],
-   "heading": -135.0,
-   "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "heading": -160.7,
+   "place": null,
+   "doing": "walk_to",
+   "target": "post",
    "asleep": false,
    "needs": {
-    "belly": 0.45,
-    "weariness": 0.41,
+    "belly": 0.49,
+    "weariness": 0.44,
     "company": 1.0,
-    "itch": 1.0,
+    "itch": 0.97,
     "nerves": 0.25,
-    "thirst": 0.08
+    "thirst": 0.11
    },
    "feeling": {
-    "mood": -0.22,
-    "energy": -0.15
+    "mood": -0.04,
+    "energy": -0.08
    },
-   "thought": "the sound of the water throws at the bank, telling me where to stand; it beats better than my own tiredness",
+   "thought": "the jar lid calls me; I must find the signal post",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a jar lid"
+   ],
    "area": "town"
   },
   "places": {
@@ -486,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.03,
+     -21.74
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -497,8 +499,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     22.28,
-     25.18
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said to you: \"Mm. Quiet is best here.\"",
@@ -508,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -519,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -541,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,8 +554,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     959.27,
+     26.61
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -568,15 +570,6 @@ export default {
     "pos": [
      28.355567684864077,
      27.33467406426331
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o12-2069",
-    "name": "a jar lid",
-    "pos": [
-     3.675585373847702,
-     39.18266450728286
     ],
     "state": "placed"
    },
@@ -629,8 +622,8 @@ export default {
     "id": "o21-4555",
     "name": "a backpack",
     "pos": [
-     1.1035787236532906,
-     57.68328153236294
+     2.368918741161094,
+     39.00482166640609
     ],
     "state": "placed"
    }
@@ -702,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795460454.9,
+  "now": 1795460754.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2563,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.20557529616279732,
-    "energy": -0.1776449834859837
+    "mood": -0.010576099047159254,
+    "energy": -0.0015009218377881883
    },
    "interests": {},
    "threads": [
