@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T05:34:49-05:00",
+ "asOf": "2026-11-23T05:39:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T05:34:48-05:00",
+   "iso": "2026-11-23T05:39:48-05:00",
    "hour": 5,
-   "minute": 34,
+   "minute": 39,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -26.2,
+   "sun": -25.5,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 149.0,
-   "place": "burrow",
-   "doing": null,
-   "target": null,
+   "heading": 119.4,
+   "place": "shed",
+   "doing": "drink",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.71,
-    "weariness": 0.08,
-    "company": 0.13,
-    "itch": 0.93,
+    "belly": 0.75,
+    "weariness": 0.09,
+    "company": 0.22,
+    "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.61
+    "thirst": 0.64
    },
    "feeling": {
-    "mood": 0.72,
-    "energy": 0.77
+    "mood": 0.07,
+    "energy": 0.05
    },
-   "thought": "the hunger makes my legs move better than they did before",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16,
-     -9
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Gilbert, you're saying that? I've been watching your tail twitch for an hour. Just keep quiet so we can finish our snack.\"",
@@ -497,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -508,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Hi! Did you see that? No, wait, hello back!\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -674,7 +674,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 30,
-  "now": 1795430089.3,
+  "now": 1795430389.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2480,8 +2480,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3288183779248639,
-    "energy": -0.20125220936684296
+    "mood": 0.3048214084368888,
+    "energy": 0.16843601096353564
    },
    "interests": {},
    "threads": [
@@ -2492,7 +2492,7 @@ export default {
    "lastResult": "",
    "wake": 32,
    "awakeSince": "",
-   "lastDream": "The insect clicked softly inside my long beak while a voice from far away answered my call. The dark swallowed both and held them together just for a breath."
+   "lastDream": "Pip chased a stone that vanished before it hit the dirt. I ran after the quiet, but forgot how to stop."
   }
  }
 };
