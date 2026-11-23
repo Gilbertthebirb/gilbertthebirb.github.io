@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T05:49:49-05:00",
+ "asOf": "2026-11-23T05:54:49-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T05:49:48-05:00",
+   "iso": "2026-11-23T05:54:48-05:00",
    "hour": 5,
-   "minute": 49,
+   "minute": 54,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -23.9,
+   "sun": -23.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -22.18,
+    9.82
    ],
-   "heading": -98.6,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 45.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "moss",
    "asleep": false,
    "needs": {
-    "belly": 0.83,
-    "weariness": 0.42,
-    "company": 0.24,
-    "itch": 0.57,
+    "belly": 0.57,
+    "weariness": 0.46,
+    "company": 0.33,
+    "itch": 0.62,
     "nerves": 0.05,
-    "thirst": 0.11
+    "thirst": 0.14
    },
    "feeling": {
-    "mood": 0.27,
-    "energy": 0.1
+    "mood": 0.28,
+    "energy": -0.27
    },
-   "thought": "the water sounds like something waiting to talk back; I need to move before the quiet gets too heavy.",
+   "thought": "the sound of leaves rustling feels like words before I find them again",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -486,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Gilbert, you're saying that? I've been watching your tail twitch for an hour. Just keep quiet so we can finish our snack.\"",
@@ -508,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Not me! It's the kiwi, Gilbert, and he is very tall for such a small bird who lives near here.\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -674,7 +674,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 30,
-  "now": 1795430989.6,
+  "now": 1795431289.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2489,8 +2489,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4089222564488276,
-    "energy": 0.29958835300281095
+    "mood": 0.08334740955447925,
+    "energy": -0.3269589440049051
    },
    "interests": {},
    "threads": [
