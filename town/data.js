@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T12:15:53-05:00",
+ "asOf": "2026-11-23T12:20:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T12:15:52-05:00",
+   "iso": "2026-11-23T12:20:52-05:00",
    "hour": 12,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 16.7,
@@ -15,34 +15,35 @@ export default {
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "clear",
   "bird": {
    "pos": [
-    2.0,
-    57.0
+    -22.0,
+    47.0
    ],
-   "heading": -68.3,
-   "place": "halt",
-   "doing": null,
-   "target": null,
+   "heading": -112.6,
+   "place": "culvert",
+   "doing": "dance",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.14,
-    "company": 0.96,
-    "itch": 0.89,
-    "nerves": 0.15,
-    "thirst": 0.48
+    "belly": 0.51,
+    "weariness": 0.15,
+    "company": 1.0,
+    "itch": 1.0,
+    "nerves": 0.28,
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": -0.0,
-    "energy": -0.11
+    "mood": -0.01,
+    "energy": 0.0
    },
-   "thought": "legs have words but no ground yet",
+   "thought": "my legs have so many things to say but my beak only holds wire and cloth, so I must move first before I speak or sit down.",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a backpack"
+    "a scrap of sailcloth",
+    "a coil of thin wire"
    ],
    "area": "town"
   },
@@ -499,8 +500,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     18.49,
-     24.64
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -510,8 +511,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     10.26,
+     12.05
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -521,8 +522,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +533,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1000.48,
+     23.54
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +544,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +555,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -583,29 +584,11 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     -22.967195336137593,
-     48.262561014094544
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
      41.299103477770316,
      -6.148011566363505
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o18-3571",
-    "name": "a coil of thin wire",
-    "pos": [
-     -21.043110098656555,
-     47.981498033031386
     ],
     "state": "placed"
    },
@@ -624,6 +607,15 @@ export default {
     "pos": [
      -996.4145257933126,
      3.653932196092788
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     1.1035787236532906,
+     57.68328153236294
     ],
     "state": "placed"
    }
@@ -695,7 +687,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795454153.8,
+  "now": 1795454453.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2547,8 +2539,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.015283088927054544,
-    "energy": -0.07438287988749565
+    "mood": 0.042669133247340466,
+    "energy": -0.13424708253740145
    },
    "interests": {},
    "threads": [
