@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T20:45:59-05:00",
+ "asOf": "2026-11-22T20:50:59-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-22T20:45:58-05:00",
+   "iso": "2026-11-22T20:50:58-05:00",
    "hour": 20,
-   "minute": 45,
+   "minute": 50,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -35.2,
+   "sun": -35.9,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    9.01,
-    27.31
+    2.03,
+    7.6
    ],
-   "heading": 122.4,
+   "heading": -89.1,
    "place": null,
    "doing": "walk_to",
-   "target": "heap",
+   "target": "creek",
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.65,
-    "company": 0.71,
-    "itch": 0.99,
+    "belly": 0.28,
+    "weariness": 0.69,
+    "company": 0.8,
+    "itch": 0.96,
     "nerves": 0.0,
-    "thirst": 0.41
+    "thirst": 0.44
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": -0.4
+    "mood": 0.05,
+    "energy": -0.27
    },
-   "thought": "",
+   "thought": "listen for the water to tell me where I stand",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh great! Right there! But did you see that red thing? No wait, let's talk about feathers! See Gilbert now?\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1017.78,
+     2.45
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -449,8 +449,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,7 +561,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 29,
-  "now": 1795398359.8,
+  "now": 1795398659.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2332,8 +2332,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.36069196852803614,
-    "energy": -0.31262813358008057
+    "mood": 0.06201281398824699,
+    "energy": -0.23278411035639307
    },
    "interests": {},
    "threads": [
