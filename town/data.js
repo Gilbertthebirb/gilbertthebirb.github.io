@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T10:10:52-05:00",
+ "asOf": "2026-11-23T10:15:52-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T10:10:52-05:00",
+   "iso": "2026-11-23T10:15:52-05:00",
    "hour": 10,
-   "minute": 10,
+   "minute": 15,
    "phase": "day",
    "words": "morning",
-   "sun": 9.9,
+   "sun": 10.4,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -999.51,
-    -1.48
+    -999.28,
+    0.0
    ],
-   "heading": -171.3,
-   "place": null,
-   "doing": "walk_to",
-   "target": "lamp",
+   "heading": 8.7,
+   "place": "table",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.63,
-    "weariness": 0.12,
-    "company": 0.34,
+    "belly": 0.68,
+    "weariness": 0.15,
+    "company": 0.27,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.52
+    "thirst": 0.55
    },
    "feeling": {
-    "mood": 0.86,
-    "energy": 0.78
+    "mood": 0.34,
+    "energy": 0.05
    },
-   "thought": "the light makes my eyes feel something real",
+   "thought": "the silence is too heavy; I need to feel steady first before I move.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -483,13 +481,13 @@ export default {
   "tram": null,
   "city_x": 1000.0,
   "home_x": -1000.0,
-  "lamp": false,
+  "lamp": true,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     22.38,
+     -9.96
     ],
     "said": {
      "text": "Mabel said to you: \"I've been listening for hours already, but you're right, I'm still here. Just stay quiet so I can hear everything without disturbing the birds.\"",
@@ -499,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -613,8 +611,8 @@ export default {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
-     -995.8124924220203,
-     3.4600390679998587
+     -1000.1875820636358,
+     1.2025203927853343
     ],
     "state": "placed"
    },
@@ -624,6 +622,15 @@ export default {
     "pos": [
      -998.252932142372,
      1.0705939896072987
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -1000.7017118177608,
+     -4.028611618734636
     ],
     "state": "placed"
    }
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795446652.3,
+  "now": 1795446952.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2547,8 +2554,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.6626480329571016,
-    "energy": 0.4174445444311489
+    "mood": 0.7640381986311982,
+    "energy": 0.4905373025539651
    },
    "interests": {},
    "threads": [
