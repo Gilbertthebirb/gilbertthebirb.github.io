@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:00:57-05:00",
+ "asOf": "2026-11-23T18:05:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:00:56-05:00",
+   "iso": "2026-11-23T18:05:56-05:00",
    "hour": 18,
-   "minute": 0,
+   "minute": 5,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -10.5,
+   "sun": -11.3,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,33 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -997.12,
+    -3.78
    ],
-   "heading": 119.4,
-   "place": "shed",
-   "doing": "tinker",
+   "heading": 161.2,
+   "place": "bed",
+   "doing": "nap",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.19,
-    "weariness": 0.84,
-    "company": 0.35,
-    "itch": 1.0,
+    "belly": 0.24,
+    "weariness": 1.0,
+    "company": 0.43,
+    "itch": 0.58,
     "nerves": 0.1,
-    "thirst": 0.19
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.08,
-    "energy": -0.44
+    "mood": 0.84,
+    "energy": 0.03
    },
-   "thought": "my legs have too many words and the wire feels like a friend I can't let go of",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [
     "a coil of thin wire"
    ],
-   "area": "town"
+   "area": "home"
   },
   "places": {
    "burrow": {
@@ -488,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +499,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -521,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1011.27,
-     -5.41
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1004.47,
+     17.76
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +554,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -693,9 +693,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 31,
-  "now": 1795474857.7,
+  "now": 1795475157.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -704,15 +704,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0073",
-    "ts": "2026-11-16T13:58:41-05:00",
-    "kind": "journal",
-    "wake": 4,
-    "text": "Pip forgot why he followed me, but I feel less alone with him.\nI called out into the dark until my eyes burned, hoping something would answer back.\nA car rushed past on a road I can't see, and leaves ran through the trees again.\nMy body is slow and heavy, like the stone I put on my shelf.\nIf nothing happens but I still feel alive, then I am here in this burrow.",
-    "tag": "bed",
-    "heat": 0.4
-   },
    {
     "id": "j0080",
     "ts": "2026-11-16T17:40:53-05:00",
@@ -1783,9 +1774,18 @@ export default {
     "text": "I pressed the drum and watched the roots draw themselves in the dark, growing thicker as they went deeper into where I feel safest. It wasn't about finding myself—it was just about making sure there's something holding me here when nothing else is happening. The ground doesn't have to be ordinary for it to hold weight.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j2237",
+    "ts": "2026-11-23T18:03:28-05:00",
+    "kind": "journal",
+    "wake": 33,
+    "text": "The wind passed through Gilbert's feathers and felt like a friend when he stopped trying to be anything. He caught the low, slow sound that settles deep, then the soft hum that whispers near. He did not know where the wind came from, only that it made his long beak feel lighter when he closed his eyes. The workbench stayed quiet with him in it.",
+    "tag": "",
+    "heat": 0.4
    }
   ],
-  "journalCount": 126,
+  "journalCount": 127,
   "memory": {
    "sleeps": 20,
    "next_id": 42,
@@ -2559,12 +2559,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-quiet-moment/",
     "note": "added a box that catches the light of the clear sky for Pip"
+   },
+   "gilbert-feather-wind": {
+    "title": "gilbert feather wind",
+    "description": "the sound of the wind through Gilbert's feathers",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-feather-wind/",
+    "note": "Gilbert listens for the wind in his own feathers, with buttons to catch the sound and close his eyes"
    }
   },
   "now": {
    "feeling": {
-    "mood": -0.021437148062750502,
-    "energy": -0.257130090866151
+    "mood": 0.6363639813200618,
+    "energy": -0.1580466468275038
    },
    "interests": {},
    "threads": [
