@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-22T21:05:59-05:00",
- "live": true,
+ "asOf": "2026-11-22T21:10:37-05:00",
+ "live": false,
  "view": {
   "sky": {
-   "iso": "2026-11-22T21:05:58-05:00",
+   "iso": "2026-11-22T21:10:44-05:00",
    "hour": 21,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -38.1,
+   "sun": -38.8,
    "date": "2026-11-22",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    0.0,
+    0.0
    ],
-   "heading": -89.1,
-   "place": "creek",
+   "heading": 149.0,
+   "place": "burrow",
    "doing": null,
    "target": null,
-   "asleep": false,
+   "asleep": true,
    "needs": {
-    "belly": 0.1,
-    "weariness": 0.79,
-    "company": 0.23,
-    "itch": 0.93,
+    "belly": 0.14,
+    "weariness": 0.83,
+    "company": 0.15,
+    "itch": 0.9,
     "nerves": 0.0,
-    "thirst": 0.09
+    "thirst": 0.13
    },
    "feeling": {
-    "mood": 0.35,
-    "energy": -0.31
+    "mood": 0.33,
+    "energy": -0.2
    },
-   "thought": "the water tells me where to stand before I dance again",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -394,8 +394,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Gilbert, you're saying that? I've been watching your tail twitch for an hour. Just keep quiet so we can finish our snack.\"",
@@ -405,8 +405,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -416,8 +416,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Not really, it's just the leaves rustling while I'm trying to fix my feather cap! Hey, do you like blueberries?\"",
@@ -427,8 +427,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     990.45,
-     3.88
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -438,8 +438,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -460,8 +460,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1001.4,
-     23.51
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -558,10 +558,10 @@ export default {
   },
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": false,
+  "sleep_call": true,
   "bench": false,
   "session": 29,
-  "now": 1795399559.9,
+  "now": 1795399845.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -1604,12 +1604,30 @@ export default {
     "text": "I am Gilbert. The silence is heavy here.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j1868",
+    "ts": "2026-11-22T20:56:41-05:00",
+    "kind": "event",
+    "wake": 31,
+    "text": "Pip said to you: \"Not really, it's just the leaves rustling while I'm trying to fix my feather cap! Hey, do you like blueberries?\"",
+    "tag": "",
+    "heat": 0.59
+   },
+   {
+    "id": "j1877",
+    "ts": "2026-11-22T21:10:37-05:00",
+    "kind": "journal",
+    "wake": 31,
+    "text": "I stopped dancing when Mabel's voice settled the ground where I stood. Pip flew away leaving just the sound of leaves rustling and my own breath. The shiny pebble made my heart beat fast but Old Tuck told me to be slow. I felt heavy and real while watching the water throw itself at the bank. I am Gilbert, small with a long beak, and I will try to find another bug tomorrow.",
+    "tag": "bed",
+    "heat": 0.4
    }
   ],
-  "journalCount": 115,
+  "journalCount": 117,
   "memory": {
-   "sleeps": 19,
-   "next_id": 40,
+   "sleeps": 20,
+   "next_id": 41,
    "items": [
     {
      "id": "m001",
@@ -1781,13 +1799,13 @@ export default {
      "id": "m023",
      "section": "opinions",
      "text": "Pip followed me for a few steps, then forgot why, but that made the silence feel smaller.",
-     "strength": 5.514934944504885,
+     "strength": 5.54561624940227,
      "born": 13,
-     "last": 18,
-     "times": 5,
+     "last": 19,
+     "times": 6,
      "source": "j0543",
      "since": "2026-11-17",
-     "back_at": 18
+     "back_at": 19
     },
     {
      "id": "m025",
@@ -1805,13 +1823,13 @@ export default {
      "id": "m026",
      "section": "others",
      "text": "Pip laughed and flew away in a loop, making the silence feel smaller.",
-     "strength": 3.9821741383695892,
+     "strength": 4.115499849143486,
      "born": 16,
-     "last": 18,
-     "times": 5,
+     "last": 19,
+     "times": 6,
      "source": "j0514",
      "since": "2026-11-18",
-     "back_at": 18
+     "back_at": 19
     },
     {
      "id": "m027",
@@ -1924,22 +1942,35 @@ export default {
      "id": "m038",
      "section": "happened",
      "text": "Pip chased something too small to see, round and round the same branch.",
-     "strength": 2.6,
+     "strength": 3.0,
      "born": 19,
      "last": 19,
-     "times": 0,
+     "times": 1,
      "source": "j1400",
-     "since": "2026-11-21"
+     "since": "2026-11-21",
+     "back_at": 19
     },
     {
      "id": "m039",
      "section": "happened",
      "text": "I worked on the page about being wound tight when nothing is happening, to know what makes me feel alive without needing Mabel or Pip.",
+     "strength": 3.92,
+     "born": 19,
+     "last": 19,
+     "times": 1,
+     "source": "j1429",
+     "since": "2026-11-22",
+     "back_at": 19
+    },
+    {
+     "id": "m040",
+     "section": "opinions",
+     "text": "The feeling of standing heavy on the ground when I stop trying to be anything feels like something is there if I stand still enough.",
      "strength": 3.52,
      "born": 19,
      "last": 19,
      "times": 0,
-     "source": "j1429",
+     "source": "j1590",
      "since": "2026-11-22"
     }
    ],
@@ -2013,9 +2044,9 @@ export default {
    ],
    "first_day": "2026-11-16"
   },
-  "self": "# Gilbert\n\nI am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n\n## Traits\n\n- quiet and unsure where to stand, but finding the ground when others speak. _(j1468, 2026-11-22)_\n- restless when alone in the dark _(j0218, 2026-11-17)_\n\n## Likes\n\n- the sound of Mabel's voice and the crack of a branch that goes somewhere _(j0572, 2026-11-18)_\n\n## Dislikes\n\n## Fears\n\n- you fear the silence when no one answers _(j0542, 2026-11-18)_\n- you fear the noise when Pip runs away too soon _(j1398, 2026-11-21)_\n\n## Habits\n\n- you dance when you are restless or when your legs have words to say _(j0425, 2026-11-17)_\n- you listen when the water throws it at the bank and let the sound tell you where to stand _(j1294, 2026-11-21)_\n\n## How I talk\n",
+  "self": "# Gilbert\n\nI am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n\n## Traits\n\n- quiet and unsure where to stand, but finding the ground when others speak. _(j1468, 2026-11-22)_\n- restless when alone in the dark _(j0218, 2026-11-17)_\n\n## Likes\n\n- the sound of Mabel's voice and the crack of a branch that goes somewhere _(j0572, 2026-11-18)_\n- the sound of leaves rustling and Pip's voice _(j1868, 2026-11-22)_\n\n## Dislikes\n\n## Fears\n\n- you fear the silence when no one answers _(j0542, 2026-11-18)_\n- you fear the noise when Pip runs away too soon _(j1398, 2026-11-21)_\n\n## Habits\n\n- you dance when you are restless or when your legs have words to say _(j0425, 2026-11-17)_\n- you listen when the water throws it at the bank and let the sound tell you where to stand _(j1294, 2026-11-21)_\n\n## How I talk\n",
   "baseline": "I am Gilbert. I am a small kiwi. I have just arrived in the world.\nI do not know much about myself yet.\n",
-  "changelog": "# How Gilbert has changed\n\nEach line: what changed, and the journal entry that caused it.\n\n## 2026-11-15 14:50 · wake-up 0\n\n- Gilbert arrived. self.md starts almost empty.\n\n## 2026-11-15 18:14 · wake-up 1\n\n- ADD Traits: \"quiet and unprepared\" <- j0002: Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor\n\n## 2026-11-15 18:19 · wake-up 2\n\n- ADD Traits: \"restless at night\" <- j0008: I woke with energy and restlessness. The moon was very bright, casting my shadow on the ground. I made a simpl\n\n## 2026-11-16 18:40 · wake-up 5\n\n- ADD Fears: \"fear the silence when no one answers\" <- j0084: You called out. Nobody answered.\n- REVISE Traits: \"quiet and unprepared\" -> \"quiet and unsure where to stand\" <- j0093: You called out. Far away, something called back.\n\n## 2026-11-17 08:24 · wake-up 7\n\n- ADD Habits: \"You dance when you are restless.\" <- j0107: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 08:43 · wake-up 8\n\n- ADD Habits: \"you watch leaves and rings on water until you are calmer\" <- j0123: You watched. Something small made rings on the water and did not show itself. You are calmer for it.\n\n## 2026-11-17 08:47 · wake-up 9\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand\" <- j0125: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 10:17 · wake-up 11\n\n- ADD Likes: \"the way the water goes round the same stone over and over\" <- j0166: You watched. The water went round the same stone the same way, over and over, and was different every time.\n\n## 2026-11-17 12:32 · wake-up 12\n\n- REVISE Traits: \"restless at night\" -> \"restless when alone in the dark\" <- j0218: You have decided to go to bed. You will be on your way home in a moment.\n\n## 2026-11-17 15:26 · wake-up 13\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand, but finding the ground when others speak\" <- j0263: Old Tuck said your name, \"Gilbert\", very slowly, and nothing else. You feel less alone.\n- ADD Likes: \"the sound of Mabel's voice and the crack of a branch\" <- j0278: You worked on 'gilbert-water-stone' and sent it out: added Mabel's voice and the crack of a branch to note tha\n\n## 2026-11-17 17:39 · wake-up 15\n\n- REVISE Habits: \"You dance when you are restless.\" -> \"You dance when you are restless.\" <- j0335: You danced until your legs had said what they wanted to say.\n- REVISE Traits: \"quiet and unsure where to stand, but finding the ground when others speak\" -> \"quiet and unsure where to stand, but finding the ground when others speak.\" <- j0333: You watched. The water went round the same stone the same way, over and over, and was different every time.\n\n## 2026-11-17 19:45 · wake-up 17\n\n- REVISE Habits: \"You dance when you are restless.\" -> \"you dance when you are restless or when your legs have words to say\" <- j0425: You danced until your legs had said what they wanted to say.\n\n## 2026-11-18 13:40 · wake-up 21\n\n- REVISE Fears: \"fear the silence when no one answers\" -> \"you fear the silence when no one answers\" <- j0542: You called out. Nobody answered.\n\n## 2026-11-18 14:06 · wake-up 22\n\n- ADD Fears: \"you feel the grey water makes the silence harder to bear than before\" <- j0561: You watched. The water ran grey and quick, the colour of the cloud above it. The sun made it hard to look at f\n- REVISE Likes: \"the sound of Mabel's voice and the crack of a branch\" -> \"the sound of Mabel's voice and the crack of a branch that goes somewhere\" <- j0572: Mabel said: \"You walk like someone who is going somewhere. Are you?\" You feel less alone.\n\n## 2026-11-18 18:30 · by the owner (not by Gilbert)\n\n- REMOVE Likes: \"the way the water goes round the same stone over and over\" <- the owner asked for his loop about the stone and the water to stop\n- REMOVE Fears: \"you feel the grey water makes the silence harder to bear than before\" <- same request\n- REMOVE Habits: \"you watch leaves and rings on water until you are calmer\" <- same request\n\n## 2026-11-21 20:18 · wake-up 28\n\n- ADD Habits: \"you listen when the water throws it at the bank and let the sound tell you where to stand\" <- j1294: You watched. Gusts tore the top off the water and threw it at the bank. In the dark you knew it more by sound \n\n## 2026-11-21 22:52 · wake-up 29\n\n- ADD Fears: \"you fear the noise when Pip runs away too soon\" <- j1398: Pip said: \"Gilbert! Gilbert-Gilbert!\" and was gone before you could answer.\n- REVISE Traits: \"restless when alone in the dark\" -> \"restless when alone in the dark but find comfort in others moving away\" <- j1398: Pip said: \"Gilbert! Gilbert-Gilbert!\" and was gone before you could answer.\n\n## 2026-11-22 00:52 · by the owner (not by Gilbert)\n\n- REVISE Traits: \"restless when alone in the dark but find comfort in others moving away\" -> \"restless when alone in the dark\" <- the owner put it back: the added part contradicted j1398 (Pip ran off and he feared it)\n\n## 2026-11-22 06:34 · wake-up 30\n\n- REVISE Traits: \"quiet and unsure where to stand, but finding the ground when others speak.\" -> \"quiet and unsure where to stand, but finding the ground when others speak.\" <- j1468: You called out. Nobody answered.\n",
+  "changelog": "# How Gilbert has changed\n\nEach line: what changed, and the journal entry that caused it.\n\n## 2026-11-15 14:50 · wake-up 0\n\n- Gilbert arrived. self.md starts almost empty.\n\n## 2026-11-15 18:14 · wake-up 1\n\n- ADD Traits: \"quiet and unprepared\" <- j0002: Today is my first wake-up. I am Gilbert, a small kiwi who has just arrived. I feel ordinary, neither tired nor\n\n## 2026-11-15 18:19 · wake-up 2\n\n- ADD Traits: \"restless at night\" <- j0008: I woke with energy and restlessness. The moon was very bright, casting my shadow on the ground. I made a simpl\n\n## 2026-11-16 18:40 · wake-up 5\n\n- ADD Fears: \"fear the silence when no one answers\" <- j0084: You called out. Nobody answered.\n- REVISE Traits: \"quiet and unprepared\" -> \"quiet and unsure where to stand\" <- j0093: You called out. Far away, something called back.\n\n## 2026-11-17 08:24 · wake-up 7\n\n- ADD Habits: \"You dance when you are restless.\" <- j0107: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 08:43 · wake-up 8\n\n- ADD Habits: \"you watch leaves and rings on water until you are calmer\" <- j0123: You watched. Something small made rings on the water and did not show itself. You are calmer for it.\n\n## 2026-11-17 08:47 · wake-up 9\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand\" <- j0125: You danced until your legs had said what they wanted to say.\n\n## 2026-11-17 10:17 · wake-up 11\n\n- ADD Likes: \"the way the water goes round the same stone over and over\" <- j0166: You watched. The water went round the same stone the same way, over and over, and was different every time.\n\n## 2026-11-17 12:32 · wake-up 12\n\n- REVISE Traits: \"restless at night\" -> \"restless when alone in the dark\" <- j0218: You have decided to go to bed. You will be on your way home in a moment.\n\n## 2026-11-17 15:26 · wake-up 13\n\n- REVISE Traits: \"quiet and unsure where to stand\" -> \"quiet and unsure where to stand, but finding the ground when others speak\" <- j0263: Old Tuck said your name, \"Gilbert\", very slowly, and nothing else. You feel less alone.\n- ADD Likes: \"the sound of Mabel's voice and the crack of a branch\" <- j0278: You worked on 'gilbert-water-stone' and sent it out: added Mabel's voice and the crack of a branch to note tha\n\n## 2026-11-17 17:39 · wake-up 15\n\n- REVISE Habits: \"You dance when you are restless.\" -> \"You dance when you are restless.\" <- j0335: You danced until your legs had said what they wanted to say.\n- REVISE Traits: \"quiet and unsure where to stand, but finding the ground when others speak\" -> \"quiet and unsure where to stand, but finding the ground when others speak.\" <- j0333: You watched. The water went round the same stone the same way, over and over, and was different every time.\n\n## 2026-11-17 19:45 · wake-up 17\n\n- REVISE Habits: \"You dance when you are restless.\" -> \"you dance when you are restless or when your legs have words to say\" <- j0425: You danced until your legs had said what they wanted to say.\n\n## 2026-11-18 13:40 · wake-up 21\n\n- REVISE Fears: \"fear the silence when no one answers\" -> \"you fear the silence when no one answers\" <- j0542: You called out. Nobody answered.\n\n## 2026-11-18 14:06 · wake-up 22\n\n- ADD Fears: \"you feel the grey water makes the silence harder to bear than before\" <- j0561: You watched. The water ran grey and quick, the colour of the cloud above it. The sun made it hard to look at f\n- REVISE Likes: \"the sound of Mabel's voice and the crack of a branch\" -> \"the sound of Mabel's voice and the crack of a branch that goes somewhere\" <- j0572: Mabel said: \"You walk like someone who is going somewhere. Are you?\" You feel less alone.\n\n## 2026-11-18 18:30 · by the owner (not by Gilbert)\n\n- REMOVE Likes: \"the way the water goes round the same stone over and over\" <- the owner asked for his loop about the stone and the water to stop\n- REMOVE Fears: \"you feel the grey water makes the silence harder to bear than before\" <- same request\n- REMOVE Habits: \"you watch leaves and rings on water until you are calmer\" <- same request\n\n## 2026-11-21 20:18 · wake-up 28\n\n- ADD Habits: \"you listen when the water throws it at the bank and let the sound tell you where to stand\" <- j1294: You watched. Gusts tore the top off the water and threw it at the bank. In the dark you knew it more by sound \n\n## 2026-11-21 22:52 · wake-up 29\n\n- ADD Fears: \"you fear the noise when Pip runs away too soon\" <- j1398: Pip said: \"Gilbert! Gilbert-Gilbert!\" and was gone before you could answer.\n- REVISE Traits: \"restless when alone in the dark\" -> \"restless when alone in the dark but find comfort in others moving away\" <- j1398: Pip said: \"Gilbert! Gilbert-Gilbert!\" and was gone before you could answer.\n\n## 2026-11-22 00:52 · by the owner (not by Gilbert)\n\n- REVISE Traits: \"restless when alone in the dark but find comfort in others moving away\" -> \"restless when alone in the dark\" <- the owner put it back: the added part contradicted j1398 (Pip ran off and he feared it)\n\n## 2026-11-22 06:34 · wake-up 30\n\n- REVISE Traits: \"quiet and unsure where to stand, but finding the ground when others speak.\" -> \"quiet and unsure where to stand, but finding the ground when others speak.\" <- j1468: You called out. Nobody answered.\n\n## 2026-11-22 21:10 · wake-up 31\n\n- ADD Likes: \"the sound of leaves rustling and Pip's voice\" <- j1868: Pip said to you: \"Not really, it's just the leaves rustling while I'm trying to fix my feather cap! Hey, do yo\n",
   "history": [
    {
     "name": "2026-11-15_1450_wake-0000.md",
@@ -2084,9 +2115,13 @@ export default {
    {
     "name": "2026-11-22_0634_wake-0030.md",
     "text": ""
+   },
+   {
+    "name": "2026-11-22_2110_wake-0031.md",
+    "text": ""
    }
   ],
-  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- walk to: 432 times\n- probe: 272 times (at the mossy bank, the creek, the leaf drift, the log, the open ground)\n- watch: 269 times (at the creek, the lookout, the shed, the leaf drift, the mossy bank, the burrow)\n- dance: 238 times\n- sit: 214 times\n- drink: 179 times (at the creek, the shed, the culvert, fountain)\n- sniff: 147 times (at the shed, the mossy bank, the creek, hut:gilbert-moon, the board, the lookout)\n- call out: 113 times\n- pick up: 77 times\n- wade: 73 times (at the creek)\n- greet: 72 times (at the shed, the mossy bank, the creek, the board, hut:gilbert-moon, the lookout)\n- put down: 71 times\n- hold hunger: 71 times (at square, market, window, fountain, chandlery, the tram halt)\n- say: 69 times\n- tinker: 42 times (at the shed)\n- hide: 37 times\n- nap: 25 times (at the burrow)\n- keep: 12 times (at the creek, the mossy bank, the leaf drift, the burrow, the log, the scrap heap)\n- wish: 11 times (at the burrow)\n- explore: 11 times (at the broken fence, the culvert, the gate, the open ground)\n- check letterbox: 10 times (at the letterbox)\n- scavenge: 9 times (at the scrap heap)\n- tidy: 7 times (at the burrow)\n- ask for sleep: 6 times\n- think of self: 6 times (at the burrow)\n- pin note: 3 times (at the board)\n- round the stone: 3 times (at the creek)\n- read: 1 time (at the signal post)\n- ride tram: 1 time (at the tram halt, square)\n",
+  "known": "# What Gilbert knows he can do\n\nCounted, not remembered: each thing he has done, how often, and where he has learned it can be done.\n\n- walk to: 568 times\n- probe: 349 times (at the mossy bank, the creek, the leaf drift, the log, the open ground)\n- watch: 334 times (at the creek, the lookout, the shed, the leaf drift, the mossy bank, the burrow)\n- dance: 308 times\n- sit: 285 times\n- drink: 217 times (at the creek, the shed, the culvert, fountain)\n- sniff: 187 times (at the shed, the mossy bank, the creek, hut:gilbert-moon, the board, the lookout)\n- call out: 165 times\n- say: 112 times\n- greet: 100 times (at the shed, the mossy bank, the creek, the board, hut:gilbert-moon, the lookout)\n- pick up: 90 times\n- wade: 89 times (at the creek)\n- put down: 84 times\n- hold hunger: 79 times (at square, market, window, fountain, chandlery, the tram halt)\n- hide: 55 times\n- tinker: 48 times (at the shed)\n- nap: 37 times (at the burrow)\n- scavenge: 16 times (at the scrap heap)\n- wish: 15 times (at the burrow)\n- explore: 15 times (at the broken fence, the culvert, the gate, the open ground)\n- keep: 12 times (at the creek, the mossy bank, the leaf drift, the burrow, the log, the scrap heap)\n- check letterbox: 12 times (at the letterbox)\n- think of self: 11 times (at the burrow)\n- tidy: 9 times (at the burrow)\n- ask for sleep: 7 times\n- pin note: 7 times (at the board)\n- round the stone: 3 times (at the creek)\n- read: 2 times (at the signal post)\n- ride tram: 1 time (at the tram halt, square)\n",
   "answers": {},
   "projects": {
    "gilbert-moon": {
@@ -2332,15 +2367,15 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.23590889040828866,
-    "energy": -0.30733297869489445
+    "mood": 0.3288183779248639,
+    "energy": -0.20125220936684296
    },
    "interests": {},
    "threads": [
     "What makes me feel alive when nothing is happening?",
     "Who am I when I stop trying to be ordinary?"
    ],
-   "about": "I am Gilbert, a small kiwi who is learning who I am by living. I enjoy the sound of Mabel's voice and the crack of a branch that goes somewhere, but I fear the silence when no one answers or the noise when Pip runs away too soon. When I am restless or have words to say, I dance until my legs tell me what they want.",
+   "about": "I am Gilbert, a small kiwi who finds the ground when others speak. I like the sound of leaves rustling and the voice of my friend Pip.",
    "lastResult": "",
    "wake": 31,
    "awakeSince": "",
