@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T11:40:53-05:00",
+ "asOf": "2026-11-23T11:45:53-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T11:40:52-05:00",
+   "iso": "2026-11-23T11:45:52-05:00",
    "hour": 11,
-   "minute": 40,
+   "minute": 45,
    "phase": "day",
    "words": "morning",
-   "sun": 15.7,
+   "sun": 15.9,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,31 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -997.12,
+    -3.78
    ],
-   "heading": 127.9,
-   "place": "chair",
+   "heading": 150.3,
+   "place": "bed",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.38,
-    "company": 0.94,
-    "itch": 0.89,
-    "nerves": 0.08,
+    "weariness": 0.0,
+    "company": 1.0,
+    "itch": 1.0,
+    "nerves": 0.0,
     "thirst": 1.0
    },
    "feeling": {
-    "mood": -0.71,
-    "energy": -0.48
+    "mood": -0.64,
+    "energy": -0.23
    },
-   "thought": "the ground feels too still, so i kick my feet until the sound tells me where I stand",
+   "thought": "I want the sound of water and voices to be here.",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a map of where you have not been"
+    "a backpack"
    ],
    "area": "home"
   },
@@ -499,8 +499,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -510,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -7.66,
-     9.28
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Hello! Wait, did you see the blue butterfly? It's flying right now! Yeah, hello.\"",
@@ -543,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +554,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1005.07,
-     25.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -619,11 +619,11 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o21-4555",
-    "name": "a backpack",
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
     "pos": [
-     -1004.4177869191469,
-     1.3487165092912492
+     -997.5763579004708,
+     -0.0017107742045185947
     ],
     "state": "placed"
    }
@@ -695,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795452053.4,
+  "now": 1795452353.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2547,8 +2547,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.6913231221930548,
-    "energy": -0.4739265107575009
+    "mood": -0.7643408242260011,
+    "energy": -0.3746481097664176
    },
    "interests": {},
    "threads": [
