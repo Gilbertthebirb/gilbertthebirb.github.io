@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T16:40:56-05:00",
+ "asOf": "2026-11-23T16:45:56-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T16:40:56-05:00",
+   "iso": "2026-11-23T16:45:56-05:00",
    "hour": 16,
-   "minute": 40,
+   "minute": 45,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 0.2,
+   "sun": -0.4,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1004.14,
+    0.72
    ],
-   "heading": 46.4,
-   "place": "table",
-   "doing": null,
-   "target": null,
+   "heading": -81.6,
+   "place": "hearth",
+   "doing": "stoke_stove",
+   "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.62,
+    "weariness": 0.66,
     "company": 1.0,
-    "itch": 0.92,
-    "nerves": 0.01,
-    "thirst": 0.61
+    "itch": 0.91,
+    "nerves": 0.0,
+    "thirst": 0.65
    },
    "feeling": {
-    "mood": -0.43,
-    "energy": -0.36
+    "mood": -0.46,
+    "energy": -0.33
    },
-   "thought": "My legs stop dancing, but the hunger still burns; sitting makes the quiet easier before I go somewhere.",
+   "thought": "the fire makes the quiet feel like a song",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a map of where you have not been"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -510,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1003.15,
+     11.14
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -615,6 +613,15 @@ export default {
     "pos": [
      3.3133715630379648,
      38.940513173437424
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -999.0474301154161,
+     1.2350867720347434
     ],
     "state": "placed"
    },
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795470056.8,
+  "now": 1795470356.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2563,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.41762007983382965,
-    "energy": -0.3538917857755155
+    "mood": -0.5863614254567074,
+    "energy": -0.41893762877353974
    },
    "interests": {},
    "threads": [
