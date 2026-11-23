@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:40:58-05:00",
+ "asOf": "2026-11-23T18:45:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:40:58-05:00",
+   "iso": "2026-11-23T18:45:58-05:00",
    "hour": 18,
-   "minute": 40,
+   "minute": 45,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -16.4,
+   "sun": -17.1,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -999.28,
+    0.0
    ],
-   "heading": 127.9,
-   "place": "chair",
-   "doing": null,
-   "target": null,
+   "heading": -52.1,
+   "place": "table",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.53,
-    "weariness": 0.57,
-    "company": 0.87,
-    "itch": 0.92,
+    "belly": 0.57,
+    "weariness": 0.61,
+    "company": 0.8,
+    "itch": 0.91,
     "nerves": 0.0,
-    "thirst": 0.46
+    "thirst": 0.49
    },
    "feeling": {
-    "mood": 0.18,
-    "energy": -0.27
+    "mood": 0.28,
+    "energy": -0.3
    },
-   "thought": "the dark makes me feel alone; I need to see where I am going before I run.",
+   "thought": "I need to hold the hunger and stop dancing until my legs can speak again",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a map of where you have not been"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     998.47,
-     13.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -604,8 +602,8 @@ export default {
     "id": "o18-3571",
     "name": "a coil of thin wire",
     "pos": [
-     -999.249086029448,
-     1.3390426840211376
+     -998.9616071672386,
+     0.9460764927933886
     ],
     "state": "placed"
    },
@@ -615,6 +613,15 @@ export default {
     "pos": [
      3.3133715630379648,
      38.940513173437424
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -997.082849530363,
+     0.024876143001190565
     ],
     "state": "placed"
    },
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795477258.0,
+  "now": 1795477558.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2571,8 +2578,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.07361546774999918,
-    "energy": -0.2865051854977372
+    "mood": 0.24872915583996544,
+    "energy": -0.3503322825490177
    },
    "interests": {},
    "threads": [
