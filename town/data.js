@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T17:55:57-05:00",
+ "asOf": "2026-11-23T18:00:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T17:55:56-05:00",
-   "hour": 17,
-   "minute": 55,
+   "iso": "2026-11-23T18:00:56-05:00",
+   "hour": 18,
+   "minute": 0,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -9.8,
+   "sun": -10.5,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    16.0,
+    -9.0
    ],
-   "heading": 149.0,
-   "place": "burrow",
-   "doing": "hide",
+   "heading": 119.4,
+   "place": "shed",
+   "doing": "tinker",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.15,
+    "belly": 0.19,
     "weariness": 0.84,
-    "company": 0.27,
+    "company": 0.35,
     "itch": 1.0,
     "nerves": 0.1,
-    "thirst": 0.16
+    "thirst": 0.19
    },
    "feeling": {
-    "mood": 0.05,
-    "energy": -0.42
+    "mood": 0.08,
+    "energy": -0.44
    },
-   "thought": "the silence is heavy; I need the safety of my burrow before I can think.",
+   "thought": "my legs have too many words and the wire feels like a friend I can't let go of",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a coil of thin wire"
+   ],
    "area": "town"
   },
   "places": {
@@ -508,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -519,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     985.31,
-     0.15
+     1011.27,
+     -5.41
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -552,8 +554,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -595,15 +597,6 @@ export default {
     "pos": [
      41.299103477770316,
      -6.148011566363505
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o18-3571",
-    "name": "a coil of thin wire",
-    "pos": [
-     15.639064125625369,
-     -7.786742799852275
     ],
     "state": "placed"
    },
@@ -700,9 +693,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": false,
+  "bench": true,
   "session": 31,
-  "now": 1795474557.6,
+  "now": 1795474857.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2570,8 +2563,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.23682658587693456,
-    "energy": -0.3606347451466092
+    "mood": -0.021437148062750502,
+    "energy": -0.257130090866151
    },
    "interests": {},
    "threads": [
