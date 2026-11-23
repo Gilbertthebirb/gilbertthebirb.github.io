@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T18:20:57-05:00",
+ "asOf": "2026-11-23T18:25:57-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T18:20:56-05:00",
+   "iso": "2026-11-23T18:25:56-05:00",
    "hour": 18,
-   "minute": 20,
+   "minute": 25,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -13.4,
+   "sun": -14.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,33 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1004.14,
+    0.72
    ],
-   "heading": 46.4,
-   "place": "table",
-   "doing": "dance",
+   "heading": -81.6,
+   "place": "hearth",
+   "doing": "stoke_stove",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.36,
-    "weariness": 0.55,
-    "company": 0.53,
-    "itch": 0.84,
-    "nerves": 0.1,
-    "thirst": 0.32
+    "belly": 0.4,
+    "weariness": 0.59,
+    "company": 0.62,
+    "itch": 0.89,
+    "nerves": 0.04,
+    "thirst": 0.36
    },
    "feeling": {
-    "mood": 0.24,
-    "energy": -0.19
+    "mood": 0.35,
+    "energy": -0.54
    },
-   "thought": "my legs have words but no ground to set on yet, so I must move them first",
+   "thought": "the rain is cold and I have no one but myself; i need the crack of wood and Mabel's hum more than i need to eat right now",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a coil of thin wire",
+    "a map of where you have not been"
+   ],
    "area": "home"
   },
   "places": {
@@ -486,8 +489,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -497,8 +500,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -519,8 +522,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -541,8 +544,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,8 +555,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -599,29 +602,11 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o18-3571",
-    "name": "a coil of thin wire",
-    "pos": [
-     -996.743729904781,
-     3.364186467735244
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
      3.3133715630379648,
      38.940513173437424
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     -995.298141227765,
-     4.087715734986666
     ],
     "state": "placed"
    },
@@ -702,7 +687,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795476057.9,
+  "now": 1795476357.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2578,8 +2563,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.32288285520225957,
-    "energy": -0.42170177562330674
+    "mood": 0.33801904420833473,
+    "energy": -0.43547755195992316
    },
    "interests": {},
    "threads": [
