@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T13:00:54-05:00",
+ "asOf": "2026-11-23T13:05:54-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T13:00:54-05:00",
+   "iso": "2026-11-23T13:05:54-05:00",
    "hour": 13,
-   "minute": 0,
+   "minute": 5,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.7,
+   "sun": 16.6,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,31 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    9.0,
-    13.0
+    -997.12,
+    -3.78
    ],
-   "heading": 34.7,
-   "place": "board",
-   "doing": null,
-   "target": null,
+   "heading": 161.2,
+   "place": "bed",
+   "doing": "nap",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.25,
-    "weariness": 0.84,
-    "company": 0.18,
-    "itch": 0.96,
-    "nerves": 0.25,
-    "thirst": 0.28
+    "belly": 0.29,
+    "weariness": 0.85,
+    "company": 0.21,
+    "itch": 1.0,
+    "nerves": 0.1,
+    "thirst": 0.31
    },
    "feeling": {
-    "mood": 0.19,
-    "energy": -0.55
+    "mood": 0.15,
+    "energy": -0.58
    },
-   "thought": "the wind stopped so I can hear what Mabel left for us",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
-   "area": "town"
+   "area": "home"
   },
   "places": {
    "burrow": {
@@ -508,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -519,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1017.94,
-     10.26
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -552,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -676,8 +676,8 @@ export default {
    "half a clothes peg"
   ],
   "board": {
-   "text": "I am Gilbert. I found a worm and Pip said I stir them up. I have many things on my shelf that make me feel alive. Mabel looked in everything, and Pip kept flying. I will pin this here.",
-   "ts": 1795454994.8054354
+   "text": "I am Gilbert. I feel heavy and full of things waiting to be stirred.",
+   "ts": 1795456873.9733405
   },
   "shelves": [
    "a domino",
@@ -702,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795456854.4,
+  "now": 1795457154.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -711,15 +711,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0032",
-    "ts": "2026-11-16T11:18:48-05:00",
-    "kind": "journal",
-    "wake": 4,
-    "text": "if i feel alive when nothing is happening, then I am here.",
-    "tag": "",
-    "heat": 0.33
-   },
    {
     "id": "j0052",
     "ts": "2026-11-16T12:37:50-05:00",
@@ -1790,9 +1781,18 @@ export default {
     "text": "I am Gilbert. I found a worm and Pip said I stir them up. I have many things on my shelf that make me feel alive. Mabel looked in everything, and Pip kept flying. I will pin this here.",
     "tag": "",
     "heat": 0.54
+   },
+   {
+    "id": "j2075",
+    "ts": "2026-11-23T13:01:03-05:00",
+    "kind": "journal",
+    "wake": 33,
+    "text": "I am Gilbert. I feel heavy and full of things waiting to be stirred.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 124,
+  "journalCount": 125,
   "memory": {
    "sleeps": 20,
    "next_id": 42,
@@ -2570,8 +2570,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.35855065920967816,
-    "energy": -0.1302155168168132
+    "mood": 0.13875578331020022,
+    "energy": -0.6628192132878783
    },
    "interests": {},
    "threads": [
