@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T18:51:04-05:00",
+ "asOf": "2026-11-24T18:56:04-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T18:51:04-05:00",
+   "iso": "2026-11-24T18:56:04-05:00",
    "hour": 18,
-   "minute": 51,
+   "minute": 56,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -18.0,
+   "sun": -18.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": 113.0,
    "place": "ridge",
-   "doing": "put_down",
-   "target": "o19-4553",
+   "doing": "watch",
+   "target": "height",
    "asleep": false,
    "needs": {
-    "belly": 0.14,
-    "weariness": 0.8,
-    "company": 0.87,
+    "belly": 0.18,
+    "weariness": 0.83,
+    "company": 0.8,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.32
+    "thirst": 0.35
    },
    "feeling": {
-    "mood": 0.18,
-    "energy": -0.33
+    "mood": 0.19,
+    "energy": -0.37
    },
-   "thought": "the stones hurt my feet and I cannot feel the ground if I am drumming; I need to stop first",
+   "thought": "I need to see what is far away so I don't feel so alone in this dark rain.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a hand drum"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -497,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -508,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -519,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     1.88,
+     15.37
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -530,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -541,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -606,6 +604,15 @@ export default {
     "pos": [
      36.68784289672787,
      -11.25298541414805
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o19-4553",
+    "name": "a hand drum",
+    "pos": [
+     196.47251231812115,
+     -42.818195144410566
     ],
     "state": "placed"
    },
@@ -691,7 +698,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795564264.7,
+  "now": 1795564564.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2620,8 +2627,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.18952188365867123,
-    "energy": -0.2855672726732876
+    "mood": 0.1720392386774354,
+    "energy": -0.3797687722043961
    },
    "interests": {},
    "threads": [
