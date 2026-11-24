@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T07:03:27-05:00",
+ "asOf": "2026-11-24T07:08:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T07:03:26-05:00",
+   "iso": "2026-11-24T07:08:26-05:00",
    "hour": 7,
-   "minute": 3,
+   "minute": 8,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -13.1,
+   "sun": -12.3,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "rain",
   "bird": {
    "pos": [
-    41.0,
-    -7.0
+    16.0,
+    -9.0
    ],
-   "heading": -87.9,
-   "place": "hut",
-   "doing": null,
-   "target": null,
+   "heading": -122.6,
+   "place": "shed",
+   "doing": "tinker",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.66,
-    "weariness": 0.55,
-    "company": 0.57,
-    "itch": 0.99,
-    "nerves": 0.1,
-    "thirst": 0.35
+    "belly": 0.7,
+    "weariness": 0.56,
+    "company": 0.6,
+    "itch": 1.0,
+    "nerves": 0.07,
+    "thirst": 0.39
    },
    "feeling": {
-    "mood": 0.41,
-    "energy": -0.02
+    "mood": 0.1,
+    "energy": -0.29
    },
-   "thought": "I need company; someone's voice is better than my own silence.",
+   "thought": "to make my legs feel like they know words",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a cork"
+   ],
    "area": "town"
   },
   "places": {
@@ -495,19 +497,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
-     "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
-     "t": 1795518299.3
+     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
+     "t": 1795521987.1
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     20.41,
+     24.92
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -539,8 +541,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -595,15 +597,6 @@ export default {
     "pos": [
      -13.057772086682744,
      21.268661380699765
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o17-3410",
-    "name": "a cork",
-    "pos": [
-     41.299103477770316,
-     -6.148011566363505
     ],
     "state": "placed"
    },
@@ -695,9 +688,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": false,
+  "bench": true,
   "session": 32,
-  "now": 1795521807.7,
+  "now": 1795522107.7,
   "visitors": {},
   "letters": [],
   "took": [],
