@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T19:40:58-05:00",
+ "asOf": "2026-11-23T19:45:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T19:40:58-05:00",
+   "iso": "2026-11-23T19:45:58-05:00",
    "hour": 19,
-   "minute": 40,
+   "minute": 45,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -25.5,
+   "sun": -26.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1000.99,
+    -4.05
    ],
-   "heading": 98.4,
-   "place": "table",
-   "doing": "sit",
-   "target": "",
+   "heading": 102.3,
+   "place": "chest",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.48,
+    "weariness": 0.45,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.86
+    "thirst": 0.89
    },
    "feeling": {
-    "mood": -0.79,
-    "energy": -0.32
+    "mood": -0.53,
+    "energy": -0.21
    },
-   "thought": "the hunger is loud but the wire needs me first",
+   "thought": "the map feels too heavy with empty spaces; the wire coil needs a place to rest.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -530,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -617,15 +617,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     -999.0908673019461,
-     -3.455515532414651
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o21-4555",
     "name": "a backpack",
     "pos": [
@@ -696,13 +687,15 @@ export default {
    "a bent teaspoon",
    "half a clothes peg"
   ],
-  "chest": [],
+  "chest": [
+   "a map of where you have not been"
+  ],
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795480858.6,
+  "now": 1795481158.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2578,8 +2571,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.514193968196933,
-    "energy": -0.2987382795136801
+    "mood": -0.7904401859198287,
+    "energy": -0.32699155116357087
    },
    "interests": {},
    "threads": [
