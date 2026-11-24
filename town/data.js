@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T16:01:02-05:00",
+ "asOf": "2026-11-24T16:06:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T16:01:02-05:00",
+   "iso": "2026-11-24T16:06:02-05:00",
    "hour": 16,
-   "minute": 1,
+   "minute": 6,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 4.7,
+   "sun": 4.2,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -81.6,
    "place": "hearth",
-   "doing": null,
-   "target": null,
+   "doing": "call_out",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.52,
-    "weariness": 0.53,
-    "company": 0.86,
-    "itch": 0.78,
-    "nerves": 0.03,
-    "thirst": 0.39
+    "belly": 0.57,
+    "weariness": 0.57,
+    "company": 0.94,
+    "itch": 0.83,
+    "nerves": 0.0,
+    "thirst": 0.42
    },
    "feeling": {
-    "mood": 0.1,
-    "energy": -0.06
+    "mood": 0.2,
+    "energy": -0.4
    },
-   "thought": "the fire makes the ground quiet enough for my legs to find words",
+   "thought": "The silence is too heavy and I need Pip or Mabel just to know where my feet should go.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -528,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1002.83,
-     19.61
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -705,7 +705,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795554062.8,
+  "now": 1795554362.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2634,8 +2634,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.08432943739276376,
-    "energy": -0.30929795225806467
+    "mood": 0.33789891296683644,
+    "energy": -0.0853066504919231
    },
    "interests": {},
    "threads": [
