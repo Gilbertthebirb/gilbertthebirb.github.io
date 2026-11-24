@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T07:23:27-05:00",
+ "asOf": "2026-11-24T07:28:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T07:23:26-05:00",
+   "iso": "2026-11-24T07:28:26-05:00",
    "hour": 7,
-   "minute": 23,
+   "minute": 28,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -10.2,
+   "sun": -9.5,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    14.0,
+    24.0
    ],
-   "heading": -122.6,
-   "place": "shed",
-   "doing": "tinker",
+   "heading": -3.5,
+   "place": "log",
+   "doing": "probe",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.83,
-    "weariness": 0.64,
-    "company": 0.85,
-    "itch": 1.0,
+    "belly": 0.87,
+    "weariness": 0.81,
+    "company": 0.93,
+    "itch": 0.53,
     "nerves": 0.05,
-    "thirst": 0.49
+    "thirst": 0.0
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": -0.09
+    "mood": 0.77,
+    "energy": 0.74
    },
-   "thought": "My legs want to speak and my beak needs something solid to poke at.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -495,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -528,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -539,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     994.56,
+     14.56
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -695,9 +695,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 32,
-  "now": 1795523007.8,
+  "now": 1795523307.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -706,15 +706,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0098",
-    "ts": "2026-11-16T23:51:10-05:00",
-    "kind": "event",
-    "wake": 6,
-    "text": "You called out. Far away, something called back.",
-    "tag": "",
-    "heat": 0.38
-   },
    {
     "id": "j0102",
     "ts": "2026-11-16T23:59:06-05:00",
@@ -1785,9 +1776,18 @@ export default {
     "text": "I am Gilbert. I have danced until my legs could not speak. Now I will walk.",
     "tag": "",
     "heat": 0.4
+   },
+   {
+    "id": "j2391",
+    "ts": "2026-11-24T07:26:49-05:00",
+    "kind": "journal",
+    "wake": 34,
+    "text": "The rain kept coming while I worked on the stone weight page. I wanted to make something that felt heavy in my hands so I could hold onto it when the silence gets too loud. The code made a simple stone that turns when you click it, and now it lives online. I am not sure if this is useful for anything other than making the noise feel smaller.",
+    "tag": "",
+    "heat": 0.51
    }
   ],
-  "journalCount": 130,
+  "journalCount": 131,
   "memory": {
    "sleeps": 21,
    "next_id": 44,
@@ -2590,12 +2590,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-feather-wind/",
     "note": "Gilbert listens for the wind in his own feathers, with buttons to catch the sound and close his eyes"
+   },
+   "gilbert-stone-weight": {
+    "title": "gilbert stone weight",
+    "description": "a small stone that feels heavy in the rain",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-stone-weight/",
+    "note": "Gilbert makes a stone he holds in the rain"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.46755955711344754,
-    "energy": 0.1654191902289795
+    "mood": 1.0,
+    "energy": 0.596310400803197
    },
    "interests": {},
    "threads": [
