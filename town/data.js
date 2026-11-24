@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T13:11:00-05:00",
+ "asOf": "2026-11-24T13:16:00-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T13:11:00-05:00",
+   "iso": "2026-11-24T13:16:00-05:00",
    "hour": 13,
-   "minute": 11,
+   "minute": 16,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 16.4,
+   "sun": 16.3,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    41.0,
+    7.0
    ],
-   "heading": -177.1,
-   "place": "creek",
+   "heading": 90.9,
+   "place": "heap",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.31,
-    "weariness": 0.42,
-    "company": 0.56,
+    "belly": 0.35,
+    "weariness": 0.43,
+    "company": 0.65,
     "itch": 1.0,
-    "nerves": 0.07,
-    "thirst": 0.04
+    "nerves": 0.15,
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.21
+    "mood": 0.3,
+    "energy": -0.32
    },
-   "thought": "I am tired and want company but nothing is there yet; I will go into the water where the sound might tell me who is near.",
+   "thought": "i need to feel something new in my beak",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -517,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1004.1,
-     10.27
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -705,7 +705,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795543860.9,
+  "now": 1795544160.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2618,8 +2618,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.28149731830844477,
-    "energy": -0.19212804227218036
+    "mood": 0.18537913513851295,
+    "energy": -0.3953784413752518
    },
    "interests": {},
    "threads": [
