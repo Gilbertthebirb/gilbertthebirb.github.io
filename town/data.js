@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T10:45:59-05:00",
+ "asOf": "2026-11-24T10:50:59-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T10:45:58-05:00",
+   "iso": "2026-11-24T10:50:58-05:00",
    "hour": 10,
-   "minute": 45,
+   "minute": 50,
    "phase": "day",
    "words": "morning",
-   "sun": 12.6,
+   "sun": 12.9,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,30 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1000.0,
+    4.68
    ],
-   "heading": -128.3,
-   "place": "table",
-   "doing": "sit",
-   "target": "",
+   "heading": -8.7,
+   "place": "round_door",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.9,
-    "weariness": 0.05,
+    "belly": 0.94,
+    "weariness": 0.0,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.72
+    "thirst": 0.76
    },
    "feeling": {
-    "mood": -0.48,
-    "energy": -0.35
+    "mood": -0.58,
+    "energy": -0.28
    },
-   "thought": "the hunger is too quiet, and the map looks like it needs to be carried first",
+   "thought": "the noise of the clearing feels better than my own breathing now",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a map of where you have not been",
     "a backpack"
    ],
    "area": "home"
@@ -498,8 +497,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     6.42,
-     -20.32
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -531,8 +530,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -553,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -616,6 +615,15 @@ export default {
     "pos": [
      2.980186791775905,
      38.76554796246947
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -999.669199157945,
+     0.9317383892289952
     ],
     "state": "placed"
    }
@@ -690,7 +698,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795535159.1,
+  "now": 1795535459.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2603,8 +2611,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.536560452762495,
-    "energy": -0.18481166292920717
+    "mood": -0.5761652163900314,
+    "energy": -0.27767883245381414
    },
    "interests": {},
    "threads": [
