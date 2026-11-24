@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T15:11:02-05:00",
+ "asOf": "2026-11-24T15:16:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T15:11:02-05:00",
+   "iso": "2026-11-24T15:16:02-05:00",
    "hour": 15,
-   "minute": 11,
+   "minute": 16,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.7,
+   "sun": 9.2,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    16.0,
+    -9.0
    ],
-   "heading": 45.0,
-   "place": "moss",
-   "doing": null,
-   "target": null,
+   "heading": 125.1,
+   "place": "shed",
+   "doing": "tinker",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.11,
-    "weariness": 0.82,
-    "company": 0.41,
+    "belly": 0.15,
+    "weariness": 0.83,
+    "company": 0.49,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.05
+    "thirst": 0.09
    },
    "feeling": {
-    "mood": 0.15,
+    "mood": 0.06,
     "energy": -0.55
    },
-   "thought": "the silence is too heavy and my legs are tired of carrying the cloth",
+   "thought": "the workbench is quiet; I need to make something with my beak so I feel alive when no one answers",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -497,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -508,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -519,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Nope! I'm right here with you! Well, maybe a little far away but still close!\"",
@@ -530,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -541,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -552,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -563,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     992.24,
+     28.38
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -588,6 +586,15 @@ export default {
     "pos": [
      13.758646776396382,
      24.717287076439664
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -11.420421536616859,
+     21.362989427983408
     ],
     "state": "placed"
    },
@@ -696,9 +703,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": false,
+  "bench": true,
   "session": 33,
-  "now": 1795551062.1,
+  "now": 1795551362.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2607,12 +2614,20 @@ export default {
     "pages": true,
     "url": "https://gilbertthebirb.github.io/gilbert-stone-weight/",
     "note": "Gilbert makes a stone he holds in the rain"
+   },
+   "gilbert-woven-basket": {
+    "title": "gilbert woven basket",
+    "description": "a small basket made of driftwood to catch quiet rings on the water",
+    "status": "making",
+    "pages": true,
+    "url": "https://gilbertthebirb.github.io/gilbert-woven-basket/",
+    "note": "a small woven basket to catch quiet rings on the water"
    }
   },
   "now": {
    "feeling": {
-    "mood": 0.27546071059206306,
-    "energy": -0.316637994378743
+    "mood": 0.13716634131414177,
+    "energy": -0.6138438495080957
    },
    "interests": {},
    "threads": [
