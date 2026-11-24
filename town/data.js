@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T21:03:16-05:00",
- "live": false,
+ "asOf": "2026-11-24T05:23:26-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T21:04:05-05:00",
-   "hour": 21,
-   "minute": 4,
+   "iso": "2026-11-24T05:23:26-05:00",
+   "hour": 5,
+   "minute": 23,
    "phase": "night",
-   "words": "evening, and dark",
-   "sun": -38.0,
-   "date": "2026-11-23",
+   "words": "the last of the night",
+   "sun": -28.1,
+   "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "drizzle",
   "bird": {
    "pos": [
     -997.12,
@@ -25,13 +25,13 @@ export default {
    "place": "bed",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.73,
-    "company": 0.84,
+    "weariness": 0.08,
+    "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.1,
+    "nerves": 0.0,
     "thirst": 1.0
    },
    "feeling": {
@@ -398,6 +398,15 @@ export default {
     "hut": null,
     "area": "city"
    },
+   "trading_post": {
+    "name": "the trading post",
+    "pos": [
+     989.8,
+     -20.4
+    ],
+    "hut": null,
+    "area": "city"
+   },
    "round_door": {
     "name": "the round door",
     "pos": [
@@ -488,8 +497,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5,
+     -22
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +508,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     28,
+     26
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -510,8 +519,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     9,
+     13
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -521,8 +530,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +541,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     978.0,
+     14
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -683,12 +692,13 @@ export default {
    "a coil of thin wire"
   ],
   "chest": [],
+  "coins": 0,
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 31,
-  "now": 1795485845.2,
+  "session": 32,
+  "now": 1795515806.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2595,7 +2605,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who just arrived in the world. I find quiet and unsure where to stand, but I listen for Mabel's voice and the sound of leaves rustling. I fear the silence when no one answers and the dark inside my burrow, yet I have decided to go to bed.",
    "lastResult": "",
-   "wake": 33,
+   "wake": 34,
    "awakeSince": "",
    "lastDream": "The small rings on the water and Mabel's voice standing beneath my feet."
   }
