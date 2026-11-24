@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T17:21:03-05:00",
+ "asOf": "2026-11-24T17:26:03-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T17:21:02-05:00",
+   "iso": "2026-11-24T17:26:02-05:00",
    "hour": 17,
-   "minute": 21,
+   "minute": 26,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -5.1,
+   "sun": -5.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -31.0,
    "place": "moss",
-   "doing": null,
-   "target": null,
+   "doing": "probe",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.29,
-    "weariness": 0.8,
-    "company": 0.22,
+    "belly": 0.33,
+    "weariness": 0.83,
+    "company": 0.3,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.32
+    "thirst": 0.35
    },
    "feeling": {
-    "mood": 0.4,
-    "energy": -0.12
+    "mood": 0.26,
+    "energy": -0.48
    },
-   "thought": "the sailcloth feels like a map I can carry, not one that stays on the bank",
+   "thought": "I need to know what crunch is left if I cannot eat again.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -497,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     29.61,
-     -6.08
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -519,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoa, look! A butterfly! Wait, hello... did you find that shell? I mean, the sky is pretty too!\"",
@@ -541,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -563,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -588,6 +586,15 @@ export default {
     "pos": [
      2.650971223335706,
      57.89219951117435
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -11.803745362369034,
+     21.01287012640673
     ],
     "state": "placed"
    },
@@ -691,7 +698,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795558863.7,
+  "now": 1795559163.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2620,8 +2627,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.46845350295318294,
-    "energy": 0.2500802374637586
+    "mood": 0.4585548063805107,
+    "energy": -0.20040867522645583
    },
    "interests": {},
    "threads": [
