@@ -1,47 +1,50 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T07:28:27-05:00",
+ "asOf": "2026-11-24T07:33:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T07:28:26-05:00",
+   "iso": "2026-11-24T07:33:26-05:00",
    "hour": 7,
-   "minute": 28,
+   "minute": 33,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -9.5,
+   "sun": -8.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "rain",
+  "weather": "storm",
   "bird": {
    "pos": [
-    14.0,
-    24.0
+    -12.0,
+    20.0
    ],
-   "heading": -3.5,
-   "place": "log",
-   "doing": "probe",
-   "target": "",
+   "heading": -98.7,
+   "place": "moss",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.87,
+    "belly": 0.61,
     "weariness": 0.81,
-    "company": 0.93,
-    "itch": 0.53,
-    "nerves": 0.05,
-    "thirst": 0.0
+    "company": 0.8,
+    "itch": 0.7,
+    "nerves": 0.27,
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": 0.77,
-    "energy": 0.74
+    "mood": 0.34,
+    "energy": 0.37
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "The storm is loud, but my hunger is too heavy. I need to feel the strap of the bag before I walk again.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a scrap of sailcloth",
+    "a backpack"
+   ],
    "area": "town"
   },
   "places": {
@@ -506,19 +509,19 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
-     "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
-     "t": 1795461032.4
+     "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
+     "t": 1795523318.6
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -539,8 +542,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +553,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +564,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     994.56,
-     14.56
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -590,15 +593,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     -13.057772086682744,
-     21.268661380699765
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
@@ -613,15 +607,6 @@ export default {
     "pos": [
      2.980186791775905,
      38.76554796246947
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -11.024345891930745,
-     21.067642431556123
     ],
     "state": "placed"
    }
@@ -697,7 +682,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 32,
-  "now": 1795523307.9,
+  "now": 1795523607.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2602,8 +2587,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 1.0,
-    "energy": 0.596310400803197
+    "mood": 0.6169109028587779,
+    "energy": 0.6420969561826645
    },
    "interests": {},
    "threads": [
