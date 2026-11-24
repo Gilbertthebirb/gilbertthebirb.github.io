@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T14:31:01-05:00",
+ "asOf": "2026-11-24T14:36:01-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T14:31:00-05:00",
+   "iso": "2026-11-24T14:36:00-05:00",
    "hour": 14,
-   "minute": 31,
+   "minute": 36,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.8,
+   "sun": 12.5,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    41.0,
-    7.0
+    -24.0,
+    8.0
    ],
-   "heading": 122.2,
-   "place": "heap",
+   "heading": -71.6,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.37,
+    "belly": 0.42,
     "weariness": 0.73,
-    "company": 0.38,
+    "company": 0.47,
     "itch": 1.0,
-    "nerves": 0.25,
-    "thirst": 0.07
+    "nerves": 0.24,
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.2,
-    "energy": 0.03
+    "mood": 0.09,
+    "energy": -0.4
    },
-   "thought": "",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -517,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     7.5,
-     -9.21
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -539,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     983.61,
+     2.41
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -705,7 +705,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795548661.8,
+  "now": 1795548961.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2618,8 +2618,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.12415610943054681,
-    "energy": -0.5137214247382799
+    "mood": 0.11001824620172956,
+    "energy": -0.3041423425691969
    },
    "interests": {},
    "threads": [
