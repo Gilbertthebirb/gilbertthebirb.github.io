@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T10:30:58-05:00",
+ "asOf": "2026-11-24T10:35:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T10:30:58-05:00",
+   "iso": "2026-11-24T10:35:58-05:00",
    "hour": 10,
-   "minute": 30,
+   "minute": 35,
    "phase": "day",
    "words": "morning",
-   "sun": 11.4,
+   "sun": 11.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -1003.06,
-    -3.6
+    -995.86,
+    2.7
    ],
-   "heading": 166.0,
-   "place": "shelves",
+   "heading": 48.8,
+   "place": "round_window",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.77,
-    "weariness": 0.0,
+    "belly": 0.81,
+    "weariness": 0.01,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.1,
-    "thirst": 0.62
+    "nerves": 0.0,
+    "thirst": 0.66
    },
    "feeling": {
-    "mood": -0.53,
-    "energy": -0.11
+    "mood": -0.48,
+    "energy": -0.15
    },
    "thought": "",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a map of where you have not been"
+   ],
    "area": "home"
   },
   "places": {
@@ -495,8 +497,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     7.58,
-     0.61
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -506,8 +508,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     15.55,
+     24.22
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -539,8 +541,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     956.09,
+     31.18
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -679,7 +681,6 @@ export default {
    "a bent teaspoon",
    "half a clothes peg",
    "a coil of thin wire",
-   "a map of where you have not been",
    "a backpack"
   ],
   "chest": [],
@@ -689,7 +690,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795534258.9,
+  "now": 1795534559.0,
   "visitors": {},
   "letters": [],
   "took": [],
