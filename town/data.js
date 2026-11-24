@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T17:31:03-05:00",
+ "asOf": "2026-11-24T17:36:03-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T17:31:02-05:00",
+   "iso": "2026-11-24T17:36:02-05:00",
    "hour": 17,
-   "minute": 31,
+   "minute": 36,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -6.5,
+   "sun": -7.2,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,30 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    5.7,
-    -2.5
+    -24.0,
+    8.0
    ],
-   "heading": 141.8,
-   "place": "letterbox",
-   "doing": null,
-   "target": null,
+   "heading": -71.6,
+   "place": "creek",
+   "doing": "wade",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.07,
+    "belly": 0.12,
     "weariness": 0.84,
-    "company": 0.38,
+    "company": 0.41,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.39
+    "thirst": 0.42
    },
    "feeling": {
-    "mood": 0.25,
-    "energy": -0.28
+    "mood": 0.19,
+    "energy": -0.18
    },
-   "thought": "\"the dark feels tight but her name pulls me closer\"}",
+   "thought": "the noise of the water tells me where to stand, and I need to feel it before I go back to the dark burrow.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a cork",
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -498,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     30.57,
-     -6.97
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -520,12 +517,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     -12.0,
+     20.0
     ],
     "said": {
-     "text": "Pip said to you: \"Whoa, look! A butterfly! Wait, hello... did you find that shell? I mean, the sky is pretty too!\"",
-     "t": 1795558669.2
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1795559719.9
     }
    },
    "odile": {
@@ -542,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -553,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -564,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     996.63,
-     11.34
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -602,11 +599,29 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o17-3410",
+    "name": "a cork",
+    "pos": [
+     5.895344186206755,
+     -1.6071257637749006
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
      3.901157839769118,
      38.63310844272687
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     5.588844067544823,
+     -1.7014773803915482
     ],
     "state": "placed"
    }
@@ -683,7 +698,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795559463.8,
+  "now": 1795559763.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2612,8 +2627,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.38474216423788804,
-    "energy": -0.4002798070884306
+    "mood": 0.19778520845155295,
+    "energy": -0.3856644383238236
    },
    "interests": {},
    "threads": [
