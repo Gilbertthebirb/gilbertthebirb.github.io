@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T10:20:58-05:00",
+ "asOf": "2026-11-24T10:25:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T10:20:58-05:00",
+   "iso": "2026-11-24T10:25:58-05:00",
    "hour": 10,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "morning",
-   "sun": 10.6,
+   "sun": 11.0,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,25 +18,25 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    -1000.0,
-    -4.68
+    -1004.14,
+    0.72
    ],
-   "heading": 109.4,
-   "place": "lamp",
+   "heading": -57.3,
+   "place": "hearth",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.69,
+    "belly": 0.73,
     "weariness": 0.04,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.1,
-    "thirst": 0.56
+    "thirst": 0.59
    },
    "feeling": {
-    "mood": -0.44,
-    "energy": 0.07
+    "mood": -0.37,
+    "energy": -0.18
    },
    "thought": "",
    "said": null,
@@ -495,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -517,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -528,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     959.25,
+     28.61
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -689,7 +689,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795533658.8,
+  "now": 1795533958.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2602,8 +2602,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.26258868107834765,
-    "energy": -0.08101979298469028
+    "mood": -0.36930740740789764,
+    "energy": -0.1769412610261762
    },
    "interests": {},
    "threads": [
