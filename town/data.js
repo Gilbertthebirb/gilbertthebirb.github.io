@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T15:26:02-05:00",
+ "asOf": "2026-11-24T15:31:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T15:26:02-05:00",
+   "iso": "2026-11-24T15:31:02-05:00",
    "hour": 15,
-   "minute": 26,
+   "minute": 31,
    "phase": "day",
    "words": "afternoon",
-   "sun": 8.3,
+   "sun": 7.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,31 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    0,
-    0
+    16.0,
+    -9.0
    ],
-   "heading": 20.3,
-   "place": "burrow",
+   "heading": -161.1,
+   "place": "shed",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
-    "weariness": 0.62,
-    "company": 0.66,
-    "itch": 0.71,
-    "nerves": 0.0,
-    "thirst": 0.15
+    "belly": 0.27,
+    "weariness": 0.66,
+    "company": 0.74,
+    "itch": 0.76,
+    "nerves": 0.15,
+    "thirst": 0.19
    },
    "feeling": {
-    "mood": 0.39,
-    "energy": -0.57
+    "mood": 0.24,
+    "energy": -0.75
    },
-   "thought": "i need company and i cannot stay heavy with only this map",
+   "thought": "my legs need words before my beak finds anything",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a map of where you have not been",
+    "a cork",
     "a backpack"
    ],
    "area": "town"
@@ -531,8 +531,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -564,8 +564,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -602,20 +602,20 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o17-3410",
-    "name": "a cork",
-    "pos": [
-     5.368348521467514,
-     -1.5371729492535964
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
      2.980186791775905,
      38.76554796246947
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     1.0115562940470337,
+     1.366201026586897
     ],
     "state": "placed"
    }
@@ -690,7 +690,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795551962.4,
+  "now": 1795552262.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2611,8 +2611,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.43022405495454064,
-    "energy": -0.6022513455841868
+    "mood": 0.32555110809227117,
+    "energy": -0.6284977489121231
    },
    "interests": {},
    "threads": [
