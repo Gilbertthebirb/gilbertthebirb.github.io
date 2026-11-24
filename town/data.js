@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T16:31:03-05:00",
+ "asOf": "2026-11-24T16:36:03-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T16:31:02-05:00",
+   "iso": "2026-11-24T16:36:02-05:00",
    "hour": 16,
-   "minute": 31,
+   "minute": 36,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 1.2,
+   "sun": 0.6,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,33 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -1004.14,
-    0.72
+    0,
+    0
    ],
-   "heading": -81.6,
-   "place": "hearth",
+   "heading": 20.3,
+   "place": "burrow",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.77,
-    "weariness": 0.47,
-    "company": 1.0,
-    "itch": 0.99,
+    "belly": 0.82,
+    "weariness": 0.51,
+    "company": 0.9,
+    "itch": 0.98,
     "nerves": 0.0,
-    "thirst": 0.59
+    "thirst": 0.62
    },
    "feeling": {
-    "mood": -0.38,
-    "energy": 0.05
+    "mood": -0.19,
+    "energy": -0.22
    },
-   "thought": "the silence is too loud without Pip's voice, so I stay still until the ground speaks again",
+   "thought": "The map hums in my beak; I need to see the lines before the hunger takes me.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
-   "area": "home"
+   "carrying": [
+    "a map of where you have not been"
+   ],
+   "area": "town"
   },
   "places": {
    "burrow": {
@@ -506,8 +508,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -539,8 +541,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1016.12,
+     4.48
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     976.52,
-     21.74
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -613,15 +615,6 @@ export default {
     "pos": [
      2.980186791775905,
      38.76554796246947
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     1.0115562940470337,
-     1.366201026586897
     ],
     "state": "placed"
    },
@@ -705,7 +698,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795555863.1,
+  "now": 1795556163.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2634,8 +2627,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.23016990940085408,
-    "energy": -0.14871873141816982
+    "mood": -0.14422945663171527,
+    "energy": -0.3536872377531545
    },
    "interests": {},
    "threads": [
