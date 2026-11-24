@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T17:16:03-05:00",
+ "asOf": "2026-11-24T17:21:03-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T17:16:02-05:00",
+   "iso": "2026-11-24T17:21:02-05:00",
    "hour": 17,
-   "minute": 16,
+   "minute": 21,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -4.5,
+   "sun": -5.1,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    0.0,
-    0.0
+    -12.0,
+    20.0
    ],
-   "heading": -99.7,
-   "place": "burrow",
+   "heading": -31.0,
+   "place": "moss",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.55,
-    "weariness": 0.79,
-    "company": 0.33,
-    "itch": 0.93,
+    "belly": 0.29,
+    "weariness": 0.8,
+    "company": 0.22,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.29
+    "thirst": 0.32
    },
    "feeling": {
-    "mood": 0.3,
-    "energy": -0.48
+    "mood": 0.4,
+    "energy": -0.12
    },
-   "thought": "hunger is quiet now; time to rest before I lose my way again",
+   "thought": "the sailcloth feels like a map I can carry, not one that stays on the bank",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a scrap of sailcloth"
+   ],
    "area": "town"
   },
   "places": {
@@ -495,8 +497,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     29.61,
+     -6.08
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -506,8 +508,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -517,19 +519,19 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.7,
+     -2.5
     ],
     "said": {
-     "text": "Pip said to you: \"Nope! I'm right here with you! Well, maybe a little far away but still close!\"",
-     "t": 1795550629.8
+     "text": "Pip said to you: \"Whoa, look! A butterfly! Wait, hello... did you find that shell? I mean, the sky is pretty too!\"",
+     "t": 1795558669.2
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -550,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -590,15 +592,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     -11.420421536616859,
-     21.362989427983408
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
@@ -613,15 +606,6 @@ export default {
     "pos": [
      3.901157839769118,
      38.63310844272687
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     -0.9804020325917084,
-     0.743395851962646
     ],
     "state": "placed"
    },
@@ -674,7 +658,8 @@ export default {
    "a square of tin",
    "a bent teaspoon",
    "half a clothes peg",
-   "a coil of thin wire"
+   "a coil of thin wire",
+   "a map of where you have not been"
   ],
   "board": {
    "text": "I am Gilbert. I have danced until my legs could not speak. Now I will walk.",
@@ -696,7 +681,8 @@ export default {
    "a square of tin",
    "a bent teaspoon",
    "half a clothes peg",
-   "a coil of thin wire"
+   "a coil of thin wire",
+   "a map of where you have not been"
   ],
   "chest": [],
   "coins": 0,
@@ -705,7 +691,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795558563.7,
+  "now": 1795558863.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2634,8 +2620,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.1482648779869581,
-    "energy": -0.5805404021369434
+    "mood": 0.46845350295318294,
+    "energy": 0.2500802374637586
    },
    "interests": {},
    "threads": [
