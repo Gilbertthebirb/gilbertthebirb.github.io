@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T17:26:03-05:00",
+ "asOf": "2026-11-24T17:31:03-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T17:26:02-05:00",
+   "iso": "2026-11-24T17:31:02-05:00",
    "hour": 17,
-   "minute": 26,
-   "phase": "dusk",
-   "words": "dusk",
-   "sun": -5.8,
+   "minute": 31,
+   "phase": "night",
+   "words": "evening, and dark",
+   "sun": -6.5,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,33 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    5.7,
+    -2.5
    ],
-   "heading": -31.0,
-   "place": "moss",
-   "doing": "probe",
-   "target": "",
+   "heading": 141.8,
+   "place": "letterbox",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.33,
-    "weariness": 0.83,
-    "company": 0.3,
+    "belly": 0.07,
+    "weariness": 0.84,
+    "company": 0.38,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.35
+    "thirst": 0.39
    },
    "feeling": {
-    "mood": 0.26,
-    "energy": -0.48
+    "mood": 0.25,
+    "energy": -0.28
    },
-   "thought": "I need to know what crunch is left if I cannot eat again.",
+   "thought": "\"the dark feels tight but her name pulls me closer\"}",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a cork",
+    "a backpack"
+   ],
    "area": "town"
   },
   "places": {
@@ -495,8 +498,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     30.57,
+     -6.97
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -506,8 +509,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -517,8 +520,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Whoa, look! A butterfly! Wait, hello... did you find that shell? I mean, the sky is pretty too!\"",
@@ -528,8 +531,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -550,8 +553,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +564,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     996.63,
+     11.34
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -599,29 +602,11 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o17-3410",
-    "name": "a cork",
-    "pos": [
-     15.895869410653056,
-     -7.821145530201248
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
      3.901157839769118,
      38.63310844272687
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     15.244436239494238,
-     -8.072327296309183
     ],
     "state": "placed"
    }
@@ -698,7 +683,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795559163.8,
+  "now": 1795559463.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2627,8 +2612,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4585548063805107,
-    "energy": -0.20040867522645583
+    "mood": 0.38474216423788804,
+    "energy": -0.4002798070884306
    },
    "interests": {},
    "threads": [
