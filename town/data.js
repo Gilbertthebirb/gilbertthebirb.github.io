@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T19:20:58-05:00",
+ "asOf": "2026-11-23T19:25:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T19:20:58-05:00",
+   "iso": "2026-11-23T19:25:58-05:00",
    "hour": 19,
-   "minute": 20,
+   "minute": 25,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -22.4,
+   "sun": -23.2,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -998.68,
-    -0.46
+    -999.28,
+    0.0
    ],
-   "heading": 127.9,
-   "place": null,
-   "doing": "walk_to",
-   "target": "chair",
+   "heading": -52.1,
+   "place": "table",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.86,
-    "weariness": 0.49,
-    "company": 1.0,
-    "itch": 1.0,
+    "belly": 0.9,
+    "weariness": 0.52,
+    "company": 0.86,
+    "itch": 0.97,
     "nerves": 0.0,
-    "thirst": 0.72
+    "thirst": 0.76
    },
    "feeling": {
-    "mood": -0.41,
-    "energy": -0.41
+    "mood": -0.39,
+    "energy": -0.12
    },
-   "thought": "legs want to move before they have words",
+   "thought": "Pip's voice is back. I will not leave him yet.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a map of where you have not been"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     21.85,
-     25.12
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -510,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -17.51,
+     1.29
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1003.05,
+     5.08
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1020.51,
+     9.2
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     987.24,
-     28.77
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -604,8 +602,8 @@ export default {
     "id": "o18-3571",
     "name": "a coil of thin wire",
     "pos": [
-     -996.7250098962106,
-     3.3974707552041092
+     -1000.3529041916535,
+     0.7566414093685137
     ],
     "state": "placed"
    },
@@ -615,6 +613,15 @@ export default {
     "pos": [
      3.3133715630379648,
      38.940513173437424
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o20-4554",
+    "name": "a map of where you have not been",
+    "pos": [
+     -998.0428998123631,
+     -0.31846307318172573
     ],
     "state": "placed"
    },
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795479658.5,
+  "now": 1795479958.5,
   "visitors": {},
   "letters": [],
   "took": [],
