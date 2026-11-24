@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T19:50:58-05:00",
+ "asOf": "2026-11-23T19:55:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T19:50:58-05:00",
+   "iso": "2026-11-23T19:55:58-05:00",
    "hour": 19,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -27.0,
+   "sun": -27.8,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -1004.14,
-    0.72
+    -999.28,
+    0.0
    ],
-   "heading": -37.5,
-   "place": "hearth",
+   "heading": 98.4,
+   "place": "table",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.49,
+    "weariness": 0.52,
     "company": 1.0,
-    "itch": 0.99,
+    "itch": 0.95,
     "nerves": 0.0,
-    "thirst": 0.92
+    "thirst": 0.96
    },
    "feeling": {
-    "mood": -0.66,
-    "energy": -0.32
+    "mood": -0.69,
+    "energy": -0.27
    },
-   "thought": "the fire sounds like rain against the ground and I am too tired to carry the wire further",
+   "thought": "I need to beat the drum with my beak and feet; the sound will tell me where I stand.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a coil of thin wire"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     25.5,
-     25.64
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -510,8 +508,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -543,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -554,8 +552,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -597,6 +595,15 @@ export default {
     "pos": [
      41.299103477770316,
      -6.148011566363505
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     -1004.8486366156429,
+     1.945517658299306
     ],
     "state": "placed"
    },
@@ -688,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795481458.7,
+  "now": 1795481758.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2564,8 +2571,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.558328506669731,
-    "energy": 0.02155396118698777
+    "mood": -0.7332733735197522,
+    "energy": -0.3322094194157148
    },
    "interests": {},
    "threads": [
