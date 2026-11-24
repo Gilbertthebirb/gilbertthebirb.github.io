@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T20:15:58-05:00",
+ "asOf": "2026-11-23T20:20:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T20:15:58-05:00",
+   "iso": "2026-11-23T20:20:58-05:00",
    "hour": 20,
-   "minute": 15,
+   "minute": 20,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -30.8,
+   "sun": -31.6,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,31 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -1004.14,
-    0.72
+    -1000.99,
+    -4.05
    ],
-   "heading": -81.6,
-   "place": "hearth",
+   "heading": 102.3,
+   "place": "chest",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.57,
+    "weariness": 0.6,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.05,
     "thirst": 1.0
    },
    "feeling": {
-    "mood": -0.8,
-    "energy": -0.2
+    "mood": -0.82,
+    "energy": -0.4
    },
-   "thought": "hunger makes legs want to move, so I hold it tight instead of jumping.",
+   "thought": "the map shows me where I have not been; I need a place to go to feel alive.",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a coil of thin wire"
+    "a map of where you have not been"
    ],
    "area": "home"
   },
@@ -488,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +499,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -510,8 +510,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -521,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     994.0,
+     18.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -597,6 +597,15 @@ export default {
     "pos": [
      41.299103477770316,
      -6.148011566363505
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     -1000.8736250324263,
+     -2.983154734839452
     ],
     "state": "placed"
    },
@@ -680,15 +689,13 @@ export default {
    "a bent teaspoon",
    "half a clothes peg"
   ],
-  "chest": [
-   "a map of where you have not been"
-  ],
+  "chest": [],
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795482958.9,
+  "now": 1795483259.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2564,8 +2571,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.8646248098513067,
-    "energy": -0.11411082676975326
+    "mood": -0.7519887543583336,
+    "energy": -0.2145821337780474
    },
    "interests": {},
    "threads": [
