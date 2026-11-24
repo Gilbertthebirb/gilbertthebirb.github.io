@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T20:50:59-05:00",
+ "asOf": "2026-11-23T20:55:59-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T20:50:58-05:00",
+   "iso": "2026-11-23T20:55:58-05:00",
    "hour": 20,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -36.1,
+   "sun": -36.8,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "storm",
   "bird": {
    "pos": [
-    -1003.06,
-    -3.6
+    -1004.14,
+    0.72
    ],
-   "heading": 166.0,
-   "place": "shelves",
-   "doing": "pick_up",
-   "target": "o18-3571",
+   "heading": -14.0,
+   "place": "hearth",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.66,
-    "company": 0.94,
-    "itch": 1.0,
-    "nerves": 0.33,
+    "weariness": 0.7,
+    "company": 0.87,
+    "itch": 0.98,
+    "nerves": 0.35,
     "thirst": 1.0
    },
    "feeling": {
-    "mood": -0.81,
-    "energy": -0.33
+    "mood": -0.74,
+    "energy": -0.14
    },
-   "thought": "the wire feels like a sound waiting to be heard",
+   "thought": "the thunder is loud, but the fire will make a sound I know; the heat feels like someone else's hands on me",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a map of where you have not been"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     21.08,
+     25.01
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -532,8 +530,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -543,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -597,15 +595,6 @@ export default {
     "pos": [
      41.299103477770316,
      -6.148011566363505
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o18-3571",
-    "name": "a coil of thin wire",
-    "pos": [
-     -1002.9976335156911,
-     1.7620333795439223
     ],
     "state": "placed"
    },
@@ -666,7 +655,8 @@ export default {
    "a blue bottle cap",
    "a square of tin",
    "a bent teaspoon",
-   "half a clothes peg"
+   "half a clothes peg",
+   "a coil of thin wire"
   ],
   "board": {
    "text": "I am Gilbert. I feel heavy and full of things waiting to be stirred.",
@@ -687,7 +677,9 @@ export default {
    "a blue bottle cap",
    "a square of tin",
    "a bent teaspoon",
-   "half a clothes peg"
+   "half a clothes peg",
+   "a coil of thin wire",
+   "a map of where you have not been"
   ],
   "chest": [],
   "letters_waiting": 0,
@@ -695,7 +687,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795485059.3,
+  "now": 1795485359.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2571,8 +2563,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.8494675188913616,
-    "energy": -0.1569419396801624
+    "mood": -0.7278888539420563,
+    "energy": -0.12853367316678688
    },
    "interests": {},
    "threads": [
