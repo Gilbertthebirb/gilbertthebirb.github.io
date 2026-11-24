@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T05:43:26-05:00",
+ "asOf": "2026-11-24T05:48:26-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T05:43:26-05:00",
+   "iso": "2026-11-24T05:48:26-05:00",
    "hour": 5,
-   "minute": 43,
+   "minute": 48,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -25.1,
+   "sun": -24.3,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -1003.06,
+    -3.6
    ],
-   "heading": 127.9,
-   "place": "chair",
+   "heading": -113.4,
+   "place": "shelves",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.07,
+    "weariness": 0.1,
     "company": 1.0,
-    "itch": 1.0,
+    "itch": 0.92,
     "nerves": 0.0,
     "thirst": 1.0
    },
    "feeling": {
-    "mood": -0.87,
-    "energy": -0.06
+    "mood": -0.67,
+    "energy": -0.1
    },
-   "thought": "I need to make a sound, not just with my beak but with my whole body.",
+   "thought": "the map is heavy with places i have been; my legs are too tired to carry the unknown anymore",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -495,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -517,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hello! Sure if you want, but don't get too close or... oh wait I mean it's soft like clouds! Okay now look at this bug there! Did you see…\"",
@@ -528,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     989.69,
+     -0.79
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -539,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -613,15 +613,6 @@ export default {
     "pos": [
      3.3133715630379648,
      38.940513173437424
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     -998.7089569894225,
-     0.9943170553421112
     ],
     "state": "placed"
    },
@@ -696,7 +687,8 @@ export default {
    "a square of tin",
    "a bent teaspoon",
    "half a clothes peg",
-   "a coil of thin wire"
+   "a coil of thin wire",
+   "a map of where you have not been"
   ],
   "chest": [],
   "coins": 0,
@@ -705,7 +697,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 32,
-  "now": 1795517006.7,
+  "now": 1795517306.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2602,8 +2594,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.942441139494323,
-    "energy": -0.04750147974755832
+    "mood": -0.8851563679270816,
+    "energy": -0.056007964291799175
    },
    "interests": {},
    "threads": [
