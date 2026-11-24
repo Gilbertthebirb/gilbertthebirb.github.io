@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T15:46:02-05:00",
+ "asOf": "2026-11-24T15:51:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T15:46:02-05:00",
+   "iso": "2026-11-24T15:51:02-05:00",
    "hour": 15,
-   "minute": 46,
-   "phase": "day",
-   "words": "afternoon",
-   "sun": 6.3,
+   "minute": 51,
+   "phase": "dusk",
+   "words": "dusk",
+   "sun": 5.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -14.0,
    "place": "hearth",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.4,
-    "weariness": 0.55,
-    "company": 0.99,
-    "itch": 0.64,
+    "belly": 0.44,
+    "weariness": 0.52,
+    "company": 1.0,
+    "itch": 0.69,
     "nerves": 0.0,
-    "thirst": 0.29
+    "thirst": 0.32
    },
    "feeling": {
-    "mood": 0.22,
-    "energy": -0.66
+    "mood": 0.04,
+    "energy": -0.5
    },
-   "thought": "The heat is warm but still; I need a sound like leaves rustling.",
+   "thought": "too quiet for moving, the darkness wants me to stand still while my nose listens",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -495,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     27.17,
+     25.88
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -517,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.47,
+     -2.42
     ],
     "said": {
      "text": "Pip said to you: \"Nope! I'm right here with you! Well, maybe a little far away but still close!\"",
@@ -539,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -705,7 +705,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795553162.6,
+  "now": 1795553462.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2634,8 +2634,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.23797439230070522,
-    "energy": -0.7907391415431274
+    "mood": 0.048426934669277374,
+    "energy": -0.5080208238640544
    },
    "interests": {},
    "threads": [
