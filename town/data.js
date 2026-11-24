@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T10:55:59-05:00",
+ "asOf": "2026-11-24T11:00:59-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T10:55:58-05:00",
-   "hour": 10,
-   "minute": 55,
+   "iso": "2026-11-24T11:00:58-05:00",
+   "hour": 11,
+   "minute": 0,
    "phase": "day",
    "words": "morning",
-   "sun": 13.2,
+   "sun": 13.5,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -18.0,
+    -22.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": "drink",
-   "target": "",
+   "heading": -93.0,
+   "place": "post",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.98,
+    "belly": 0.72,
     "weariness": 0.04,
     "company": 1.0,
-    "itch": 0.94,
-    "nerves": 0.07,
-    "thirst": 0.79
+    "itch": 1.0,
+    "nerves": 0.11,
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": -0.6,
-    "energy": -0.22
+    "mood": -0.34,
+    "energy": 0.08
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the quiet in my belly matches the low cloud; I will wait until the sound brings it home.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -705,7 +705,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795535759.2,
+  "now": 1795536059.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2618,8 +2618,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5761652163900314,
-    "energy": -0.27767883245381414
+    "mood": -0.4434397000154384,
+    "energy": -0.11986714974513453
    },
    "interests": {},
    "threads": [
