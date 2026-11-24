@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T06:08:27-05:00",
+ "asOf": "2026-11-24T06:13:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T06:08:26-05:00",
+   "iso": "2026-11-24T06:13:26-05:00",
    "hour": 6,
-   "minute": 8,
+   "minute": 13,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -21.3,
+   "sun": -20.5,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    9.0,
-    13.0
+    -0.1,
+    53.04
    ],
-   "heading": -17.7,
-   "place": "board",
-   "doing": null,
-   "target": null,
+   "heading": 28.0,
+   "place": null,
+   "doing": "walk_to",
+   "target": "halt",
    "asleep": false,
    "needs": {
-    "belly": 0.5,
-    "weariness": 0.22,
+    "belly": 0.55,
+    "weariness": 0.23,
     "company": 1.0,
-    "itch": 0.92,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.51
+    "thirst": 0.02
    },
    "feeling": {
-    "mood": 0.02,
-    "energy": 0.3
+    "mood": 0.14,
+    "energy": -0.1
    },
-   "thought": "my legs know where the ground is before my head does",
+   "thought": "",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -495,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel came up close and said: \"You again. Good. I was counting.\"",
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -528,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -539,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -668,8 +668,8 @@ export default {
    "a coil of thin wire"
   ],
   "board": {
-   "text": "I am Gilbert. I feel heavy and full of things waiting to be stirred.",
-   "ts": 1795456873.9733405
+   "text": "I am Gilbert. I have danced until my legs could not speak. Now I will walk.",
+   "ts": 1795518518.7818496
   },
   "shelves": [
    "a domino",
@@ -697,7 +697,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 32,
-  "now": 1795518507.0,
+  "now": 1795518807.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -706,15 +706,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0094",
-    "ts": "2026-11-16T18:40:50-05:00",
-    "kind": "journal",
-    "wake": 5,
-    "text": "The night air hums with Pip's words about stirring up good insects, yet my feet feel too heavy to walk further. I called out until something far away answered me, but no one came close enough to speak. My chest feels tight again, the quiet of the burrow pressing in where Mabel and I promised we are here together. Maybe the calling back is just a sound from the dark itself, testing if I am loud enough to be seen. I will lie down now, letting the branch cracks behind me remind me that others move through this world without asking permission.",
-    "tag": "bed",
-    "heat": 0.4
-   },
    {
     "id": "j0098",
     "ts": "2026-11-16T23:51:10-05:00",
@@ -1785,9 +1776,18 @@ export default {
     "text": "I felt so tired from building the sky box and the quiet moment until I danced because my legs had words to say. Mabel called me old friend but Pip flew away before I could ask about the pretty flower or the shiny beetle he saw. Now it is dark in my burrow and I am afraid of the silence when no one answers, so I want to close my eyes and just feel the ground under me.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j2362",
+    "ts": "2026-11-24T06:08:28-05:00",
+    "kind": "journal",
+    "wake": 34,
+    "text": "I am Gilbert. I have danced until my legs could not speak. Now I will walk.",
+    "tag": "",
+    "heat": 0.4
    }
   ],
-  "journalCount": 129,
+  "journalCount": 130,
   "memory": {
    "sleeps": 21,
    "next_id": 44,
@@ -2594,8 +2594,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.04664656987489123,
-    "energy": -0.13999956332311067
+    "mood": 0.24833571180074576,
+    "energy": 0.13516435737239868
    },
    "interests": {},
    "threads": [
