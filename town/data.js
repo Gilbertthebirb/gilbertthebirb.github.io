@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T07:43:00-05:00",
- "live": false,
+ "asOf": "2026-11-24T10:00:58-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T07:46:21-05:00",
-   "hour": 7,
-   "minute": 46,
-   "phase": "night",
-   "words": "the last of the night",
-   "sun": -7.0,
+   "iso": "2026-11-24T10:00:58-05:00",
+   "hour": 10,
+   "minute": 0,
+   "phase": "day",
+   "words": "morning",
+   "sun": 8.9,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "storm",
+  "weather": "clear",
   "bird": {
    "pos": [
     -997.12,
@@ -25,14 +25,14 @@ export default {
    "place": "bed",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.39,
-    "weariness": 0.82,
-    "company": 0.95,
-    "itch": 0.99,
-    "nerves": 0.35,
-    "thirst": 0.1
+    "belly": 0.52,
+    "weariness": 0.08,
+    "company": 1.0,
+    "itch": 1.0,
+    "nerves": 0.0,
+    "thirst": 0.42
    },
    "feeling": {
     "mood": -0.05,
@@ -495,8 +495,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36,
+     -12
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck said: \"Warm stone.\" He did not move over.",
@@ -517,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.27,
-     -0.16
+     14,
+     24
     ],
     "said": {
      "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
@@ -528,8 +528,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1000.0,
+     0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -539,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1015.92,
-     1.2
+     996.0,
+     29
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     994.0,
+     18
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1006.0,
+     10
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -613,15 +613,6 @@ export default {
     "pos": [
      2.980186791775905,
      38.76554796246947
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -0.6483445576658611,
-     1.019835176964176
     ],
     "state": "placed"
    }
@@ -688,16 +679,17 @@ export default {
    "a bent teaspoon",
    "half a clothes peg",
    "a coil of thin wire",
-   "a map of where you have not been"
+   "a map of where you have not been",
+   "a backpack"
   ],
   "chest": [],
   "coins": 0,
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 32,
-  "now": 1795524381.6,
+  "session": 33,
+  "now": 1795532458.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2620,7 +2612,7 @@ export default {
    ],
    "about": "I am Gilbert, a small kiwi who dances until my legs can speak. I find comfort in Mabel's voice in the wind and Pip's words when the dark feels too loud. Now I hold a heavy stone in my beak so the storm does not swallow me whole.",
    "lastResult": "",
-   "wake": 34,
+   "wake": 35,
    "awakeSince": "",
    "lastDream": "Mabel's voice is the ground I am walking on when no one speaks. Finding the earth under my feet is how Pip runs too soon and leaves me in the dark."
   }
