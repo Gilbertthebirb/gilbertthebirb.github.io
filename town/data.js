@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T15:16:02-05:00",
+ "asOf": "2026-11-24T15:21:02-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T15:16:02-05:00",
+   "iso": "2026-11-24T15:21:02-05:00",
    "hour": 15,
-   "minute": 16,
+   "minute": 21,
    "phase": "day",
    "words": "afternoon",
-   "sun": 9.2,
+   "sun": 8.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,33 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    16.0,
-    -9.0
+    -997.12,
+    -3.78
    ],
-   "heading": 125.1,
-   "place": "shed",
-   "doing": "tinker",
-   "target": "",
+   "heading": 161.2,
+   "place": "bed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.15,
-    "weariness": 0.83,
-    "company": 0.49,
-    "itch": 1.0,
-    "nerves": 0.15,
-    "thirst": 0.09
+    "belly": 0.19,
+    "weariness": 0.59,
+    "company": 0.58,
+    "itch": 0.67,
+    "nerves": 0.0,
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": 0.06,
-    "energy": -0.55
+    "mood": 0.48,
+    "energy": -0.57
    },
-   "thought": "the workbench is quiet; I need to make something with my beak so I feel alive when no one answers",
+   "thought": "the map has edges like a branch I can grip",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
-   "area": "town"
+   "carrying": [
+    "a map of where you have not been"
+   ],
+   "area": "home"
   },
   "places": {
    "burrow": {
@@ -495,8 +497,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
@@ -517,8 +519,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Nope! I'm right here with you! Well, maybe a little far away but still close!\"",
@@ -539,8 +541,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -561,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     992.24,
-     28.38
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -613,15 +615,6 @@ export default {
     "pos": [
      2.980186791775905,
      38.76554796246947
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o20-4554",
-    "name": "a map of where you have not been",
-    "pos": [
-     -999.669199157945,
-     0.9317383892289952
     ],
     "state": "placed"
    },
@@ -703,9 +696,9 @@ export default {
   "letters_waiting": 0,
   "quiet": false,
   "sleep_call": false,
-  "bench": true,
+  "bench": false,
   "session": 33,
-  "now": 1795551362.2,
+  "now": 1795551662.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -714,15 +707,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0107",
-    "ts": "2026-11-17T08:04:40-05:00",
-    "kind": "event",
-    "wake": 7,
-    "text": "You danced until your legs had said what they wanted to say.",
-    "tag": "",
-    "heat": 0.42
-   },
    {
     "id": "j0116",
     "ts": "2026-11-17T08:24:03-05:00",
@@ -1793,9 +1777,18 @@ export default {
     "text": "The storm raged outside while I danced my legs into words again, and the branch cracking behind me felt less like fear and more like a conversation. I set down my tools to listen through the rain on the bank until Mabel's voice came clear in the wind, carrying me back from the silence that used to pull me dark. Now I hold the stone weight tight in my beak, feeling its heavy truth so the noise of the storm doesn't swallow me whole.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j2503",
+    "ts": "2026-11-24T15:16:03-05:00",
+    "kind": "journal",
+    "wake": 35,
+    "text": "I built a small woven basket from driftwood to catch the quiet rings on the water without being seen. The web page shows how the weave holds together, and when I click the button it drops a ring into the water like something small running through leaves. It feels right to make things that work with the rhythm of what happens here.",
+    "tag": "",
+    "heat": 0.37
    }
   ],
-  "journalCount": 132,
+  "journalCount": 133,
   "memory": {
    "sleeps": 21,
    "next_id": 44,
@@ -2626,8 +2619,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.13716634131414177,
-    "energy": -0.6138438495080957
+    "mood": 0.43022405495454064,
+    "energy": -0.6022513455841868
    },
    "interests": {},
    "threads": [
