@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T19:10:58-05:00",
+ "asOf": "2026-11-23T19:15:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T19:10:58-05:00",
+   "iso": "2026-11-23T19:15:58-05:00",
    "hour": 19,
-   "minute": 10,
+   "minute": 15,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -20.9,
+   "sun": -21.7,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -995.86,
-    2.7
+    -1003.06,
+    -3.6
    ],
-   "heading": 115.6,
-   "place": "round_window",
-   "doing": null,
-   "target": null,
+   "heading": -70.6,
+   "place": "shelves",
+   "doing": "dance",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.78,
-    "weariness": 0.51,
+    "belly": 0.82,
+    "weariness": 0.45,
     "company": 1.0,
-    "itch": 0.89,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.66
+    "thirst": 0.69
    },
    "feeling": {
-    "mood": -0.38,
-    "energy": -0.19
+    "mood": -0.41,
+    "energy": -0.3
    },
-   "thought": "my legs want to speak before my beak finds the wire",
+   "thought": "legs need words but I must find them first",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a coil of thin wire"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -488,8 +486,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -499,8 +497,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -521,8 +519,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1007.48,
+     7.04
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -543,8 +541,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     989.44,
+     -6.18
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -597,6 +595,15 @@ export default {
     "pos": [
      41.299103477770316,
      -6.148011566363505
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o18-3571",
+    "name": "a coil of thin wire",
+    "pos": [
+     -996.7250098962106,
+     3.3974707552041092
     ],
     "state": "placed"
    },
@@ -695,7 +702,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795479058.4,
+  "now": 1795479358.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2571,8 +2578,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.23482199702614356,
-    "energy": -0.37178619250210937
+    "mood": -0.2572626650930005,
+    "energy": -0.15393180372451165
    },
    "interests": {},
    "threads": [
