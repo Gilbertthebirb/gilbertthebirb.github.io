@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-23T19:30:58-05:00",
+ "asOf": "2026-11-23T19:35:58-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-23T19:30:58-05:00",
+   "iso": "2026-11-23T19:35:58-05:00",
    "hour": 19,
-   "minute": 30,
+   "minute": 35,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -23.9,
+   "sun": -24.7,
    "date": "2026-11-23",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -1001.3,
-    -3.98
+    -1000.0,
+    -4.68
    ],
-   "heading": 102.3,
-   "place": null,
-   "doing": "walk_to",
-   "target": "chest",
+   "heading": 122.5,
+   "place": "lamp",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.94,
-    "weariness": 0.5,
-    "company": 0.94,
-    "itch": 0.96,
+    "belly": 0.99,
+    "weariness": 0.53,
+    "company": 1.0,
+    "itch": 0.88,
     "nerves": 0.0,
-    "thirst": 0.79
+    "thirst": 0.82
    },
    "feeling": {
-    "mood": -0.57,
-    "energy": -0.24
+    "mood": -0.64,
+    "energy": -0.4
    },
-   "thought": "the map calls from the dark shelves but my legs need to speak first",
+   "thought": "the dark makes my legs restless and I need to move before I break",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a coil of thin wire"
+   ],
    "area": "home"
   },
   "places": {
@@ -486,8 +488,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"I heard that too, Gilbert! Did you really just say hello? Seems weird how nothing moved but your voice. I hope you mean it this time.\"",
@@ -519,8 +521,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     998.69,
-     0.06
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -530,8 +532,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -541,8 +543,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -599,15 +601,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o18-3571",
-    "name": "a coil of thin wire",
-    "pos": [
-     -1000.3529041916535,
-     0.7566414093685137
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o19-4553",
     "name": "a hand drum",
     "pos": [
@@ -620,8 +613,8 @@ export default {
     "id": "o20-4554",
     "name": "a map of where you have not been",
     "pos": [
-     -998.0428998123631,
-     -0.31846307318172573
+     -999.0908673019461,
+     -3.455515532414651
     ],
     "state": "placed"
    },
@@ -702,7 +695,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 31,
-  "now": 1795480258.5,
+  "now": 1795480558.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2578,8 +2571,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4048838371861635,
-    "energy": -0.13936360277354454
+    "mood": -0.5780499631973895,
+    "energy": -0.25576124562966346
    },
    "interests": {},
    "threads": [
