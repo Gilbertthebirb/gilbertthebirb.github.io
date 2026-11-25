@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T21:26:06-05:00",
+ "asOf": "2026-11-24T21:31:06-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T21:26:06-05:00",
+   "iso": "2026-11-24T21:31:06-05:00",
    "hour": 21,
-   "minute": 26,
+   "minute": 31,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -41.3,
+   "sun": -42.0,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -3.0,
-    -46.0
+    5.0,
+    -22.0
    ],
-   "heading": -176.3,
-   "place": "fence",
-   "doing": "explore",
-   "target": "",
+   "heading": 18.4,
+   "place": "drift",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.53,
-    "weariness": 0.48,
-    "company": 0.58,
-    "itch": 0.94,
+    "belly": 0.57,
+    "weariness": 0.55,
+    "company": 0.51,
+    "itch": 0.93,
     "nerves": 0.05,
-    "thirst": 0.41
+    "thirst": 0.44
    },
    "feeling": {
-    "mood": 0.29,
-    "energy": -0.17
+    "mood": 0.38,
+    "energy": -0.2
    },
-   "thought": "The silence is too heavy; I need sound before I rest.",
+   "thought": "the dark feels too heavy without voices.",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -506,8 +506,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -550,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -561,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -698,7 +698,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795573566.4,
+  "now": 1795573866.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2627,8 +2627,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3236692175595133,
-    "energy": -0.3409589476912288
+    "mood": 0.20816742202892524,
+    "energy": -0.24973066302200914
    },
    "interests": {},
    "threads": [
