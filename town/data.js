@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T19:56:05-05:00",
+ "asOf": "2026-11-24T20:01:05-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T19:56:04-05:00",
-   "hour": 19,
-   "minute": 56,
+   "iso": "2026-11-24T20:01:04-05:00",
+   "hour": 20,
+   "minute": 1,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -27.9,
+   "sun": -28.7,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -18.0,
-    -22.0
+    -24.0,
+    8.0
    ],
-   "heading": -93.0,
-   "place": "post",
+   "heading": -71.6,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.08,
-    "weariness": 0.71,
-    "company": 0.3,
-    "itch": 0.94,
+    "belly": 0.12,
+    "weariness": 0.74,
+    "company": 0.38,
+    "itch": 0.92,
     "nerves": 0.05,
-    "thirst": 0.17
+    "thirst": 0.2
    },
    "feeling": {
-    "mood": 0.41,
-    "energy": -0.4
+    "mood": 0.33,
+    "energy": -0.17
    },
-   "thought": "the rain is heavy and the dark feels too tight for my legs, so I need a place where the ground stops asking me to dance.",
+   "thought": "The sailcloth feels like something from a ship or a sky that isn't here; I need to hold it until it stops shaking.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a scrap of sailcloth"
+   ],
    "area": "town"
   },
   "places": {
@@ -517,8 +519,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hi Gilbert! Wait, did you find the egg? But my tail is ticklish! Did you see the blue bird?\"",
@@ -550,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -586,15 +588,6 @@ export default {
     "pos": [
      2.946814240495087,
      58.34959214130021
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     -24.289837581788873,
-     9.316784899411854
     ],
     "state": "placed"
    },
@@ -698,7 +691,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795568165.4,
+  "now": 1795568465.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2627,8 +2620,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4002739654229951,
-    "energy": -0.4064506036002842
+    "mood": 0.3596698106003905,
+    "energy": -0.11244140514902645
    },
    "interests": {},
    "threads": [
