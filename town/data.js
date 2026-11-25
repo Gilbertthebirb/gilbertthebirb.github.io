@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T19:41:05-05:00",
+ "asOf": "2026-11-24T19:46:05-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T19:41:04-05:00",
+   "iso": "2026-11-24T19:46:04-05:00",
    "hour": 19,
-   "minute": 41,
+   "minute": 46,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -25.6,
+   "sun": -26.4,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "wind",
   "bird": {
    "pos": [
-    88.05,
-    -18.48
+    178.91,
+    -17.95
    ],
-   "heading": 103.3,
+   "heading": -33.3,
    "place": null,
    "doing": "walk_to",
-   "target": "ridge",
+   "target": "playground",
    "asleep": false,
    "needs": {
-    "belly": 0.26,
-    "weariness": 0.53,
-    "company": 0.3,
-    "itch": 1.0,
+    "belly": 0.3,
+    "weariness": 0.67,
+    "company": 0.13,
+    "itch": 0.92,
     "nerves": 0.1,
-    "thirst": 0.07
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.55,
-    "energy": 0.03
+    "mood": 0.52,
+    "energy": -0.15
    },
-   "thought": "",
+   "thought": "The drum felt heavy; I need to beat the ground again until my legs learn what to say next.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a hand drum"
+   ],
    "area": "town"
   },
   "places": {
@@ -517,8 +519,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -4.03,
-     0.3
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hi Gilbert! Wait, did you find the egg? But my tail is ticklish! Did you see the blue bird?\"",
@@ -550,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -604,15 +606,6 @@ export default {
     "pos": [
      36.68784289672787,
      -11.25298541414805
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o19-4553",
-    "name": "a hand drum",
-    "pos": [
-     196.47251231812115,
-     -42.818195144410566
     ],
     "state": "placed"
    },
@@ -698,7 +691,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795567265.3,
+  "now": 1795567565.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2627,8 +2620,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.5626298619637033,
-    "energy": 0.04535915307695226
+    "mood": 0.34530645491517614,
+    "energy": -0.18845957645671974
    },
    "interests": {},
    "threads": [
