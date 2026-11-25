@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T21:46:06-05:00",
+ "asOf": "2026-11-24T21:51:06-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T21:46:06-05:00",
+   "iso": "2026-11-24T21:51:06-05:00",
    "hour": 21,
-   "minute": 46,
+   "minute": 51,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -44.1,
+   "sun": -44.8,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -22,17 +22,17 @@ export default {
     57.0
    ],
    "heading": 28.0,
-   "place": "halt",
+   "place": null,
    "doing": "ride_tram",
    "target": "city",
    "asleep": false,
    "needs": {
-    "belly": 0.1,
-    "weariness": 0.62,
-    "company": 0.4,
+    "belly": 0.14,
+    "weariness": 0.63,
+    "company": 0.49,
     "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.07
+    "nerves": 0.06,
+    "thirst": 0.1
    },
    "feeling": {
     "mood": 0.23,
@@ -44,7 +44,7 @@ export default {
    "carrying": [
     "a jar lid"
    ],
-   "area": "town"
+   "area": "tram"
   },
   "places": {
    "burrow": {
@@ -494,7 +494,7 @@ export default {
    "from": "town",
    "departs": 1795574999.999987,
    "arrives": 1795575239.999987,
-   "aboard": false
+   "aboard": true
   },
   "city_x": 1000.0,
   "home_x": -1000.0,
@@ -503,8 +503,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -514,8 +514,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -536,8 +536,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -547,8 +547,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1005.7,
-     21.17
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -558,8 +558,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     993.8,
+     -5.5
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -697,7 +697,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795574766.6,
+  "now": 1795575066.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2626,8 +2626,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.41069895929762346,
-    "energy": 0.08037273276419771
+    "mood": 0.19453280781519522,
+    "energy": -0.09496946523083155
    },
    "interests": {},
    "threads": [
