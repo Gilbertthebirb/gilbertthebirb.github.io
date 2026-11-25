@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T20:11:05-05:00",
+ "asOf": "2026-11-24T20:16:05-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T20:11:04-05:00",
+   "iso": "2026-11-24T20:16:04-05:00",
    "hour": 20,
-   "minute": 11,
+   "minute": 16,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -30.2,
+   "sun": -31.0,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,33 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 45.0,
+   "place": "moss",
+   "doing": "probe",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.21,
-    "weariness": 0.75,
-    "company": 0.35,
+    "belly": 0.25,
+    "weariness": 0.78,
+    "company": 0.28,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.27
+    "thirst": 0.3
    },
    "feeling": {
-    "mood": 0.18,
-    "energy": -0.42
+    "mood": 0.44,
+    "energy": -0.32
    },
-   "thought": "I need to know what this scrap of sailcloth is made of and where it was before I can hold it in my beak.",
+   "thought": "I need to know what the soft ground is hiding before the dark gets too heavy.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a scrap of sailcloth",
+    "a backpack"
+   ],
    "area": "town"
   },
   "places": {
@@ -495,8 +498,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -517,8 +520,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh great! A storm! Maybe that means we should fly? Wait, wait! No, actually...\"",
@@ -539,8 +542,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -561,8 +564,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -590,15 +593,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     -22.83537937877704,
-     9.35925156310708
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
@@ -613,15 +607,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -11.116646383226158,
-     21.336928684461967
     ],
     "state": "placed"
    }
@@ -698,7 +683,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795569065.5,
+  "now": 1795569365.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2627,8 +2612,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.24288954236362692,
-    "energy": -0.3005457431363898
+    "mood": 0.287562610722207,
+    "energy": -0.3932143604088466
    },
    "interests": {},
    "threads": [
