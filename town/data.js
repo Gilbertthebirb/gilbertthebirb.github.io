@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T20:16:05-05:00",
+ "asOf": "2026-11-24T20:21:05-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T20:16:04-05:00",
+   "iso": "2026-11-24T20:21:04-05:00",
    "hour": 20,
-   "minute": 16,
+   "minute": 21,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -31.0,
+   "sun": -31.7,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,22 +27,21 @@ export default {
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.25,
-    "weariness": 0.78,
-    "company": 0.28,
+    "belly": 0.29,
+    "weariness": 0.82,
+    "company": 0.37,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.3
+    "thirst": 0.34
    },
    "feeling": {
-    "mood": 0.44,
-    "energy": -0.32
+    "mood": 0.2,
+    "energy": -0.38
    },
-   "thought": "I need to know what the soft ground is hiding before the dark gets too heavy.",
+   "thought": "My body is tired, but I need to poke at the ground until my legs make words.",
    "said": null,
    "wants_sleep": false,
    "carrying": [
-    "a scrap of sailcloth",
     "a backpack"
    ],
    "area": "town"
@@ -498,8 +497,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -509,8 +508,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -531,8 +530,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -553,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     978.0,
+     14.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -589,6 +588,15 @@ export default {
     "pos": [
      2.946814240495087,
      58.34959214130021
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -11.47079982201945,
+     20.99219241996291
     ],
     "state": "placed"
    },
@@ -683,7 +691,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795569365.5,
+  "now": 1795569665.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2612,8 +2620,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.287562610722207,
-    "energy": -0.3932143604088466
+    "mood": 0.48661630967793895,
+    "energy": -0.2958676379975489
    },
    "interests": {},
    "threads": [
