@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T19:06:04-05:00",
+ "asOf": "2026-11-24T19:11:04-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T19:06:04-05:00",
+   "iso": "2026-11-24T19:11:04-05:00",
    "hour": 19,
-   "minute": 6,
+   "minute": 11,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -20.3,
+   "sun": -21.1,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,33 @@ export default {
   "weather": "storm",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -997.12,
+    -3.78
    ],
-   "heading": 37.4,
-   "place": "moss",
-   "doing": "hide",
+   "heading": 161.2,
+   "place": "bed",
+   "doing": "nap",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.84,
-    "company": 0.82,
+    "belly": 0.31,
+    "weariness": 0.85,
+    "company": 0.4,
     "itch": 1.0,
-    "nerves": 0.35,
-    "thirst": 0.42
+    "nerves": 0.27,
+    "thirst": 0.45
    },
    "feeling": {
-    "mood": -0.27,
-    "energy": -0.14
+    "mood": 0.23,
+    "energy": -0.03
    },
-   "thought": "the thunder is too loud and my legs are too tired",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [
     "a scrap of sailcloth"
    ],
-   "area": "town"
+   "area": "home"
   },
   "places": {
    "burrow": {
@@ -508,8 +508,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -524,14 +524,14 @@ export default {
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795562507.4
+     "t": 1795565319.4
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -552,8 +552,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -563,8 +563,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1004.95,
+     10.42
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -691,7 +691,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795565164.8,
+  "now": 1795565464.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2620,8 +2620,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.04575245766814624,
-    "energy": -0.29479124284761626
+    "mood": 0.02364485988702896,
+    "energy": 0.11198825210348912
    },
    "interests": {},
    "threads": [
