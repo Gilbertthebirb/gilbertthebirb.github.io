@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T20:51:06-05:00",
+ "asOf": "2026-11-24T20:56:06-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T20:51:04-05:00",
+   "iso": "2026-11-24T20:56:04-05:00",
    "hour": 20,
-   "minute": 51,
+   "minute": 56,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -36.2,
+   "sun": -37.0,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "storm",
   "bird": {
    "pos": [
-    -997.12,
-    -3.78
+    -1000.99,
+    -4.05
    ],
-   "heading": 161.2,
-   "place": "bed",
+   "heading": -94.0,
+   "place": "chest",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.24,
-    "weariness": 0.85,
-    "company": 0.15,
-    "itch": 1.0,
-    "nerves": 0.35,
-    "thirst": 0.18
+    "belly": 0.28,
+    "weariness": 0.48,
+    "company": 0.23,
+    "itch": 0.92,
+    "nerves": 0.25,
+    "thirst": 0.21
    },
    "feeling": {
-    "mood": 0.23,
-    "energy": -0.19
+    "mood": 0.42,
+    "energy": -0.25
    },
-   "thought": "",
+   "thought": "I need something real to hold so I don't feel like nothing is happening",
    "said": null,
    "wants_sleep": false,
    "carrying": [
@@ -498,8 +498,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -509,8 +509,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -520,8 +520,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Oh, I didn't mean to chase it! But wait, guess what the cat ate? No wait, I mean, oh Gilbert!\"",
@@ -531,8 +531,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile looked down at you and said: \"The small one is back.\"",
@@ -542,8 +542,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -683,7 +683,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795571466.0,
+  "now": 1795571766.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2612,8 +2612,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19518822718293605,
-    "energy": -0.23454921431137576
+    "mood": 0.19339912240473184,
+    "energy": -0.36077486183297447
    },
    "interests": {},
    "threads": [
