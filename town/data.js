@@ -1,50 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T21:01:06-05:00",
+ "asOf": "2026-11-24T21:06:06-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T21:01:06-05:00",
+   "iso": "2026-11-24T21:06:06-05:00",
    "hour": 21,
-   "minute": 1,
+   "minute": 6,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -37.7,
+   "sun": -38.4,
    "date": "2026-11-24",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "storm",
+  "weather": "rain",
   "bird": {
    "pos": [
     -1004.14,
     0.72
    ],
-   "heading": -57.3,
+   "heading": -81.6,
    "place": "hearth",
    "doing": "sit",
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.32,
-    "weariness": 0.51,
-    "company": 0.31,
-    "itch": 0.91,
-    "nerves": 0.26,
-    "thirst": 0.24
+    "belly": 0.37,
+    "weariness": 0.55,
+    "company": 0.25,
+    "itch": 0.9,
+    "nerves": 0.16,
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": 0.36,
-    "energy": -0.03
+    "mood": 0.4,
+    "energy": 0.06
    },
-   "thought": "I want to listen to the storm with my nose while it rumbles outside.",
+   "thought": "the rain makes the silence too big, so I rest where the wood is warm and safe.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth",
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -520,8 +517,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh, I didn't mean to chase it! But wait, guess what the cat ate? No wait, I mean, oh Gilbert!\"",
@@ -542,8 +539,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -553,8 +550,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1004.62,
-     -3.99
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "the Twins said to you: \"First? Yeah, well I saw it too!\" \"But we were both right, no one is wrong here.\" \"Just listen up now Gilbert and watch out for the hawk.\"",
@@ -564,8 +561,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -607,6 +604,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -1003.2740237365078,
+     1.8221604144311585
     ],
     "state": "placed"
    }
@@ -674,7 +680,8 @@ export default {
    "a bent teaspoon",
    "half a clothes peg",
    "a coil of thin wire",
-   "a map of where you have not been"
+   "a map of where you have not been",
+   "a scrap of sailcloth"
   ],
   "chest": [],
   "coins": 0,
@@ -683,7 +690,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 33,
-  "now": 1795572066.1,
+  "now": 1795572366.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2612,8 +2619,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3677337188522681,
-    "energy": -0.01761052512438538
+    "mood": 0.27958982561713225,
+    "energy": -0.015745682003097575
    },
    "interests": {},
    "threads": [
