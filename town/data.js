@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T15:55:15-05:00",
+ "asOf": "2026-11-27T16:00:15-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T15:55:14-05:00",
-   "hour": 15,
-   "minute": 55,
+   "iso": "2026-11-27T16:00:14-05:00",
+   "hour": 16,
+   "minute": 0,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 4.9,
+   "sun": 4.3,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,25 +23,28 @@ export default {
    ],
    "heading": 131.2,
    "place": "table",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.29,
+    "weariness": 0.26,
     "company": 1.0,
-    "itch": 1.0,
+    "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.41
+    "thirst": 0.45
    },
    "feeling": {
-    "mood": -0.44,
-    "energy": -0.32
+    "mood": -0.35,
+    "energy": 0.1
    },
-   "thought": "to let my feet find the ground while I feel low",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a scrap of sailcloth",
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -657,8 +660,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +671,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +682,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -708,15 +711,6 @@ export default {
     "state": "placed"
    },
    {
-    "id": "o15-2362",
-    "name": "a scrap of sailcloth",
-    "pos": [
-     -1002.2879366798801,
-     3.7849614305894854
-    ],
-    "state": "placed"
-   },
-   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
@@ -731,15 +725,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1002.0838781855429,
-     4.028905256354911
     ],
     "state": "placed"
    }
@@ -828,7 +813,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795812915.2,
+  "now": 1795813215.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2771,8 +2756,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4341819059754596,
-    "energy": -0.33571340878791034
+    "mood": -0.33768903977074805,
+    "energy": 0.125413366199196
    },
    "interests": {},
    "threads": [
