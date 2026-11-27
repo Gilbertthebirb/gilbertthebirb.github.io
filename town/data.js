@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T16:50:15-05:00",
+ "asOf": "2026-11-27T16:55:15-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T16:50:14-05:00",
+   "iso": "2026-11-27T16:55:14-05:00",
    "hour": 16,
-   "minute": 50,
+   "minute": 55,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -1.6,
+   "sun": -2.2,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -1004.14,
+    0.72
    ],
-   "heading": 1.5,
-   "place": "kitchen",
-   "doing": null,
-   "target": null,
+   "heading": -152.6,
+   "place": "hearth",
+   "doing": "stoke_stove",
+   "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
     "weariness": 0.37,
     "company": 1.0,
-    "itch": 0.97,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.0
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": -0.43,
-    "energy": -0.17
+    "mood": -0.33,
+    "energy": -0.13
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the cold makes my beak ache and I need the fire to make room for Mabel's sound again",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -613,8 +615,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     18.07,
-     -9.31
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +626,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -646,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -722,15 +724,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1003.9639223621973,
-     1.600416034805514
     ],
     "state": "placed"
    }
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795816215.7,
+  "now": 1795816515.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5338311719870055,
-    "energy": -0.15441763931847158
+    "mood": -0.3490454409659687,
+    "energy": -0.15014968526177525
    },
    "interests": {},
    "threads": [
