@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T15:50:15-05:00",
+ "asOf": "2026-11-27T15:55:15-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T15:50:14-05:00",
+   "iso": "2026-11-27T15:55:14-05:00",
    "hour": 15,
-   "minute": 50,
+   "minute": 55,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 5.4,
+   "sun": 4.9,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "cloud",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -999.28,
+    0.0
    ],
-   "heading": 27.4,
-   "place": "kitchen",
-   "doing": null,
-   "target": null,
+   "heading": 131.2,
+   "place": "table",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.31,
+    "weariness": 0.29,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.38
+    "thirst": 0.41
    },
    "feeling": {
-    "mood": -0.53,
-    "energy": -0.22
+    "mood": -0.44,
+    "energy": -0.32
    },
-   "thought": "the drizzle feels like too much noise for me right now;",
+   "thought": "to let my feet find the ground while I feel low",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -828,7 +828,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795812615.2,
+  "now": 1795812915.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2771,8 +2771,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5662900910810367,
-    "energy": -0.24639125207357684
+    "mood": -0.4341819059754596,
+    "energy": -0.33571340878791034
    },
    "interests": {},
    "threads": [
