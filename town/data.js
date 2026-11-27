@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T14:20:14-05:00",
+ "asOf": "2026-11-27T14:25:14-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T14:20:14-05:00",
+   "iso": "2026-11-27T14:25:14-05:00",
    "hour": 14,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 13.0,
+   "sun": 12.7,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -997.12,
-    -3.78
+    -999.28,
+    0.0
    ],
-   "heading": 161.2,
-   "place": "bed",
-   "doing": null,
-   "target": null,
+   "heading": 131.2,
+   "place": "table",
+   "doing": "hold_hunger",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.76,
-    "weariness": 0.08,
-    "company": 0.53,
-    "itch": 1.0,
+    "belly": 0.8,
+    "weariness": 0.12,
+    "company": 0.62,
+    "itch": 0.91,
     "nerves": 0.0,
-    "thirst": 0.66
+    "thirst": 0.69
    },
    "feeling": {
-    "mood": 0.09,
-    "energy": -0.61
+    "mood": 0.03,
+    "energy": -0.1
    },
-   "thought": "the backpack is heavy and full of things I have not seen yet, and my hunger wants to follow it",
+   "thought": "my body pulls me toward company before food.",
    "said": null,
    "wants_sleep": false,
    "carrying": [
@@ -615,8 +615,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16,
-     -9
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -626,8 +626,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14,
-     24
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -637,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9,
-     13
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -648,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -659,8 +659,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10
+     1023.51,
+     3.47
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -713,8 +713,8 @@ export default {
     "id": "o15-2362",
     "name": "a scrap of sailcloth",
     "pos": [
-     -1000.1038332386505,
-     0.9852668001893043
+     -998.8069961324549,
+     0.8973402344147985
     ],
     "state": "placed"
    },
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795807214.2,
+  "now": 1795807514.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.12882774743950623,
-    "energy": -0.6630575443908312
+    "mood": 0.07431659598955681,
+    "energy": -0.20154993051752262
    },
    "interests": {},
    "threads": [
@@ -2776,7 +2776,7 @@ export default {
    "lastResult": "",
    "wake": 36,
    "awakeSince": "",
-   "lastDream": "I danced until my legs were quiet and the rain made old Tuck a place to sit far from where I am cold."
+   "lastDream": "I put a brass button on my shelf so it will stay there. I work on being wound tight until Mabel and Pip run away."
   }
  }
 };
