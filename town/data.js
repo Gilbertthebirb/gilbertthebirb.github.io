@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T15:30:14-05:00",
+ "asOf": "2026-11-27T15:35:15-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T15:30:14-05:00",
+   "iso": "2026-11-27T15:35:14-05:00",
    "hour": 15,
-   "minute": 30,
+   "minute": 35,
    "phase": "day",
    "words": "afternoon",
-   "sun": 7.4,
+   "sun": 6.9,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,33 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1002.88,
+    3.15
    ],
-   "heading": 131.2,
-   "place": "table",
+   "heading": -48.8,
+   "place": "kitchen",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.27,
+    "weariness": 0.24,
     "company": 1.0,
-    "itch": 0.96,
+    "itch": 0.94,
     "nerves": 0.0,
-    "thirst": 0.25
+    "thirst": 0.28
    },
    "feeling": {
-    "mood": -0.37,
-    "energy": -0.36
+    "mood": -0.35,
+    "energy": -0.33
    },
-   "thought": "something heavy feels like a promise; hunger needs something to hold",
+   "thought": "the empty space feels heavy, I will keep it tight like a seed.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth",
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -616,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -649,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -682,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1008.35,
-     20.01
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -711,6 +708,15 @@ export default {
     "state": "placed"
    },
    {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -998.3292990613553,
+     0.7279503962351962
+    ],
+    "state": "placed"
+   },
+   {
     "id": "o17-3410",
     "name": "a cork",
     "pos": [
@@ -725,6 +731,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -1000.4216769553639,
+     1.2109537570712603
     ],
     "state": "placed"
    }
@@ -813,7 +828,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795811415.0,
+  "now": 1795811715.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2756,8 +2771,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5075087850210119,
-    "energy": -0.4169951466285759
+    "mood": -0.3874303295113476,
+    "energy": -0.375093534435593
    },
    "interests": {},
    "threads": [
