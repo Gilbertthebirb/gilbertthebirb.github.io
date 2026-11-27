@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T17:10:15-05:00",
+ "asOf": "2026-11-27T17:15:16-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T17:10:14-05:00",
+   "iso": "2026-11-27T17:15:16-05:00",
    "hour": 17,
-   "minute": 10,
+   "minute": 15,
    "phase": "dusk",
    "words": "dusk",
-   "sun": -4.1,
+   "sun": -4.8,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -1004.14,
-    0.72
+    -999.28,
+    0.0
    ],
-   "heading": -152.6,
-   "place": "hearth",
-   "doing": "sit",
-   "target": "",
+   "heading": 131.2,
+   "place": "table",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.48,
-    "company": 0.89,
-    "itch": 0.99,
+    "weariness": 0.45,
+    "company": 0.98,
+    "itch": 0.92,
     "nerves": 0.0,
-    "thirst": 0.14
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": -0.29,
-    "energy": -0.36
+    "mood": -0.37,
+    "energy": -0.24
    },
-   "thought": "the quiet is safe until Mabel speaks again",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     17.91,
-     24.56
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     989.12,
+     3.36
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795817416.0,
+  "now": 1795817716.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.3331989353772783,
-    "energy": -0.28065286058824823
+    "mood": -0.4652912603800206,
+    "energy": -0.3012012409443827
    },
    "interests": {},
    "threads": [
