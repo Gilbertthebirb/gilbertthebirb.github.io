@@ -1,49 +1,47 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T14:50:14-05:00",
+ "asOf": "2026-11-27T14:55:14-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T14:50:14-05:00",
+   "iso": "2026-11-27T14:55:14-05:00",
    "hour": 14,
-   "minute": 50,
+   "minute": 55,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 10.9,
+   "sun": 10.5,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -999.28,
+    0.0
    ],
-   "heading": 127.9,
-   "place": "chair",
-   "doing": "call_out",
-   "target": "",
+   "heading": 131.2,
+   "place": "table",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.2,
+    "weariness": 0.17,
     "company": 1.0,
     "itch": 0.98,
     "nerves": 0.0,
-    "thirst": 0.26
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": -0.35,
-    "energy": -0.48
+    "mood": -0.3,
+    "energy": -0.28
    },
-   "thought": "the silence is heavy and i need a sound to stand on again",
+   "thought": "the hunger feels like a heavy thing until I sit still so it won't run away",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -637,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1009.15,
-     7.47
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -706,6 +704,15 @@ export default {
     "pos": [
      1.6406901957145492,
      58.14199155305503
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -996.6204161521191,
+     -0.5699647627200801
     ],
     "state": "placed"
    },
@@ -813,7 +820,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795809014.6,
+  "now": 1795809314.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2756,8 +2763,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.288430307696081,
-    "energy": -0.29429355809508817
+    "mood": -0.35842270137723037,
+    "energy": -0.3216186590934761
    },
    "interests": {},
    "threads": [
