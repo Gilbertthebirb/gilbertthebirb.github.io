@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T15:45:15-05:00",
+ "asOf": "2026-11-27T15:50:15-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T15:45:14-05:00",
+   "iso": "2026-11-27T15:50:14-05:00",
    "hour": 15,
-   "minute": 45,
+   "minute": 50,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 5.9,
+   "sun": 5.4,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -30,20 +30,18 @@ export default {
     "belly": 1.0,
     "weariness": 0.31,
     "company": 1.0,
-    "itch": 0.91,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.35
+    "thirst": 0.38
    },
    "feeling": {
-    "mood": -0.28,
-    "energy": -0.31
+    "mood": -0.53,
+    "energy": -0.22
    },
-   "thought": "my stomach pulls hard and the dark is too heavy with the scrap in my grip",
+   "thought": "the drizzle feels like too much noise for me right now;",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a scrap of sailcloth"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -637,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -648,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -681,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -706,6 +704,15 @@ export default {
     "pos": [
      1.6406901957145492,
      58.14199155305503
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o15-2362",
+    "name": "a scrap of sailcloth",
+    "pos": [
+     -1002.2879366798801,
+     3.7849614305894854
     ],
     "state": "placed"
    },
@@ -821,7 +828,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795812315.1,
+  "now": 1795812615.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2771,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.22045246358869386,
-    "energy": -0.46059677526345866
+    "mood": -0.5662900910810367,
+    "energy": -0.24639125207357684
    },
    "interests": {},
    "threads": [
