@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T17:55:16-05:00",
+ "asOf": "2026-11-27T18:00:16-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T17:55:16-05:00",
-   "hour": 17,
-   "minute": 55,
+   "iso": "2026-11-27T18:00:16-05:00",
+   "hour": 18,
+   "minute": 0,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -10.3,
+   "sun": -11.0,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -1002.88,
+    3.15
    ],
-   "heading": 98.4,
-   "place": "table",
+   "heading": -48.8,
+   "place": "kitchen",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.58,
-    "company": 0.87,
-    "itch": 0.95,
+    "weariness": 0.61,
+    "company": 0.95,
+    "itch": 0.94,
     "nerves": 0.0,
-    "thirst": 0.19
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": -0.25,
-    "energy": -0.33
+    "mood": -0.29,
+    "energy": -0.37
    },
-   "thought": "the dark feels empty until I see the lines that lead somewhere",
+   "thought": "the water will tell me where to stand",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     10.72,
+     7.58
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795820116.4,
+  "now": 1795820416.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.18432061470747813,
-    "energy": -0.26380481956638824
+    "mood": -0.36298030509288015,
+    "energy": -0.4059199194526617
    },
    "interests": {},
    "threads": [
