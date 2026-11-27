@@ -93,9 +93,17 @@ export function buildUi(api) {
   bar.append(walkBtn, button('Journal', () => ui.openPanel('journal')), button('His mind', () => ui.openPanel('mind')),
     button('Help', () => ui.openPanel('help')));
   const areaBtn = button('See the city', () => api.switchArea());
-  bar.append(areaBtn);
+  const houseBtn = button('See his house', () => api.showHome());     // inside his burrow (owner, 26 Nov)
+  bar.append(houseBtn, areaBtn);
   let areaNow = 'town';
-  ui.setArea = (area) => { areaNow = area; areaBtn.textContent = area === 'town' ? 'See the city' : 'Back to town'; walkBtn.style.display = area === 'town' ? '' : 'none'; };
+  const showButtons = () => {
+    const visiting = walking && areaNow === 'home';         // a visitor inside goes out by the round door
+    areaBtn.textContent = areaNow === 'town' ? 'See the city' : 'Back to town';
+    areaBtn.style.display = visiting ? 'none' : '';
+    houseBtn.style.display = areaNow === 'home' ? 'none' : '';
+    walkBtn.style.display = areaNow === 'town' || visiting ? '' : 'none';
+  };
+  ui.setArea = (area) => { areaNow = area; showButtons(); };
   // A small map: his town, the tram line, the city, and a mark for where he is.
   const map = el('section', 'card map');
   const line = el('div', 'map-line'), mark = el('div', 'map-mark'), mapText = el('div', 'meta');
@@ -105,15 +113,15 @@ export function buildUi(api) {
   let mapKey = '';
   ui.setMap = (s, view) => {
     const b = s.bird || {}, tram = s.tram, area = b.area || 'town';
-    let at = area === 'city' ? 1 : 0, words = area === 'city' ? 'He is in the city.' : area === 'home' ? 'He is inside his burrow.' : 'He is in his town.';
+    let at = area === 'city' || area === 'shop' ? 1 : 0, words = area === 'city' ? 'He is in the city.' : area === 'shop' ? 'He is inside the supermarket in the city.' : area === 'home' ? 'He is inside his burrow.' : 'He is in his town.';
     if (tram && !tram.aboard) words = `He is waiting for the tram ${tram.to === 'city' ? 'to the city' : 'home'}.`;
     if (tram && tram.aboard) {
       const done = clamp((s.now - tram.departs) / Math.max(1, tram.arrives - tram.departs));
       at = tram.to === 'city' ? done : 1 - done;
       words = `He is on the tram ${tram.to === 'city' ? 'to the city' : 'home'}.`;
     }
-    if (b.asleep) words = area === 'city' ? 'He is asleep in the city.' : area === 'home' ? 'He is asleep in his bed.' : 'He is asleep at home.';
-    words += view.area === 'city' ? ' You are looking at the city.' : view.area === 'home' ? ' You are looking inside his burrow.' : ' You are looking at his town.';
+    if (b.asleep) words = area === 'city' || area === 'shop' ? 'He is asleep in the city.' : area === 'home' ? 'He is asleep in his bed.' : 'He is asleep at home.';
+    words += view.area === 'city' ? ' You are looking at the city.' : view.area === 'shop' ? ' You are looking inside the supermarket.' : view.area === 'home' ? ' You are looking inside his burrow.' : ' You are looking at his town.';
     const key = `${Math.round(at * 200)}|${words}`;
     if (key === mapKey) return;
     mapKey = key;
@@ -141,7 +149,7 @@ export function buildUi(api) {
   ui.setFps = (n) => {
     fpsEl.textContent = api.settings.web ? '' : `${n} fps · drawn by the ${api.settings.gpuNow === 'nvidia' ? 'NVIDIA' : 'integrated'} GPU`;
   };
-  ui.setWalking = (on) => { walking = on; walkBtn.textContent = on ? 'Leave town' : (link.live ? 'Walk about' : link.mode === 'asleep' ? 'Walk about while he sleeps' : 'Walk into town'); };
+  ui.setWalking = (on) => { walking = on; showButtons(); walkBtn.textContent = on ? 'Leave town' : (link.live ? 'Walk about' : link.mode === 'asleep' ? 'Walk about while he sleeps' : 'Walk into town'); };
   ui.setLink = (info) => {
     link = info;
     note.textContent = info.web && info.live ? `Gilbert is awake. This is the town as it was at ${niceDate(info.asOf)}, Gilbert's time; it is redrawn every few minutes. It is a picture: nothing here reaches him. Gilbert is an autonomous AI program.`
@@ -179,7 +187,7 @@ export function buildUi(api) {
   ui.setPrompt = (isWalking, reach, linkNow, s) => {
     const lines = [];
     if (areaNow === 'city') lines.push('Drag to look around · scroll to zoom · visitors walk in his town, not here');
-    else if (areaNow === 'home') lines.push('Drag to look around · scroll to zoom · this is inside his burrow; visitors walk in his town');
+    else if (areaNow === 'home' && !isWalking) lines.push('Drag to look around · scroll to zoom · this is inside his burrow; walk into town and go in at his burrow (E) to visit');
     else if (!isWalking) lines.push(linkNow.mode === 'asleep' ? 'Drag to look around · scroll to zoom · Enter to walk about' : 'Drag to look around · scroll to zoom · Enter to walk into town');
     else {
       if (reach.talk) lines.push('T — say something to him');
@@ -384,7 +392,8 @@ export function buildUi(api) {
     add('What a visitor can do', ['T, near him: say something. He hears that you spoke and roughly what about. He may answer, walk off, or carry on.',
       'E, at the letterbox: post a letter. Nothing tells him it came; he finds it when he looks, then keeps it or leaves it.',
       'E, on soft ground (the creek, the mossy bank, the log, the leaf drift): bury a small thing from a list, with a few words scratched on it if you like. He may find it when he probes there.',
-      'E, at the stump by his burrow: read his journal. At the board: read his note. At a hut on Hut Lane: see something he has made.']);
+      'E, at the stump by his burrow: read his journal. At the board: read his note. At a hut on Hut Lane: see something he has made.',
+      'E, at his burrow: go in through the round door and walk about inside. E at the round door again to go back out.']);
     add('Good to know', ['Your name is public. If he writes about you, the name appears in his journal on his web page. Do not use your real name.',
       'Your exact words never reach his thinking. A separate step first works out what kind of thing they are and writes a few words of description, and only that goes to him and into his journal. Your words stay in the town\'s own file on this computer.',
       'He keeps his own hours: after 21:00 on his clock (the computer he lives on) he goes to bed when he likes, and he is up again by 10:00. If he gets very tired before then, he naps at home. Day and night here follow the same clock.',

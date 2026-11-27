@@ -27,29 +27,43 @@ scene.add(land.group);
 const places = buildPlaces(scene);
 // Which area is on screen: his town, the city, or the inside of his burrow (wish w13). The city and the
 // inside are only built the first time someone looks at them.
-const view = { area: 'town', follow: true, city: null, home: null };
+const view = { area: 'town', follow: true, city: null, home: null, shop: null };
 // The new maps (redo_app.js), in the app only. The website is served over https and has no such file, so it
 // keeps the old maps. If anything in them fails, the old maps simply stay.
 let redo = null;
 if (location.protocol === 'town:') {
   import('./redo_app.js').then((m) => m.addRedo({ land, places, area: () => view.area }))
-    .then((r) => { redo = r; if (view.city) redo.onCity(view.city); if (view.home) lookInside(); })
+    .then((r) => { redo = r; if (view.city) redo.onCity(view.city); if (view.home) lookInside(); if (view.shop) lookInShop(); })
     .catch((e) => console.warn('the new maps could not be drawn; the old ones stay', e));
 }
 const cityX = () => (state && state.city_x) || 1000;
 const homeX = () => (state && state.home_x) || -1000;
-const areaOf = (pos) => (pos[0] > 500 ? 'city' : pos[0] < -500 ? 'home' : 'town');   // the areas lie apart on one map
-const offOf = (area) => (area === 'city' ? cityX() : area === 'home' ? homeX() : 0);
+const shopX = () => (state && state.shop_x) || 2000;
+const areaOf = (pos) => (pos[0] > 1500 ? 'shop' : pos[0] > 500 ? 'city' : pos[0] < -500 ? 'home' : 'town');   // the areas lie apart on one map
+const offOf = (area) => (area === 'shop' ? shopX() : area === 'city' ? cityX() : area === 'home' ? homeX() : 0);
 // The inside of the burrow needs the new maps' model (redo_app.js). Without it, the room is just dark.
 function lookInside() {
   if (!redo || view.home.room) return;
   view.home.room = redo.onHome(view.home.group).then((r) => { view.home.room = r; });
 }
+// Inside the supermarket (shop.py) needs the new maps' model too.
+function lookInShop() {
+  if (!redo || view.shop.room) return;
+  view.shop.room = redo.onShop(view.shop.group).then((r) => { view.shop.room = r || true; });
+}
+// Inside his burrow a visitor keeps to the room and walks round the furniture: table, fire, bed (two circles),
+// shelves, chest, lamp, kitchen, chair, at home.py's places (x 1.8) and the bed model's middle.
+const ROOM_EDGE = 4.9;
+const ROOM_SOLID = [[0.72, 0, 1.0], [-4.1, 0.7, 0.9], [3.32, -3.1, 0.95], [2.4, -3.86, 0.95], [-3.1, -3.6, 0.9],
+  [-1.0, -4.05, 0.6], [0, -4.68, 0.4], [-2.9, 3.15, 0.9], [2.34, -1.26, 0.5]].map(([x, z, r]) => ({ x, z, r }));
 function showArea(area) {
   if (area === view.area) return;
-  if (area !== 'town' && me.active) leave();                 // visitors walk in town; the city and his burrow are for watching
+  if (me.active && area !== me.area) leave();               // visitors walk in town and in his burrow; the city is for watching
   if (area === 'home' || view.area === 'home') {            // closer in for the little room, back out after
     Object.assign(cam, area === 'home' ? { dist: 13, pitch: 0.75 } : { dist: 15, pitch: 0.42 });
+  }
+  if (area === 'shop' || view.area === 'shop') {            // from above, over the shop's cut-away walls
+    Object.assign(cam, area === 'shop' ? { dist: 12, pitch: 0.8 } : { dist: 15, pitch: 0.42 });
   }
   view.area = area;
   if (area === 'home' && !view.home) {
@@ -57,6 +71,11 @@ function showArea(area) {
   }
   if (area === 'home') lookInside();
   if (view.home) view.home.group.visible = area === 'home';
+  if (area === 'shop' && !view.shop) {
+    view.shop = { group: new THREE.Group(), room: null }; scene.add(view.shop.group);
+  }
+  if (area === 'shop') lookInShop();
+  if (view.shop) view.shop.group.visible = area === 'shop';
   if (area === 'city' && !view.city) {
     view.city = buildCity(); scene.add(view.city.group);
     if (redo) redo.onCity(view.city);
@@ -65,7 +84,7 @@ function showArea(area) {
   land.group.visible = places.root.visible = area === 'town';
   setLevel(area !== 'town');
   sky.inCity = area !== 'town';
-  sky.indoors = area === 'home';
+  sky.indoors = area === 'home' || area === 'shop';
   cam.target.set(0, 1, 0);
   kiwi.pos.set(9999, 9999);
   syncThings();
@@ -86,13 +105,14 @@ let state = null;                 // the latest word from the town
 let link = { mode: 'asleep', role: 'none', practice: false, welcome: null };
 let mind = null;                  // his files, as last read
 let gait = gaitFrom('', null, null);
-const me = { active: false, online: false, vid: null, name: settings.name || '', pos: new THREE.Vector2(GATE[0], GATE[1]),
+const me = { active: false, area: 'town', online: false, vid: null, name: settings.name || '', pos: new THREE.Vector2(GATE[0], GATE[1]),
   heading: Math.PI, speed: 0, figure: null, sent: 0, myLetters: new Set(), tookSeen: null };
 const cam = { yaw: 0.6, pitch: 0.42, dist: 15, target: new THREE.Vector3(0, 1, 0), watch: 'gilbert' };
 const keys = new Set();
 
 const ui = buildUi({
   switchArea: () => { view.follow = false; showArea(view.area === 'town' ? 'city' : 'town'); },   // from his burrow: back to town
+  showHome: () => { view.follow = false; showArea('home'); },
   walkIn, leave, settings,
   openPage: (slug) => window.town.open(slug),
   saveSettings: async (change) => Object.assign(settings, await window.town.settings(change)),
@@ -177,6 +197,7 @@ async function arrive() {
   }
   me.figure = makeVisitor(me.name, true);
   scene.add(me.figure.root);
+  me.area = 'town';
   me.pos.set(GATE[0], GATE[1] - 1.5);
   me.heading = Math.PI;
   me.active = true;
@@ -206,6 +227,16 @@ function inReach() {
   const bird = state.bird;
   if (me.online && !bird.asleep && d(kiwi.pos.x, kiwi.pos.y) <= 7.5) out.talk = true;
   const found = [];
+  const door = (key) => state.places && state.places[key] && [state.places[key].pos[0] - offOf(me.area), state.places[key].pos[1]];
+  if (me.area === 'home') {                               // inside his burrow: only the way back out
+    const exit = door('round_door');
+    if (exit && d(exit[0], exit[1]) < 3.5) found.push([d(exit[0], exit[1]), { kind: 'door', words: 'go back out to the town' }]);
+    found.sort((a, b) => a[0] - b[0]);
+    out.spot = found.length ? found[0][1] : null;
+    return out;
+  }
+  const burrow = door('burrow');
+  if (burrow && d(burrow[0], burrow[1]) < 3.5) found.push([d(burrow[0], burrow[1]) - 2, { kind: 'door', words: 'go into his burrow' }]);   // before the letterbox
   if (d(STUMP[0], STUMP[1]) < 3) found.push([d(STUMP[0], STUMP[1]), { kind: 'journal', words: 'read his journal' }]);
   if (d(10.4, 13.2) < 4) found.push([d(10.4, 13.2), { kind: 'board', words: 'read the notice board' }]);
   if (d(-2.5, 0.2) < 3) found.push([d(-2.5, 0.2), { kind: 'shelf', words: 'look at his shelf' }]);
@@ -223,6 +254,7 @@ function inReach() {
 
 async function use(spot) {
   if (!spot) return;
+  if (spot.kind === 'door') { goThroughDoor(); return; }
   if (spot.kind === 'journal') ui.openPanel('journal');
   else if (spot.kind === 'board') {
     const b = (state && state.board) || {};
@@ -252,6 +284,30 @@ async function use(spot) {
     if (!pick) return;
     ui.toast((await window.town.ask({ type: 'bury', item: pick.item, note: pick.note })).text || 'Buried.');
   }
+}
+
+// Through his round door and back (owner, 26 Nov). When he is awake the town decides, so nobody skips across
+// town; when he is asleep, or this window only watches, it happens here only, like the rest of the walk.
+async function goThroughDoor() {
+  let area = me.area === 'home' ? 'town' : 'home', pos = null, text = '';
+  if (me.online) {
+    const reply = await window.town.ask({ type: 'door' });
+    if (!reply.ok) { ui.toast(reply.text || 'The door would not open.'); return; }
+    area = reply.area; pos = reply.pos; text = reply.text;
+  } else if (area === 'home') {
+    const d = state.places.round_door.pos; pos = [d[0], d[1] - 1.0];
+  } else {
+    const b = state.places.burrow.pos; pos = [b[0] + 0.6, b[1] + 1.8];
+  }
+  me.area = area;
+  showArea(area);
+  me.pos.set(pos[0] - offOf(area), pos[1]);
+  me.heading = area === 'home' ? Math.PI : 0;
+  me.figure.pos.copy(me.pos);
+  cam.watch = 'me'; view.follow = false;
+  if (area === 'home') Object.assign(cam, { dist: 9, pitch: 0.6 });
+  ui.setWalking(true);
+  ui.toast(text || (area === 'home' ? 'You go in through the round door, into his burrow.' : 'You go back out into the town.'));
 }
 
 async function talk() {
@@ -312,9 +368,16 @@ function moveMe(dt) {
     me.heading = dampAngle(me.heading, Math.atan2(vx, vz), 12, dt);
     cam.watch = 'me';
   }
-  const edge = (link.welcome && link.welcome.edge) || 62;
-  me.pos.x = clamp(me.pos.x, -edge, edge); me.pos.y = clamp(me.pos.y, -edge, edge);
-  const solid = [...places.colliders, ...places.hutColliders, ...land.colliders, { x: kiwi.pos.x, z: kiwi.pos.y, r: 0.6 }];
+  if (me.area === 'home') {                                // the room, and no further (as the town keeps it)
+    const r = Math.hypot(me.pos.x, me.pos.y);
+    if (r > ROOM_EDGE) me.pos.multiplyScalar(ROOM_EDGE / r);
+  } else {
+    const edge = (link.welcome && link.welcome.edge) || 62;
+    me.pos.x = clamp(me.pos.x, -edge, edge); me.pos.y = clamp(me.pos.y, -edge, edge);
+  }
+  const kiwiHere = view.area === me.area ? [{ x: kiwi.pos.x, z: kiwi.pos.y, r: 0.6 }] : [];
+  const solid = me.area === 'home' ? [...ROOM_SOLID, ...kiwiHere]
+    : [...places.colliders, ...places.hutColliders, ...land.colliders, ...kiwiHere];
   for (const c of solid) {                                  // nobody walks through a shed, or a kiwi
     const dx = me.pos.x - c.x, dz = me.pos.y - c.z, far = Math.hypot(dx, dz), min = c.r + 0.4;
     if (far < min && far > 0.0001) { me.pos.x = c.x + dx / far * min; me.pos.y = c.z + dz / far * min; }
@@ -323,10 +386,11 @@ function moveMe(dt) {
   Object.assign(me.figure, { heading: me.heading, speed: me.speed });
   me.figure.pos.copy(me.pos);
   const there = state && state.visitors && state.visitors[me.vid];          // where the town thinks this visitor is
-  const behind = there ? Math.hypot(there.pos[0] - me.pos.x, there.pos[1] - me.pos.y) > 0.6 : false;
+  const off = offOf(me.area);
+  const behind = there ? Math.hypot(there.pos[0] - off - me.pos.x, there.pos[1] - me.pos.y) > 0.6 : false;
   if (me.online && clock - me.sent > 0.12 && (me.pos.distanceTo(before) > 0 || behind || clock - me.sent > 2)) {
     me.sent = clock;
-    window.town.move([me.pos.x, me.pos.y], ((me.heading * 180 / Math.PI) % 360 + 360) % 360);
+    window.town.move([me.pos.x + off, me.pos.y], ((me.heading * 180 / Math.PI) % 360 + 360) % 360);
   }
 }
 
@@ -355,11 +419,11 @@ function frame(ms) {
   const night = sky.update((state && state.weather) || 'cloud', camera, dt, clock, demo.sun, skyNow.day_minutes || 0,
     skyNow.shift_s || 0).night;
   ui.beginLabels(camera);
-  const city = view.area === 'city', inside = view.area === 'home', off = offOf(view.area);
+  const city = view.area === 'city' || view.area === 'shop', inside = view.area === 'home', off = offOf(view.area);
   let birdHere = false;
   if (state && state.bird) {
     const where = state.bird.area || 'town';
-    if (view.follow && !me.active && ['town', 'city', 'home'].includes(where) && where !== view.area) showArea(where);
+    if (view.follow && !me.active && ['town', 'city', 'home', 'shop'].includes(where) && where !== view.area) showArea(where);
     birdHere = where === view.area;
     kiwi.root.visible = birdHere;
     const bird = { ...state.bird, pos: [state.bird.pos[0] - off, state.bird.pos[1]] };
@@ -372,7 +436,7 @@ function frame(ms) {
     }
     for (const o of others.values()) { const far = o.pos.distanceTo(kiwi.pos); if (far < Math.min(best, 6) && bird.doing === null) { nearest = [o.pos.x, o.pos.y]; } }
     if (me.active && me.online && !bird.doing && me.pos.distanceTo(kiwi.pos) < 6 && bird.said && state.now - bird.said.t < 8) nearest = [me.pos.x, me.pos.y];
-    const pose = animateKiwi(kiwi, bird, gait, dt, clock, { city, home: inside, shedInside: places.shedInside, nearest: bird.doing ? nearest : (nearest && bird.said && state.now - bird.said.t < 8 ? nearest : null) });
+    const pose = animateKiwi(kiwi, bird, gait, dt, clock, { city, home: inside, homeX: homeX(), shedInside: places.shedInside, nearest: bird.doing ? nearest : (nearest && bird.said && state.now - bird.said.t < 8 ? nearest : null) });
     if (birdHere) ui.label('gilbert', 'Gilbert', pose.head, 'name bird');
     const load = (bird.carrying || []).join('|') + '#' + itemModelsVersion();   // what he is carrying rides on his back
     if (load !== kiwi.load) {
@@ -444,12 +508,12 @@ function frame(ms) {
     }
     const seen = new Set();
     for (const [vid, v] of Object.entries(state.visitors || {})) {
-      if (vid === me.vid || view.area !== 'town') continue;
+      if (vid === me.vid || (v.area || 'town') !== view.area || view.area === 'city') continue;
       seen.add(vid);
-      if (!others.has(vid)) { const one = makeVisitor(v.name, false); one.pos.set(v.pos[0], v.pos[1]); others.set(vid, one); scene.add(one.root); }
+      if (!others.has(vid)) { const one = makeVisitor(v.name, false); one.pos.set(v.pos[0] - off, v.pos[1]); others.set(vid, one); scene.add(one.root); }
       const o = others.get(vid);
       const before = o.pos.clone();
-      o.pos.x = damp(o.pos.x, v.pos[0], 6, dt); o.pos.y = damp(o.pos.y, v.pos[1], 6, dt);
+      o.pos.x = damp(o.pos.x, v.pos[0] - off, 6, dt); o.pos.y = damp(o.pos.y, v.pos[1], 6, dt);
       o.speed = damp(o.speed, o.pos.distanceTo(before) / Math.max(dt, 0.001), 8, dt);
       o.heading = dampAngle(o.heading, v.heading * Math.PI / 180, 8, dt);
       const top = animateVisitor(o, dt, clock, night);
@@ -457,10 +521,12 @@ function frame(ms) {
       if (v.said && state.now - v.said.t < 7) ui.label(`vs:${vid}`, v.said.text, v3.copy(top).setY(top.y + 0.35), 'speech visitor');
     }
     for (const [vid, o] of others) if (!seen.has(vid)) { scene.remove(o.root); others.delete(vid); }
-    if (city) view.city.update(night, clock);
-    else if (inside) { if (view.home.room && view.home.room.update) view.home.room.update(Boolean(state.lamp), state.shelves || state.kept || []); }
+    if (view.area === 'shop') { /* the supermarket's room has nothing that changes */ }
+    else if (city) view.city.update(night, clock);
+    else if (inside) { if (view.home.room && view.home.room.update) view.home.room.update(Boolean(state.lamp), state.shelves || state.kept || [], state.kitchen); }
     else places.update(state, night, clock);
     if (redo) redo.update(night, clock, camera.position);
+    if (redo && redo.garden) redo.garden(state.garden);       // what grows in his garden's beds (garden.py)
     ui.setState(state, gait, link);
     ui.setMap(state, view);
   }
@@ -477,7 +543,7 @@ function frame(ms) {
 
   // The camera circles whoever is being watched.
   const focus = cam.watch === 'me' && me.active ? v3.set(me.pos.x, heightAt(me.pos.x, me.pos.y) + 1.3, me.pos.y)
-    : birdHere ? v3.set(kiwi.pos.x, heightAt(kiwi.pos.x, kiwi.pos.y) + 0.8, kiwi.pos.y) : view.area === 'home' ? v3.set(0, 0.9, 0) : v3.set(0, 1, 6);
+    : birdHere ? v3.set(kiwi.pos.x, heightAt(kiwi.pos.x, kiwi.pos.y) + 0.8, kiwi.pos.y) : view.area === 'home' || view.area === 'shop' ? v3.set(0, 0.9, 0) : v3.set(0, 1, 6);
   cam.target.x = damp(cam.target.x, focus.x, 6, dt); cam.target.y = damp(cam.target.y, focus.y, 6, dt); cam.target.z = damp(cam.target.z, focus.z, 6, dt);
   if (!drag && cam.watch === 'gilbert' && !me.active) cam.yaw += dt * 0.02;       // a slow drift while only watching
   const flat = Math.cos(cam.pitch) * cam.dist;
@@ -494,6 +560,6 @@ if (link.role === 'none' && link.mode === 'asleep' && !('live' in link)) link = 
 ui.setLink(link);
 await refreshMind();
 if (demo.at) { if (!me.name) me.name = 'Tester'; await walkIn(); const [x, z] = demo.at.split(',').map(Number); me.pos.set(x, z); }
-if (query.get('area') === 'city' || query.get('area') === 'home') { view.follow = false; showArea(query.get('area')); }
+if (['city', 'home', 'shop'].includes(query.get('area'))) { view.follow = false; showArea(query.get('area')); }
 if (demo.panel) ui.openPanel(demo.panel);
 requestAnimationFrame(frame);

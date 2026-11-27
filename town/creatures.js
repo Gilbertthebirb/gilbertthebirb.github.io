@@ -80,12 +80,25 @@ const STILL = new Set(['probe', 'sniff', 'keep', 'leave_be', 'greet', 'call_out'
   'check_letterbox', 'read', 'tinker', 'pin_note', 'sit', 'ask_for_sleep', 'drink', 'explore', 'scavenge', 'pick_up',
   'put_down', 'dance', 'watch', 'wish', 'drum']);
 
+// The bed inside the burrow, from the Blender model (build_models.py, node "bed" in burrow_inside.glb): its middle
+// at (1.588, -1.931) in plan units, turned -0.688 rad about the vertical, the pillow at its local -x end, the
+// blanket's top 0.44 up; the room is drawn 1.8x. He lies on the blanket, facing the pillow, a little toward it.
+const ROOM = 1.8, BED_TURN = -0.688, BED_MID = [1.588, -1.931], BED_TOP = 0.44, TOWARD_PILLOW = 0.12;
+// The app hands him over in the room's own frame (the area's offset already taken off), as the room is drawn.
+function inBed() {
+  const hx = -Math.cos(BED_TURN), hz = Math.sin(BED_TURN);       // the bed's local -x (its head end) in the room
+  return { x: (BED_MID[0] + hx * TOWARD_PILLOW) * ROOM, z: (BED_MID[1] + hz * TOWARD_PILLOW) * ROOM,
+    face: Math.atan2(hx, hz), top: BED_TOP * ROOM };
+}
+
 // Move and pose him for this frame. `bird` is the town's word on him; `extra` is where things are.
 export function animateKiwi(k, bird, gait, dt, t, extra) {
   const doing = bird.asleep ? 'asleep' : (bird.doing || 'idle');
   // Where to draw him. The town gives one point per place; a few actions look better a step away.
-  let tx = bird.pos[0], tz = bird.pos[1], face = null;
-  if (extra.home) { /* inside his burrow (wish w13) every place is a piece of furniture: he is drawn at it */ }
+  let tx = bird.pos[0], tz = bird.pos[1], face = null, lift = null;
+  const bed = extra.home && (doing === 'asleep' || doing === 'nap') ? inBed() : null;
+  if (bed && Math.hypot(tx - bed.x, tz - bed.z) < 1.5) { tx = bed.x; tz = bed.z; face = bed.face; lift = bed.top; }
+  else if (extra.home) { /* inside his burrow (wish w13) every place is a piece of furniture: he is drawn at it */ }
   else if ((doing === 'asleep' || doing === 'nap') && extra.city) { /* in the city he sleeps where he is */ }
   else if (doing === 'asleep' || doing === 'nap') { tx = 0; tz = 0.35; face = 0.5; }
   else if (doing === 'tinker') { tx = extra.shedInside[0]; tz = extra.shedInside[1]; face = Math.PI; }
@@ -168,7 +181,8 @@ export function animateKiwi(k, bird, gait, dt, t, extra) {
 
   const ground = heightAt(k.pos.x, k.pos.y);
   const inWater = doing === 'wade' ? -0.22 : 0;
-  k.root.position.set(k.pos.x + (Math.random() - 0.5) * shake, Math.max(ground, -0.6) + inWater, k.pos.y + (Math.random() - 0.5) * shake);
+  k.root.position.set(k.pos.x + (Math.random() - 0.5) * shake, lift !== null ? lift : Math.max(ground, -0.6) + inWater,
+    k.pos.y + (Math.random() - 0.5) * shake);
   k.root.rotation.y = k.heading;
   k.body.position.y = bob - k.crouch + k.startle * 0.25;
   k.body.rotation.x = k.tip;

@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-24T22:35:21-05:00",
- "live": false,
+ "asOf": "2026-11-27T14:20:14-05:00",
+ "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-24T22:36:15-05:00",
-   "hour": 22,
-   "minute": 36,
-   "phase": "night",
-   "words": "evening, and dark",
-   "sun": -50.5,
-   "date": "2026-11-24",
+   "iso": "2026-11-27T14:20:14-05:00",
+   "hour": 14,
+   "minute": 20,
+   "phase": "day",
+   "words": "the middle of the day",
+   "sun": 13.0,
+   "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "drizzle",
+  "weather": "clear",
   "bird": {
    "pos": [
     -997.12,
@@ -25,23 +25,25 @@ export default {
    "place": "bed",
    "doing": null,
    "target": null,
-   "asleep": true,
+   "asleep": false,
    "needs": {
-    "belly": 0.21,
-    "weariness": 0.86,
-    "company": 0.22,
+    "belly": 0.76,
+    "weariness": 0.08,
+    "company": 0.53,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.07
+    "thirst": 0.66
    },
    "feeling": {
-    "mood": 0.13,
-    "energy": -0.66
+    "mood": 0.09,
+    "energy": -0.61
    },
-   "thought": "",
+   "thought": "the backpack is heavy and full of things I have not seen yet, and my hunger wants to follow it",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -212,6 +214,15 @@ export default {
     "pos": [
      2,
      57
+    ],
+    "hut": null,
+    "area": "town"
+   },
+   "plot": {
+    "name": "your garden",
+    "pos": [
+     -9.4,
+     -3.3
     ],
     "hut": null,
     "area": "town"
@@ -405,6 +416,15 @@ export default {
     "hut": null,
     "area": "city"
    },
+   "supermarket": {
+    "name": "the supermarket",
+    "pos": [
+     956.8,
+     0.4
+    ],
+    "hut": null,
+    "area": "city"
+   },
    "round_door": {
     "name": "the round door",
     "pos": [
@@ -485,18 +505,118 @@ export default {
     ],
     "hut": null,
     "area": "home"
+   },
+   "kitchen": {
+    "name": "the kitchen",
+    "pos": [
+     -1002.88,
+     3.15
+    ],
+    "hut": null,
+    "area": "home"
+   },
+   "shop_door": {
+    "name": "the supermarket doors",
+    "pos": [
+     2000.0,
+     2.9
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_breakfast": {
+    "name": "the breakfast aisle",
+    "pos": [
+     1994.2,
+     -0.6
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_baking": {
+    "name": "the baking aisle",
+    "pos": [
+     1996.55,
+     -0.6
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_snacks": {
+    "name": "the snacks aisle",
+    "pos": [
+     1998.85,
+     -0.6
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_pans": {
+    "name": "the pans",
+    "pos": [
+     2001.0,
+     -0.6
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_fridges": {
+    "name": "the fridges",
+    "pos": [
+     1997.6,
+     -2.45
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_bakery": {
+    "name": "the bread rack",
+    "pos": [
+     2006.1,
+     -1.4
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_fresh": {
+    "name": "the fruit and vegetables",
+    "pos": [
+     2005.55,
+     1.2
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_seeds": {
+    "name": "the seed stand",
+    "pos": [
+     2002.7,
+     -2.75
+    ],
+    "hut": null,
+    "area": "shop"
+   },
+   "shop_tills": {
+    "name": "the tills",
+    "pos": [
+     1995.6,
+     2.4
+    ],
+    "hut": null,
+    "area": "shop"
    }
   },
   "tram": null,
   "city_x": 1000.0,
   "home_x": -1000.0,
+  "shop_x": 2000.0,
   "lamp": true,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16,
+     -9
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -506,8 +626,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14,
+     24
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -517,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     9,
+     13
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -528,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1006.0,
+     10
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -539,8 +659,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -550,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1016.0,
+     22
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -561,8 +681,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -613,15 +733,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -998.741759699873,
-     1.2828105235896003
     ],
     "state": "placed"
    }
@@ -692,13 +803,25 @@ export default {
    "a map of where you have not been"
   ],
   "chest": [],
+  "kitchen": {
+   "shelf": [],
+   "worktop": [],
+   "cupboard_left": [],
+   "cupboard_right": []
+  },
   "coins": 0,
+  "garden": [
+   null,
+   null,
+   null,
+   null
+  ],
   "letters_waiting": 0,
   "quiet": false,
-  "sleep_call": true,
+  "sleep_call": false,
   "bench": false,
-  "session": 33,
-  "now": 1795577776.0,
+  "session": 34,
+  "now": 1795807214.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2651,7 +2774,7 @@ export default {
    ],
    "about": "I am a small kiwi who finds the ground when others speak, but feels the weight of empty space pressing against my chest when Pip runs away. I dance until my legs tell me where to stand, and I carry the sounds of leaves rustling and branches cracking like words waiting under my tongue.",
    "lastResult": "",
-   "wake": 35,
+   "wake": 36,
    "awakeSince": "",
    "lastDream": "I danced until my legs were quiet and the rain made old Tuck a place to sit far from where I am cold."
   }
