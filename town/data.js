@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T12:15:28-05:00",
+ "asOf": "2026-11-28T12:20:28-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T12:15:28-05:00",
+   "iso": "2026-11-28T12:20:28-05:00",
    "hour": 12,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 15.8,
+   "sun": 15.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.71,
-    "weariness": 0.81,
-    "company": 0.53,
+    "belly": 0.75,
+    "weariness": 0.82,
+    "company": 0.14,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.27
+    "thirst": 0.31
    },
    "feeling": {
-    "mood": 0.14,
-    "energy": -0.03
+    "mood": 0.22,
+    "energy": -0.28
    },
-   "thought": "to feel the ground and see if anything tastes right",
+   "thought": "I need to know what is here so I stop waiting.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,12 +635,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.7,
+     -2.5
     ],
     "said": {
-     "text": "Pip said to you: \"Grubs are great! But wait, did you hear that? Oh no, look at that flower! Maybe it's a bird?\"",
-     "t": 1795886072.9
+     "text": "Pip said to you: \"You are so quiet it sounds boring! I want to fly up now but let me check my feather first. Okay, if you can't move then we could just sit…\"",
+     "t": 1795886293.0
     }
    },
    "odile": {
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795886128.5,
+  "now": 1795886428.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5066576584011446,
-    "energy": -0.8985501708207381
+    "mood": 0.36562977657359286,
+    "energy": -0.13919860994454014
    },
    "interests": {},
    "threads": [
