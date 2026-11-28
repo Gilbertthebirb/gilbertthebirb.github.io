@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T04:50:23-05:00",
+ "asOf": "2026-11-28T04:55:23-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T04:50:22-05:00",
+   "iso": "2026-11-28T04:55:22-05:00",
    "hour": 4,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -33.6,
+   "sun": -32.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "storm",
+  "weather": "rain",
   "bird": {
    "pos": [
     14.0,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -98.1,
    "place": "log",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.33,
+    "belly": 0.07,
     "weariness": 0.95,
-    "company": 0.11,
+    "company": 0.2,
     "itch": 1.0,
-    "nerves": 0.35,
-    "thirst": 0.45
+    "nerves": 0.11,
+    "thirst": 0.48
    },
    "feeling": {
-    "mood": 0.23,
-    "energy": 0.07
+    "mood": 0.11,
+    "energy": -0.54
    },
-   "thought": "the thunder feels like it's inside my bones and the marble in my beak feels heavy with answers; I need to know if the ground is soft enough to hide or hard enou",
+   "thought": "the rain is too loud and I need the quiet weight of my own head against the mud",
    "said": null,
    "wants_sleep": true,
-   "carrying": [
-    "a marble with a twist of green"
-   ],
+   "carrying": [],
    "area": "town"
   },
   "places": {
@@ -615,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I am awake! Did you move anything while I slept? I saw it yesterday. Come here so we can talk properly.\"",
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -648,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     994.0,
+     18.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -681,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1002.19,
-     27.61
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -691,6 +689,15 @@ export default {
    }
   },
   "objects": [
+   {
+    "id": "o7-1007",
+    "name": "a marble with a twist of green",
+    "pos": [
+     13.264430958494598,
+     25.25494687811341
+    ],
+    "state": "placed"
+   },
    {
     "id": "o12-2069",
     "name": "a jar lid",
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795859423.3,
+  "now": 1795859723.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3247228360065255,
-    "energy": 0.05588658287962711
+    "mood": 0.11130468207966654,
+    "energy": -0.5418821359190736
    },
    "interests": {},
    "threads": [
