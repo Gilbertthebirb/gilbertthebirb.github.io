@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T11:35:28-05:00",
+ "asOf": "2026-11-28T11:40:28-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T11:35:28-05:00",
+   "iso": "2026-11-28T11:40:28-05:00",
    "hour": 11,
-   "minute": 35,
+   "minute": 40,
    "phase": "day",
    "words": "morning",
-   "sun": 14.7,
+   "sun": 14.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 27.4,
    "place": "kitchen",
-   "doing": "sit",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
     "weariness": 0.84,
     "company": 1.0,
     "itch": 1.0,
-    "nerves": 0.02,
-    "thirst": 0.01
+    "nerves": 0.0,
+    "thirst": 0.04
    },
    "feeling": {
-    "mood": -0.47,
-    "energy": -0.79
+    "mood": -0.76,
+    "energy": -0.61
    },
-   "thought": "letting the hunger rest before moving again.",
+   "thought": "my legs feel too heavy to run yet, so I will just breathe with the roof until my hunger has an edge",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795883728.1,
+  "now": 1795884028.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5850052694011718,
-    "energy": -0.8818567468289564
+    "mood": -0.7462476972776731,
+    "energy": -0.633386860438336
    },
    "interests": {},
    "threads": [
