@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T23:05:19-05:00",
+ "asOf": "2026-11-27T23:10:19-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T23:05:18-05:00",
+   "iso": "2026-11-27T23:10:18-05:00",
    "hour": 23,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -54.1,
+   "sun": -54.6,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -1004.14,
+    0.72
    ],
-   "heading": -49.8,
-   "place": "kitchen",
+   "heading": -152.6,
+   "place": "hearth",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
     "weariness": 0.81,
-    "company": 0.89,
-    "itch": 0.93,
+    "company": 0.97,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.4
+    "thirst": 0.43
    },
    "feeling": {
-    "mood": -0.34,
+    "mood": -0.31,
     "energy": -0.45
    },
-   "thought": "the hunger has an edge I need to grip",
+   "thought": "the hunger is too heavy to hold alone",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -12.23,
+     19.77
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -729,8 +729,8 @@ export default {
     "id": "o21-4555",
     "name": "a backpack",
     "pos": [
-     -1003.4855261158744,
-     4.12973165219154
+     -1003.9406202310743,
+     1.689395025501665
     ],
     "state": "placed"
    }
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795838719.8,
+  "now": 1795839019.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4520397844205972,
-    "energy": -0.5671402922182152
+    "mood": -0.3296745060674095,
+    "energy": -0.6020407057643951
    },
    "interests": {},
    "threads": [
