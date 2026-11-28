@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T00:05:20-05:00",
+ "asOf": "2026-11-28T00:10:20-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T00:05:20-05:00",
+   "iso": "2026-11-28T00:10:20-05:00",
    "hour": 0,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -58.4,
+   "sun": -58.6,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -1004.14,
+    0.72
    ],
-   "heading": -86.3,
-   "place": "kitchen",
-   "doing": "dance",
+   "heading": -152.6,
+   "place": "hearth",
+   "doing": "hold_hunger",
    "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.77,
+    "weariness": 0.81,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.04
+    "thirst": 0.07
    },
    "feeling": {
-    "mood": -0.56,
-    "energy": -0.48
+    "mood": -0.45,
+    "energy": -0.45
    },
-   "thought": "my legs need to move until the silence stops trying to swallow me",
+   "thought": "The fire was good, but the night is long and my chest feels empty in a heavy way that food won't fix. I need to find what makes the noise stop and the dark feel",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     7.35,
-     -1.4
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1008.72,
+     7.87
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     982.5,
-     0.75
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795842320.4,
+  "now": 1795842620.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4063847432766261,
-    "energy": -0.4858505078523806
+    "mood": -0.45846023690156235,
+    "energy": -0.43294339132294857
    },
    "interests": {},
    "threads": [
