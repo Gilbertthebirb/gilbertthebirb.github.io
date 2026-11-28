@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T19:25:17-05:00",
+ "asOf": "2026-11-27T19:30:17-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T19:25:16-05:00",
+   "iso": "2026-11-27T19:30:16-05:00",
    "hour": 19,
-   "minute": 25,
+   "minute": 30,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -23.6,
+   "sun": -24.4,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -999.85,
+    0.08
    ],
-   "heading": 8.7,
-   "place": "table",
-   "doing": "sit",
-   "target": "",
+   "heading": -81.6,
+   "place": null,
+   "doing": "walk_to",
+   "target": "hearth",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.84,
-    "company": 1.0,
+    "weariness": 0.82,
+    "company": 0.86,
     "itch": 1.0,
-    "nerves": 0.07,
-    "thirst": 0.26
+    "nerves": 0.0,
+    "thirst": 0.29
    },
    "feeling": {
-    "mood": -0.65,
-    "energy": -0.61
+    "mood": -0.32,
+    "energy": -0.46
    },
-   "thought": "i am heavy and i want to hear the sound of a beak on wood without moving",
+   "thought": "the cold makes the hunger too loud in my beak, so I need the warmth to find my voice again",
    "said": null,
    "wants_sleep": false,
-   "carrying": [],
+   "carrying": [
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -613,8 +615,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +626,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -646,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +659,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     978.31,
+     8.74
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +681,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     997.43,
+     21.89
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -722,15 +724,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1003.4545964407087,
-     3.921149593053739
     ],
     "state": "placed"
    }
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795825517.3,
+  "now": 1795825817.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.654484599960861,
-    "energy": -0.6217179928788038
+    "mood": -0.405389352669551,
+    "energy": -0.5312279991408946
    },
    "interests": {},
    "threads": [
