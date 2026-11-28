@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T06:50:24-05:00",
+ "asOf": "2026-11-28T06:55:24-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T06:50:24-05:00",
+   "iso": "2026-11-28T06:55:24-05:00",
    "hour": 6,
-   "minute": 50,
+   "minute": 55,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -15.5,
+   "sun": -14.8,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -71.6,
    "place": "creek",
-   "doing": "watch",
-   "target": "water",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.13,
+    "belly": 0.17,
     "weariness": 1.0,
-    "company": 0.29,
+    "company": 0.38,
     "itch": 1.0,
     "nerves": 0.35,
-    "thirst": 0.2
+    "thirst": 0.23
    },
    "feeling": {
-    "mood": 0.25,
-    "energy": -0.35
+    "mood": 0.05,
+    "energy": -0.47
    },
-   "thought": "The sound tells me where to stand before I have to move again.",
+   "thought": "listen for Mabel's voice or the rustle that means home",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"I am awake! Did you move anything while I slept? I saw it yesterday. Come here so we can talk properly.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -12.0,
+     20.0
     ],
     "said": {
      "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     990.3,
+     27.27
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795866624.6,
+  "now": 1795866924.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.19137779169144273,
-    "energy": -0.40676533641909884
+    "mood": 0.02183634802152913,
+    "energy": -0.45913467687216514
    },
    "interests": {},
    "threads": [
