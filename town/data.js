@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T02:15:21-05:00",
+ "asOf": "2026-11-28T02:20:21-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T02:15:20-05:00",
+   "iso": "2026-11-28T02:20:20-05:00",
    "hour": 2,
-   "minute": 15,
+   "minute": 20,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -54.2,
+   "sun": -53.7,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "drizzle",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -999.28,
+    0.0
    ],
-   "heading": 27.4,
-   "place": "kitchen",
+   "heading": 131.2,
+   "place": "table",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.83,
-    "company": 0.95,
+    "weariness": 0.78,
+    "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.0
+    "thirst": 0.03
    },
    "feeling": {
-    "mood": -0.36,
-    "energy": -0.51
+    "mood": -0.57,
+    "energy": -0.53
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the hunger is too heavy to carry alone",
    "said": null,
    "wants_sleep": true,
    "carrying": [
@@ -637,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.51,
-     -7.7
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -670,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     978.0,
-     14.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -681,8 +681,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     998.21,
-     27.91
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -814,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795850121.6,
+  "now": 1795850421.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.2291027676853799,
-    "energy": -0.5607412155140137
+    "mood": -0.45084099560528146,
+    "energy": -0.4186447556143308
    },
    "interests": {},
    "threads": [
