@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T10:50:27-05:00",
+ "asOf": "2026-11-28T10:55:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T10:50:26-05:00",
+   "iso": "2026-11-28T10:55:26-05:00",
    "hour": 10,
-   "minute": 50,
+   "minute": 55,
    "phase": "day",
    "words": "morning",
-   "sun": 12.2,
+   "sun": 12.5,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -1003.06,
-    -3.6
+    -999.28,
+    0.0
    ],
-   "heading": -77.7,
-   "place": "shelves",
+   "heading": 131.2,
+   "place": "table",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.63,
-    "weariness": 0.77,
-    "company": 0.94,
-    "itch": 1.0,
+    "belly": 0.67,
+    "weariness": 0.8,
+    "company": 1.0,
+    "itch": 0.96,
     "nerves": 0.0,
-    "thirst": 0.24
+    "thirst": 0.02
    },
    "feeling": {
     "mood": -0.04,
-    "energy": -0.8
+    "energy": -0.71
    },
-   "thought": "The silence is heavy here, I need the wood and the tin to feel real again.",
+   "thought": "the bag feels like a storm I can hold; hunger will not leave if it has nowhere to go",
    "said": null,
    "wants_sleep": true,
-   "carrying": [],
+   "carrying": [
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -613,8 +615,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -635,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"The ground is smooth but the wind might blow! Or maybe I saw a bug zoom by! It feels solid if you can't move it. But bugs are fun too!\"",
@@ -646,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1001.52,
-     8.24
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -722,15 +724,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1000.04123487319,
-     0.9154350186896484
     ],
     "state": "placed"
    }
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795881027.6,
+  "now": 1795881327.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.012179547392055026,
-    "energy": -0.7816190091643983
+    "mood": -0.10267129588813341,
+    "energy": -0.7957642963679099
    },
    "interests": {},
    "threads": [
