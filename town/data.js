@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T04:45:23-05:00",
+ "asOf": "2026-11-28T04:50:23-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T04:45:22-05:00",
+   "iso": "2026-11-28T04:50:22-05:00",
    "hour": 4,
-   "minute": 45,
+   "minute": 50,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -34.4,
+   "sun": -33.6,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,30 +18,32 @@ export default {
   "weather": "storm",
   "bird": {
    "pos": [
-    9.0,
-    13.0
+    14.0,
+    24.0
    ],
-   "heading": -17.7,
-   "place": "board",
+   "heading": -98.1,
+   "place": "log",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.29,
-    "weariness": 0.94,
-    "company": 0.17,
+    "belly": 0.33,
+    "weariness": 0.95,
+    "company": 0.11,
     "itch": 1.0,
-    "nerves": 0.31,
-    "thirst": 0.42
+    "nerves": 0.35,
+    "thirst": 0.45
    },
    "feeling": {
-    "mood": 0.42,
-    "energy": -0.15
+    "mood": 0.23,
+    "energy": 0.07
    },
-   "thought": "I am tired but Mabel spoke my name; I will stay here while I feel who I am before I go home.",
+   "thought": "the thunder feels like it's inside my bones and the marble in my beak feels heavy with answers; I need to know if the ground is soft enough to hide or hard enou",
    "said": null,
    "wants_sleep": true,
-   "carrying": [],
+   "carrying": [
+    "a marble with a twist of green"
+   ],
    "area": "town"
   },
   "places": {
@@ -617,8 +619,8 @@ export default {
      13.0
     ],
     "said": {
-     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
-     "t": 1795859002.5
+     "text": "Mabel said to you: \"I am awake! Did you move anything while I slept? I saw it yesterday. Come here so we can talk properly.\"",
+     "t": 1795859181.3
     }
    },
    "tuck": {
@@ -628,15 +630,15 @@ export default {
      24.0
     ],
     "said": {
-     "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
-     "t": 1795853110.4
+     "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
+     "t": 1795859396.3
     }
    },
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Three things? Did you mean one thing? Like a blueberry or... wait, Gilbert! I saw a shiny rock earlier!\"",
@@ -646,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +659,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +681,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1002.19,
+     27.61
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -689,15 +691,6 @@ export default {
    }
   },
   "objects": [
-   {
-    "id": "o7-1007",
-    "name": "a marble with a twist of green",
-    "pos": [
-     28.355567684864077,
-     27.33467406426331
-    ],
-    "state": "placed"
-   },
    {
     "id": "o12-2069",
     "name": "a jar lid",
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795859123.2,
+  "now": 1795859423.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.4873758034067057,
-    "energy": 0.11356830334859619
+    "mood": 0.3247228360065255,
+    "energy": 0.05588658287962711
    },
    "interests": {},
    "threads": [
