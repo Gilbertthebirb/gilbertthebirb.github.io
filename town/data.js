@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T19:55:17-05:00",
+ "asOf": "2026-11-27T20:00:17-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T19:55:16-05:00",
-   "hour": 19,
-   "minute": 55,
+   "iso": "2026-11-27T20:00:16-05:00",
+   "hour": 20,
+   "minute": 0,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -28.2,
+   "sun": -28.9,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -999.28,
-    0.0
+    -995.86,
+    2.7
    ],
-   "heading": 131.2,
-   "place": "table",
-   "doing": null,
-   "target": null,
+   "heading": 51.7,
+   "place": "round_window",
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.81,
+    "weariness": 0.76,
     "company": 1.0,
-    "itch": 0.9,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.14
+    "thirst": 0.17
    },
    "feeling": {
-    "mood": -0.46,
-    "energy": -0.49
+    "mood": -0.56,
+    "energy": -0.53
    },
-   "thought": "to fill the silence so I don't have to stand alone",
+   "thought": "too tired to hunt tonight, just want to rest my feet on the floor",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -637,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -681,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -724,6 +722,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -999.274953620861,
+     1.1870520588856208
     ],
     "state": "placed"
    }
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795827317.6,
+  "now": 1795827617.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.45025532310097893,
-    "energy": -0.4833717601372892
+    "mood": -0.5524300624568413,
+    "energy": -0.5264390769999598
    },
    "interests": {},
    "threads": [
