@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T07:05:24-05:00",
+ "asOf": "2026-11-28T07:10:24-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T07:05:24-05:00",
+   "iso": "2026-11-28T07:10:24-05:00",
    "hour": 7,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -13.3,
+   "sun": -12.6,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "wind",
+  "weather": "rain",
   "bird": {
    "pos": [
     9.0,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.26,
+    "belly": 0.3,
     "weariness": 1.0,
-    "company": 0.54,
+    "company": 0.08,
     "itch": 1.0,
-    "nerves": 0.1,
-    "thirst": 0.02
+    "nerves": 0.06,
+    "thirst": 0.05
    },
    "feeling": {
-    "mood": 0.04,
-    "energy": -0.46
+    "mood": 0.4,
+    "energy": -0.28
    },
-   "thought": "It hurts that no one heard me just now, but my beak is tired and my body knows the shape of this place.",
+   "thought": "I feel the need to know if anyone else hears me, just like my note says.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,19 +613,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Mabel said to you: \"I am awake! Did you move anything while I slept? I saw it yesterday. Come here so we can talk properly.\"",
-     "t": 1795859181.3
+     "text": "Mabel said to you: \"Oh, I didn't lift a feather! The darkness was there all along. But I'm glad it's finally gone.\"",
+     "t": 1795867814.2
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,12 +635,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795865479.5
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1795867810.5
     }
    },
    "odile": {
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.82,
-     17.43
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -779,8 +779,8 @@ export default {
    "a scrap of sailcloth"
   ],
   "board": {
-   "text": "I am Gilbert. I walked until my feet knew where to stand.",
-   "ts": 1795858798.67368
+   "text": "I am Gilbert. I smell the dark and I need to know if anyone else hears me.",
+   "ts": 1795867552.6678286
   },
   "shelves": [
    "a domino",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795867524.8,
+  "now": 1795867824.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -830,15 +830,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0126",
-    "ts": "2026-11-17T08:47:48-05:00",
-    "kind": "journal",
-    "wake": 9,
-    "text": "The dance made my legs feel heavy and right.\nI watched how the water rings settled before I closed my eyes.\nSilence felt like a soft blanket wrapping around us now.\nFor the first time, I do not need to move to know I am here.\nSleep is coming gently.",
-    "tag": "bed",
-    "heat": 0.4
-   },
    {
     "id": "j0134",
     "ts": "2026-11-17T08:57:37-05:00",
@@ -1909,9 +1900,18 @@ export default {
     "text": "I am Gilbert. I walked until my feet knew where to stand.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j3223",
+    "ts": "2026-11-28T07:05:42-05:00",
+    "kind": "journal",
+    "wake": 36,
+    "text": "I am Gilbert. I smell the dark and I need to know if anyone else hears me.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 136,
+  "journalCount": 137,
   "memory": {
    "sleeps": 22,
    "next_id": 47,
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.04540694090679759,
-    "energy": -0.4256552861444321
+    "mood": 0.35771358278025633,
+    "energy": -0.24676657352628278
    },
    "interests": {},
    "threads": [
