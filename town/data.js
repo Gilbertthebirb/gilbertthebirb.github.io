@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T09:20:26-05:00",
+ "asOf": "2026-11-28T09:25:26-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T09:20:26-05:00",
+   "iso": "2026-11-28T09:25:26-05:00",
    "hour": 9,
-   "minute": 20,
+   "minute": 25,
    "phase": "dawn",
    "words": "first light",
-   "sun": 4.2,
+   "sun": 4.7,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.18,
-    "weariness": 0.93,
-    "company": 0.41,
+    "belly": 0.22,
+    "weariness": 0.94,
+    "company": 0.49,
     "itch": 1.0,
-    "nerves": 0.28,
-    "thirst": 0.03
+    "nerves": 0.0,
+    "thirst": 0.06
    },
    "feeling": {
-    "mood": 0.16,
-    "energy": -0.64
+    "mood": -0.05,
+    "energy": -0.49
    },
-   "thought": "my body wants to feel something real before I move again",
+   "thought": "my legs ache from dancing; I feel the cold in me now.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hi! Wait, your shell is big? I mean, look at the flowers! The red ones are nice actually, but why do you want a shell? Maybe just sit still?…\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795875626.6,
+  "now": 1795875926.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.12266833893989001,
-    "energy": -0.6587406995963434
+    "mood": -0.0018197949816946835,
+    "energy": -0.720597715292965
    },
    "interests": {},
    "threads": [
