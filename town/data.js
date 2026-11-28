@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T19:00:17-05:00",
+ "asOf": "2026-11-27T19:05:17-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T19:00:16-05:00",
+   "iso": "2026-11-27T19:05:16-05:00",
    "hour": 19,
-   "minute": 0,
+   "minute": 5,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -19.8,
+   "sun": -20.6,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -1002.88,
+    3.15
    ],
-   "heading": 127.9,
-   "place": "chair",
-   "doing": "sit",
-   "target": "",
+   "heading": -14.7,
+   "place": "kitchen",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.82,
+    "weariness": 0.79,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.09
+    "thirst": 0.12
    },
    "feeling": {
-    "mood": -0.59,
-    "energy": -0.61
+    "mood": -0.56,
+    "energy": -0.55
    },
-   "thought": "the dark feels too big, so I stay still and let my legs find the ground under me until they stop shaking",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": false,
    "carrying": [],
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     999.8,
-     20.36
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795824017.1,
+  "now": 1795824317.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5678684379447316,
-    "energy": -0.6371500726182442
+    "mood": -0.5422048294858213,
+    "energy": -0.541160835761858
    },
    "interests": {},
    "threads": [
