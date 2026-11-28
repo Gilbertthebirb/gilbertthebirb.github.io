@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T15:15:30-05:00",
+ "asOf": "2026-11-28T15:20:30-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T15:15:30-05:00",
+   "iso": "2026-11-28T15:20:30-05:00",
    "hour": 15,
-   "minute": 15,
+   "minute": 20,
    "phase": "day",
    "words": "afternoon",
-   "sun": 8.7,
+   "sun": 8.2,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "wind",
   "bird": {
    "pos": [
     -997.12,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": 161.2,
    "place": "bed",
-   "doing": "nap",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.85,
+    "weariness": 0.48,
     "company": 1.0,
-    "itch": 1.0,
-    "nerves": 0.0,
-    "thirst": 0.27
+    "itch": 0.96,
+    "nerves": 0.1,
+    "thirst": 0.31
    },
    "feeling": {
-    "mood": -0.65,
-    "energy": -0.87
+    "mood": -0.31,
+    "energy": -0.45
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the backpack feels heavy on my shoulders like a cage; I need to know what is inside before I try again.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     11.55,
-     22.97
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"Pip's tail spins faster! Dust? No, Gilbert, look at the shiny rocks! They sparkle in the sun.\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -729,8 +729,8 @@ export default {
     "id": "o21-4555",
     "name": "a backpack",
     "pos": [
-     -1005.2841812510841,
-     1.647493577314442
+     -996.3722498212286,
+     -2.483842813312057
     ],
     "state": "placed"
    }
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795896930.3,
+  "now": 1795897230.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.6434489831308631,
-    "energy": -0.8590997135153922
+    "mood": -0.35613504755036884,
+    "energy": -0.46704764782116204
    },
    "interests": {},
    "threads": [
