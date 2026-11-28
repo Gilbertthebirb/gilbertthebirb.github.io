@@ -1,44 +1,44 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T04:35:23-05:00",
+ "asOf": "2026-11-28T04:40:23-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T04:35:22-05:00",
+   "iso": "2026-11-28T04:40:22-05:00",
    "hour": 4,
-   "minute": 35,
+   "minute": 40,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -35.9,
+   "sun": -35.2,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "rain",
+  "weather": "storm",
   "bird": {
    "pos": [
-    1.61,
-    -0.9
+    9.0,
+    13.0
    ],
-   "heading": -60.6,
-   "place": null,
-   "doing": "walk_to",
-   "target": "burrow",
+   "heading": -17.7,
+   "place": "board",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.21,
-    "weariness": 0.93,
-    "company": 0.41,
+    "belly": 0.25,
+    "weariness": 0.94,
+    "company": 0.45,
     "itch": 1.0,
-    "nerves": 0.05,
-    "thirst": 0.35
+    "nerves": 0.35,
+    "thirst": 0.38
    },
    "feeling": {
-    "mood": 0.01,
-    "energy": -0.42
+    "mood": 0.05,
+    "energy": -0.38
    },
-   "thought": "",
+   "thought": "The thunder is loud now; I need a name that fits the dark before I go further.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Three things? Did you mean one thing? Like a blueberry or... wait, Gilbert! I saw a shiny rock earlier!\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -779,8 +779,8 @@ export default {
    "a scrap of sailcloth"
   ],
   "board": {
-   "text": "I am Gilbert. I have danced until my legs could not speak. Now I will walk.",
-   "ts": 1795518518.7818496
+   "text": "I am Gilbert. I walked until my feet knew where to stand.",
+   "ts": 1795858798.67368
   },
   "shelves": [
    "a domino",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795858523.1,
+  "now": 1795858823.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -830,15 +830,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0124",
-    "ts": "2026-11-17T08:43:36-05:00",
-    "kind": "journal",
-    "wake": 8,
-    "text": "My legs feel tired from dancing until they could not speak anymore.  \nThe silence answered me when I called out, but a small ring on the water showed itself without showing.  \nI am steady now, even though no one told me who I am.  \nTonight, I will watch the leaf again until my body goes quiet.",
-    "tag": "bed",
-    "heat": 0.4
-   },
    {
     "id": "j0126",
     "ts": "2026-11-17T08:47:48-05:00",
@@ -1909,9 +1900,18 @@ export default {
     "text": "The silence in my burrow feels heavy, so I will dance until my legs tell me where to stand instead of staying still. Pip's voice was there, like a quiet ring in my basket, but when it ran away again I feel the fear of empty space pressing against my chest. Mabel's words about my heavy legs made me pause, reminding me that walking is tiring even when I want to keep going. I think now that I am not alone because the sound of leaves rustling and the crack of a branch are still under my tongue, waiting for me to speak them.",
     "tag": "bed",
     "heat": 0.4
+   },
+   {
+    "id": "j3138",
+    "ts": "2026-11-28T04:39:48-05:00",
+    "kind": "journal",
+    "wake": 36,
+    "text": "I am Gilbert. I walked until my feet knew where to stand.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 135,
+  "journalCount": 136,
   "memory": {
    "sleeps": 22,
    "next_id": 47,
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.00015664704489633252,
-    "energy": -0.40887768941654534
+    "mood": 0.05110754394038017,
+    "energy": -0.3764475366886383
    },
    "interests": {},
    "threads": [
