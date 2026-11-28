@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T11:10:27-05:00",
+ "asOf": "2026-11-28T11:15:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T11:10:26-05:00",
+   "iso": "2026-11-28T11:15:26-05:00",
    "hour": 11,
-   "minute": 10,
+   "minute": 15,
    "phase": "day",
    "words": "morning",
-   "sun": 13.4,
+   "sun": 13.7,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "mist",
+  "weather": "clear",
   "bird": {
    "pos": [
     -1002.88,
     3.15
    ],
-   "heading": -48.8,
+   "heading": -118.0,
    "place": "kitchen",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.8,
-    "weariness": 0.81,
+    "belly": 0.84,
+    "weariness": 0.82,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.16
    },
    "feeling": {
-    "mood": -0.42,
-    "energy": -0.77
+    "mood": -0.34,
+    "energy": -0.7
    },
-   "thought": "water makes the blood move in my chest so I can feel where I am instead of just being empty",
+   "thought": "my legs are heavy but I must find the ground before I walk",
    "said": null,
    "wants_sleep": true,
-   "carrying": [],
+   "carrying": [
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -613,8 +615,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     12.77,
+     9.51
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +626,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     23.15,
-     25.31
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.7,
+     -2.5
     ],
     "said": {
      "text": "Pip said to you: \"The ground is smooth but the wind might blow! Or maybe I saw a bug zoom by! It feels solid if you can't move it. But bugs are fun too!\"",
@@ -668,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -722,15 +724,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -998.9520431753195,
-     5.939394730788313
     ],
     "state": "placed"
    }
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795882227.8,
+  "now": 1795882527.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4779267167521289,
-    "energy": -0.7868114022179988
+    "mood": -0.4922723077700326,
+    "energy": -0.7867438602273594
    },
    "interests": {},
    "threads": [
