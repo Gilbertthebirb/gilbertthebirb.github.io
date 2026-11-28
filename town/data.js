@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T00:25:20-05:00",
+ "asOf": "2026-11-28T00:30:20-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T00:25:20-05:00",
+   "iso": "2026-11-28T00:30:20-05:00",
    "hour": 0,
-   "minute": 25,
+   "minute": 30,
    "phase": "night",
    "words": "the middle of the night",
    "sun": -59.0,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -152.6,
    "place": "hearth",
-   "doing": "stoke_stove",
+   "doing": "sit",
    "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.82,
+    "weariness": 0.83,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.17
+    "thirst": 0.2
    },
    "feeling": {
-    "mood": -0.49,
-    "energy": -0.59
+    "mood": -0.57,
+    "energy": -0.57
    },
-   "thought": "the heat will make the dark feel less heavy than the hunger alone",
+   "thought": "the dark is too heavy and my legs need stillness before they learn again how to carry words",
    "said": null,
    "wants_sleep": true,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -681,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -724,6 +722,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -1003.5984586839356,
+     2.0669913785411107
     ],
     "state": "placed"
    }
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795843520.6,
+  "now": 1795843820.6,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5037265146689199,
-    "energy": -0.5851138942718097
+    "mood": -0.575317313373879,
+    "energy": -0.5671039677620415
    },
    "interests": {},
    "threads": [
