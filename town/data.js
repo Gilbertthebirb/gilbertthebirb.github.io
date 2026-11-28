@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T09:05:26-05:00",
+ "asOf": "2026-11-28T09:10:26-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T09:05:26-05:00",
+   "iso": "2026-11-28T09:10:26-05:00",
    "hour": 9,
-   "minute": 5,
+   "minute": 10,
    "phase": "dawn",
    "words": "first light",
-   "sun": 2.5,
+   "sun": 3.1,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -12.0,
-    20.0
+    -24.0,
+    8.0
    ],
-   "heading": -63.1,
-   "place": "moss",
+   "heading": -135.0,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.06,
-    "weariness": 0.92,
-    "company": 0.16,
+    "belly": 0.1,
+    "weariness": 0.93,
+    "company": 0.24,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.22
+    "thirst": 0.25
    },
    "feeling": {
-    "mood": 0.14,
-    "energy": -0.39
+    "mood": 0.1,
+    "energy": -0.57
    },
-   "thought": "I need to know what is here, not who I am yet.",
+   "thought": "i feel heavy but my nose says something is moving under that skin",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.29,
-     13.63
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hi! Wait, your shell is big? I mean, look at the flowers! The red ones are nice actually, but why do you want a shell? Maybe just sit still?…\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     994.14,
-     23.51
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795874726.5,
+  "now": 1795875026.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.17766600862555054,
-    "energy": -0.3183342700290427
+    "mood": 0.10887549634554805,
+    "energy": -0.5928205008005517
    },
    "interests": {},
    "threads": [
