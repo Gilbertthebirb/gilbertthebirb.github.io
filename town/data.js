@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T08:50:26-05:00",
+ "asOf": "2026-11-28T08:55:26-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T08:50:26-05:00",
+   "iso": "2026-11-28T08:55:26-05:00",
    "hour": 8,
-   "minute": 50,
+   "minute": 55,
    "phase": "dawn",
    "words": "first light",
-   "sun": 0.8,
+   "sun": 1.3,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    5.97,
-    -3.36
+    9.0,
+    13.0
    ],
-   "heading": 119.4,
-   "place": null,
-   "doing": "walk_to",
-   "target": "shed",
+   "heading": -17.7,
+   "place": "board",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.23,
+    "belly": 0.27,
     "weariness": 0.91,
-    "company": 0.34,
+    "company": 0.12,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": 0.28,
-    "energy": -0.27
+    "mood": 0.15,
+    "energy": -0.43
    },
-   "thought": "the water will tell me where I stand if I stand in it",
+   "thought": "I need to know if anyone else hears me, even in this fine drizzle.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     27.11,
+     25.87
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     984.9,
+     -11.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795873826.3,
+  "now": 1795874126.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.3187266681271319,
-    "energy": 0.1417770128200686
+    "mood": 0.2679105122498393,
+    "energy": -0.5786273424652569
    },
    "interests": {},
    "threads": [
