@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T02:25:21-05:00",
+ "asOf": "2026-11-28T02:30:21-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T02:25:20-05:00",
+   "iso": "2026-11-28T02:30:20-05:00",
    "hour": 2,
-   "minute": 25,
+   "minute": 30,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -53.2,
+   "sun": -52.7,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -999.28,
+    0.0
    ],
-   "heading": 27.4,
-   "place": "kitchen",
+   "heading": 98.4,
+   "place": "table",
    "doing": "sit",
    "target": "",
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.81,
+    "weariness": 0.82,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.07
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": -0.56,
-    "energy": -0.6
+    "mood": -0.72,
+    "energy": -0.57
    },
-   "thought": "the hunger is too heavy, so I just sit still until it has an edge.",
+   "thought": "the floor feels solid under me for a moment, so I will let it hold me while the dark tries to pull me down.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795850721.7,
+  "now": 1795851021.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4549826406865583,
-    "energy": -0.46118051119463765
+    "mood": -0.573569108346708,
+    "energy": -0.5922650459210685
    },
    "interests": {},
    "threads": [
