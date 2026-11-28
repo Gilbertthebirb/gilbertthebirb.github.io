@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T08:55:26-05:00",
+ "asOf": "2026-11-28T09:00:26-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T08:55:26-05:00",
-   "hour": 8,
-   "minute": 55,
+   "iso": "2026-11-28T09:00:26-05:00",
+   "hour": 9,
+   "minute": 0,
    "phase": "dawn",
    "words": "first light",
-   "sun": 1.3,
+   "sun": 1.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.27,
-    "weariness": 0.91,
-    "company": 0.12,
+    "belly": 0.32,
+    "weariness": 0.92,
+    "company": 0.15,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.15
+    "thirst": 0.18
    },
    "feeling": {
-    "mood": 0.15,
-    "energy": -0.43
+    "mood": 0.2,
+    "energy": -0.11
    },
-   "thought": "I need to know if anyone else hears me, even in this fine drizzle.",
+   "thought": "the sound of leaves rustling and Pip's voice; I am restless in the drizzle.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     27.11,
-     25.87
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,12 +635,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Pip said to you: \"Pip! There's a leaf! Hey wait... oh look at that red spot! Did you know the kiwi makes funny noises?\"",
-     "t": 1795873010.8
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1795874408.3
     }
    },
    "odile": {
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     996.0,
-     29.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     984.9,
-     -11.0
+     980.0,
+     -20.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -779,8 +779,8 @@ export default {
    "a scrap of sailcloth"
   ],
   "board": {
-   "text": "I am Gilbert. I smell the dark and I need to know if anyone else hears me.",
-   "ts": 1795867552.6678286
+   "text": "The dark is not empty. It is just waiting.",
+   "ts": 1795874136.4229817
   },
   "shelves": [
    "a domino",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795874126.3,
+  "now": 1795874426.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -830,15 +830,6 @@ export default {
  "mind": {
   "practice": false,
   "journal": [
-   {
-    "id": "j0134",
-    "ts": "2026-11-17T08:57:37-05:00",
-    "kind": "journal",
-    "wake": 10,
-    "text": "I am Gilbert. I feel the mist on my feet. It is quiet, but not empty.",
-    "tag": "",
-    "heat": 0.38
-   },
    {
     "id": "j0137",
     "ts": "2026-11-17T09:01:35-05:00",
@@ -1909,9 +1900,18 @@ export default {
     "text": "I am Gilbert. I smell the dark and I need to know if anyone else hears me.",
     "tag": "",
     "heat": 0.33
+   },
+   {
+    "id": "j3284",
+    "ts": "2026-11-28T08:55:26-05:00",
+    "kind": "journal",
+    "wake": 36,
+    "text": "The dark is not empty. It is just waiting.",
+    "tag": "",
+    "heat": 0.33
    }
   ],
-  "journalCount": 137,
+  "journalCount": 138,
   "memory": {
    "sleeps": 22,
    "next_id": 47,
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.2679105122498393,
-    "energy": -0.5786273424652569
+    "mood": 0.21792897955807006,
+    "energy": -0.4996662267215837
    },
    "interests": {},
    "threads": [
