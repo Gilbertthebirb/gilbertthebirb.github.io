@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T10:00:27-05:00",
+ "asOf": "2026-11-28T10:05:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T10:00:26-05:00",
+   "iso": "2026-11-28T10:05:26-05:00",
    "hour": 10,
-   "minute": 0,
+   "minute": 5,
    "phase": "day",
    "words": "morning",
-   "sun": 8.2,
+   "sun": 8.7,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,31 +18,33 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -5.69,
-    9.48
+    -997.12,
+    -3.78
    ],
-   "heading": 149.0,
-   "place": null,
-   "doing": "walk_to",
-   "target": "burrow",
+   "heading": 161.2,
+   "place": "bed",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.22,
-    "weariness": 0.97,
-    "company": 0.1,
+    "belly": 0.26,
+    "weariness": 0.57,
+    "company": 0.19,
     "itch": 1.0,
-    "nerves": 0.15,
-    "thirst": 0.29
+    "nerves": 0.0,
+    "thirst": 0.33
    },
    "feeling": {
-    "mood": 0.33,
-    "energy": -0.43
+    "mood": 0.37,
+    "energy": -0.73
    },
-   "thought": "",
+   "thought": "the backpack feels like a heavy thing I need to carry so I don't lose myself yet",
    "said": null,
    "wants_sleep": true,
-   "carrying": [],
-   "area": "town"
+   "carrying": [
+    "a backpack"
+   ],
+   "area": "home"
   },
   "places": {
    "burrow": {
@@ -613,8 +615,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -635,8 +637,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"The ground is smooth but the wind might blow! Or maybe I saw a bug zoom by! It feels solid if you can't move it. But bugs are fun too!\"",
@@ -679,8 +681,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -722,15 +724,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1000.839837345845,
-     5.740943617887147
     ],
     "state": "placed"
    }
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795878027.0,
+  "now": 1795878327.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.33414743234423033,
-    "energy": -0.4309383080314548
+    "mood": 0.37229316246014044,
+    "energy": -0.736094481284518
    },
    "interests": {},
    "threads": [
