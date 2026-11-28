@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T11:20:27-05:00",
+ "asOf": "2026-11-28T11:25:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T11:20:26-05:00",
+   "iso": "2026-11-28T11:25:26-05:00",
    "hour": 11,
-   "minute": 20,
+   "minute": 25,
    "phase": "day",
    "words": "morning",
-   "sun": 14.0,
+   "sun": 14.2,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -1004.14,
-    0.72
+    -1002.88,
+    3.15
    ],
-   "heading": -152.6,
-   "place": "hearth",
+   "heading": -14.7,
+   "place": "kitchen",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.88,
-    "weariness": 0.82,
+    "belly": 0.92,
+    "weariness": 0.83,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.19
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": -0.33,
-    "energy": -0.84
+    "mood": -0.48,
+    "energy": -0.87
    },
-   "thought": "The fire is quiet and I am heavy; I need to see where my next step lands.",
+   "thought": "carrying on with what I came here for",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"The ground is smooth but the wind might blow! Or maybe I saw a bug zoom by! It feels solid if you can't move it. But bugs are fun too!\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1009.71,
+     12.29
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     978.0,
-     14.0
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795882827.9,
+  "now": 1795883127.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.24242079253422139,
-    "energy": -0.8455201176089715
+    "mood": -0.45822695149376447,
+    "energy": -0.8835273656000969
    },
    "interests": {},
    "threads": [
