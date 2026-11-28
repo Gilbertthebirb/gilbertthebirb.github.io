@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T00:55:20-05:00",
+ "asOf": "2026-11-28T01:00:20-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T00:55:20-05:00",
-   "hour": 0,
-   "minute": 55,
+   "iso": "2026-11-28T01:00:20-05:00",
+   "hour": 1,
+   "minute": 0,
    "phase": "night",
    "words": "the middle of the night",
    "sun": -59.0,
@@ -18,32 +18,30 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -997.66,
-    -1.26
+    -1002.88,
+    3.15
    ],
-   "heading": 127.9,
-   "place": "chair",
-   "doing": "hide",
-   "target": "",
+   "heading": -48.8,
+   "place": "kitchen",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
     "weariness": 0.82,
     "company": 1.0,
-    "itch": 0.95,
+    "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.12
+    "thirst": 0.15
    },
    "feeling": {
-    "mood": -0.48,
-    "energy": -0.52
+    "mood": -0.61,
+    "energy": -0.58
    },
-   "thought": "the dark is heavy and my feet feel too long; I must wait for a sound to stand up",
+   "thought": "the silence is too heavy, I need water in my throat first",
    "said": null,
    "wants_sleep": true,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -637,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     993.8,
-     -5.5
+     982.5,
+     0.75
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -724,6 +722,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -996.4974688432756,
+     0.04865698513474026
     ],
     "state": "placed"
    }
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795845320.9,
+  "now": 1795845621.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.498100803678255,
-    "energy": -0.5404374217367585
+    "mood": -0.6053260433941952,
+    "energy": -0.5787154004028585
    },
    "interests": {},
    "threads": [
