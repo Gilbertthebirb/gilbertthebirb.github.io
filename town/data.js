@@ -1,21 +1,21 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T21:00:18-05:00",
+ "asOf": "2026-11-27T21:05:18-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T21:00:18-05:00",
+   "iso": "2026-11-27T21:05:18-05:00",
    "hour": 21,
-   "minute": 0,
+   "minute": 5,
    "phase": "night",
    "words": "evening, and dark",
-   "sun": -38.0,
+   "sun": -38.7,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "cloud",
+  "weather": "clear",
   "bird": {
    "pos": [
     -1003.06,
@@ -28,22 +28,20 @@ export default {
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.78,
-    "company": 1.0,
+    "weariness": 0.82,
+    "company": 0.86,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.28
+    "thirst": 0.32
    },
    "feeling": {
-    "mood": -0.63,
-    "energy": -0.33
+    "mood": -0.39,
+    "energy": -0.5
    },
-   "thought": "the shelves have things I can touch and hold until my hunger has an edge",
+   "thought": "I need to know where 'alive' starts before I fall into the dark silence.",
    "said": null,
    "wants_sleep": false,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -615,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -648,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     988.4,
-     26.7
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -793,7 +791,8 @@ export default {
    "half a clothes peg",
    "a coil of thin wire",
    "a map of where you have not been",
-   "a scrap of sailcloth"
+   "a scrap of sailcloth",
+   "a backpack"
   ],
   "chest": [],
   "kitchen": {
@@ -814,7 +813,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795831218.4,
+  "now": 1795831518.4,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2756,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.567945010510519,
-    "energy": -0.31830260156588813
+    "mood": -0.42899209003753214,
+    "energy": -0.5792064547395629
    },
    "interests": {},
    "threads": [
