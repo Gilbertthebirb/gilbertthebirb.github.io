@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T00:10:20-05:00",
+ "asOf": "2026-11-28T00:15:20-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T00:10:20-05:00",
+   "iso": "2026-11-28T00:15:20-05:00",
    "hour": 0,
-   "minute": 10,
+   "minute": 15,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -58.6,
+   "sun": -58.7,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,13 +18,13 @@ export default {
   "weather": "cloud",
   "bird": {
    "pos": [
-    -1004.14,
-    0.72
+    -1002.88,
+    3.15
    ],
-   "heading": -152.6,
-   "place": "hearth",
-   "doing": "hold_hunger",
-   "target": "",
+   "heading": 27.4,
+   "place": "kitchen",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
@@ -32,13 +32,13 @@ export default {
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.07
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": -0.45,
-    "energy": -0.45
+    "mood": -0.52,
+    "energy": -0.51
    },
-   "thought": "The fire was good, but the night is long and my chest feels empty in a heavy way that food won't fix. I need to find what makes the noise stop and the dark feel",
+   "thought": "the map shows places not seen; it is too dark for words so I need the paper to hold the path, maybe it hums if I look closely",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     9.0,
-     13.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Well I am running because it is exercise! Or maybe I should check if that shiny beetle wants a friend?\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1008.72,
-     7.87
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -729,8 +729,8 @@ export default {
     "id": "o21-4555",
     "name": "a backpack",
     "pos": [
-     -999.9810792762809,
-     0.751112902153064
+     -1003.0684802771004,
+     1.5002144451724826
     ],
     "state": "placed"
    }
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795842620.4,
+  "now": 1795842920.5,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.45846023690156235,
-    "energy": -0.43294339132294857
+    "mood": -0.517554524563372,
+    "energy": -0.49762238885477245
    },
    "interests": {},
    "threads": [
