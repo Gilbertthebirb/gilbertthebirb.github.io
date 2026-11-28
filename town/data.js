@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T15:45:30-05:00",
+ "asOf": "2026-11-28T15:50:30-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T15:45:30-05:00",
+   "iso": "2026-11-28T15:50:30-05:00",
    "hour": 15,
-   "minute": 45,
+   "minute": 50,
    "phase": "dusk",
    "words": "dusk",
-   "sun": 5.8,
+   "sun": 5.2,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -28,17 +28,17 @@ export default {
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.5,
+    "weariness": 0.54,
     "company": 1.0,
-    "itch": 1.0,
+    "itch": 0.98,
     "nerves": 0.05,
-    "thirst": 0.13
+    "thirst": 0.16
    },
    "feeling": {
-    "mood": -0.36,
-    "energy": -0.55
+    "mood": -0.38,
+    "energy": -0.3
    },
-   "thought": "the rain makes me want to poke at the dark until it breaks",
+   "thought": "to hear myself speak back into the rain so I do not forget where I stand",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Pip's tail spins faster! Dust? No, Gilbert, look at the shiny rocks! They sparkle in the sun.\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1006.0,
-     10.0
+     1002.88,
+     8.77
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     1022.0,
+     8.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     996.82,
-     28.02
+     952.0,
+     31.5
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -729,8 +729,8 @@ export default {
     "id": "o21-4555",
     "name": "a backpack",
     "pos": [
-     -1000.4211240698564,
-     1.2826427729360512
+     -1004.0875161776054,
+     1.956164531440146
     ],
     "state": "placed"
    }
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795898730.6,
+  "now": 1795899030.7,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.4077780480028057,
-    "energy": -0.5684630731066032
+    "mood": -0.3494862257953001,
+    "energy": -0.37323108277086425
    },
    "interests": {},
    "threads": [
