@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T15:00:30-05:00",
+ "asOf": "2026-11-28T15:05:30-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T15:00:30-05:00",
+   "iso": "2026-11-28T15:05:30-05:00",
    "hour": 15,
-   "minute": 0,
+   "minute": 5,
    "phase": "day",
    "words": "afternoon",
-   "sun": 10.0,
+   "sun": 9.5,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,27 +23,25 @@ export default {
    ],
    "heading": -152.6,
    "place": "hearth",
-   "doing": "stoke_stove",
-   "target": "",
+   "doing": null,
+   "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.83,
+    "weariness": 0.84,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.17
+    "thirst": 0.21
    },
    "feeling": {
     "mood": -0.55,
-    "energy": -0.87
+    "energy": -0.92
    },
-   "thought": "the fire makes the ground quiet and I am too tired to walk",
+   "thought": "to keep my legs from shaking while I look for the crack",
    "said": null,
    "wants_sleep": true,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -615,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     987.24,
-     -3.55
+     1001.01,
+     19.27
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -724,6 +722,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -1005.2841812510841,
+     1.647493577314442
     ],
     "state": "placed"
    }
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795896030.2,
+  "now": 1795896330.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.5076677360879026,
-    "energy": -0.7473515330409873
+    "mood": -0.43616002859326963,
+    "energy": -0.7651283993843758
    },
    "interests": {},
    "threads": [
