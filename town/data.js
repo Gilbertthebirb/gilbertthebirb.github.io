@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T04:30:23-05:00",
+ "asOf": "2026-11-28T04:35:23-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T04:30:22-05:00",
+   "iso": "2026-11-28T04:35:22-05:00",
    "hour": 4,
-   "minute": 30,
+   "minute": 35,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -36.6,
+   "sun": -35.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -5.49,
-    13.26
+    1.61,
+    -0.9
    ],
-   "heading": 136.0,
+   "heading": -60.6,
    "place": null,
    "doing": "walk_to",
-   "target": "shed",
+   "target": "burrow",
    "asleep": false,
    "needs": {
-    "belly": 0.17,
+    "belly": 0.21,
     "weariness": 0.93,
-    "company": 0.33,
+    "company": 0.41,
     "itch": 1.0,
-    "nerves": 0.09,
-    "thirst": 0.32
+    "nerves": 0.05,
+    "thirst": 0.35
    },
    "feeling": {
-    "mood": -0.13,
-    "energy": -0.43
+    "mood": 0.01,
+    "energy": -0.42
    },
-   "thought": "the dog's bark made me feel thin; I need to see what Mabel left behind for me to hold onto again",
+   "thought": "",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     14.0,
-     24.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Pip said to you: \"Three things? Did you mean one thing? Like a blueberry or... wait, Gilbert! I saw a shiny rock earlier!\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1028.0,
-     -10.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1014.0,
-     -6.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     978.0,
+     14.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795858223.0,
+  "now": 1795858523.1,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.12650331901011472,
-    "energy": -0.42784319421694006
+    "mood": 0.00015664704489633252,
+    "energy": -0.40887768941654534
    },
    "interests": {},
    "threads": [
