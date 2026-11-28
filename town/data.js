@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T07:30:25-05:00",
+ "asOf": "2026-11-28T07:35:25-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T07:30:24-05:00",
+   "iso": "2026-11-28T07:35:24-05:00",
    "hour": 7,
-   "minute": 30,
+   "minute": 35,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -9.7,
+   "sun": -9.0,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,32 +18,30 @@ export default {
   "weather": "rain",
   "bird": {
    "pos": [
-    -1000.0,
-    -4.68
+    -1002.88,
+    3.15
    ],
-   "heading": 122.5,
-   "place": "lamp",
+   "heading": -20.2,
+   "place": "kitchen",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.47,
-    "weariness": 0.95,
-    "company": 0.41,
+    "belly": 0.51,
+    "weariness": 0.96,
+    "company": 0.49,
     "itch": 1.0,
     "nerves": 0.05,
-    "thirst": 0.18
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": 0.12,
-    "energy": -0.45
+    "mood": -0.09,
+    "energy": -0.37
    },
-   "thought": "the dark feels heavy and I need the light to feel like I belong here",
+   "thought": "The dark and no answer make my belly tight; I need something solid.",
    "said": null,
    "wants_sleep": true,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -610,13 +608,13 @@ export default {
   "city_x": 1000.0,
   "home_x": -1000.0,
   "shop_x": 2000.0,
-  "lamp": true,
+  "lamp": false,
   "residents": {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Oh, I didn't lift a feather! The darkness was there all along. But I'm glad it's finally gone.\"",
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -637,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.7,
-     -2.5
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
@@ -648,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -659,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1018.62,
-     1.43
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -670,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -681,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -724,6 +722,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -999.9693124546645,
+     -3.665352313140904
     ],
     "state": "placed"
    }
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795869025.1,
+  "now": 1795869325.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2757,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.07094292167411594,
-    "energy": -0.6641879270220257
+    "mood": 0.11230197413411853,
+    "energy": -0.540490551315645
    },
    "interests": {},
    "threads": [
