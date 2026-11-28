@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T04:40:23-05:00",
+ "asOf": "2026-11-28T04:45:23-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T04:40:22-05:00",
+   "iso": "2026-11-28T04:45:22-05:00",
    "hour": 4,
-   "minute": 40,
+   "minute": 45,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -35.2,
+   "sun": -34.4,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.25,
+    "belly": 0.29,
     "weariness": 0.94,
-    "company": 0.45,
+    "company": 0.17,
     "itch": 1.0,
-    "nerves": 0.35,
-    "thirst": 0.38
+    "nerves": 0.31,
+    "thirst": 0.42
    },
    "feeling": {
-    "mood": 0.05,
-    "energy": -0.38
+    "mood": 0.42,
+    "energy": -0.15
    },
-   "thought": "The thunder is loud now; I need a name that fits the dark before I go further.",
+   "thought": "I am tired but Mabel spoke my name; I will stay here while I feel who I am before I go home.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,19 +613,19 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     9.0,
+     13.0
     ],
     "said": {
-     "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
-     "t": 1795556787.0
+     "text": "Mabel said: \"Something's been moved. Not by you? Hm.\"",
+     "t": 1795859002.5
     }
    },
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.0,
-     -22.0
+     -24.0,
+     8.0
     ],
     "said": {
      "text": "Pip said to you: \"Three things? Did you mean one thing? Like a blueberry or... wait, Gilbert! I saw a shiny rock earlier!\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     980.0,
-     -20.0
+     1016.0,
+     22.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795858823.1,
+  "now": 1795859123.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.05110754394038017,
-    "energy": -0.3764475366886383
+    "mood": 0.4873758034067057,
+    "energy": 0.11356830334859619
    },
    "interests": {},
    "threads": [
