@@ -1,47 +1,49 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-27T23:20:19-05:00",
+ "asOf": "2026-11-27T23:25:19-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-27T23:20:18-05:00",
+   "iso": "2026-11-27T23:25:18-05:00",
    "hour": 23,
-   "minute": 20,
+   "minute": 25,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -55.5,
+   "sun": -55.9,
    "date": "2026-11-27",
    "shift_s": -21600,
    "offset_min": -300,
    "zone": "laptop"
   },
-  "weather": "clear",
+  "weather": "mist",
   "bird": {
    "pos": [
-    -1002.88,
-    3.15
+    -1004.14,
+    0.72
    ],
-   "heading": -14.7,
-   "place": "kitchen",
+   "heading": -152.6,
+   "place": "hearth",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
     "belly": 1.0,
-    "weariness": 0.73,
-    "company": 0.99,
-    "itch": 0.91,
+    "weariness": 0.77,
+    "company": 1.0,
+    "itch": 0.9,
     "nerves": 0.0,
-    "thirst": 0.0
+    "thirst": 0.03
    },
    "feeling": {
-    "mood": -0.48,
-    "energy": -0.3
+    "mood": -0.33,
+    "energy": -0.37
    },
-   "thought": "carrying on with what I came here for",
+   "thought": "the hunger needs a fire to make sense",
    "said": null,
    "wants_sleep": true,
-   "carrying": [],
+   "carrying": [
+    "a backpack"
+   ],
    "area": "home"
   },
   "places": {
@@ -646,8 +648,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +659,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     988.4,
+     26.7
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +670,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1000.0,
-     0.0
+     1003.61,
+     7.55
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +681,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -722,15 +724,6 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
-    ],
-    "state": "placed"
-   },
-   {
-    "id": "o21-4555",
-    "name": "a backpack",
-    "pos": [
-     -1003.9406202310743,
-     1.689395025501665
     ],
     "state": "placed"
    }
@@ -821,7 +814,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795839619.9,
+  "now": 1795839919.9,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2757,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.47531592760001634,
-    "energy": -0.28732422017804626
+    "mood": -0.44359301701078824,
+    "energy": -0.4478921115497178
    },
    "interests": {},
    "threads": [
