@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T08:35:26-05:00",
+ "asOf": "2026-11-28T08:40:26-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T08:35:26-05:00",
+   "iso": "2026-11-28T08:40:26-05:00",
    "hour": 8,
-   "minute": 35,
+   "minute": 40,
    "phase": "dawn",
    "words": "first light",
-   "sun": -1.1,
+   "sun": -0.5,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "sit",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.11,
-    "weariness": 0.89,
-    "company": 0.71,
+    "belly": 0.15,
+    "weariness": 0.9,
+    "company": 0.51,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.02
+    "thirst": 0.05
    },
    "feeling": {
-    "mood": -0.17,
-    "energy": -0.27
+    "mood": -0.01,
+    "energy": -0.23
    },
-   "thought": "I am tired but I am here; Pip's noise is better than the quiet.",
+   "thought": "i am tired but the silence is heavy so i wait for something to crack under my feet",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     16.0,
-     -9.0
+     9.0,
+     13.0
     ],
     "said": {
      "text": "Mabel said to you: \"Oh, I didn't lift a feather! The darkness was there all along. But I'm glad it's finally gone.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,12 +635,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     14.0,
+     24.0
     ],
     "said": {
-     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
-     "t": 1795872640.7
+     "text": "Pip said to you: \"Pip! There's a leaf! Hey wait... oh look at that red spot! Did you know the kiwi makes funny noises?\"",
+     "t": 1795873010.8
     }
    },
    "odile": {
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     1016.0,
-     22.0
+     1000.0,
+     0.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795872926.1,
+  "now": 1795873226.2,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.05701706869233511,
-    "energy": -0.23627062185719538
+    "mood": 0.09013647379707251,
+    "energy": -0.2530806237996671
    },
    "interests": {},
    "threads": [
