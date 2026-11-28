@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T05:25:23-05:00",
+ "asOf": "2026-11-28T05:30:23-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T05:25:22-05:00",
+   "iso": "2026-11-28T05:30:22-05:00",
    "hour": 5,
-   "minute": 25,
+   "minute": 30,
    "phase": "night",
    "words": "the last of the night",
-   "sun": -28.3,
+   "sun": -27.6,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -135.0,
    "place": "creek",
-   "doing": null,
-   "target": null,
+   "doing": "watch",
+   "target": "pip",
    "asleep": false,
    "needs": {
-    "belly": 0.32,
+    "belly": 0.07,
     "weariness": 0.98,
-    "company": 0.33,
+    "company": 0.05,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.19
+    "thirst": 0.22
    },
    "feeling": {
-    "mood": -0.15,
-    "energy": -0.52
+    "mood": 0.28,
+    "energy": -0.06
    },
-   "thought": "the dark feels heavy but the moving water makes my legs feel long and ready to speak",
+   "thought": "Mabel is gone, but Pip's noise fills the space until I decide what it means.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     9.0,
-     13.0
+     9.54,
+     11.31
     ],
     "said": {
      "text": "Mabel said to you: \"I am awake! Did you move anything while I slept? I saw it yesterday. Come here so we can talk properly.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     20.62,
-     24.95
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,12 +635,12 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     -24.0,
+     8.0
     ],
     "said": {
-     "text": "Pip said to you: \"Hey there Gil! Did you know kiwis have a very special diet? Like mostly bugs! Bugs are great for dinner! What do you think of that idea?\"",
-     "t": 1795860817.7
+     "text": "Pip said: \"There's a gnat over there the size of a — oh. It's gone. Hello.\"",
+     "t": 1795861746.9
     }
    },
    "odile": {
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1015.03,
-     2.02
+     1028.0,
+     -10.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -668,8 +668,8 @@ export default {
    "twins": {
     "name": "the Twins",
     "pos": [
-     994.0,
-     18.0
+     1014.0,
+     -6.0
     ],
     "said": {
      "text": "One Twin said \"It's the kiwi,\" and the other said \"It's a kiwi.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1006.0,
-     10.0
+     1010.0,
+     27.0
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795861523.8,
+  "now": 1795861823.8,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.13483595564148954,
-    "energy": -0.5288261703764928
+    "mood": 0.31366397986274275,
+    "energy": 0.04781541112145016
    },
    "interests": {},
    "threads": [
