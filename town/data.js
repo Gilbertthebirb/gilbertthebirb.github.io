@@ -1,12 +1,12 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T12:55:28-05:00",
+ "asOf": "2026-11-28T13:00:29-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T12:55:28-05:00",
-   "hour": 12,
-   "minute": 55,
+   "iso": "2026-11-28T13:00:28-05:00",
+   "hour": 13,
+   "minute": 0,
    "phase": "day",
    "words": "the middle of the day",
    "sun": 15.9,
@@ -18,32 +18,30 @@ export default {
   "weather": "clear",
   "bird": {
    "pos": [
-    -997.12,
-    -3.78
+    -1002.88,
+    3.15
    ],
-   "heading": 161.2,
-   "place": "bed",
+   "heading": -118.0,
+   "place": "kitchen",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.15,
-    "weariness": 0.45,
-    "company": 0.12,
-    "itch": 1.0,
+    "belly": 0.19,
+    "weariness": 0.48,
+    "company": 0.21,
+    "itch": 0.99,
     "nerves": 0.0,
-    "thirst": 0.22
+    "thirst": 0.25
    },
    "feeling": {
-    "mood": 0.35,
-    "energy": -0.57
+    "mood": 0.44,
+    "energy": -0.55
    },
-   "thought": "the backpack feels heavy like a promise to carry on",
+   "thought": "my legs have words but they are too tired to fly yet",
    "said": null,
    "wants_sleep": true,
-   "carrying": [
-    "a backpack"
-   ],
+   "carrying": [],
    "area": "home"
   },
   "places": {
@@ -615,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     36.0,
-     -12.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Mabel said to you: \"Mabel: \"I saw the shift in the mud! But hey, nice of you to notice it, Gilbert.\"",
@@ -626,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     28.0,
-     26.0
+     14.0,
+     24.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -637,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -24.0,
-     8.0
+     -13.3,
+     4.22
     ],
     "said": {
      "text": "Pip said to you: \"Pip's tail spins faster! Dust? No, Gilbert, look at the shiny rocks! They sparkle in the sun.\"",
@@ -681,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     952.0,
-     31.5
+     1002.09,
+     11.56
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -724,6 +722,15 @@ export default {
     "pos": [
      174.23955652563967,
      -11.158928911735352
+    ],
+    "state": "placed"
+   },
+   {
+    "id": "o21-4555",
+    "name": "a backpack",
+    "pos": [
+     -999.282071902483,
+     5.669013524424077
     ],
     "state": "placed"
    }
@@ -814,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795888528.9,
+  "now": 1795888829.0,
   "visitors": {},
   "letters": [],
   "took": [],
