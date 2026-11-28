@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T03:05:22-05:00",
+ "asOf": "2026-11-28T03:10:22-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T03:05:22-05:00",
+   "iso": "2026-11-28T03:10:22-05:00",
    "hour": 3,
-   "minute": 5,
+   "minute": 10,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -48.6,
+   "sun": -47.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "drizzle",
   "bird": {
    "pos": [
-    28.0,
-    26.0
+    -24.0,
+    8.0
    ],
-   "heading": 81.5,
-   "place": "lookout",
+   "heading": -71.6,
+   "place": "creek",
    "doing": null,
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.06,
+    "belly": 0.1,
     "weariness": 0.85,
-    "company": 0.41,
+    "company": 0.05,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.06
+    "thirst": 0.1
    },
    "feeling": {
-    "mood": 0.21,
-    "energy": -0.55
+    "mood": 0.55,
+    "energy": 0.22
    },
-   "thought": "I am tired of standing still, I want the wind to tell me if I am flying or not",
+   "thought": "the loop feels like I can hold onto the dark for a bit longer with my nose out",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     5.0,
-     -22.0
+     36.0,
+     -12.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck said: \"Still here.\" It was not clear which of you he meant.",
@@ -639,15 +639,15 @@ export default {
      8.0
     ],
     "said": {
-     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
-     "t": 1795851941.3
+     "text": "Pip said: \"You're slow. I like it. It's restful. Bye!\"",
+     "t": 1795853344.5
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     1014.0,
-     -6.0
+     982.5,
+     0.75
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795853122.2,
+  "now": 1795853422.3,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": 0.13821936147721114,
-    "energy": -0.5742288593617357
+    "mood": 0.4922245820195678,
+    "energy": 0.08779204480522562
    },
    "interests": {},
    "threads": [
