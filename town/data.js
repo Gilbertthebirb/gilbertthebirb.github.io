@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T02:45:22-05:00",
+ "asOf": "2026-11-28T02:50:22-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T02:45:22-05:00",
+   "iso": "2026-11-28T02:50:22-05:00",
    "hour": 2,
-   "minute": 45,
+   "minute": 50,
    "phase": "night",
    "words": "the middle of the night",
-   "sun": -51.0,
+   "sun": -50.4,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -27,18 +27,18 @@ export default {
    "target": null,
    "asleep": false,
    "needs": {
-    "belly": 0.49,
-    "weariness": 0.83,
-    "company": 0.19,
+    "belly": 0.53,
+    "weariness": 0.84,
+    "company": 0.22,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.2
+    "thirst": 0.23
    },
    "feeling": {
-    "mood": 0.3,
-    "energy": -0.21
+    "mood": 0.21,
+    "energy": -0.42
    },
-   "thought": "the ground changed but your friend is here to show me what it means",
+   "thought": "the ground feels empty but my beak needs work to make something real",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -613,8 +613,8 @@ export default {
    "mabel": {
     "name": "Mabel",
     "pos": [
-     18.87,
-     -9.43
+     16.0,
+     -9.0
     ],
     "said": {
      "text": "Mabel said to you: \"Well well, look at you, asking so much about everything.\"",
@@ -639,15 +639,15 @@ export default {
      20.0
     ],
     "said": {
-     "text": "Pip said to you: \"Oh hello Gilbert I was going to fetch you nuts! Actually wait let's talk about the blue bird instead!\"",
-     "t": 1795851616.5
+     "text": "Pip landed next to you and said: \"Gilbert! Have you seen the — no, never mind, hello!\"",
+     "t": 1795851941.3
     }
    },
    "odile": {
     "name": "Odile",
     "pos": [
-     982.5,
-     0.75
+     985.81,
+     0.04
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -679,8 +679,8 @@ export default {
    "kettle": {
     "name": "Sister Kettle",
     "pos": [
-     1010.0,
-     27.0
+     966.77,
+     30.35
     ],
     "said": {
      "text": "Sister Kettle said to you: \"Silence is better than noise, Gilbert. Let the garden rest.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795851922.0,
+  "now": 1795852222.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.014907119735694835,
-    "energy": -0.26722013675252465
+    "mood": 0.2447834302512682,
+    "energy": -0.26119482105009006
    },
    "interests": {},
    "threads": [
