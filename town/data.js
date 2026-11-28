@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T09:45:26-05:00",
+ "asOf": "2026-11-28T09:50:27-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T09:45:26-05:00",
+   "iso": "2026-11-28T09:50:26-05:00",
    "hour": 9,
-   "minute": 45,
+   "minute": 50,
    "phase": "day",
    "words": "morning",
-   "sun": 6.8,
+   "sun": 7.3,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -18,27 +18,27 @@ export default {
   "weather": "mist",
   "bird": {
    "pos": [
-    -24.0,
-    8.0
+    -12.0,
+    20.0
    ],
-   "heading": -71.6,
-   "place": "creek",
-   "doing": null,
-   "target": null,
+   "heading": 45.0,
+   "place": "moss",
+   "doing": "probe",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.09,
+    "belly": 0.13,
     "weariness": 0.96,
-    "company": 0.82,
+    "company": 0.91,
     "itch": 1.0,
     "nerves": 0.15,
-    "thirst": 0.19
+    "thirst": 0.23
    },
    "feeling": {
-    "mood": -0.19,
-    "energy": -0.85
+    "mood": -0.2,
+    "energy": -0.91
    },
-   "thought": "The silence is too loud without something to hold.",
+   "thought": "I need to feel something real, even if it is just dirt against my beak.",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     5.5,
-     -19.43
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Oh hi! Wait, your shell is big? I mean, look at the flowers! The red ones are nice actually, but why do you want a shell? Maybe just sit still?…\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.97,
+     8.05
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795877126.9,
+  "now": 1795877427.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.11448586313644339,
-    "energy": -0.8431437971331609
+    "mood": -0.21675717326340238,
+    "energy": -0.8534059778945278
    },
    "interests": {},
    "threads": [
