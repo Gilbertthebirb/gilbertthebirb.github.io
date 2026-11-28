@@ -1,15 +1,15 @@
 // Written when he went to sleep. A picture of the town, not a live feed.
 export default {
- "asOf": "2026-11-28T14:30:29-05:00",
+ "asOf": "2026-11-28T14:35:30-05:00",
  "live": true,
  "view": {
   "sky": {
-   "iso": "2026-11-28T14:30:28-05:00",
+   "iso": "2026-11-28T14:35:28-05:00",
    "hour": 14,
-   "minute": 30,
+   "minute": 35,
    "phase": "day",
    "words": "the middle of the day",
-   "sun": 12.2,
+   "sun": 11.9,
    "date": "2026-11-28",
    "shift_s": -21600,
    "offset_min": -300,
@@ -23,22 +23,22 @@ export default {
    ],
    "heading": -118.0,
    "place": "kitchen",
-   "doing": null,
-   "target": null,
+   "doing": "hold_hunger",
+   "target": "",
    "asleep": false,
    "needs": {
-    "belly": 0.94,
-    "weariness": 0.75,
+    "belly": 0.98,
+    "weariness": 0.78,
     "company": 1.0,
     "itch": 1.0,
     "nerves": 0.0,
-    "thirst": 0.23
+    "thirst": 0.01
    },
    "feeling": {
-    "mood": -0.37,
-    "energy": -0.83
+    "mood": -0.33,
+    "energy": -0.8
    },
-   "thought": "the empty feeling is too big; I need to feel something solid before I move again",
+   "thought": "letting it sit in my beak until it feels like a stone I can turn",
    "said": null,
    "wants_sleep": true,
    "carrying": [],
@@ -624,8 +624,8 @@ export default {
    "tuck": {
     "name": "Old Tuck",
     "pos": [
-     14.0,
-     24.0
+     28.0,
+     26.0
     ],
     "said": {
      "text": "Old Tuck opened one eye towards you and said: \"Mm.\"",
@@ -635,8 +635,8 @@ export default {
    "pip": {
     "name": "Pip",
     "pos": [
-     -12.0,
-     20.0
+     5.0,
+     -22.0
     ],
     "said": {
      "text": "Pip said to you: \"Pip's tail spins faster! Dust? No, Gilbert, look at the shiny rocks! They sparkle in the sun.\"",
@@ -646,8 +646,8 @@ export default {
    "odile": {
     "name": "Odile",
     "pos": [
-     1000.0,
-     0.0
+     1006.0,
+     10.0
     ],
     "said": {
      "text": "Odile said: \"Nothing on my stall is free. Looking is free.\"",
@@ -657,8 +657,8 @@ export default {
    "bram": {
     "name": "Bram",
     "pos": [
-     1022.0,
-     8.0
+     996.0,
+     29.0
     ],
     "said": {
      "text": "Bram said: \"Back for more? Everything's for something.\"",
@@ -821,7 +821,7 @@ export default {
   "sleep_call": false,
   "bench": false,
   "session": 34,
-  "now": 1795894229.9,
+  "now": 1795894530.0,
   "visitors": {},
   "letters": [],
   "took": [],
@@ -2764,8 +2764,8 @@ export default {
   },
   "now": {
    "feeling": {
-    "mood": -0.3448750358826439,
-    "energy": -0.8397967520148967
+    "mood": -0.36885498125571303,
+    "energy": -0.91762552364889
    },
    "interests": {},
    "threads": [
